@@ -1,0 +1,14 @@
+{
+  "name": "textdrag",
+  "version": "1.0.0",
+  "description": "list out the text which needed to be translate to excel",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "zhangzju"
+  ],
+  "author": "zhangzju",
+  "license": "ISC"
+}
