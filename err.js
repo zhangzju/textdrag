@@ -923,6 +923,8 @@ var ERR_NOT_ACCEPTED = 90500;
 //102000-? IE error
 var ERR_NETWORK = 102000;
 
+var window={};
+
 window.e_str = {};
 e_str[NO_ERROR] = true;
 e_str[CMM_ERROR] = "Internal error.";
@@ -1748,3 +1750,5 @@ e_str[ERR_NOT_FOUND] = "File not found.";
 e_str[ERR_NOT_ACCEPTED] = "File not accepted.";
 //120000-? IE error
 e_str[ERR_NETWORK] = "Network error. Please check the network connection and the network configuration.";
+
+module.export = e_str;
