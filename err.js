@@ -88,9 +88,9 @@ var CMM_QOS_CLS_DEST_IP_NON_LAN = 4869;
 var CMM_QOS_INTF_INVALID = 4870;
 
 // 4900-4999    Forward
-// 4900-4929    DMZ 
+// 4900-4929    DMZ
 var CMM_DMZ_IP_NOT_IN_LAN_SUBNET = 4903;
-// 4930-4969    VS 
+// 4930-4969    VS
 var CMM_VS_INVALID_LOCAL_IP_PARAM = 4930;
 var CMM_VS_PROTO_TYPE_ERR = 4931;
 var CMM_VS_ADD_NEW_INTERNAL_ERR = 4932;
@@ -100,7 +100,7 @@ var CMM_VS_RECORD_ALREADY_EXIST = 4935;
 var CMM_VS_PORT_OUT_RANGE = 4936;
 var CMM_VS_IP_NOT_IN_LAN_SUBNET = 4937;
 var CMM_VS_CONFLICT_REMOTE_WEB_PORT = 4938;
-// 4970-4999    PT 
+// 4970-4999    PT
 var CMM_PT_RECORD_ALREADY_FULL = 4970;
 var CMM_PT_OPEN_PROTO_TYPE_ERR = 4971;
 var CMM_PT_TRIG_PROTO_TYPE_ERR = 4972;
@@ -299,7 +299,7 @@ var CMM_WAN_L2TP_PPP_GATEWAY_ADDR_ERROR = 5814;
 var CMM_WAN_L2TP_IP_IP_IN_THE_SAME_SUBNET_WITH_LAN = 5815;
 var CMM_WAN_L2TP_PPP_IP_IN_THE_SAME_SUBNET_WITH_LAN = 5816;
 
-// 5850-5899 PPTP   
+// 5850-5899 PPTP
 var CMM_WAN_PPTP_BOOL_FORMAT_ERROR = 5850;
 var CMM_WAN_PPTP_PARAM_NOT_VALID_VALUE = 5851;
 var CMM_WAN_PPTP_IP_INVALID_IP_ADDR_FORMAT = 5852;
@@ -680,7 +680,7 @@ var ERR_IPOA_PVC_INVAD = 85708;
 var ERR_WAN_HOST_NAME_INVALID = 85800;
 var ERR_WAN_DNS_INVAD = 85801;
 
-// 85900-85999  PPPoE/PPPoA 
+// 85900-85999  PPPoE/PPPoA
 var ERR_IDLETIME_INVAD = 85900;
 var ERR_PPPOA_PVC_INVAD = 85901;
 
@@ -926,6 +926,8 @@ var ERR_NETWORK = 102000;
 var window={};
 
 window.e_str = {};
+
+var e_str={};
 e_str[NO_ERROR] = true;
 e_str[CMM_ERROR] = "Internal error.";
 e_str[CMM_RSL_CONFLICT_KEY] = "Keyword already exists. Please enter another one.";
@@ -1194,7 +1196,7 @@ e_str[CMM_WAN_PPTP_IP_GATEWAY_ADDR_ERROR] = "Invalid Gateway or incorrect format
 e_str[CMM_WAN_PPTP_PPP_GATEWAY_ADDR_ERROR] = "Invalid Gateway or incorrect format for PPP connection.";
 e_str[CMM_WAN_PPTP_IP_IP_IN_THE_SAME_SUBNET_WITH_LAN] = "The IP address of IP connection cannot be on the same subnet with LAN IP.";
 e_str[CMM_WAN_PPTP_PPP_IP_IN_THE_SAME_SUBNET_WITH_LAN] = "The IP address obtained from the PPP dial-up cannot be on the same subnet with the LAN IP.";
-// 5900-5999    PPPoE/PPPoA 
+// 5900-5999    PPPoE/PPPoA
 e_str[CMM_PPP_BOOL_FORMAT_ERROR] = "Internal error.";
 e_str[CMM_PPP_PARAM_NOT_VALID_VALUE] = "The value must be within the specified string array. Please input another one.";
 e_str[CMM_INVALID_PPP_ADDR_FORMAT] = "Invalid IP address format.";
@@ -1232,7 +1234,7 @@ e_str[CMM_USB_SERVER_NAME_LENGTH] = "The server name should take less than 16 by
 e_str[CMM_USB_SELECT_VOLUME] = "Please select volume before clicking 'Save'.";
 e_str[CMM_USB_BROWSE_FOLDER_PATH] = "Please select folder path.";
 e_str[CMM_USB_NO_DEVICE] = "No USB device found. Please check if your USB device is properly connected.";
-// 6200-6299 IPv6  
+// 6200-6299 IPv6
 e_str[CMM_ROUTE6_ADDR_VALID] = "Invalid IPv6 site address. Please input another one.";
 e_str[CMM_ROUTE6_DEFAULT_ROUTE_NAME_ERR] = "Invalid IPv6 default gateway. Please input another one.";
 e_str[CMM_ROUTE6_PREFIX_LEN_VALID] = "Invalid prefix length.";
@@ -1283,7 +1285,7 @@ e_str[CMM_OVPN_SUBNET_CONFLICT_WITH_LAN] = "The VPN Subnet/Netmask and LAN IP ad
 e_str[CMM_OVPN_SUBNET_CONFLICT_WITH_PVPN] = "The VPN Subnet/Netmask and PPTP VPN IP address cannot be in the same subnet.";
 e_str[CMM_PVPN_SUBNET_CONFLICT_WITH_LAN] = "The client IP address and LAN IP address cannot be in the same subnet.";
 e_str[CMM_PVPN_SUBNET_CONFLICT_WITH_OVPN] = "The client IP address and OpenVPN Subnet/Netmask cannot be in the same subnet.";
-//push service 
+//push service
 e_str[CMM_EMAILADDR_INVAD] = "Invalid e-mail address.";
 e_str[CMM_AUTH_USER_EMPTY] = "Username is required.";
 e_str[CMM_AUTH_PWD_EMPTY] = "E-mail password is required.";
@@ -1517,7 +1519,7 @@ e_str[ERR_IPOA_PVC_INVAD] = "IPoA does not support single-PVC-multi-connection. 
 // 85800-85899  Dynamic IP
 e_str[ERR_WAN_HOST_NAME_INVALID] = "Illegal host name. Please input another one.";
 e_str[ERR_WAN_DNS_INVAD] = "You have selected to configure the DNS manually. Please set at least one DNS server address.";
-// 85900-85999  PPPoE/PPPoA 
+// 85900-85999  PPPoE/PPPoA
 e_str[ERR_IDLETIME_INVAD] = "Invalid Max Idle Time. Please input a number between 0 and 99.";
 e_str[ERR_PPPOA_PVC_INVAD] = "PPPoA does not support single-PVC-multi-connection. Please set available VPI/VCI values.";
 // 86000-86000  SNMP
@@ -1751,4 +1753,4 @@ e_str[ERR_NOT_ACCEPTED] = "File not accepted.";
 //120000-? IE error
 e_str[ERR_NETWORK] = "Network error. Please check the network connection and the network configuration.";
 
-module.export = e_str;
+module.exports = e_str;
