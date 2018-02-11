@@ -1,7 +1,7 @@
 var _ = require('lodash');
 var $ = require('jquery');
 var xlsx = require('node-xlsx');
-var err = require('./err');
+var err = require('./source/err');
 
 var data = [];
 _.forIn(err, function(value, key) {

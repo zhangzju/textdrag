@@ -808,9 +808,9 @@ var ERR_PUSHSVC_TEST_RESOLVE = 86455;
 var ERR_PUSHSVC_TEST_CONNECT = 86456;
 var ERR_PUSHSVC_TEST_SSL = 86457;
 var ERR_PUSHSVC_TEST_STARTTLS = 86458;
-var ERR_PUSHSVC_TEST_USER = 86459; /* 用户名或密码错误，请检查您的设�?*/
-var ERR_PUSHSVC_TEST_EMAIL = 86460; /* 邮箱错误，请检查您的设�?*/
-var ERR_PUSHSVC_TEST_IO = 86461; /* 和服务器进行通信时出�?*/
+var ERR_PUSHSVC_TEST_USER = 86459; /* 用户名或密码错误，请检查您的设�?*/
+var ERR_PUSHSVC_TEST_EMAIL = 86460; /* 邮箱错误，请检查您的设�?*/
+var ERR_PUSHSVC_TEST_IO = 86461; /* 和服务器进行通信时出�?*/
 var ERR_PUSHSVC_TEST_RES = 86462; /* 服务器返回了一个错误码 */
 
 // 86500-86599  VPN
@@ -928,7 +928,7 @@ var ERR_NOT_ACCEPTED = 90500;
 //102000-? IE error
 var ERR_NETWORK = 102000;
 
-window.e_str = {};
+global.e_str = {};
 e_str[NO_ERROR] = true;
 e_str[CMM_ERROR] = "Internal error.";
 e_str[CMM_RSL_CONFLICT_KEY] = "Keyword already exists. Please enter another one.";
