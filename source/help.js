@@ -217,7 +217,7 @@
 			TITLE: "Bandwidth Control",
 			CONTENT: [{
 				type: "paragraph",
-				content: "Bandwidth Control allows you to configure the Upstream Bandwidth and Downstream Bandwidth of the network, and the combined throughput should not exceed 100000 Kbps. For optimal bandwidth control, please select the correct Line Type and consult your ISP for the total allowed bandwidth for upstream and downstream."
+				content: INCLUDE_GIGABIT_WAN ? "Bandwidth Control allows you to configure the Upstream Bandwidth and Downstream Bandwidth of the network, and the combined throughput should not exceed 1000000 Kbps. For optimal bandwidth control, please select the correct Line Type and consult your ISP for the total allowed bandwidth for upstream and downstream." : "Bandwidth Control allows you to configure the Upstream Bandwidth and Downstream Bandwidth of the network, and the combined throughput should not exceed 100000 Kbps. For optimal bandwidth control, please select the correct Line Type and consult your ISP for the total allowed bandwidth for upstream and downstream."
 			}, {
 				type: "step",
 				title: "To configure Bandwidth Control",
@@ -1459,6 +1459,27 @@
 				}]
 			}, {
 				type: "name",
+				title: "Simple Traversal of UDP over NATs",
+				content: "Select this checkbox to enable STUN for the connection request.",
+				children: [{
+				type: "name",
+				title: "STUN Maximum Keep Alive Period",
+				content: "Enter the maximum keep alive time period."
+				}, {
+					type: "name",
+					title: "STUN Minimum Keep Alive Period",
+					content: "Enter the minimum keep alive time period."
+				}, {
+					type: "name",
+					title: "STUN Server Address",
+					content: "Enter the STUN server address."
+				}, {
+					type: "name",
+					title: "STUN Server Port",
+					content: "Enter the STUN server port."
+				}]
+			}, {
+				type: "name",
 				title: "Get RPC methods",
 				content: "Click to get the methods to support CWMP."
 			}]
@@ -1581,6 +1602,18 @@
 				title: "Wireless Router Mode",
 				content: INCLUDE_LAN_WLAN_DUALBAND ? "Enables multi-users to share Internet via Ethernet WAN (EWAN) using its interchangeable LAN4/WAN port and share it wirelessly over the crystal clear 5GHz band and the 2.4GHz band." : "Enables multi-users to share Internet via Ethernet WAN (EWAN) using its interchangeable LAN4/WAN port and share it wirelessly."
 			}]
+		},
+		operateMode: {
+            TITLE: "Operation Mode",
+            CONTENT: [{
+                type: "name",
+                title: "Router",
+                content: "In this mode, your router connects to the Internet directly via Dynamic IP, Static IP, PPPoE, L2TP or PPTP and shares the Internet access to multiple wired or wireless devices. NAT, firewall and DHCP server are enabled by default. Select this mode if you are a first-time user or you are not currently using any other routers."
+            }, {
+                type: "name",
+                title: "Access Point",
+                content: "In this mode, your router connects to a wired or wireless router via an Ethernet cable and extends the wireless coverage of your existing network. Functions like NAT, Parental Controls and QoS are not supported in this mode. The IP address of this router is assigned by the root router's DHCP Server. If you don't know the IP address of this router, you can use http://tplinkwifi.net to log in to the web management page."
+            }]
 		},
 		wan: {
 			TITLE: "Internet Setup",
@@ -3992,6 +4025,124 @@
 					"Click Save."
 				]
 			}]
+		},
+        dhcpAP: {
+            TITLE: "DHCP Server",
+            CONTENT: [{
+                type: "paragraph",
+                content: "DHCP (Dynamic Host Configuration Protocol) server dynamically assigns TCP/IP configuration to the client devices from an IP address pool. DO NOT disable the default DHCP server unless you have another DHCP server or you wish to manually assign the TCP/IP configuration to individual clients on your network."
+            }, {
+                    type: "name",
+                    title: "IP Address Pool",
+                    content: "Enter the range of IP addresses that can be leased to the clients."
+            }, {
+                    type: "name",
+                    title: "Address Lease Time",
+                    content: "Enter the time duration that an IP address is leased to the client between 1 and 2880 minutes."
+            }, {
+                    type: "name",
+                    title: "Default Gateway",
+                    content: "Enter the LAN IP address. (Optional)"
+            }, {
+                    type: "name",
+                    title: "DNS Server/Secondary DNS Server",
+                    content: "Enter the DNS server addresses as provided by your ISP. (Optional)"
+            }, {
+                type: "title",
+                content: "Client List"
+            }, {
+                type: "name",
+                title: "Total Clients",
+                content: "Displays the total number of the associated DHCP clients."
+            }, {
+                type: "name",
+                title: "Client Name",
+                content: "Displays the name of the DHCP client."
+            }, {
+                type: "name",
+                title: "MAC Address",
+                content: "Displays the MAC address."
+            }, {
+                type: "name",
+                title: "Assigned IP Address",
+                content: "Displays the allocated IP address to the client by the DHCP server."
+            }, {
+                type: "name",
+                title: "Leased Time",
+                content: "Displays the time duration of the IP address that has been leased to the client."
+            }, {
+                type: "name",
+                title: "Refresh",
+                content: "Click to update the DHCP Client List."
+            }]
+        },
+		"lanAP": {
+			"TITLE": "LAN",
+			"CONTENT": [{
+				"type": "name",
+				"title": "MAC Address",
+				"content": "The unique physical address of the router."
+			}, {
+				display: "$.routerMode == 'AP'",
+				"type": "name",
+				"title": "Address Type",
+				"content": "The way to configure the AP's IP address. You can configure it manually(Static IP) or automatically(Smart DHCP). "
+			}, {
+				display: "$.routerMode == 'AP'",
+				"type": "name",
+				"title": "LAN IP",
+				"content": "Keeps the AP's default IP address (192.168.0.254) or enter a new one. This IP address can be used to log in to the AP's web management page."
+			},  {
+				"type": "name",
+				"title": "Subnet Mask",
+				"content": "Select an assigned identifier used by the LAN port to route Internal and External traffic from the drop-down list or enter a new subnet mask format. The default value is 255.255.255.0."
+			}]
 		}
 	};
+	if(INCLUDE_ROUTER_MODE)
+	{
+		$.helpContent.status = {
+			CONTENT: [{
+				display: "$.routerMode == 'Router'",
+				type: "paragraph",
+				content: "Displays relevant information about the Internet connection."
+			}, {
+                	display: "$.routerMode == 'Router'",
+				type: "title2",
+				content: "IPv4 | IPv6"
+			}, {
+				display: "$.routerMode == 'Router'",
+				type: "paragraph",
+				content: "Select either IPv4 or IPv6 to display the corresponding parameters."
+			}, {
+				type: "title",
+				title: INCLUDE_LAN_WLAN_DUALBAND ? "2.4GHz/5GHz Wireless" : "Wireless"
+			}, {
+				type: "paragraph",
+				content: "Displays relevant information about the wireless network."
+			}, {
+				type: "title",
+				title: "LAN"
+			}, {
+				type: "paragraph",
+				content: "Displays information about the Ethernet (LAN) ports."
+			}, {
+				display: "INCLUDE_LAN_WLAN_GUESTNETWORK == 1 && INCLUDE_HIDE_GUESTNETWORK == 0",
+				type: "title",
+				title: "2.4GHz/5GHz Guest Network"
+			}, {
+				display: "INCLUDE_LAN_WLAN_GUESTNETWORK == 1 && INCLUDE_HIDE_GUESTNETWORK == 0",
+				type: "paragraph",
+				content: "Displays information about the wireless networks for guests."
+			}, {
+				display: "$.sysMode == 'DSL'",
+				type: "title",
+				title: "DSL"
+			}, {
+				display: "$.sysMode == 'DSL'",
+				type: "paragraph",
+				content: "Displays information about the DSL connection."
+			}]
+        }
+    }
 })(jQuery);

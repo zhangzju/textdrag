@@ -88,9 +88,9 @@ var CMM_QOS_CLS_DEST_IP_NON_LAN = 4869;
 var CMM_QOS_INTF_INVALID = 4870;
 
 // 4900-4999    Forward
-// 4900-4929    DMZ
+// 4900-4929    DMZ 
 var CMM_DMZ_IP_NOT_IN_LAN_SUBNET = 4903;
-// 4930-4969    VS
+// 4930-4969    VS 
 var CMM_VS_INVALID_LOCAL_IP_PARAM = 4930;
 var CMM_VS_PROTO_TYPE_ERR = 4931;
 var CMM_VS_ADD_NEW_INTERNAL_ERR = 4932;
@@ -100,7 +100,7 @@ var CMM_VS_RECORD_ALREADY_EXIST = 4935;
 var CMM_VS_PORT_OUT_RANGE = 4936;
 var CMM_VS_IP_NOT_IN_LAN_SUBNET = 4937;
 var CMM_VS_CONFLICT_REMOTE_WEB_PORT = 4938;
-// 4970-4999    PT
+// 4970-4999    PT 
 var CMM_PT_RECORD_ALREADY_FULL = 4970;
 var CMM_PT_OPEN_PROTO_TYPE_ERR = 4971;
 var CMM_PT_TRIG_PROTO_TYPE_ERR = 4972;
@@ -299,7 +299,7 @@ var CMM_WAN_L2TP_PPP_GATEWAY_ADDR_ERROR = 5814;
 var CMM_WAN_L2TP_IP_IP_IN_THE_SAME_SUBNET_WITH_LAN = 5815;
 var CMM_WAN_L2TP_PPP_IP_IN_THE_SAME_SUBNET_WITH_LAN = 5816;
 
-// 5850-5899 PPTP
+// 5850-5899 PPTP   
 var CMM_WAN_PPTP_BOOL_FORMAT_ERROR = 5850;
 var CMM_WAN_PPTP_PARAM_NOT_VALID_VALUE = 5851;
 var CMM_WAN_PPTP_IP_INVALID_IP_ADDR_FORMAT = 5852;
@@ -488,6 +488,9 @@ var ERR_MAC_MULTICAST = 80404;
 var ERR_CWMP_URL_INVAD = 84400;
 var ERR_CWMP_PATH_INVAD = 84401;
 var ERR_CWMP_PORT_INVAD = 84402;
+var ERR_CWMP_PERIOD_INVAD = 84403
+var ERR_CWMP_ADDRESS_INVAD = 84404;
+var ERR_CWMP_MIN_LARGER_THAN_MAX =84405;
 
 // 84500-84599 updata Firmware/Config
 var ERR_CONF_FILE_NONE = 84500;
@@ -548,6 +551,7 @@ var ERR_TC_BW_NULL = 84808;
 var ERR_TC_BW_UP_LARGER = 84809;
 var ERR_TC_BW_DOWN_LARGER = 84810;
 var ERR_TC_VALUE_OUTRANGE = 84811;
+var ERR_TC_VALUE_OUTRANGE_GIGABIT = 84812;
 var ERR_QOS_TOTALBW_INVAD = 84850;
 var ERR_QOS_TOTALBW_INVAD_SP = 84851;
 var ERR_QOS_QUEUE_DIR = 84852;
@@ -597,6 +601,7 @@ var ERR_DHCP_COND_DNS2_INVAD = 85047;
 var ERR_GATEWAY_INVAD = 85048;
 var ERR_DHCP_COND_POOL_VID_INVAD = 85049;
 var ERR_DHCP_COND_POOL_DEV_NAME_INVALID = 85050;
+var ERR_DHCP_COND_POOL_DEV_NAME_LENGTH = 85051;
 
 // 85100-85199 route
 
@@ -680,7 +685,7 @@ var ERR_IPOA_PVC_INVAD = 85708;
 var ERR_WAN_HOST_NAME_INVALID = 85800;
 var ERR_WAN_DNS_INVAD = 85801;
 
-// 85900-85999  PPPoE/PPPoA
+// 85900-85999  PPPoE/PPPoA 
 var ERR_IDLETIME_INVAD = 85900;
 var ERR_PPPOA_PVC_INVAD = 85901;
 
@@ -803,9 +808,9 @@ var ERR_PUSHSVC_TEST_RESOLVE = 86455;
 var ERR_PUSHSVC_TEST_CONNECT = 86456;
 var ERR_PUSHSVC_TEST_SSL = 86457;
 var ERR_PUSHSVC_TEST_STARTTLS = 86458;
-var ERR_PUSHSVC_TEST_USER = 86459; /* 用户名或密码错误，请检查您的设置 */
-var ERR_PUSHSVC_TEST_EMAIL = 86460; /* 邮箱错误，请检查您的设置 */
-var ERR_PUSHSVC_TEST_IO = 86461; /* 和服务器进行通信时出错 */
+var ERR_PUSHSVC_TEST_USER = 86459; /* 用户名或密码错误，请检查您的设�?*/
+var ERR_PUSHSVC_TEST_EMAIL = 86460; /* 邮箱错误，请检查您的设�?*/
+var ERR_PUSHSVC_TEST_IO = 86461; /* 和服务器进行通信时出�?*/
 var ERR_PUSHSVC_TEST_RES = 86462; /* 服务器返回了一个错误码 */
 
 // 86500-86599  VPN
@@ -923,11 +928,7 @@ var ERR_NOT_ACCEPTED = 90500;
 //102000-? IE error
 var ERR_NETWORK = 102000;
 
-var window={};
-
 window.e_str = {};
-
-var e_str={};
 e_str[NO_ERROR] = true;
 e_str[CMM_ERROR] = "Internal error.";
 e_str[CMM_RSL_CONFLICT_KEY] = "Keyword already exists. Please enter another one.";
@@ -1196,7 +1197,7 @@ e_str[CMM_WAN_PPTP_IP_GATEWAY_ADDR_ERROR] = "Invalid Gateway or incorrect format
 e_str[CMM_WAN_PPTP_PPP_GATEWAY_ADDR_ERROR] = "Invalid Gateway or incorrect format for PPP connection.";
 e_str[CMM_WAN_PPTP_IP_IP_IN_THE_SAME_SUBNET_WITH_LAN] = "The IP address of IP connection cannot be on the same subnet with LAN IP.";
 e_str[CMM_WAN_PPTP_PPP_IP_IN_THE_SAME_SUBNET_WITH_LAN] = "The IP address obtained from the PPP dial-up cannot be on the same subnet with the LAN IP.";
-// 5900-5999    PPPoE/PPPoA
+// 5900-5999    PPPoE/PPPoA 
 e_str[CMM_PPP_BOOL_FORMAT_ERROR] = "Internal error.";
 e_str[CMM_PPP_PARAM_NOT_VALID_VALUE] = "The value must be within the specified string array. Please input another one.";
 e_str[CMM_INVALID_PPP_ADDR_FORMAT] = "Invalid IP address format.";
@@ -1234,7 +1235,7 @@ e_str[CMM_USB_SERVER_NAME_LENGTH] = "The server name should take less than 16 by
 e_str[CMM_USB_SELECT_VOLUME] = "Please select volume before clicking 'Save'.";
 e_str[CMM_USB_BROWSE_FOLDER_PATH] = "Please select folder path.";
 e_str[CMM_USB_NO_DEVICE] = "No USB device found. Please check if your USB device is properly connected.";
-// 6200-6299 IPv6
+// 6200-6299 IPv6  
 e_str[CMM_ROUTE6_ADDR_VALID] = "Invalid IPv6 site address. Please input another one.";
 e_str[CMM_ROUTE6_DEFAULT_ROUTE_NAME_ERR] = "Invalid IPv6 default gateway. Please input another one.";
 e_str[CMM_ROUTE6_PREFIX_LEN_VALID] = "Invalid prefix length.";
@@ -1285,7 +1286,7 @@ e_str[CMM_OVPN_SUBNET_CONFLICT_WITH_LAN] = "The VPN Subnet/Netmask and LAN IP ad
 e_str[CMM_OVPN_SUBNET_CONFLICT_WITH_PVPN] = "The VPN Subnet/Netmask and PPTP VPN IP address cannot be in the same subnet.";
 e_str[CMM_PVPN_SUBNET_CONFLICT_WITH_LAN] = "The client IP address and LAN IP address cannot be in the same subnet.";
 e_str[CMM_PVPN_SUBNET_CONFLICT_WITH_OVPN] = "The client IP address and OpenVPN Subnet/Netmask cannot be in the same subnet.";
-//push service
+//push service 
 e_str[CMM_EMAILADDR_INVAD] = "Invalid e-mail address.";
 e_str[CMM_AUTH_USER_EMPTY] = "Username is required.";
 e_str[CMM_AUTH_PWD_EMPTY] = "E-mail password is required.";
@@ -1341,6 +1342,9 @@ e_str[ERR_MAC_MULTICAST] = "The MAC address cannot be a multicast address.";
 e_str[ERR_CWMP_URL_INVAD] = "Please set an available URL.";
 e_str[ERR_CWMP_PORT_INVAD] = "Please set an available port.";
 e_str[ERR_CWMP_PATH_INVAD] = "Please set an available path.";
+e_str[ERR_CWMP_PERIOD_INVAD] = "Please set available period!";
+e_str[ERR_CWMP_ADDRESS_INVAD] = "Please set available address!";
+e_str[ERR_CWMP_MIN_LARGER_THAN_MAX] = "The STUN minimum keep alive period must be no larger than The STUN maximum keep alive period!";
 // 84500-84599 updata Firmware/Config
 e_str[ERR_CONF_FILE_NONE] = "Please select a configuration file.";
 e_str[ERR_FIRM_FILE_NONE] = "Please select an upgrade file.";
@@ -1394,6 +1398,7 @@ e_str[ERR_TC_BW_NULL] = "The minimum rate for the upstream and downstream values
 e_str[ERR_TC_BW_UP_LARGER] = "The total upstream bandwidth cannot be larger than the current DSL upstream rate ($ kbps).";
 e_str[ERR_TC_BW_DOWN_LARGER] = "The total downstream bandwidth cannot be larger than the current DSL downstream rate ($ kbps).";
 e_str[ERR_TC_VALUE_OUTRANGE] = "Input value is out of range, the max value of throughput is 100000kbps.";
+e_str[ERR_TC_VALUE_OUTRANGE_GIGABIT] = "Input value is out of range, the max value of throughput is 1000000kbps.";
 e_str[ERR_QOS_TOTALBW_INVAD] = "Invalid total bandwidth value for WRR or Traffic Control. Please input a value between 1 and the maximum line rate.";
 e_str[ERR_QOS_TOTALBW_INVAD_SP] = "Invalid total bandwidth for CAR. Please leave the input field blank (for no limitative total bandwidth), or input a value between 1 and the maximum line rate. ";
 e_str[ERR_QOS_QUEUE_DIR] = "The Direction field is blank. Please select one from the list.";
@@ -1440,6 +1445,7 @@ e_str[ERR_DHCP_COND_POOL_OPT_VAL_EMPTY] = "Please input the specified option val
 e_str[ERR_DHCP_COND_DNS1_INVAD] = "Please input available DNS1.";
 e_str[ERR_DHCP_COND_DNS2_INVAD] = "Invalid DNS2 format.";
 e_str[ERR_DHCP_COND_POOL_VID_INVAD] = "Vendor ID should not contain quotation marks.";
+e_str[ERR_DHCP_COND_POOL_DEV_NAME_LENGTH] = "Wrong device name，the length of device name should beneath 64.";
 // 85100-85199  router
 // 85200-85299  DNS & DDNS
 e_str[ERR_DDNS_USERNAME_EMPTY] = "User name cannot be blank.";
@@ -1519,7 +1525,7 @@ e_str[ERR_IPOA_PVC_INVAD] = "IPoA does not support single-PVC-multi-connection. 
 // 85800-85899  Dynamic IP
 e_str[ERR_WAN_HOST_NAME_INVALID] = "Illegal host name. Please input another one.";
 e_str[ERR_WAN_DNS_INVAD] = "You have selected to configure the DNS manually. Please set at least one DNS server address.";
-// 85900-85999  PPPoE/PPPoA
+// 85900-85999  PPPoE/PPPoA 
 e_str[ERR_IDLETIME_INVAD] = "Invalid Max Idle Time. Please input a number between 0 and 99.";
 e_str[ERR_PPPOA_PVC_INVAD] = "PPPoA does not support single-PVC-multi-connection. Please set available VPI/VCI values.";
 // 86000-86000  SNMP
@@ -1752,5 +1758,3 @@ e_str[ERR_NOT_FOUND] = "File not found.";
 e_str[ERR_NOT_ACCEPTED] = "File not accepted.";
 //120000-? IE error
 e_str[ERR_NETWORK] = "Network error. Please check the network connection and the network configuration.";
-
-module.exports = e_str;
