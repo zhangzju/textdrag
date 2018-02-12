@@ -1569,17 +1569,17 @@
 				title: "Modify",
 				content: "Click the <b>Trash</b> icon to delete the corresponding statistics."
 			}, {
-				"type": "name",
-				"title": "Refresh",
-				"content": "Click to update the statistic information on the page."
+				type: "name",
+				title: "Refresh",
+				content: "Click to update the statistic information on the page."
 			}, {
-				"type": "name",
-				"title": "Reset All",
-				"content": "Click to reset all statistic values in the list to zero."
+				type: "name",
+				title: "Reset All",
+				content: "Click to reset all statistic values in the list to zero."
 			}, {
-				"type": "name",
-				"title": "Delete All",
-				"content": "Click to delete all statistic information in the list."
+				type: "name",
+				title: "Delete All",
+				content: "Click to delete all statistic information in the list."
 			}]
 		},
 		sysMode: {
@@ -1875,37 +1875,37 @@
 					title: "Dynamic IP",
 					content: "Select this if the IP address and Subnet Mask are assigned automatically by your ISP."
 				}, {
-					"type": "name",
-					"title": "Static IP",
-					"content": "Select this if the IP address, Subnet Mask, Gateway, and DNS addresses are provided by your ISP, and enter these information into the corresponding fields."
+					type: "name",
+					title: "Static IP",
+					content: "Select this if the IP address, Subnet Mask, Gateway, and DNS addresses are provided by your ISP, and enter these information into the corresponding fields."
 				}]
 			}, {
-				"type": "name",
-				"title": "VPN Server IP/Domain Name",
-				"content": "Enter the VPN server's IP address or domain name provided by your ISP."
+				type: "name",
+				title: "VPN Server IP/Domain Name",
+				content: "Enter the VPN server's IP address or domain name provided by your ISP."
 			}, {
-				"type": "name",
-				"title": "MTU Size",
-				"content": "The default and typical MTU (Maximum Transmission Unit) size for most Ethernet networks is 1460 Bytes(1420 for PPTP). Do not change the default MTU size unless required by your ISP."
+				type: "name",
+				title: "MTU Size",
+				content: "The default and typical MTU (Maximum Transmission Unit) size for most Ethernet networks is 1460 Bytes(1420 for PPTP). Do not change the default MTU size unless required by your ISP."
 			}, {
-				"type": "name",
-				"title": "Connection Mode",
-				"content": "Select an appropriate connection mode that determines how to connect to the Internet.",
-				"children": [{
-					"type": "name",
-					"title": "Always On",
-					"content": "In this mode, the Internet connection reconnects automatically any time it gets disconnected."
+				type: "name",
+				title: "Connection Mode",
+				content: "Select an appropriate connection mode that determines how to connect to the Internet.",
+				children: [{
+					type: "name",
+					title: "Always On",
+					content: "In this mode, the Internet connection reconnects automatically any time it gets disconnected."
 				}, {
-					"type": "name",
-					"title": "Connect on demand",
-					"content": "In this mode, the Internet connection will be terminated automatically after a specified time of inactivity (Max Idle Time) has elapsed. The connection is re-established when you attempt to access the Internet again."
+					type: "name",
+					title: "Connect on demand",
+					content: "In this mode, the Internet connection will be terminated automatically after a specified time of inactivity (Max Idle Time) has elapsed. The connection is re-established when you attempt to access the Internet again."
 				}, {
-					"type": "name",
-					"title": "Connect manually",
-					"content": "In this mode, the Internet connection is controlled manually by clicking the Connect or Disconnect button.This mode also supports the Max Idle Time function. Enter a Max Idle Time (in minutes) to specify the maximum time the Internet connection can be inactive before it is terminated. The default value is 15 minutes. If you want the Internet connection remains active at all time, enter 0 (zero)."
+					type: "name",
+					title: "Connect manually",
+					content: "In this mode, the Internet connection is controlled manually by clicking the Connect or Disconnect button.This mode also supports the Max Idle Time function. Enter a Max Idle Time (in minutes) to specify the maximum time the Internet connection can be inactive before it is terminated. The default value is 15 minutes. If you want the Internet connection remains active at all time, enter 0 (zero)."
 				}]
 			}, {
-				type: "title",
+				type: title,
 				content: "MAC Clone"
 			}, {
 				type: "paragraph",
@@ -3548,28 +3548,28 @@
 				type: "paragraph",
 				content: "Select if the IP address, Subnet Mask, Gateway, and DNS addresses are provided by the ISP, and enter these information into the corresponding fields."
 			}, {
-				"type": "title",
-				"title": "Internet Connection Type: L2TP/PPTP"
+				type: "title",
+				title: "Internet Connection Type: L2TP/PPTP"
 			}, {
-				"type": "name",
-				"title": "Username/Password",
-				"content": "Enter the username and password provided by your ISP. These fields are case-sensitive."
+				type: "name",
+				title: "Username/Password",
+				content: "Enter the username and password provided by your ISP. These fields are case-sensitive."
 			}, {
-				"type": "name",
-				"title": "Secondary Connection (Dynamic IP or Static IP)",
-				"children": [{
-					"type": "name",
-					"title": "Dynamic IP",
-					"content": "Select this if the IP address and Subnet Mask are assigned automatically by your ISP."
+				type: "name",
+				title: "Secondary Connection (Dynamic IP or Static IP)",
+				children: [{
+					type: "name",
+					title: "Dynamic IP",
+					content: "Select this if the IP address and Subnet Mask are assigned automatically by your ISP."
 				}, {
-					"type": "name",
-					"title": "Static IP",
-					"content": " Select this if the IP address, Subnet Mask, Gateway, and DNS addresses are provided by your ISP, and enter these information into the corresponding fields."
+					type: "name",
+					title: "Static IP",
+					content: " Select this if the IP address, Subnet Mask, Gateway, and DNS addresses are provided by your ISP, and enter these information into the corresponding fields."
 				}]
 			}, {
-				"type": "name",
-				"title": "VPN Server IP/Domain Name",
-				"content": "Enter the VPN Server IP Address or Domain Name provided by your ISP."
+				type: "name",
+				title: "VPN Server IP/Domain Name",
+				content: "Enter the VPN Server IP Address or Domain Name provided by your ISP."
 			}]
 		},
 		wanBasicDSL: {
@@ -3978,7 +3978,6 @@
 				content: "To reboot automatically"
 			}, {
 				type: "step",
-				title: "",
 				content: [
 					"Enable Auto Reboot.",
 					"Specify the Time when the router reboots and the Auto Reboot Interval to decide how often it reboots.",
@@ -4076,26 +4075,26 @@
                 content: "Click to update the DHCP Client List."
             }]
         },
-		"lanAP": {
-			"TITLE": "LAN",
-			"CONTENT": [{
-				"type": "name",
-				"title": "MAC Address",
-				"content": "The unique physical address of the router."
+		lanAP: {
+			TITLE: "LAN",
+			CONTENT: [{
+				type: "name",
+				title: "MAC Address",
+				content: "The unique physical address of the router."
 			}, {
 				display: "$.routerMode == 'AP'",
-				"type": "name",
-				"title": "Address Type",
-				"content": "The way to configure the AP's IP address. You can configure it manually(Static IP) or automatically(Smart DHCP). "
+				type: "name",
+				title: "Address Type",
+				content: "The way to configure the AP's IP address. You can configure it manually(Static IP) or automatically(Smart DHCP). "
 			}, {
 				display: "$.routerMode == 'AP'",
-				"type": "name",
-				"title": "LAN IP",
-				"content": "Keeps the AP's default IP address (192.168.0.254) or enter a new one. This IP address can be used to log in to the AP's web management page."
+				type: "name",
+				title: "LAN IP",
+				content: "Keeps the AP's default IP address (192.168.0.254) or enter a new one. This IP address can be used to log in to the AP's web management page."
 			},  {
-				"type": "name",
-				"title": "Subnet Mask",
-				"content": "Select an assigned identifier used by the LAN port to route Internal and External traffic from the drop-down list or enter a new subnet mask format. The default value is 255.255.255.0."
+				type: "name",
+				title: "Subnet Mask",
+				content: "Select an assigned identifier used by the LAN port to route Internal and External traffic from the drop-down list or enter a new subnet mask format. The default value is 255.255.255.0."
 			}]
 		}
 	};
@@ -4107,8 +4106,8 @@
 				type: "paragraph",
 				content: "Displays relevant information about the Internet connection."
 			}, {
-                	display: "$.routerMode == 'Router'",
-				type: "title2",
+                display: "$.routerMode == 'Router'",
+				type: "title",
 				content: "IPv4 | IPv6"
 			}, {
 				display: "$.routerMode == 'Router'",
