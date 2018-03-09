@@ -1,0 +1,2575 @@
+Status
+Network Map
+Internet
+Quick Setup
+Operation Mode
+Network
+WAN Settings
+EWAN
+3G/4G Settings
+Interface Grouping
+LAN Settings
+IPv6 LAN Settings
+MAC Clone
+ALG
+DSL Settings
+PVC Auto-detection
+IPSec VPN
+IPTV
+DHCP Server
+DHCP Settings
+Clients List
+Address Reservation
+Conditional Pool
+Wireless
+Wireless Settings
+Wireless 2.4GHz
+Basic Settings
+WPS
+Wireless Security
+Wireless Schedule
+MAC Filtering
+Wireless Advanced
+Wireless Status
+Wireless 5GHz
+Basic Settings
+WPS Settings
+Wireless Security
+Wireless Advanced
+Wireless Status
+Guest Network
+Basic Settings
+Basic Settings 2.4GHz
+Guest Network Status
+Guest Status 2.4GHz
+Basic Settings 5GHz
+Guest Status 5GHz
+Telephony
+Telephone Numbers
+Telephone Book
+Telephony Devices
+Call Log
+Call Rules
+DND & Call Blocking
+Call Forwarding
+Call Through
+DECT
+tpPhone
+Voice Mail
+USB Sharing
+USB Storage Device
+Sharing Access
+USB Mass Storage
+User Accounts
+Feature Code Setting
+Storage Sharing
+FTP Server
+Media Server
+Printer Server
+Route Settings
+Default Gateway
+Static Route
+RIP Settings
+IPv6 Route Settings
+IPv6 Default Gateway
+IPv6 Static Route
+NAT Forwarding
+Virtual Servers
+Port Triggering
+Service Filtering
+DMZ
+UPnP
+Parental Controls
+Firewall
+Security
+Access Control
+Rule
+LAN Host
+WAN Host
+Schedule
+Settings
+Firewall & DoS Protection
+IPv6 Firewall
+IPv6 Rule
+IPv6 LAN Host
+IPv6 WAN Host
+IPv6 Schedule
+IPv6 Tunnel
+QoS
+Settings
+Database
+Basic Settings
+SP/WRR Settings
+Bandwidth Control
+Bandwidth Control
+IP & MAC Binding
+Binding Settings
+ARP List
+Dynamic DNS
+Diagnostics
+System Tools
+System Log
+Time Settings
+Manage Control
+CWMP Settings
+SNMP Settings
+Backup & Restore
+Factory Defaults
+Firmware Upgrade
+Administration
+Reboot
+Statistics
+Traffic Monitor
+Phone Setup
+DECT Base Station
+Static Routing
+Advanced Settings
+DHCP Client List
+Phone
+Sharing Settings
+Sharing Account
+Folder Sharing
+VPN
+OpenVPN
+PPTP VPN
+VPN Connections
+LED Control
+TP-Link Cloud
+Push Service
+Action
+Add
+Add New
+Delete
+View
+Edit
+Set
+Scan
+Survey
+Save
+Apply
+Back
+Next
+Help
+Reload
+Refresh
+Reset
+Block
+Bind
+Start
+Stop
+Connect
+Disconnect
+Renew
+Release
+Enable
+Disable
+Enable 2.4G Guest Network
+Enable 5G Guest Network
+Disable Guest Network
+Enable All
+Disable All
+Delete All
+Enable Selected
+Disable Selected
+Delete Selected
+Allow
+Deny
+Finish
+Reboot
+Quit
+Bound
+Unbound
+Enabled
+Disabled
+Loaded
+Unloaded
+Initializing
+Obtaining
+Connected
+Connecting
+Disconnected
+Telephone service unavailable. Please check your account settings or register a new number.
+Auto
+Unknown
+None
+Error
+Warning
+Note
+Note:
+Notes
+Error code
+Success
+Pass
+Skip
+Fail
+Enable a wireless connection for IPTV
+Remove
+Select All
+Deselect All
+Yes
+No
+OK
+Cancel
+Config
+Model No. 
+Unplugged
+Identifying...
+Successfully Identified
+Unregister
+Register
+hex digits
+ASCII chars
+Other
+Handset Location
+Date and time Synchronization
+Reconfig
+Try again
+View Existing Applications
+Backup
+Restore
+Factory Restore
+Exit
+Done
+End
+Waiting...
+--
+From:
+To:
+Confirm
+Update
+Import
+Export
+Enalbe VLAN:
+Confirm Password:
+DNS:
+The changes will not take effect until the router reboots. Are you sure to continue?
+Switching mode will reboot the router. Do you want to continue?
+The device will reboot. Are you sure to continue?
+All current configurations will be lost once the router is restored. Are you sure to continue?
+Are you sure you would like to delete this interface?
+The changes will not take effect until the router reboots. Are you sure to continue?
+Clicking Yes will cause a disconnection. Are you sure to continue?
+Modification of LAN IP address or subnet mask will require you to re-login. Write down the changes if you want to continue. Are you sure to continue?
+The web page will refresh. Would you like to continue?
+This page will refresh and may cause disconnection. Are you sure to continue?
+This port conflicts with an existing virtual server. Click Yes to disable the related virtual server entry and continue. Click No to use another port to avoid this conflict.
+This port conflicts with an existing trigger port. Click Yes to disable the related trigger port entry and continue. Click No to use another port to avoid this conflict.
+This port conflicts with the UPnP. Click Yes to delete the related UPnP entry and continue. Click No to use another port to avoid this conflict.
+FTP Function conflict with the DMZ Host. Click Yes to disable the DMZ Host and continue.
+The current settings conflict with the Internet access of the USB FTP Server. Please click Yes to disable Internet access of the USB FTP Server and enable the necessary port forwarding requirements.
+Once the queue is deleted, all the classifications related to this queue will be deleted. Are you sure to delete this queue?
+Are you sure you would like to delete all USB modem configuration files?
+Dial Plan can only be added when there is an existing account. Would you like to add an account?
+Modification of LAN IP address or subnet mask will take effect after rebooting. Are you sure to reboot now?
+The changes will not take effect until the router reboots. Are you sure you want to continue?
+The changes will not take effect until the router reboots. Are you sure you want to continue?
+Are you sure to delete the conflicted connections?
+Are you sure to delete the selected items?
+Are you sure to log out?
+Are you sure to delete these tunnels?
+Are you sure to delete this entry?
+Are you sure you would like to delete all entries?
+Note: You cannot disable VLAN when IPTV is enabled.
+Note: VLAN cannot be disabled in Wireless Router mode.
+Wireless settings are changed successfully. Please reconnect to the router using the new wireless settings.
+No certficate currently, click OK to generate one and save your configuration.
+Dynamic DNS is not configured. If you continue exporting, you may need to update the file when the WAN IP changes. You are strongly recommended to configure Dynamic DNS or assign a static IP to the WAN port first.
+Disconnected from Dynamic DNS. If you continue exporting, you may need to update the file when the WAN IP changes. You are strongly recommended to connect to Dynamic DNS first.
+Click the area to share or disable the volume.
+By entering your area code, you can make a local call without dialing the area code first. The area code is added as the prefix automatically each time you make a local call.
+Please do not refresh the page or take other actions.
+Index
+Status
+Description
+Internet
+Internet Connection Type:
+IP/Mask
+Bridge
+Address Type:
+Smart DHCP
+Dynamic IP
+Static IP
+PPPoE
+PPPoA
+IPoA
+MAC Address:
+IP Address:
+Subnet Mask:
+Gateway:
+Default Gateway:
+Primary DNS:
+Secondary DNS:
+DNS Servers:
+Group:
+Interface
+Port
+Protocol:
+Operation
+ATM Configuration
+Encapsulation Mode:
+ATM QoS Type:
+ frames/s
+packets/second
+(Optional)
+(Recommended)
+WAN Service Setup
+Username:
+Password:
+Username:
+Password:
+Username:
+Password:
+Username:
+Password:
+Confirm Password:
+Get IP Using Unicast DHCP:
+(It is usually not required.)
+Service Name:
+Access Concentrator Name:
+Max Idle Time:
+minutes
+seconds
+Packets
+bytes.
+MTU Size:
+(0 means always active.)
+Connection Mode:
+On Demand
+Auto
+Manually
+Authentication Type:
+Current Connection
+NAT:
+Full-cone NAT:
+SPI Firewall:
+IGMP Proxy:
+bytes.(The default is 1480
+bytes.(The default is 1500
+bytes.(The default is 1460
+bytes.(The default is 1420
+do not change unless necessary.)
+Do not change unless necessary.
+Use the Following DNS Addresses:
+Host Name:
+Echo Request Interval:
+seconds. (0-120. The default value is 30.)
+Use the IP Specified by ISP:
+ISP Specified IP Address:
+Option
+Restore Factory MAC
+Rebooting
+Uploading
+Upgrading
+The device is rebooting. Please wait...
+Uploading, please wait...
+Please wait, configurations will take effect after the device reboots...
+The device is rebooting. Please wait...
+Wireless
+Wireless Settings
+2.4GHz
+5GHz
+2.4GHz Wireless Network:
+5GHz Wireless Network:
+2.4GHz Wireless:
+5GHz Wireless:
+2.4GHz Wireless
+5GHz Wireless
+Enable
+Enable Guest Network
+Network Name (SSID):
+Network Name (SSID):
+(Also called SSID)
+Hide SSID
+Permanent
+Region:
+Time Zone:
+11b only
+11bg mixed
+11g only
+11n only
+11bgn mixed
+11a only
+11an mixed
+11a/n/ac mixed
+Channel:
+Mode:
+Channel Width:
+Encryption:
+Security
+Security:
+No Security
+WPA/WPA2 Personal (Recommended)
+WPA/WPA2 Personal
+WPA/WPA2 Enterprise
+Encrypted
+Version:
+Auto
+WPA-PSK
+WPA2-PSK
+WPA
+WPA2
+Open System
+64-Bit
+128-Bit
+Shared Key
+Key
+Key 1
+Key 2
+Key 3
+Key 4
+Key Type:
+Key Value:
+WEP Key Format: 
+Key Selected:
+Hexadecimal
+ASCII
+Password:
+(Enter 8 to 63 ASCII characters or 8 to 64 Hexadecimal digits.)
+Device has been added successfully!
+Failed to add the device!
+Associated
+Full-Access
+Read-Only
+No-Access
+Standby
+Online
+Offline
+Active
+Inactive
+Not Available
+Add New Folder
+Browse
+Hide
+Disk
+Activate
+Deactivate
+Label
+Volume
+File System
+Capacity
+Free Space
+Used
+Available
+Both
+Active
+Passive
+ALL
+Any Host
+Any Time
+Time
+Sun
+Mon
+Tue
+Wed
+Thu
+Fri
+Sat
+Last
+Current list is blank
+Max
+Min
+Reset All
+Getting GMT...
+Get GMT
+Get from PC
+Failed to get GMT
+The Effective Time is based on the time of the router. The time can be set in \"Advanced > System Tools > Time Settings\".
+ Time Settings
+Invalid Domain
+Authentication Failed
+Standard User
+Advanced User
+Diagnostics completed
+Diagnostics paused
+Test xDSL Synchronization
+Test WAN port physical connection
+Test WAN connection
+Test PPP Server connection
+Test authentication with ISP
+Test assigned IP address
+Test DHCP Server's connection
+Ping default gateway
+Ping primary Domain Name Server
+Test DNS Root
+Network Connection Status Inspect (NCSI)
+Test Internet Browsing
+Not find Internet joins in
+Please configure the WAN interface.
+Emergency
+Alert
+Critical
+Notice
+Information
+Debug
+Enable
+Enable IPv4
+Enable IPv6
+IPv6 Address:
+Prefix Length:
+Secondary DNS:
+IPv6 Default Gateway:
+Use the Following IPv6 DNS Address:
+Use the IPv6 Addresses Specified by ISP:
+ISP Specified IPv6 Address:
+ISP Specified IPv6 Gateway:
+Get IPv6 Address Using Unicast DHCP:
+Addressing Type:
+MLD Proxy:
+Static IPv6
+Dynamic IPv6
+WAN Connection
+Use Web Login Account
+Enable 3G/4G as a backup solution for Internet access
+Location
+Mobile ISP
+Operation Mode
+Set Dial Number, APN, Username and Password manually
+Dial Number
+Disconnecting
+Server IP Address/Name:
+DNS Address Mode
+Enable SSID Broadcast
+Host:
+(schedule control)
+(user control)
+Encryption Algorithm:
+Integrity Algorithm:
+Locale Selection:
+Telephony Provider:
+Prefix
+Number
+Netvoip telephone number
+Pincode with \"#\"
+Phone Number:
+VoIP number:
+SIP Number:
+VoIP phone number:
+VoIP Password:
+Internet telephone number:
+User name:
+SIP user name:
+Contract password
+Number:
+Password:
+SIP Password:
+SIP Name:
+DUS.net number:
+Auth ID:
+Registrar Address:
+Proxy server:
+Area code
+Telephone no:
+SIP ID:
+Telephone number:
+VoIP Password:
+E-mail address:
+Profile Name
+Phone Number/User ID
+Registrar Address:
+Registrar Port:
+Authentication ID
+Password:
+SIP Proxy:
+SIP Proxy Port:
+Outbound Proxy:
+Outbound Proxy Port:
+Register via Outbound Proxy
+SIP Account List
+Voice - SIP Account
+Area Code
+By enabling this function and entering your area code, you can make a local call without dialing the area code first. The area code is added as the prefix automatically each time you make a local call.
+Black List-Configuration
+Enter a number with 3 to 16 digits in length.
+Register New DECT Handset
+Dial Plan
+Destination
+(16 character max.)
+None
+Operate
+Phone 1
+Phone 2
+PSTN
+number
+White List-Configuration
+Blacklist
+Whitelist
+Max of 30 entries can be configured.
+ID
+Call Log
+Source
+Destination
+Type:
+Process
+Call Log Configuration
+The USB storage device is disconnected.
+No properly formatted files were found within the USB storage device.
+unconditionally
+Please note that your previous setting of
+in phone setup page has been disabled since you have enabled VoiceMail triggering
+in phone setup page has been disabled since you have enabled VoiceMail triggering on
+no answer/unconditionally
+Call Firewall
+Emergency Call Settings(PSTN).
+Forbidden Call
+End With '#'
+Forward Unconditionally:
+no answer
+in USB VoiceMail page has been disabled since you have enabled forwarding on
+Speed Dial
+Voice Mail
+LAN
+Any_WAN
+IP_Routed
+IP_Bridged
+Feature Code
+DSL Modulation Type:
+VPI/VCI
+VPI/VCI or VID
+VID
+No available interface
+Phone Setup
+Handset Register
+Phone Edit
+(GMT-12:00) Enewetak, Kwajalein
+(GMT-11:00) Midway Island, Samoa
+(GMT-10:00) Hawaii
+(GMT-09:00) Alaska
+(GMT-08:00) Pacific Time (US & Canada); Tijuana
+(GMT-07:00) Mountain Time (US & Canada); Arizona
+(GMT-06:00) Central Time (US & Canada); Central America, Mexico City
+(GMT-05:00) Eastern Time (US & Canada); Bogota, Lima
+(GMT-04:30) Caracas
+(GMT-04:00) Atlantic Time (Canada); Santiago, Asuncion
+(GMT-03:30) Newfoundland
+(GMT-03:00) Brasilia, Buenos Aires, Georgetown, Greenland
+(GMT-02:00) Mid-Atlantic
+(GMT-01:00) Azores, Cape Verde Is.
+(GMT) Greenwich Mean Time: Dublin, Edinburgh, London, Lisbon
+(GMT+01:00) Amsterdam, Berlin, Rome, Stockholm, Paris, Prague, Bratislava
+(GMT+02:00) Cairo, Athens, Istanbul, Minsk, Jerusalem, Kiev, Chisinau
+(GMT+03:00) Baghdad, Kuwait, Riyadh
+(GMT+03:30) Tehran
+(GMT+04:00) Abu Dhabi, Muscat, Baku, Tbilisi, Yerevan, Moscow, St.Petersburg
+(GMT+04:30) Kabul
+(GMT+05:00) Islamabad, Karachi, Tashkent
+(GMT+05:30) Madras, Kolkata, Mumbai, New Delhi
+(GMT+05:45) Katmandu
+(GMT+06:00) Almaty, Astana, Dhaka, Ekaterinburg, Bishkek
+(GMT+06:30) Rangoon
+(GMT+07:00) Bangkok, Jakarta, Hanoi, Novosibirsk
+(GMT+08:00) Beijing, Chongqing, Urumchi, Hong Kong, Taipei, Kuala Lumpur, Perth
+(GMT+09:00) Tokyo, Osaka, Sapporo, Seoul
+(GMT+09:30) Darwin, Adelaide
+(GMT+10:00) Brisbane, Guam, Canberra, Melbourne, Sydney, Yakutsk
+(GMT+11:00) Magadan, Solomon Is., New Caledonia
+(GMT+12:00) Fuji, Kamchatka Peninsula, Marshall Is., Wellington
+(GMT+13:00) Nukualofa
+Please check if your phone cable is properly connected.
+Please check if the WAN port is properly connected.
+Check the DSL settings such as VPI/VCI and encapsulation mode. Contact your Internet service provider to confirm if your line is in good condition.
+Check the DSL settings such as VLAN ID. Contact your Internet service provider to confirm if your line is in good condition.
+Please check the line quality with your Internet service provider.
+Check your Internet Username & Password. Confirm with your Internet service provider if needed.
+PPP connection failed. Please contact your Internet service provider to confirm if your line is in good condition. If the problem still exists, please contact TP-Link technical support for further help.
+Please configure your DNS manually.
+Please reconfigure your parameters. If the problem still exists, please contact your ISP.
+Please confirm that your SIM card has been inserted into the modem correctly.
+Please check APN, dial number, username and password with your Internet service provider. Enter them manually and try again.
+Check whether your USB modem is in our 3G/4G compatibility list of your region. If it is, please feel free to contact TP-Link technical support. If it isn't, we're sorry that your modem isn't compatible with our router.
+Connection ID:
+T-Online Number:
+User Suffix:
+Auto disconnect and reconnect at(HH:MM)
+Quick Setup
+Basic
+Advanced
+Login
+Log in
+Log out
+Logout
+Reboot
+Update
+Support
+FAQ
+Firmware Version:
+Hardware Version:
+Low
+Middle
+High
+VPI:
+VCI:
+VLAN ID:
+VLAN ID (7-4094):
+Enable VLAN ID
+Interface Name:
+Service Type:
+External Port:
+Internal IP:
+Internal Port:
+Close
+Choose
+No interface
+Enable This Entry
+Application: 
+On
+Off
+Multimode
+Click to hide.
+Kbps
+Mbps
+range
+length
+Phone Number
+PCR:
+SCR:
+MBS:
+Get Dynamically from ISP
+WEP
+File Sharing
+2.4GHz
+5GHz
+Saved.
+Loading...
+Other
+Please Select
+Search
+days
+hours
+h
+minutes
+Account
+Auto
+T_note2
+aggNote
+MAC Address:
+IP Address:
+Subnet Mask:
+Default Gateway:
+Primary DNS:
+Secondary DNS:
+Connection Type:
+Network Name (SSID):
+Wireless Radio:
+Channel Width:
+Channel:
+Mode:
+DHCP:
+Prefix Length:
+Assigned Type:
+Hide SSID:
+Allow Guests to Access Each Other:
+Guest Network
+Wireless
+LAN
+WAN Interface Name:
+Device Information
+Firmware Version:
+Hardware Version:
+System Up Time:
+DSL
+Line Status:
+DSL Up Time:
+DSL Modulation Type:
+Annex Type:
+Upstream
+Downstream
+Current Rate (kbps)
+Max Rate (kbps)
+SNR Margin (dB)
+Line Attenuation (dB)
+Errors (pkts)
+Name
+Max Tx Rate:
+WDS Status:
+Schedule:
+Max Tx Rate
+Name
+IPv6 Address/Prefix Length
+Autoconfiguration Type
+Voice
+Router
+Wireless Clients
+Wired Clients
+Phone
+DECT
+Printer
+USB Disk
+MAC Address:
+IP Address:
+Connection Type:
+Gateway:
+Internet Status:
+Telephone Status:
+Secondary Connection:
+IP Address:
+SSID:
+Channel:
+MAC:
+2.4GHz Guest Network
+5GHz Guest Network
+Status:
+Name:
+Brand:
+Total:
+Available:
+DNS Server:
+No Printer
+No Device
+Online Devices
+Wireless Clients (Host Network)
+Wireless Clients (Guest Network)
+USB Devices
+LAN
+Operation Mode
+Please select an operation mode:
+DSL Modem Router Mode
+3G/4G Router Mode
+Wireless Router Mode
+Operation Mode
+Please select an operation mode:
+DSL Modem Router Mode
+3G/4G Router Mode
+Wireless Router Mode
+Router
+Access Point
+In this mode, your router connects to the Internet directly via Dynamic IP, Static IP, PPPoE, L2TP or PPTP and shares the Internet access to multiple wired or wireless devices. NAT, firewall and DHCP server are enabled by default.
+In this mode, your router connects to a wired or wireless router via an Ethernet cable and extends the wireless coverage of your existing network. Functions like NAT, Parental Controls and QoS are not supported in this mode.
+(Current mode)
+Auto Detect
+Note: 
+If you are not sure which Internet Connection Type you have, use Auto Detect or contact your Internet Service Provider (ISP) for assistance.
+Do NOT clone MAC Address
+Clone Current Computer MAC Address
+Internet Connection Setup
+Internet
+Note: The router now is working on VDSL mode. To use ADSL connection as your default Internet connection, go to Advanced > Network > DSL Settings > DSL Modulation Type to change it into ADSL mode.
+Note: The router now is working on ADSL mode. To use VDSL connection as your default Internet connection, go to Advanced > Network > DSL Settings > DSL Modulation Type to change it into VDSL mode.
+ISP List
+Internet Status:
+Detecting
+Note: VLAN ID cannot be disabled when Ethernet Connection is enabled.
+Internet Connections
+Internet Connection Setup
+MAC Clone
+This page shows the information of the entire DSL WAN interface.
+Name
+Type
+Enable PVC Auto-detection
+Note: The above parameters has several connections, and it will prohibit any modifications of the following parameters.
+Note: Do not change the parameters below unless necessary!
+Special Dial:
+Do NOT Clone MAC Address
+Clone Current Computer MAC Address
+Use Custom MAC Address
+Internet Setup
+Enable EWAN connection
+Addressing Type:
+Secondary Connection:
+(For Dual Access)
+PPPoE
+DNS Address
+Auto
+PAP
+CHAP
+MS-CHAP
+MTU Size:
+(The default is 1500. Do not change unless necessary.)
+NAT
+Full-cone NAT
+SPI Firewall
+IGMP Proxy
+MAC Clone
+Do NOT Clone MAC Address
+Clone Current Computer MAC Address
+Use Custom MAC Address
+(0-120. The default is 30.)
+Do not Clone MAC Address
+Use Custom MAC Address
+WAN Interface
+3G/4G Settings
+Note: 3G or 4G access is unavailable in the current operation mode. Please enable 3G/4G backup or change the operation mode to 3G/4G Router mode.
+The SIM/UIM card is locked. Please unlock the SIM/UIM card first with your PUK code on PC/Laptop.
+3G/4G USB Modem:
+Unplugged
+Detecting...
+Detected successfully.
+PIN Status
+Unable to unlock SIM card.
+Ready
+SIM Locked
+PIN Locked
+Unknown Error
+Connection Status:
+3G/4G Settings
+Note: 3G or 4G access is unavailable in the current operation mode. Please enable 3G/4G backup or change the operation mode to 3G/4G Router mode.
+The SIM/UIM card is locked. Please unlock the SIM/UIM card first with your PUK code on PC/Laptop.
+Backup Delay
+Revert Delay
+3G/4G USB Modem:
+PIN Status
+Unplugged
+Detecting...
+Detected successfully.
+Unable to unlock SIM card.
+Ready
+SIM Locked
+PIN Locked
+Unknown Error
+PIN
+Auto-unlock PIN
+Unlock
+APN:
+(0 means always active.)
+Auto
+PAP
+CHAP
+Connection Status:
+Enable PIN Modification
+Old PIN
+New PIN
+Confirm New PIN
+MTU Size (in bytes)
+(The default is 1480, do not change unless necessary.)
+Use the IP Specified by ISP
+ISP Specified IP Address
+Use the Following DNS Addresses
+Primary DNS
+Secondary DNS
+3G/4G USB Modem Settings
+3G/4G USB Modem Settings
+File:
+Note: Restoring the router to the default settings will cause the loss of the .bin file. You can back up and re-upload it, or download the latest .bin file from TP-Link official website (<a target=\"_blank\" href=\"http://www.tp-link.com\">http://www.tp-link.com</a>) and install it into your router to retrieve all its functions.
+Upload
+Back
+Interface Grouping
+WAN Interface
+LAN Interface
+Note: You cannot disable VLAN functionality with an IPTV or Ethernet WAN Connection enabled.
+Enable VLAN:
+Add a New Group
+Group Name:
+Enable Group Isolation
+ALG
+Virtual Private Network (VPN)
+PPTP Pass-through:
+L2TP Pass-through:
+IPSec Pass-through:
+Application Layer Gateway (ALG)
+FTP ALG:
+TFTP ALG:
+H323 ALG:
+SIP ALG:
+DSL Settings
+DSL Modulation Type:
+Annex Type:
+Bit Swap:
+SRA:
+LAN IP:
+IGMP Snooping:
+Enable
+Link Aggregation
+Link Aggregation:
+LACP passive
+LACP active
+Link Aggregation Ports:
+Link aggregation and IPTV cannot be enabled at the same time.
+custom
+The router's IP address may change, so you need to log in again. Are you sure to continue?
+LAN
+DHCP Server
+Client List
+Total Clients:
+Total Clients
+Assigned IP Address
+Address Lease Time
+Address Reservation
+Condition Pool
+Enable This Entry
+IP Version:
+IPv4
+IPv6
+LAN IP:
+IGMP Snooping:
+Enable
+Second IP:
+Enable
+DHCP:
+DHCP Server
+DHCP Relay
+IP Address Pool:
+Address Lease Time:
+minutes. (1-2880. The default value is 1440.)
+Default Domain:
+Remote Server Address:
+Note: To make DHCP Relay configurations effective, disable the NAT of the WAN connection.
+Custom
+Enable
+IP Address:
+Device Name:
+Vendor ID:
+Starting IP Address:
+Ending IP Address:
+Device Type:
+PC
+Camera
+HGW
+STB
+Phone
+Unknown
+Add Option:
+Option Value:
+Add Option:
+Option Value:
+Option 240
+Option 241
+Option 242
+Option 243
+Option 244
+Option 245
+DNS1:
+DNS2:
+Address Type:
+RADVD
+Enable RDNSS
+Enable ULA Prefix
+ULA Prefix:
+ULA Prefix Length:
+DHCPv6 Server
+Starting IPv6 Address:
+Ending IPv6 Address:
+Address Lease Time:
+seconds
+Delegated
+Static
+WAN Connection:
+Site Prefix Type:
+Site Prefix:
+Site Prefix Length:
+(1-2880. The default is 1440.)
+No Address Reservation
+Add Address Reservation
+Enable Reservation
+LAN
+DHCP Server
+Client List
+Total Clients:
+Total Clients
+Assigned IP Address
+Address Lease Time
+Address Reservation
+Condition Pool
+Enable This Entry
+IP Version:
+IPv4
+IPv6
+LAN IP:
+IGMP Snooping:
+Enable
+Second IP:
+Enable
+DHCP:
+DHCP Server
+DHCP Relay
+IP Address Pool:
+Address Lease Time:
+minutes. (1-2880. The default value is 1440.)
+Default Domain:
+Remote Server Address:
+Note: To make DHCP Relay configurations effective, disable the NAT of the WAN connection.
+Custom
+Enable
+IP Address:
+Device Name:
+Vendor ID:
+Starting IP Address:
+Ending IP Address:
+Device Type:
+PC
+Camera
+HGW
+STB
+Phone
+Unknown
+Add Option:
+Option Value:
+Add Option:
+Option Value:
+Option 240
+Option 241
+Option 242
+Option 243
+Option 244
+Option 245
+DNS1:
+DNS2:
+Address Type:
+RADVD
+Enable RDNSS
+Enable ULA Prefix
+ULA Prefix:
+ULA Prefix Length:
+DHCPv6 Server
+Starting IPv6 Address:
+Ending IPv6 Address:
+Address Lease Time:
+seconds
+Delegated
+Static
+WAN Connection:
+Site Prefix Type:
+Site Prefix:
+Site Prefix Length:
+(1-2880. The default is 1440.)
+No Address Reservation
+Add Address Reservation
+Enable Reservation
+Settings
+Enable Multi SSID
+Please ensure that you select the correct region to conform to local laws.
+Make sure the settings are correct.
+Enable Wireless Router Radio
+Enable SSID Broadcast
+Enable WDS
+SSID(to be bridged):
+BSSID(to be bridged):
+e.g. 00:1D:0F:11:22:33
+WEP Index:
+The password is not editable here, go to Advanced > Wireless to change it.
+The password is not editable here, go to Advanced > Wireless to change it.
+The password is not editable here, go to Advanced > Wireless to change it.
+AP List
+The scanned APs within the area:
+APs:
+Signal strength
+AP List
+The scanned APs within the area:
+APs:
+Signal strength
+WPS Method
+Method One--Push Button(recommended)
+The WPS can be disabled or enabled in \"Advanced > Wireless > Advanced Settings\".
+Method Two--PIN
+Router's PIN
+Client's PIN
+Restore
+Generate
+Note: The WPS function is not supported with WEP security, WPA/WPA2 - Enterprise authentication or TKIP encryption enabled.
+Wireless Router Radio is disabled, Click 
+ here
+ to enable it.
+Other devices can connect to this Router by WPS with the Router's PIN code.
+Wireless SSID Broadcast is disabled, Click
+ here
+ to enable it.
+Enable Router's PIN:
+Router's PIN:
+Restore
+Generate
+Restore
+Generate
+Add a new device:
+Add device
+Disable Modem Router's PIN
+WPS Settings
+Enable WPS:
+Select a setup method:
+Push Button (Recommended)
+Press the physical \"push button\" on the router or click the \"Connect\" button on this page.
+PIN Number
+Enter the client's PIN:
+Client PIN
+Setup Method
+WPS
+Press the WPS button on the router or tap the Start WPS button above.
+A client device can be connected to the router using its WPS PIN.
+To use WPS Wizard, you should go to <a href='#'>Advanced > Wireless > Advanced Settings</a> to enable WPS first.
+Wireless Security Settings
+Enable Wireless Radio
+Note: WEP security and TKIP encryption are not supported in 11n only mode.
+Note: The network security cannot be set to WEP, WPA/WPA2 Enterprise or TKIP when the WPS function is enabled .
+Note: WEP security is not supported with Multi SSID enabled.
+To protect your wireless network, it is highly recommended to enable wireless security, select WPA/WPA2 Personal as the security type and select AES as the encryption type.
+Key Selected:
+WEP Key
+Mode:
+Transmit Power:
+Low
+Middle
+High
+Group Key Update Period:
+minimum is 30, 0 meaning no update
+RADIUS Server IP:
+RADIUS Server Port:
+RADIUS Server Password:
+(1-65535, 0 stands for default port 1812)
+RADIUS Server Password:
+Group Key Update Period:
+(seconds, minimum is 30, 0 meaning no update)
+TKIP
+AES
+Advanced Settings
+Transmit Power:
+Beacon Interval:
+Beacon Interval:
+RTS Threshold:
+RTS Threshold:
+Fragmentation Threshold:
+Fragmentation Threshold:
+DTIM Interval:
+DTIM Interval:
+Group Key Update Period:
+Group Key Update Period:
+Short GI:
+Enable
+Short GI:
+Enable
+AP Isolation:
+Enable
+AP Isolation:
+Enable
+WMM:
+Enable
+WMM:
+Enable
+Note: Fragmentation is not allowed with HT mode.
+WDS Bridging:
+WDS Bridging:
+Enable WDS Bridging
+Enable WDS Bridging
+SSID (to be bridged):
+MAC (to be bridged):
+The current wireless network channel should be the same as that of the AP to be bridged. Click Yes to change the current channel; otherwise the WDS function will not take effect.
+Interference Suppression:
+Enable Interference Suppression
+Enable SSID 1
+Enable SSID 2
+Enable SSID 3
+Online Wireless Clients
+This page displays the basic information of all stations connected to the wireless network.
+Wireless Stations Currently Connected:
+Current Status
+Current Status
+Received Packets
+Received Packets
+Sent Packets
+Sent Packets
+Guest Network
+You can configure a wireless network for guests.
+Guest Network:
+SSID:
+Security:
+See each other:
+Allow Guests to Access Each Other
+Access my local network:
+Allow Guests to Access My Local Network
+USB Storage Sharing:
+Allow Guests to Access My USB Storage Sharing
+Guest Network Isolation:
+Guest Network Bandwidth Control:
+Device's Bandwidth Control Function is disabled, Click
+Min Rate
+&nbsp;&nbsp;&nbsp;&nbsp;Max Rate
+Upstream:
+Downstream:
+Set Password
+Disable Guest Network
+Settings
+Wireless Function is disabled, Click
+ here
+ to enable it.
+You can configure a wireless network for guests.
+Guest Network:
+SSID:
+Security:
+See each other:
+Allow Guests to Access Each Other
+Access my local network:
+Allow Guests to Access My Local Network
+USB Storage Sharing:
+Allow Guests to Access My USB Storage Sharing
+Guest Network Isolation:
+Bandwidth Control:
+Device's Bandwidth Control Function is disabled, Click
+Min Rate
+&nbsp;&nbsp;&nbsp;&nbsp;Max Rate
+Upstream:
+Downstream:
+Set a password
+Disable Guest Network
+Enable guest network bandwidth control
+Upstream (kbps):
+Downstream (kbps):
+The router's Bandwidth Control function is disabled, please go to Advanced > Bandwidth Control to enable it.
+The router's QoS function is disabled, please go to Advanced > QoS > Settings to enable it.
+QoS Settings:
+Enable QoS for Guest Network
+QoS Priority:
+Wireless Schedule
+Wireless Off Time
+Drag the mouse over the schedule table to select the period during which you need your wireless off automatically.
+The Wireless Time Schedule is based on the time of the router. The time can be set in \"System Tools > Time Settings\" page.
+Wi-Fi Off
+Repeat:
+Every Day
+Selected Day
+Wireless Schedule:
+No Schedule
+Add a new schedule
+Weekday
+Weekend
+Selected Day:
+-Please Select-
+Please specify the wireless off time.
+Device Settings
+Sharing Settings
+Network/Media Server Name:
+Folder Sharing
+Share All:
+My Router
+Volume Name:
+Folder Path:
+Folder Name:
+Allow Guest Network Access
+Enable Authentication
+Enable Write Access
+Enable Media Sharing
+Enable Authentication:
+Browse
+Printer Server
+None
+Printer Server:
+Printer Name:
+Printer Server Installation Steps:
+Step 1:
+Install the printer driver on your computer.
+Step 2:
+Connect the USB printer to the USB port of the router via a USB cable.
+Step 3:
+Install the TP-Link USB Printer Controller Utility. Please download it from our official website: <a target=\"_blank\" href=\"http://www.tp-link.com/en/Support/\">http://www.tp-link.com/en/Support/</a>.
+Device Settings
+Sharing Account
+Content sharing requires a sharing account. You can use the login account or create a new one.
+Account:
+Use Default Account
+Use New Account
+(Same as Login Password)
+Sharing Settings
+Network/Media Server Name:
+Folder Sharing
+Share All:
+My Router
+Volume Name:
+Folder Path:
+Folder Name:
+Allow Guest Network Access
+Enable Authentication
+Enable Write Access
+Enable Media Sharing
+Enable Authentication:
+Browse
+Add Folder
+Modify Folder
+Access using the sharing account username and password.
+No Shared Folders
+Default Gateway Settings
+Static Routing
+IPv6 Static Route
+Select a WAN interface as the system default gateway.
+This WAN interface is used in another group. Please select another one.
+Select WAN Interface:
+Add Interface
+Status:
+Interface:
+Select a WAN interface as the IPv6 default gateway.
+Network Destination
+Destination IPv6 Address
+Prefix Length
+Enable This Entry
+Virtual Servers
+Existing Services
+(XX-XX or XX)
+(XX or Blank, 1-65535)
+Note: Virtual Server can be configured only when there is an available interface. If the external port is already used for Remote Management or CWMP, Virtual Server will not take effect.
+Port Triggering
+Existing Applications
+Triggering Port:
+Triggering Protocol:
+External Protocol: 
+No available interface.
+(XX, 1-65535)
+(XX or XX-XX, 1-65535, at most 5 pairs)
+Enable
+DMZ Host IP Address:
+UPnP Service List
+UPnP:
+Clientanzahl:
+Parental Controls
+Parental Controls can be used to administer all Internet activity including limiting usage and/or access to specific websites to all clients on the network for a specified period of time.
+Parental Controls:
+MAC Address Of Parental PC:
+MAC Address of Current PC:
+Copy to Above
+MAC Address in current LAN:
+Copy to
+--Please Select--
+MAC Address-1
+MAC Address-2
+MAC Address-3
+MAC Address-4
+Apply To:
+Start Time
+End Time
+Each Day
+Each Week
+Clear Schedule
+Add URL:
+Details
+(Will not take effect until you save these changes)
+Device Name: 
+MAC Address: 
+Effective Time: 
+Description: 
+Enable This Entry
+Restriction Policy:
+Blacklist
+Whitelist
+Add a New Keyword
+Add a New Domain Name
+Content Restriction:
+Parental Controls
+Devices Under Parental Controls
+Content Restriction
+View Existing Devices
+Access Devices List
+Effective Time
+Reset
+Blacklist is empty.
+Whitelist is empty.
+Restriction Type
+No Devices
+Online Devices
+Add Device
+Modify Keyword
+This field is required.
+System Time:
+QoS
+QoS:
+Line Type:
+Max Upstream Rate:
+Max Downstream Rate:
+Upload Bandwidth:
+Download Bandwidth:
+IPTV QoS:
+IPTV Priority:
+VoIP QoS:
+QoS Rule List
+High Priority:
+Middle Priority:
+Low Priority:
+QoS Rule
+By Device
+By Application
+By Physical Port
+Device Name:
+View Existing Devices
+Port:
+WIFI-HOST
+LAN1
+LAN2
+LAN3
+LAN4
+WIFI-GUEST
+Application
+Game
+Custom Application
+TCP
+UDP
+ALL
+Name:
+MAC
+IP
+none
+(XX or XX-XX, 1-65535)
+Database Upgrade
+New Database File:
+Database Version:
+Upgrade
+Access Control
+Access Mode
+Online Devices
+Access Mode:
+Devices in Blacklist
+Devices in Whitelist
+Device Name: 
+MAC Address: 
+Access Control: 
+Blacklist
+Whitelist
+Service Filtering
+Service Filtering:
+Filtering List
+Service Type: 
+Custom
+Starting Port: 
+Ending Port: 
+Filter Service For: 
+Single IP Address
+IP Address Range
+All IP Addresses
+Firewall
+IPv4 SPI Firewall:
+IPv6 SPI Firewall:
+DDoS Parameters can be set on this page.
+DoS Protection:
+Note: DoS Protection will not take effect when Traffic Statistics is enabled.
+Enable ICMP-Flood Attack Filtering
+ICMP-Flood Packets Threshold
+Enable UDP-Flood Attack Filtering
+UDP-Flood Packets Threshold
+Enable TCP-SYN-Flood Attack Filtering
+TCP-SYN-Flood Packets Threshold
+Forbid ping packets from LAN port
+Blocked DoS Host List
+Host Number: 
+DoS Protection
+ICMP-Flood Attack Filtering:
+UDP-Flood Attack Filtering:
+TCP-Flood Attack Filtering:
+-Please Select-
+Low
+Middle
+High
+Dos Protection Level Settings
+ICMP-Flood Protection Level:
+UDP-Flood Protection Level:
+TCP-SYN-Flood Protection Level:
+Low:
+Middle:
+High:
+(5-3600) packets/sec
+Host IP Address
+Host MAC Address
+Clear All
+IPv6 Tunnel
+IPv6 Tunnel:
+Note: Please check the IPv6 tunnel settings each time while reconfiguring WAN connection, as WAN connection configuration may take effect on tunnel settings.
+Tunneling Mechanism:
+WAN Connection:
+Configuration Type:
+Manual
+Remote IPv6 Address:
+IPv4 Mask Length:
+6rd Prefix:
+6rd Prefix Length:
+Border Relay IPv4 Address:
+DS-Lite
+6rd
+6to4
+Enable This Entry
+to
+Bandwidth Control
+Bandwidth Control:
+Line Type:
+Other
+Total Upstream Bandwidth:
+Total Downstream Bandwidth:
+Telephony Bandwidth Guarantee:
+IPTV Bandwidth Guarantee:
+Upstream Bandwidth Guarantee:
+Downstream Bandwidth Guarantee:
+Controlling Rules
+Guest Network Bandwidth Control Rules
+Current Upstream Rate:
+Current Downstream Rate:
+IP Range:
+Port Range:
+Priority:
+(1 means the highest priority.)
+Min Rate
+Max Rate
+Upstream:
+Downstream:
+DSL
+No Rules
+Add a New Rule
+Binding Settings
+This page displays the IP & MAC Binding List. Please click Add to create a new binding entry or click Edit to modify an existing entry.
+ARP Binding:
+Binding Status
+IP & MAC Binding
+ARP List
+Binding List
+IP & MAC Binding:
+MAC Address:
+IP Address:
+Enable This Entry
+Dynamic DNS Settings
+Service Provider:
+Dyndns
+NO-IP
+Go to register...
+Username:
+Password:
+Domain Name:
+Status:
+Custom
+Go to register...
+Update URL:
+Domain Name
+Domain Name
+Token:
+Secret Code:
+Username of Dyn-Account:
+Password of Dyn-Account:
+Note:
+Token
+Secret Code
+Dyn-Account
+(without the Suffix \".duckdns.org\")
+(Enter the Token as Password.)
+(Enter the Secret-Code as Password.)
+(Enter the username for your Dyn-Account.)
+(Enter the password for your Dyn-Account)
+Note: Enter the name of your subdomain without the suffix \".duckdns.org\"
+Note: After you log in, go to the Dynamic DNS submenu via https://freedns.afraid.org/dynamic/ or http://freedns.afraid.org/dynamic/ and click \"Direct URL\" to get the update URL in the address bar.
+Note: You can generate the Secret code when you edit the domain name on the DDNS service provider's webpage.
+Note: You should use your Dyn-Account to log in, NOT the account credentials you use to log into selfhost.com. Please obtain your Dyn-Account on the DDNS service provider's webpage.
+Note: The URL that you have received from the DDNS service provider contains wildcards instead of registered account information. The following is a list of common wildcards.
+Anytime you click Log in or Save, the router sends an IP update request to your DDNS provider, and the wildcard will be replaced by the registered information.
+Example: DtDNS
+The Update URL should be something like this (Username not required): 
+Example: yDNS
+The Update URL should be something like this: 
+Account Info
+Wildcards
+IP Address
+TP-Link
+Current Domain Name:
+Bind
+Unbind
+Registered Date
+Internet is unavailable.
+Domain Name List
+DDNS Unavailable
+To use our superior TP-Link DDNS service, please <a id=\"tp-link-login-btn\" class=\"link\" href=\"javascript:void(0);\">Log in</a> with your TP-Link Cloud account, or choose another service provider.
+Free
+Failed.
+If you want to bind %domain% to your device, please unbind the current domain name first.
+Invalid input.
+Domain name is already registered.
+Request timed out.
+The number of bound domain names has already reached the maximum limit.
+This domain name is already bound to another device.
+System error. Please try again later.
+Domain name contains sensitive words. Please try another one.
+Domain name does not exist.
+The number of registered domain names has already reached the maximum limit.
+Diagnostic Tools
+Click the Start button to test the Internet connection of the router.
+Note: 
+Push Service
+Push Notification via E-mail:
+Sender Account Settings
+E-mail Address:
+Username:
+E-mail Password:
+SMTP Server Address:
+SMTP Server Port:
+SSL
+Receiver Account Settings
+E-mail Address(es):
+Push Notification via E-mail for the Following Events
+Missed Calls
+Voice Mails
+Test
+Success! The sender account settings are configured correctly.
+System Log
+Log Filter:
+Type:
+Level:
+Time
+Type
+Level
+Content
+Clear Log
+Save Log
+Log Settings
+Log Settings
+Save Locally
+Save Remotely
+Minimum Level
+Minimum Level
+Server IP
+Server Port
+Local Facility Name
+System Time
+Please Select
+Time:
+(Optional)
+Note: Click the \"GET GMT\" button to update the time from the Internet with the preset servers or the customized servers (enter the IP address or domain name) in the above fields.
+Time Zone:
+Date:
+Daylight Saving Time
+Daylight Saving Time:
+Enable Daylight Saving Time
+NTP Server I:
+NTP Server II:
+Get from the Internet
+Start:
+End:
+(MM/DD/YY)
+(DD/MM/YY)
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sept
+Oct
+Nov
+Dec
+1st
+2nd
+3rd
+4th
+Last
+Mon
+Tue
+Wed
+Thu
+Fri
+Sat
+Sun
+M
+W
+T
+Current Time:
+Set Time
+Sync via the Internet
+Manually
+Account Management
+Old User Name:
+Old Password:
+New User Name:
+New Password:
+Confirm New Password:
+Local Management
+Remote Management
+Port:
+Port for HTTP:
+Port for HTTPS:
+IP/MAC Address:
+Remote Management:
+Passwords may contain 6-15 (Case-sensitive) letters and numbers.
+ICMP Ping:
+ICMP Ping
+Remote
+Local
+Local Management via HTTPS and Remote Management via HTTPS are disabled.
+Install the Certificate in your browser for Local/Remote Management via HTTPS.
+Local Management via HTTPS:
+Remote Management via HTTPS:
+Manage This Router via the Address:
+or
+Client Device Allowed for Remote Management:
+Only the Following IP/MAC Address
+All
+Certificate
+Download Certificate
+Your router is not connected to the Internet.
+CWMP Settings
+Inform:
+CWMP:
+Inform Interval:
+(seconds)
+ACS URL:
+ACS Username:
+ACS Password:
+Interface used by TR-069 client:
+Any WAN
+LAN
+Display SOAP messages on serial console:
+Connection Request Authentication
+Username:
+Password:
+Path:
+Port:
+URL:
+Simple Traversal of UDP over NATs:
+STUN Maximum Keep Alive Period: 
+(seconds)
+STUN Minimum Keep Alive Period:
+(seconds)
+STUN Server Address:
+STUN Server Port:
+Get RPC Methods
+SNMP Settings
+SNMP Agent:
+SNMP Agent for WAN:
+Read-only Community:
+Write Community:
+System Name:
+System Description:
+System Location:
+System Contact:
+Trap Manager IP:
+Backup and Restore
+Save a copy of your current settings.
+File:
+Restore previous settings from a saved file.
+Factory Default Restore
+Restore all the configuration settings to their default values.
+Restore all configuration settings to default values, except your login and cloud account information.
+Factory Defaults
+Click to restore all the settings to factory defaults. It is highly recommended that you back up your current configurations before restoration.
+Restore
+Device Information
+Online Upgrade
+Local Upgrade
+Firmware Upgrade
+New features will be available once the firmware upgrade is successful.
+New Firmware File:
+Please select the correct firmware build corresponding to the hardware version of the device.
+Do not turn off the router during the upgrade process to avoid any damage to the router.
+After the upgrade process is completed, the router will reboot automatically.
+Upgrade
+Latest Version:
+Your firmware is up to date
+Downloading...
+To avoid any damage, keep the device powered on.
+Internet is unavailable.
+Download failed.
+Invalid firmware. Please download the new firmware again.
+Check for Upgrades
+Are you sure you want to upgrade the firmware?
+Your device does not support TP-Link cloud service. Please contact TP-Link technical support if you want to continue.
+The current firmware does not support TP-Link cloud service. We strongly recommend that you download the latest firmware at www.tp-link.com and update it.
+The current firmware does not support TP-Link cloud service. We strongly recommend that you update the firmware by clicking the Update icon in the upper right corner.
+Manual Reboot
+Auto Reboot
+Auto Reboot:
+Time:
+Auto Reboot Interval:
+Three Days
+One Week
+Thirty Days
+Note: The Auto Reboot feature takes effect based on the router's system time. Please make sure you have already set up the time of the router.
+Traffic Monitor
+Traffic Monitor:
+The Traffic Usage of 
+All Devices
+Daily
+Hourly
+Minutely
+Upstream
+Downstream
+Traffic Monitor List
+Note:Traffic Monitor now is switched off, you can switch it on for monitoring the traffic usage on the router.
+Traffic Statistics
+Enable Traffic Statistics: 
+Statistics Interval:
+Traffic Statistics List
+IPTV
+Quick Setup - IPTV
+IPTV parameters can be set on this page.
+If you would like to set the WLAN port for an IPTV connection, please enable the wireless radio on Advanced > Wireless > Wireless Settings page.
+IPTV:
+Enable
+Note: If the WAN interface table is full, please go to Advanced > Network > Internet to delete an entry.
+Select a LAN port for the IPTV connection and connect the set-top box to this port.
+Note: When the WLAN port is set for an IPTV connection, the wireless functionality is only available for that IPTV connection.
+ISP:
+VPI:
+VCI:
+VLAN Tag
+Tag Value:
+Enable VLAN ID
+LAN Port:
+IPSec VPN
+Dead Peer Detection:
+IPSec Connection Name:
+Remote IPSec Gateway (URL):
+Tunnel access from local IP addresses:
+Subnet Address
+Single Address
+IP Address for VPN:
+Subnet Mask:
+Tunnel access from remote IP addresses:
+Key Exchange Method:
+Auto (IKE)
+Manual
+Authentication Method:
+Pre-Shared Key
+Pre-Shared Key:
+Perfect Forward Secrecy:
+Encryption Key:
+Authentication Algorithm:
+Authentication Key:
+==Phase 1==
+Main
+Aggressive
+Local Identifier Type:
+Local Wan IP
+Local Identifier:
+Remote Identifier Type:
+Remote Wan IP
+Remote Identifier:
+Diffie-Hellman Group for Key Exchange:
+Key Life Time(Seconds):
+==Phase 2==
+Telephone Numbers
+Advanced Settings
+Area Code Settings
+Telephone Name:
+SIP Account Advanced Settings
+Preferred Receive Ptime:
+Priority:
+1--high
+8--low
+Bound Interface:
+DSCP for SIP:
+DSCP for RTP:
+DTMF Relay Setting:
+SIP INFO
+In-band
+Registry Expiration Time:
+Registry Retry Interval:
+No Answer Time:
+(300-3600 seconds)
+(30-300 seconds)
+(5-60 seconds)
+SIP Transport Protocol:
+End with #:
+T.38 Support:
+MWI:
+No Telephone Numbers
+Add a New Number
+Status
+Register a Handset
+To register a cordless handset to the router:
+Step 1:
+On your cordless handset, open the Operation menu to start registration.
+Step 2:
+Select a router (generally router 1) if required.
+Step 3:
+Enter the PIN (0000 by default) if required.
+DND (Do Not Disturb)
+DND:
+Daily
+Saturday and Sunday
+Monday to Friday
+From:
+To:
+To:
+Call Blocking
+Incoming Calls
+Select the incoming number to be blocked:
+Number:
+Outgoing Calls
+Call Type:
+Mobile
+Landline
+Long Distance
+International
+Calls with Specific Number Prefix
+Number Prefix:
+Specific Number
+Anonymous Number
+Call Forwarding
+Select the incoming calls to be forwarded.
+All Incoming Calls
+Calls to the Telephone Number
+Calls to the Phone
+Calls from a Person in the Telephone Book
+Calls from the Telephone Number
+All anonymous calls to the number
+Set Forwarding Rules:
+Destination Telephone Number:
+Forward the Calls via:
+Call Forward Condition:
+Unconditional
+No Answer
+Enable this call forward rule
+telephone number
+Telephone Book
+Last Name:
+First Name:
+Private Phone Number:
+Work Phone Number:
+Mobile Phone Number:
+Speed Dial Number Type:
+-Please Select-
+Private Phone Number
+Work Phone Number
+Mobile Phone Number
+Speed Dial Number:
+Emergency Number Settings
+Emergency Number:
+No Operation Time:
+Emergency Number
+Emergency Number1:
+Emergency Number2:
+Emergency Number3:
+Emergency Number4:
+Emergency Number5:
+Add a New Contact
+No Contacts
+Telephone Numbers
+Area Code Settings
+Status
+Telephony Devices
+Device name:
+Number for Outgoing Calls:
+Number for Incoming Calls:
+VAD Support:
+Enable VAD
+Speaker Gain:
+Mic Gain:
+Call Log
+Call Log:
+Push Notification via E-mail for Missed Calls:
+Please first go to the <a>Push Service</a> page, enable Push Notification via E-mail and configure the settings.
+Call Through
+Call Through:
+Number for Incoming:
+Number for Outgoing Calls:
+PIN:
+Only Accept Calls from the Number Below
+Add More Numbers
+If Only Accept Calls from the Number Below is selected, you must add at least one phone number.
+DECT Settings
+DECT:
+Registration
+Your tpPhone must be registered on the product for you to make calls. For registration, a PIN is required. Define the PIN here (create a new one or keep the default 0000) and enter it on the tpPhone during registration.
+PIN:
+Radio Field Strength
+Reduce DECT Field Strength
+Eco DECT
+Security
+Encryption
+Enable (Recommended)
+tpPhone Settings
+tpPhone
+Registration
+Your tpPhone must be registered on the product for you to make calls. For registration a PIN is required. Define the PIN here and enter it on the tpPhone during registration.The PIN \"0000\" is preconfigured. You can keep this PIN or enter another.
+PIN:
+Call Rules
+Call Type or Prefix:
+Mobile
+Landline
+Long Distance
+International
+Calls with Specific Number Prefix
+Number Prefix:
+Number for Outgoing Calls:
+Voice Mail Settings
+Note: Please wait a few seconds after clicking the Play icon.
+USB storage device Disconnected.
+No Answer Time:
+(5-60s)
+No proper files found in the USB storage device.
+Not enough space available on the Voice Mailbox.
+Voice Mail:
+Remote Access to Voice Mail:
+Greeting for Voice Mail:
+default
+custom
+Remote Access PIN:
+Voice Mail Duration:
+Voice Mailbox Capacity:
+(0-0M):
+Voice Mail List
+Expand Storage Capacity with USB Storage Device:
+Push Notification via E-mail for Voice Mails:
+Cannot enable this feature because no USB storage device is found.
+The USB storage device is connected but not usable. Reconnect it to the router or try another USB storage device.
+Back Up Voice Mails from the Flash
+USB
+Flash
+Backup finished. % voice mails are backed up in the USB storage device.
+Backup finished. % voice mail is backed up in the USB storage device.
+Backing up... %1 / %2
+The voice mails are backed up in %
+Voice Mail Settings
+Note: Please wait a few seconds after clicking the Play icon.
+USB storage device disconnected.
+No proper files found in the USB storage device.
+Not enough space available on the Voice MailBox.
+Voice Mail:
+Greeting for Voice Mail:
+Default
+Custom
+Remote Access PIN:
+Voice Mail Duration:
+Voice MailBox Capacity
+(0-0M):
+Voice Mail List
+<span class='red' style='vertical-align: baseline'>Notice: </span>Pick up the phone (analog phone or DECT handset) and dial *30 to record a personalized greeting for your voice mail.
+<span class='red' style='vertical-align: baseline'>Notice: </span>To access your voice mail remotely, dial the number for incoming calls. When your personal greeting starts, press *. Enter your Remote Access PIN when prompted.
+Register a Handset
+Registering your handset
+Registration successful.
+Unable to register to the router.
+If the cordless (DECT) handset rings, it is registered successfully.
+Is the telephone ringing?
+Please wait for 15 seconds until handset finish synchronization.
+Phone Information
+Phone Name
+Phone Type
+Internal Number
+Number for Outgoing Calls
+Operation
+Select your Region and Time Zone.
+The Quick Setup function is only available when this device is working in DSL Modem Router mode. You can switch to DSL Modem Router mode at  Advanced > Operation Mode, or configure the router on the Advanced page.
+Set up a new username and password
+New Username:
+New Password:
+Confirm New Password:
+Please Select
+Please select a time zone
+The new username is required
+The password is required
+Passwords do not match.
+ISP List:
+L2 Interface Type:
+VLAN:
+Enable VLAN ID
+VLAN ID(7-4094):
+Warning: This will change auth mode to WPA/WPA2.
+Internet Diagnostic Failed:
+Internet diagnosis succeeded.
+Congratulations! Internet connected. Enjoy the Internet!
+Connection Status:
+Select Internet Service Provider (ISP)
+Internet Setup
+Wireless Settings
+Connection Test
+Summary
+Sorry!
+Wireless settings have been changed successfully. Please use the following wireless network names and passwords for your wireless connection.
+Please choose your current connection to continue:
+I have successfully reconnected to the router using the new wireless settings.
+I am using a wired connection.
+Username or password is incorrect. Click Reconfig to confirm your username and password. If the problem still exists, please contact your Internet service provider.
+Testing the Internet connection. It may take one to two minutes. Please wait...
+Enter the Internet connection information needed or contact your service provider for assistance.
+You can change the wireless network name and password.
+VoIP
+Select your ISP from the ISP List or select Other if you can't find your ISP.
+PPPoE
+PPPoA
+Dynamic IP
+Static IP
+IPoA
+User Name:
+Password:
+Confirm Password:
+IP Address:
+Subnet Mask:
+Gateway:
+DNS Server:
+Secondary DNS Server:
+Wireless Network (2.4GHz):
+Wireless Network (5GHz):
+Enable Wireless Radio
+Network Name (SSID):
+Password:
+DNS Servers:
+Internet not connected.
+Internet Connection Failed.
+Region and Time Zone
+Connection Type
+If you are not sure about which Internet Connection Type you have, use Auto-Detect or contact your Internet Service Provider (ISP) for assistance.
+Auto-Detect
+If your ISP only allows Internet access to a specific MAC Address, you need to clone the MAC Address of the primary computer. If you are not sure, select Do not Clone MAC Address.
+If you select Clone MAC Address, you need to clone the original computer's MAC address that is registered with your ISP.
+Please enter your IP information.
+Please enter your PPPoE username and password.
+Upon saving your wireless settings, you will be disconnected from your wireless network. Please reconnect using the new SSID.
+Your wireless device is not connected to the new wireless network. Please try again and tap OK.
+Congratulations!
+You have completed the Quick Setup process. Tap Test Internet Connection below, then tap Finish.
+Test Internet Connection
+VDSL
+ADSL
+Success! Tap Finish to end the Quick Setup process.
+Add telephone accounts to the router and start using the Telephony function right away.
+TP-Link Cloud Service
+Failed.
+Success!
+Oops... The Internet connection is not set up successfully.<br />1. Make sure all cables are properly connected.<br />2. Click Reconfig and verify that the Internet connection information is correct.<br />3. Contact our Technical Support if the problem still exists.
+Congratulations!
+You have completed the Quick Setup process.
+Click Test Internet Connection below, then click Finish.
+You are not logged into your TP-Link Cloud account. You can log in later from Basic > TP-Link Cloud.
+No TP-Link Cloud account?
+Register Now
+Log In Later
+Register a new account
+Your TP-Link Cloud account is:
+Congratulations! Network setup successfully. Enjoy the Internet.
+For more TP-Link Cloud functions, please log in with your <a class=\"link\" href=\"#\">TP-Link Cloud Account</a>.
+With a TP-Link Cloud account, you can:
+Access your device and local servers (FTP, HTTP, etc.) anywhere via the Internet
+Always keep your firmware up to date with the Online Upgrade function
+Manage multiple devices with only one account
+OpenVPN
+Note:
+No certificate currently, please <b>Generate</b> one before enabling VPN Server.
+Generate
+Enable VPN Server
+Service Type:
+UDP
+TCP
+Service Port:
+VPN Subnet/Netmask:
+Client Access:
+Home Network Only
+Internet and Home Network
+Certificate
+Generate the certificate.
+Configuration File
+Export the configuration.
+Export
+Certificate generating...<br>It will take a while, please wait.
+Success
+PPTP VPN
+Enable VPN Server
+Client IP Address:
+(up to 10 clients)
+Username:
+Password:
+VPN Connections
+OpenVPN Connection
+PPTP VPN Connection
+IPSec VPN Connection
+LED Control
+Night Mode:
+Enable
+Night Mode Period:
+to
+(HH:MM)
+Note: The night mode period takes effect based on the router's system time. Please make sure you have already set up the time of the router.
+ID
+Index
+Time
+Type
+Level
+Name
+WAN Interface Name
+Enable
+Modify
+Bound
+Description
+IP Address
+MAC Address
+Connection Type
+Security
+Received Packets
+Sent Packets
+2.4GHz
+5GHz
+Guest 2.4GHz
+Guest 5GHz
+BSSID
+SSID
+Signal Strength
+Channel
+Encryption
+Connect
+Log Content
+Device Name
+Effective Time
+Operation
+Status
+Binding Status
+Delete
+Group
+Network Destination
+Destination IPv6 Address/Prefix Length
+Subnet Mask
+Gateway
+DHCP Pool
+Client Name
+Assigned IP
+Leased Time
+Reserved IP Address
+Vendor ID
+Starting IP Address/Ending IP Address
+Facility
+LAN Interface
+WAN Interface
+Available LAN
+Available WAN
+IP Range/Port Range
+Priority
+Up (min/max)
+Down (min/max)
+Volume Name
+Active
+Capacity
+Free Space
+Folder Name
+Folder Path
+Media Sharing
+Network Neighborhood
+Media Server
+FTP
+ftp://
+FTP(via Internet)
+Media Server
+Access Method
+Access Address
+Port
+Vendor
+Model
+Safely Remove
+Total
+Select a Folder
+Profile Name
+Device Name
+Number
+Provider
+Number for Incoming Calls
+Internal Number
+Number for Outgoing Calls
+Number
+Call Type or Prefix
+Calls
+Forward via
+Destination Number
+Forward Type
+Date/Time
+Type
+Duration (hh:mm:ss)
+Duration
+Number/Contacts
+Device Number
+Telephony Device
+Number for Outgoing Calls
+Telephone Number
+Speed Dial Number
+Incoming Number
+Setting
+--
+Phone 1
+Phone 2
+Voice Mail
+Auto
+Service Type
+External Port
+Internal IP
+Internal Port
+Protocol
+Application
+Triggering Port
+Triggering Protocol
+External Protocol
+Application Name
+Service Description
+Internal IP Address
+IP Address/ MAC Address
+Total Packets
+Total Bytes
+Current Packets
+Current Bytes
+Current ICMP Tx
+Current UDP Tx
+Current SYN Tx
+Connection Name
+Remote Gateway
+Local Address
+Remote Address
+Wired
+Wireless
+Encrypted
+No Security
+On
+Off
+Wireless Off Time
+Repeat
+Remote IP
+Client IP Address
+LAN Port
+Negotiation Speed
+Device Name
+Real Time-Rate
+Traffic Usage
+2.4G
+5G
+Traffic Monitor List
+Stored in
+This field is required.
+You have exceeded five login attempts. Please try again in $s.
+The password is incorrect, please try again.
+Username
+Password
+Log in
+Phone
+PC
+Please only input letters and numbers.
+http://www.tp-link.com
+Your password is invalid. Passwords may contain 1-15 letters and numbers.
+Passwords do not match, please try again.
+Note
+To ensure the safety of your network, it is highly recommended that you set up a strong new password. Passwords may contain 1~15 (Case-sensitive) letters and numbers.
+New Password
+Confirm Password
+Save
+Low
+Middle
+High
+The username or password is incorrect, please try again.
+Only one device can log in at a time. Do you want to continue and force the other device to log off?
+Email
+Forgot password?
+Invalid email format.
+Let's Get Started
+Press and hold the Reset button for 10 seconds to restore the router to its factory defaults.
+Oops... We can't reach the cloud server.
+1. Make sure you have Internet access.
+2. The cloud server is inaccessible temporarily. Please refersh the page later.
+3. If the problem still exists, please connect <a target=\"_blank\" id=\"support\">TP-Link technical support</a>.
+Error
+Cloud Account
+Device Offline
+Oops...
+The device is offline. Please check the WAN and network configuration to make sure the appropriate settings are entered correctly.
+Email
+Password
+Forgot password?
+For more TP-Link Cloud functions, please log in with your <a class=\"link\" href=\"#\">TP-Link Cloud Account</a>.
+No TP-Link Cloud account?
+Register Now
+Login Failure.
+Internet is unavailable.
+Unable to bind the device. Please try again later.
+Unable to unbind the device. Please try again later.
+Incorrect username or password.
+This email is not registered.
+Incorrect username or password.
+This account is not yet activated.
+Incorrect TP-Link ID (email). Or your device is offline and only the admin (xxx@xxx.com) has offline access.
+The password is incorrect, please try again.
+Invalid email format.
+This TP-Link ID is not bound to this device.
+Invalid password. Please enter 6-32 ASCII characters excluding spaces.
+This TP-Link ID is locked for 2 hours since too many login attempts have been made. 
+Ethernet Configuration
+MAC Clone
+Use Default MAC Address
+Use Current Computer MAC Address
+Use Custom MAC Address
+Addressing Type:
+IP Address:
+QoS of UpStream
+Upstream:
+Scheduler Algorithm:
+Tatal Bandwidth:
+DSCP Mark:
+802.1P Mark:
+QoS of DownStream
+Downstream:
+Note: A blank criteria indicates no operation.
+Business Name:
+Direction:
+Queue:
+Mark Differentiated Service Code Point (DSCP):
+Mark 802.1P Priority:
+Enable this entry
+Note: A blank criteria indicates no operation.
+Class Name:
+Order:
+Ingress Interface:
+Ether Type:
+Source MAC Address:
+Source MAC Mask:
+Destination MAC Address:
+Destination MAC Mask:
+802.1P Priority Check:
+Source IP Address[/Mask]:
+Destination IP Address[/Mask]:
+Differentiated Service Code Point (DSCP) Check:
+Protocol:
+Source Port Range:
+Destination Port Range:
+Classification Results
+Direction:
+Queue:
+Mark Differentiated Service Code Point (DSCP):
+Mark 802.1P Priority:
+Enable this entry
+Queue List
+Flow Classification
+Business Classification
+Direction:
+Scheduler Algorithm:
+Queue Name:
+Weight(%):
+Forced
+Precedence:
+Success!
+Click Finish to end the Quick Setup process.
+Failed
+If all Quick Setup parameters are correct, please reboot your modem, wait 2 minutes, and click Test Internet Connection one more time. If you are not using a modem, you may need to contact your Internet Service Provider (ISP) for assistance.
+Please enter your PPPoE username and password.
+If your ISP only allows Internet access to a specific MAC address, you need to Clone that MAC Address to provide access to other devices. If you are not sure, select<strong>Do NOT clone MAC Address</strong>.
+Do NOT clone MAC Address
+Clone Current Computer MAC Address
+If you select Clone MAC Address, please make sure the MAC Address of this computer is registered with your ISP before clicking Next.
+Please enter your IP information.
+Please enter the PPTP uername and password.
+Please enter the L2TP uername and password.
+Failed
+Sorry!We detect that you have not reconnected your wireless device to the new wireless network.
+You need to reconnect your wireless devices to the new wireless network and click the Next button.
+Please use the following SSID and password for wireless connection:
+Make sure you have connected to the new wireless network.
+If you are not sure which Internet Connection Type you have, use Auto Detect or contact your Internet Service Provider (ISP) for assistance.
+Note:
+App
+Scan the QR code to download TP-Link Tether app
+Conveniently manage your network from any mobile device. Complete control from the palm of your hand.
+Invalid format.
+This field is required.
+Invalid email format.
+Invalid format.
+This number should be greater than %min.
+This number should be less than %max.
+This number should be between %min and %max.
+This field should be a hexadecimal number.
+Invalid format.
+The address cannot be 0.0.0.0.
+The address cannot be loopback address.
+The IP address cannot be a Class D address.
+The IP address cannot be a Class E address.
+The address cannot be 255.255.255.255.
+The address cannot start with 255.
+The address cannot start with 0.
+Subnet mask cannot be 255.255.255.255.
+Invalid format.
+Invalid format.
+Invalid format.
+Invalid format.
+Invalid format.
+The IPv6 address prefix cannot start with 2002.
+Invalid format.
+Invalid format.
+Invalid format.
+Please enter a valid date between 01/01/1970 and 12/31/2030.
+Invalid format.
+Invalid format.
+Invalid format.
+Invalid format.
+Invalid format.
+Invalid format.
+Invalid format.
+Invalid format.
+Invalid format.
+Invalid format.
+Invalid format.
+Invalid format.
+Please enter 1-15 alpha characters, numbers, - and _.

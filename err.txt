@@ -1,0 +1,747 @@
+Internal error.
+Keyword already exists. Please enter another one.
+Invalid file size. Please check your file and try again.
+Wrong file.
+Invalid file size. Please check your file and try again.
+The uploaded file was not accepted.
+Error! Please try again.
+Failed to restore to default settings.
+The uploaded file does not match the device's current hardware version.
+Invalid IP address.
+LAN Host IP must be on the same subnet with LAN IP. Please input another one.
+The WAN Host IP and current LAN IP cannot be on the same subnet. Please input another one.
+Invalid port number. Please input another one (1-65535).
+Invalid MAC address. The valid format is '00:00:00:00:00:00'.
+Please at least configure IP Address, Port or MAC Address for the LAN Host.
+Please at least configure IP Address, Port or MAC Address for the WAN Host.
+Please configure the time for the new schedule.
+Please at least configure LAN Host or WAN Host for the Filtering Rule.
+Invalid filtering rule. Please input another one.
+The added LAN Host conflicts with the existing LAN Hosts.
+The added WAN Host conflicts with the existing WAN Hosts.
+The added schedule conflicts with the existing schedule.
+The added filtering rule conflicts with the existing rules.
+Please input at least one URL.
+URL number has reached the upper limit.
+The entry in use cannot be deleted.
+Internal error occurred in rule setting.
+Failed to set the default filtering rule.
+Failed to set URL. Please try again.
+The MAC Address of Child's PC should differ from that of Parental PC. Please input another one. 
+The input value should not contain: \\/\":*?<>|&. Please input another one.
+The input value should not end with whitespace characters. Please input another one.
+The input URL contains illegal characters. Please input another one.
+The MAC Address of Parental PC should differ from that of Child's PC. Please input another one.
+The number of added entries has reached the limit.
+The number of added entries has reached the limit.
+The Description conflicts with the existing Descriptions.
+The Device Name conflicts with the existing Device Names.
+The requested minimum downstream rate can't be satisfied. Please input another one.
+The requested minimum upstream rate can't be satisfied. Please input another one.
+The added rule conflicts with the existing rules.
+Start IP Address must be on the same subnet with LAN IP, but cannot be the same as LAN IP. Please input another one.
+The End IP Address is the same as LAN IP or is not on the same subnet with LAN IP address. Please input another one.
+The total downstream bandwidth should not be less than the sum of IPTV Downstream Bandwidth Guarantee and all the minimum downstream rate of the enabled rules.
+The total upstream bandwidth should not be less than the sum of IPTV Upstream Bandwidth Guarantee and all the minimum upstream rate of the enabled rules.
+The total upload bandwidth should not be less than the VoIP Upstream Bandwidth Guarantee.
+The upstream bandwidth guarantee cannot be 0 kbps. Please enter another one.
+Controlling Rules list is full! Please delete one existing rule before adding a new one.
+The business or flow classification must be bound to one queue.
+The weight of the added WRR queue must be greater than 0.
+The precedence of the added SP queue must not be larger than 8.
+The queues with the same QoS direction must have different names.
+The precedence of the added SP queue must differ from the existing SP queue.
+The sum of all WRR queues with the same QoS direction should not be larger than 100.
+The requested scheduler algorithm is not supported.
+The business name of the added business classification must differ from that of the existing business classification.
+There is no QoS interface bound to the business classification.
+Business classification can be used only for upstream QoS.
+There is no QoS queue bound to the business classification.
+There is no QoS interface bound to the flow classification.
+There is no QoS queue bound to the flow classification.
+Invalid ingress interface of the flow classification.
+The class name of the added flow classification must differ from that of the existing flow classification.
+The criteria of the added classification must differ from that of the existing classifications.
+The source IP address of flow classification for upstream QoS must be IP address of LAN side.
+The destination IP address of flow classification for upstream QoS should not be IP address of LAN side.
+The source IP address of flow classification for downstream QoS should not be IP address of LAN side.
+The destination IP address of flow classification for downstream QoS must be IP address of LAN side.
+Invalid QoS direction.
+This number should be between 0 and 1000.
+The total upload bandwidth should not be less than the VoIP Upload Bandwidth Guarantee.
+The total download bandwidth should not be less than 1 kbps.
+The new rule conflicts with the existing one.
+The IP address must be on the same subnet with LAN IP address. Please input another one.
+Virtual Servers list is full.
+The entry already exists or its port is occupied. 
+Invalid port number. Please input another one (1-65535).
+The IP address is not on the same subnet with LAN IP address. Please input another one.
+
+Port Triggering list is full.
+Triggering Ports conflict.
+Triggering Port must range from 1 to 65535. Please input another one.
+External Port must range from 1 to 65535. Please input another one.
+The new entry conflicts with the existing one.
+Invalid LAN IP address. Please input another one.
+Invalid Subnet Mask. Please input another one.
+LAN IP does not match the subnet mask, or it is a reserved IP address.
+The LAN IP should not be on the same subnet with the WAN IP. Please input another one.
+The LAN IP of different groups should not be on the same subnet. Please input another one.
+Failed to get default LAN IP for the new group. Please alter LAN IP and Subnet Mask of other groups.
+Invalid Start IP Address. Please input another one.
+Invalid End IP Address. Please input another one.
+Invalid Subnet Mask. Please input another one.
+Invalid Primary DNS. Please input another one.
+Invalid Secondary DNS. Please input another one.
+Invalid Remote Server's IP Address. Please input another one.
+Please input Remote Server's IP Address.
+Start IP Address must be on the same subnet with the LAN IP, and it cannot be a reserved IP address. Please input another one.
+End IP address must be on the same subnet with the LAN IP, and it cannot be a reserved IP address. Please input another one.
+Default Gateway must be on the same subnet with the LAN IP, and it cannot be a reserved IP address. Please input another one.
+Invalid IP Address. Pleas input another one.
+Invalid MAC Address. Please input another one.
+IP address must be on the same subnet with the LAN IP, and it cannot be a reserved IP address. Please input another one.
+The input MAC address conflicts with the existing rules. Please input another one.
+The input IP address conflicts with the existing rules. Please input another one.
+Please input the Client Name.
+Please input the Vendor ID.
+Invalid Start IP Address. Please input another one.
+Invalid End IP Address. Please input another one.
+Invalid or no Default Gateway. Please input a valid Default Gateway.
+Invalid or no Primary DNS. Please input a valid Primary DNS.
+Invalid or no Secondary DNS. Please input a valid Secondary DNS.
+Start IP Address must be on the same subnet with the LAN IP, and it cannot be a reserved IP address. Please input another one.
+End IP address must be on the same subnet with the LAN IP, and it cannot be a reserved IP address. Please input another one.
+Default Gateway must be on the same subnet with the LAN IP, and it cannot be a reserved IP address. Please input another one.
+The input Client Name conflicts with the existing entries. Please input another one.
+The input Vendor ID conflicts with the existing entries. Please input another one.
+The input DHCP Address Pool overlaps an existing DHCP address pool. Please input another one.
+The Option Value is out of range. It should range from 1 to 254.
+Please input Option Value. The Option Value should range from 1 to 254.
+The input Vendor ID conflicts with the existing entries. Please input another one.
+The input reserved IP and MAC conflict with the arp bind list items. Please input another one. You can check the arp bind list at \"Security->IP & MAC Binding\".
+Invalid Default Gateway. Please input another one.
+Invalid Destination IP Address. Please input another one.
+Invalid Subnet Mask. Please input another one.
+Invalid Gateway. Please input another one.
+Subnet Mask does not match the Destination IP Address. Please input another one.
+Destination IP Address cannot be on the same subnet with the LAN IP. Please input another one.
+Destination IP Address cannot be on the same subnet with the WAN IP. Please input another one.
+Entry already exists. Please input another one.
+Gateway must be on the same subnet with the device interface's IP address. Please input another one.
+Invalid Static Route. Please input another one.
+The connection that the entry belongs to does not exist.
+DNS error. Please try again.
+Failed to set DNS. Please try again.
+Failed to set Dynamic DNS. Please try again.
+Failed to obtain Dynamic DNS information.
+Username cannot exceed 64 characters.
+Password cannot exceed 64 characters.
+Dynamic DNS service is not running.
+Invalid update URL.
+Please enter the username.
+Please enter the password.
+Invalid domain name.
+The update URL length cannot exceed 384 characters.
+Static time server error. Please try again.
+Invalid year format. Please input another one (1970-2037).
+Invalid month format. Please input another one (01-12).
+Invalid day format. Please input another one (01-31).
+Invalid hour format. Please input another one (00-23).
+Invalid minute format. Please input another one (00-60).
+Invalid second format. Please input another one (00-60).
+Invalid start date.
+Invalid end date.
+Invalid date setting. Start date should be earlier than end date.
+The number of binding entries has reached its limit.
+The loaded ARP binding entry conflicts with an existing one.
+The loaded ARP entry conflicts with an existing entry.
+Invalid IP address format.
+Invalid MAC Address format.
+Invalid status.
+The input IP address must be on the same subnet with the LAN IP address. Pleas input another one.
+Failed to add system ARP entry.
+Failed to delete system ARP entry.
+Failed to set system ARP entry.
+Invalid parameter format.
+The input binging IP and MAC conflict with the DHCP reserved IP and MAC. Please input another one. You can check the DHCP IP and MAC reserved items at \"Network->Lan Settings\".
+Auto detecting... Please don't add or delete any connection now.
+Invalid VCI. Please input another one.
+Invalid VPI. Please input another one.
+Invalid LAN port. Please input another one.
+IPTV bridge connection is not in this group.
+IPTV LAN port is not in this group.
+The LAN port for the IPTV connection is occupied by another connection media (e.g. Ethernet WAN). Please check the connections. 
+Ethernet WAN is not enabled.
+IPTV LAN Port cannot be blank.
+IPTV LAN IP address conflicts with the WAN IP Address.
+Internal error. Unable to enable VLAN.
+Invalid VLAN ID value, it should be 7-4094.
+Invalid VLAN ID value, it should be 0-7.
+Ethernet WAN interface is not in the default group.
+Ethernet WAN interface name cannot be blank.
+VLAN is disabled. Please enable it first.
+The LAN port for the Ethernet WAN connection has been occupied by another connection media (e.g. IPTV). Please check the connections.
+Ethernet WAN interface does not exist.
+SCR value cannot be blank.
+PCR value cannot be blank.
+SCR value cannot be larger than the PCR value.
+MBS value cannot be blank.
+DSL WAN interface does not exist.
+Invalid physical connection type for this IP connection.
+Unsupported physical connection type.
+
+No DSL/Ethernet link configuration.
+This connection type is not supported.
+Failed to generate MAC address. Please delete an existing entry and try again.
+Invalid VLAN ID.
+This VLAN ID already exists. Please input another one.
+Internal error.
+The value must be within the specified string array. Please input another one.
+Invalid IP address format.
+Invalid interface name.
+Invalid MAC address or incorrect format.
+Invalid MAC address or incorrect format.
+WAN IP cannot be on the same subnet with the LAN IP.
+Invalid DNS server address format.
+Invalid IP address or incorrect format.
+Invalid Gateway or incorrect format.
+
+IPoA does not support single-PVC-multi-connection. Please set available VPI/VCI values.
+Failed to create IPoA interface.
+Internal error.
+The value must be within the specified string array. Please input another one.
+Invalid IP address format for IP connection.
+Invalid IP address format for PPP connection.
+Invalid interface name for IP connection.
+Invalid interface name for PPP connection.
+Invalid MAC address or incorrect format.
+Invalid MAC address or incorrect format.
+
+
+
+Invalid IP address or incorrect format for IP connection.
+Invalid IP address or incorrect format for PPP connection.
+Invalid Gateway or incorrect format for IP connection.
+Invalid Gateway or incorrect format for PPP connection.
+The IP address of IP connection cannot be on the same subnet with LAN IP.
+The IP address obtained from the PPP dial-up cannot be on the same subnet with the LAN IP.
+Internal error.
+The value must be within the specified string array. Please input another one.
+Invalid IP address format for IP connection.
+Invalid IP address format for PPP connection.
+Invalid interface name for IP connection.
+Invalid interface name for PPP connection.
+Invalid MAC address or incorrect format.
+Invalid MAC address or incorrect format.
+
+
+
+Invalid IP address or incorrect format for IP connection.
+Invalid IP address or incorrect format for PPP connection.
+Invalid Gateway or incorrect format for IP connection.
+Invalid Gateway or incorrect format for PPP connection.
+The IP address of IP connection cannot be on the same subnet with LAN IP.
+The IP address obtained from the PPP dial-up cannot be on the same subnet with the LAN IP.
+Internal error.
+The value must be within the specified string array. Please input another one.
+Invalid IP address format.
+Invalid interface name.
+PPPoA connection does not support MAC Clone.
+MAC Clone error.
+The number of WAN ports exceeds the limit.
+There is no DSL interface.
+PPPoA does not support single-PVC-multi-connection. Please set available VPI/VCI values.
+The IP address obtained from the PPP dial-up cannot be on the same subnet with the LAN IP.
+Invalid DNS address.
+Failed to create PPPoA interface.
+Failed to assign PVC to the PPPoA interface.
+No ATM interface exists for this PPPoA connection.
+Failed to generate MAC address. Please delete an entry and try again.
+Unknown PPP connection type.
+The PPPoE connection does not have an Ethernet interface.
+The value must be within the specified string array. Please input another one.
+The IP of Second Connection cannot be on the same subnet with the LAN IP.
+Invalid IP address or incorrect format.
+At most 2 devices can be activated simultaneously.
+At most 8 values can be activated simultaneously.
+Cannot detach the Logical Volume in use. 
+The Username cannot contain \"nobody\".
+Invalid Directory, please input another one.
+Failed to unlock PIN protection. Please confirm PIN code.
+Invalid file size. Please check your file and try again.
+Wrong file.
+At most 4 entries for USB 3G uploaded commands.
+Failed to parse uploaded file.
+An entry using the same model but different commands already exists, please delete it first.
+USB 3G Modem Entries list is full. No more uploads.
+The server name should take less than 16 bytes.
+Please select volume before clicking 'Save'.
+Please select folder path.
+No USB device found. Please check if your USB device is properly connected.
+Invalid IPv6 site address. Please input another one.
+Invalid IPv6 default gateway. Please input another one.
+Invalid prefix length.
+The IPv6 static route already exists. Please input another one.
+The destination IPv6 address is the same as the LAN IP address.
+The IPv6 gateway must contain the same site prefix as the WAN does.
+The IPv6 gateway must contain the same site prefix as the LAN does.
+Invalid Destination IPv6 Address. Please input another one.
+Invalid Gateway. Please input another one.
+The connection that the entry belongs to does not exist.
+Invalid WAN IPv6 connection type.
+Invalid 6RD prefix. Please check the 6RD prefix and its length.
+The maximal length of feature code is 3 characters and it cannot be blank. 
+Feature code must start with '*' or '#' and consist of at most another two numbers (0-9). 
+The input feature code conflicts with the existing entries. Please input another one.
+The input entry conflicts with the existing entries.
+The input entry conflicts with the existing entries.
+The input profile name already exists. Please input another one.
+The input phone number and registrar already exist. Please input another one.
+Phone name cannot be blank.
+The input phone name conflicts with an existing one. Please input another one.
+Invalid contact content.
+Contact conflicts with the existing entries. Please input another one.
+Handset is busy. Please try later.
+DECT Base station is busy. Make sure no handset is in use and try again.
+DECT is disabled.
+tpPhone is busy. Please try again later.
+The router is busy. Make sure no tpPhone is in use and try again.
+tpPhone is disabled.
+Invalid username or password. Please create another one.
+Wireless settings conflict. Please verify the settings, e.g. 1.WEP security or WPA/TKIP encryption is not supported with 11n-only wireless mode enabled; 2.WEP security or WPA/WPA2 Enterprise is not supported when WPS is enabled; 3.The hidden SSID is not support with WPS enabled.
+Invalid wireless settings.
+The input SSID already exists. Please input another one.
+The input MAC Address Filtering entry already exists.
+Failed to obtain PIN code. Please try again.
+The SSID is already in use by the Guest Network. Please input another one.
+IPsec Tunnel Name already exists. Please input another one.
+IPSec Tunnel Local Address must be on the same subnet with the LAN IP.
+IPSec Tunnel Remote Address cannot be on the same subnet with the LAN IP.
+The service port is already in use.
+The VPN Subnet/Netmask and LAN IP address cannot be in the same subnet.
+The VPN Subnet/Netmask and PPTP VPN IP address cannot be in the same subnet.
+The client IP address and LAN IP address cannot be in the same subnet.
+The client IP address and OpenVPN Subnet/Netmask cannot be in the same subnet.
+Invalid e-mail address.
+Username is required.
+E-mail password is required.
+Invalid SMTP server address.
+Enter a correct receiver e-mail address. If more than one address is entered, separate them with \";\".
+The function is not supported.
+The request is denied. Please verify if the value or operation is valid.
+Internal error.
+Invalid value.
+Buffer overflows or the value has reached its limit.
+Invalid parameter name.
+Invalid parameter type.
+Invalid value.
+Invalid configuration file. Please check the file format and value.
+Corresponding object not found.
+Corresponding case not found.
+
+The number of entries has reached its limit.
+The length of this value is out of range.
+IO failed to obtain data.
+IO failed to be configured.
+Failed to access data.
+Failed to upload upgrade file. Please select the correct file.
+Failed to upload configuration file. Please select the correct file.
+Incorrect old password.
+Failed to obtain current PC's MAC address. Please try again.
+Unknown error.
+Failed to obtain parameters.
+Failed to set parameters.
+Invalid value.
+The value is out of range.
+The character string should not contain non-ASCII characters. Please input another one.
+Invalid IP address format.
+The IP address cannot be broadcast address.
+Class A network number of the IP address cannot be 0.
+The IP Address cannot be the loopback address (127.0.0.0).
+Invalid Subnet Mask. Please input another one.
+Class C host number of the LAN IP address cannot be 255.
+The IP address cannot be multicast address.
+The IP address cannot be a reserved LAN IP address.
+Invalid IP address. Network address cannot be all 0 or all 1 binary values.
+Invalid IP address. Host number cannot be all 0 or all 1 binary values.
+The IP Address must be on the same subnet with the Gateway.
+Invalid MAC Address format.
+The MAC address cannot be 00:00:00:00:00:00.
+The MAC address cannot be a broadcast address.
+The MAC address cannot be a multicast address.
+Please set an available URL.
+Please set an available port.
+Please set an available path.
+Please set available period!
+Please set available address!
+The STUN minimum keep alive period must be no larger than The STUN maximum keep alive period!
+Please select a configuration file.
+Please select an upgrade file.
+The Old Password cannot be blank.
+The Old Password must be in ASCII character format.
+The New Username cannot be blank.
+The New Username must be in ASCII character format.
+The New Password cannot be blank.
+The New Password must be in ASCII character format.
+Passwords do not match.
+Invalid password. Passwords must contain 6-15 letters and/or numbers.
+Please input valid IP address or MAC address.
+Please input valid IP address or MAC address.
+HTTP Local Management port number must be 80 or a number between 1024 and 65535.
+HTTPS Local Management port number must be 443 or a number between 1024 and 65535.
+HTTP Local Management port number cannot be the same with HTTPS Local Management port number. Please input another one.
+HTTP Remote Management port number must be 80 or a number between 1024 and 65535.
+HTTP Remote Management port number cannot be the same with HTTPS Local Management port number. Please input another one.
+HTTPS Remote Management port number must be 443 or a number between 1024 and 65535.
+HTTP Local Management port number cannot be the same with HTTPS Remote Management port number. Please input another one.
+HTTP Remote Management port number cannot be the same as HTTPS Remote Management port number. Please input another one.
+Invalid year format. Please input another one (1970-2037).
+Invalid month format. Please input another one (01-12).
+Invalid day format. Please input another one (01-31).
+Invalid hour format. Please input another one (00-23).
+Invalid minute format. Please input another one (00-60).
+Invalid second format. Please input another one (00-60).
+Invalid NTP Server format. Please input an IP address or a domain name.
+Description cannot be blank or contain characters \" \\ / : * ? < > | &
+Please input correct URL.
+Please select at least one LAN Host entry or WAN Host entry.
+The end time should not be earlier than the start time.
+Please add at least one URL entry.
+The Starting/Ending Port number should be between 1 and 65535.
+The Start/End Time should not be equal.
+Please input the IP address and port number.
+Please input numerical values except 0.
+Invalid port number. Please input another one between 1 and 65535.
+The end port number value must be than the start port number. Please input another one.
+The start port number cannot be blank when the end port number is not blank.
+The maximum bandwidth should be larger than the minimum bandwidth.
+The end IP address must be larger than the start IP address. Please input another one.
+The start IP address cannot be blank when the end IP address is not blank.
+The minimum rate for the upstream and downstream values cannot be blank.
+The total upstream bandwidth cannot be larger than the current DSL upstream rate ($ kbps).
+The total downstream bandwidth cannot be larger than the current DSL downstream rate ($ kbps).
+Input value is out of range, the max value of throughput is 100000kbps.
+Input value is out of range, the max value of throughput is 1000000kbps.
+Invalid total bandwidth value for WRR or Traffic Control. Please input a value between 1 and the maximum line rate.
+Invalid total bandwidth for CAR. Please leave the input field blank (for no limitative total bandwidth), or input a value between 1 and the maximum line rate. 
+The Direction field is blank. Please select one from the list.
+Please input correct queue name. Queue name cannot be blank or contain characters '\\/\":*?<>|&'
+The length of queue name must be less than 12 characters.
+Invalid weight. Please input a number between 1 and 100.
+Invalid schedule algorithm.
+Please input a valid class name. Class name cannot be blank or contain characters '\\/\":*?<>|&'
+The length of class name must be less than 12 characters.
+Ingress interface cannot be blank. Please select one from list.
+Invalid MAC address mask. Please input another one.
+Queue cannot be blank. Please select one from list.
+Business name cannot be blank. Please select one from list.
+Invalid port segment format. It must be in the format of XX-XX or XX.
+Failed to edit the entry.
+To avoid possible conflicts with the USB FTP Server, please enter another service port beyond the range of 59990-59999.
+Invalid internal port format. It must be blank or in the format of XX.
+Please input a valid IP address for the LAN port.
+Please input a valid subnet mask for the LAN port.
+LAN port's IP address cannot match the Subnet Mask.
+Please input Start IP address.
+Please input End IP address.
+Address lease time is beyond the required range.
+Invalid gateway format.
+Invalid default domain format.
+Invalid Primary DNS Server format.
+Invalid Secondary DNS Server format.
+DHCP Relay is enabled. Please input remote DHCP Server IP address.
+Invalid Remote Server address format.
+The second IP address cannot be the same with the LAN port's IP address.
+Invalid configuration of DHCP address pool. DHCP address pool must be on the same subnet with the network and the host number cannot be all 0 or all 1 binary values.
+Invalid gateway address. Gateway address must be on the same subnet with the network and the host number cannot be all 0 or all 1 binary values.
+The last part of the Start IP address cannot be 0 or 255.
+The last part of the End IP address cannot be 0 or 255.
+Invalid device name. Please input another one.
+Please input device names.
+Please input Vendor ID.
+Please input valid Start IP.
+Please input valid END IP.
+Please input Gateway address.
+Please input the specified option value.
+Please input available DNS1.
+Invalid DNS2 format.
+Vendor ID should not contain quotation marks.
+Wrong device name，the length of device name should beneath 64.
+User name cannot be blank.
+Password cannot be blank.
+Invalid domain name.
+Domain name cannot be blank.
+User name cannot be blank.
+Password cannot be blank.
+Please enter a valid domain name.
+Please enter a valid server name.
+User name cannot be blank.
+Password cannot be blank.
+Please enter a valid domain name.
+Please enter a valid server name.
+Invalid Update-URL.
+The loaded entry already exists.
+Please select your desired entries.
+VPI value must be a value between 0 and 255. Please input another one.
+VCI value must be a value between 0 and 65535. Please input another one.
+This PVC already exists in the PVC list.
+Invalid port. Please select another one.
+Please select at least one debug mode.
+Invalid VPI/VCI range.
+Invalid SCR value. Pleas input a value between 0 and 5500.
+Invalid SCR value. Please input integers between 0 and 5500.
+Invalid MBS value. Please input a value between 0 and 65535.
+Connection type not selected.
+This function is disabled under the current WAN port connection type.
+Invalid MTU value. Please input a value between 576 and 1500.
+Invalid MTU value. Please input a value between 576 and 1492.
+Invalid DNS Server Address.
+Invalid secondary DNS Server Address.
+Invalid online triggering time. Please input a value between 0 and 120.
+Please input the username.
+Please input the password.
+Please select a WAN port as the system default gateway.
+Failed to search PVC.
+Please set available gateway IP when searching PVC automatically.
+No interface added or no group name.
+Please select an interface first.
+This group already exists. Please input another one.
+Passwords don't match.
+Incorrect username. Please input another one.
+SCR value cannot be blank.
+PCR value cannot be blank.
+SCR value cannot be larger than the PCR value.
+Invalid group name. Please input another one.
+MBS value cannot be blank.
+The Server IP Address/Name field cannot be blank.
+At least one DNS address must be entered if the Server IP Address/Name is not an actual IP address.
+This VLAN ID already exists. Please input another one.
+Invalid VLAN ID.
+Invalid VLAN PRIORITY range.
+Connection ID cannot be blank.
+T-Online Number cannot be blank.
+User Suffix cannot be blank.
+Invalid Reconnect time. Please input another one.
+Reconnect time cannot be blank.
+Invalid IP address. Please input another one.
+Invalid Subnet Mask. Please input another one.
+Invalid Default Gateway. Please input another one.
+IP address conflicts with Subnet Mask. Please input another one.
+Default gateway conflicts with Subnet Mask. Please input another one.
+The default gateway must be on the same subnet with the IP address. Please input another one.
+Invalid primary DNS. Please input another one.
+Invalid secondary DNS. Please input another one.
+IPoA does not support single-PVC-multi-connection. Please set available VPI/VCI values.
+Illegal host name. Please input another one.
+You have selected to configure the DNS manually. Please set at least one DNS server address.
+Invalid Max Idle Time. Please input a number between 0 and 99.
+PPPoA does not support single-PVC-multi-connection. Please set available VPI/VCI values.
+Please input values for Read Community.
+Please input values for Set Community.
+Invalid Trap Manager IP address. Please input another one.
+The Share Name cannot be blank.
+The Share Name must be in ASCII characters format.
+Folder name should not contain white space or \\/:*?\"<>|]
+The Directory cannot be blank.
+The Directory must be in ASCII characters format.
+The Directory already exists.
+The Share Name already exists.
+The directory does not exist.
+Username should not contain white space or \\/:*?\"<>|@+=;,.[]()$
+The input user name conflicts with an existing one.
+Please input the service port.
+The service port must be a number between 1 and 65535.
+The service port is out of range.
+The service port already exists.
+The Server Name cannot be blank.
+The Server Name must be in ASCII characters format.
+Server Name should not contain white space or \\/:*?\"<>|@+=;,.[]()
+Please choose a 3G USB modem configuration file.
+No available WAN connection detected. Please make sure that you select the correct tunneling mechanism and try again. If the problem still exists, please contact your ISP.
+Please input a prefix.
+Invalid IPv6 site prefix. Please input another one.
+Please input prefix length.
+The prefix length must be 64.
+Please input the start IPv6 interface ID.
+Please input the end IPv6 interface ID.
+Please input the leased time.
+Invalid start IPv6 interface ID. Please input a hexadecimal number between 1 and FFFF.
+Invalid end IPv6 interface ID. Please input a hexadecimal number between 1 and FFFF.
+Invalid leased time. Please input a number between 0 and 999999.
+The start interface ID should be smaller than the end interface ID. Please input another one.
+Please select at least one IP stack.
+Invalid IPv6 address format.
+The prefix length must be smaller than 128 bits.
+You have selected to configure IPv6 DNS manually. Please input at least one valid IPv6 DNS server address.
+Please input a correct destination IPv6 address.
+Please input a valid prefix length. The value cannot exceed 64.
+Please input a correct IPv6 Gateway Address.
+Gateway address cannot have the same prefix as the selected WAN IPv6 interface address.
+Please enter a correct remote IPv6 address.
+No available WAN connection detected. Please make sure that you select the correct tunneling mechanism and try again. If the problem still exists, please contact your ISP.
+Please enter a 6rd prefix length between 1 and 32.
+Please enter the 6rd prefix provided by your ISP.
+Please enter the Border Relay IPv4 Address provided by your ISP.
+Please enter an IPv4 mask length between 0 and 32.
+Only the Dynamic IP WAN connection supports Auto 6RD. Please change the configuration type to manual or select another connection type.
+No available WAN connection detected. Please make sure that you select the correct tunneling mechanism and try again. If the problem still exists, please contact your ISP.
+No available WAN connection detected. Please make sure that you select the correct tunneling mechanism and try again. If the problem still exists, please contact your ISP.
+Invalid IPv6 address format.
+Invalid prefix length.
+There are too many existing accounts, one will be deleted. 
+The number of accounts has exceeded its limit. Please delete an existing account before adding another one.
+The Profile Name already exists.
+The Phone Number and Registrar already exist.
+The Prefix already exists.
+The destination field cannot be blank.
+Invalid Max Length. The Max Length value should be larger than the Prefix's length.
+Invalid Strip Length. The Strip Length should be smaller than the Prefix's length.
+The Interface Enable field cannot be blank.
+The number of dial plan entries has exceeded its limit. Please delete an existing plan before adding another one.
+The Interface Barring field cannot be blank.
+The number of entries has exceeded its limit. Please delete an existing entry before adding another one.
+The input Speed Dial entry already exists.
+Note: USB Mass storage device is disconnected.
+Note: No valid files were found within the USB Mass Storage device.
+Note: Not enough USB Mailbox Capacity available.
+The selected item will be deleted.
+The number of dial plan entries has exceeded the limit. Please delete an existing plan before adding another one.
+The Voicemail is busy now, please try again later.
+Please enter ASCII characters only.
+Please input a valid value in this field. $
+The length of this value is out of range. $
+The value is out of range. $
+The value can only contain characters 0-9. $
+This entry contains invalid characters. $
+The value cannot contain the following characters \" \"'\\;:<@ \". $
+Invalid IP Address.
+
+This phone number already exists.
+Note: The Profile Name already exists. The account with the same profile name will be removed.
+The number of accounts has exceeded its limit. Please delete an existing account before adding another one.
+Anonymous calls have already been added into the list.
+Please select a telephone number or a phone.
+Please input a number.
+Please input a telephone number with 1 to 8 digits.
+Please select the incoming number.
+Please select the outgoing number.
+DND start time must be earlier than end time.
+Please select Dial via Number.
+The input number cannot be same with the existing ones.
+Registrar Address cannot be 0.0.0.0.
+Contact already exists.
+The number cannot be blank.
+The name cannot be blank.
+Speed dial number cannot be blank.
+For the security of your voicemails, we strongly recommend you create a new PIN.
+No USB storage device found.
+No voice mail is found or voice mails have been backed up.
+Not enough free capacity in the USB storage device for backup.
+Backup failed.
+Backup is already in progress.
+Failed to write the voice mails into the USB storage device.
+Failed to read the voice mails from the flash memory.
+Test failed.
+Test timeout. Please try again later.
+Unable to resolve SMTP server address. Make sure the SMTP server address is correct and the router is connected to the Internet.
+Unable to connect to SMTP server. Make sure the SMTP server settings are correct and the router is connected to the Internet.
+SSL negotiation failed. The SMTP server may not support SSL connection.
+Test failed. The SMTP server may not support STARTTLS.
+Test failed. Make sure the username or e-mail password is correct or enable STARTTLS.
+Incorrect e-mail address.
+Test failed.
+Test failed.
+Wan not connected, you have to re-export client.ovpn or change your current client.ovpn when wan is connected.
+DDNS not enabled, use your current wan ip to generate client.ovpn.You have to re-export client.ovpn when wan ip changed.
+DDNS enabled but not connected, use your current wan ip to generate client.ovpn.
+Currently your ddns is not enabled, highly recommend you to use ddns with openvpn.
+Please input a valid service port.Valid values are 1024-65534.
+The service port already exists, try another one and remember valid values are 1024-65534.
+OpenVpn keys have a valid time of 10 years.You must set your router's time to current internet time before you use it.(Valid values are from year 2015-2037)
+Invalid client end ip.End ip must be bigger that start ip, and 10 clients at most.
+Invalid username or password. Please enter up to 15 characters using a-z, A-Z, 0-9 and _.
+Please input an SSID.
+You can input 32 characters at most in the SSID field.
+Please input Bridge SSID.
+You can input 32 characters at most in the Bridge SSID field.
+Please input Bridge SSID.
+Invalid Bridge SSID format. Please verify the input.
+Bridge ASCII password contains invalid characters.
+The ASCII Bridge connection's WEP key must be 5, 13 or 16 characters in length.
+The hexadecimal password of Bridge connection contains invalid characters.
+The hexadecimal Bridge connection's WEP key must be 10, 26 or 32 characters in length.
+The Bridge connection PSK key must contain 8 to 63 ASCII characters or 64 hexadecimal characters.
+If WDS is enabled, channel must be set according to the Root AP.
+Connecting AP channel is $, which should be the same with configured AP channel. Please confirm channel settings.
+Invalid SSID.
+Invalid Beacon interval value. Please input another one.
+Invalid RTS threshold value. Please input another one.
+Invalid Fragmentation threshold value. Please input another one.
+Invalid DTIM interval value. Please input another one.
+Beacon interval value must be between 25 and 1000. Please input another one.
+The RTS threshold value must be between 1 and 2346. Please input another one.
+Fragmentation threshold value must be between 256 and 2346. Please input another one.
+DTIM interval value must be between 1 and 255. Please input another one.
+11n-only is not supported with WEP encryption enabled.
+11n-only is not supported with TKIP encryption enabled.
+WPA encryption is not supported with WPS enabled.
+TKIP encryption is not supported with WPS enabled.
+WEP encryption is not supported with WPS enabled.
+The WPS function is not supported with WEP, WPA or TKIP encryption enabled.
+Multi SSID is not supported with WEP encryption enabled.
+Guest Network is not supported with WEP encryption enabled.
+Please input the PIN.
+The PIN code cannot exceed 8 numbers.
+The PIN code must consist of digits.
+Invalid PIN. Please try again.
+Please ensure there is at least one valid WEP key.
+Please input valid WEP key.
+Please make sure the current key consists of hexadecimal characters only.
+Please make sure the current key consists of ASCII characters only.
+Please input the TKIP/AES password.
+The length of TKIP/AES password must be at least 8 characters.
+The TKIP/AES value should only consist of hexadecimal characters. Please input another value.
+The TKIP/AES value should only consist of ASCII characters. Please input another one.
+Invalid Group Key renewal cycle.
+Please input valid RADIUS Server Port.
+Please input RADIUS Server Password.
+Please input valid RADIUS Server Password.
+Please input wireless password.
+The length of wireless password must be at least 8 characters.
+The wireless password should only consist of hexadecimal characters. Please input another one.
+The wireless password should only consist of ASCII characters. Please input another one.
+The wireless MAC filtering list is blank.
+Invalid MAC Address. Please input another one.
+The input address already exists. Please input another one.
+Failed to configure MAC filtering. Please ensure the wireless function is enabled.
+Please input valid description. Description should not contain '\\/\":*?<>|&' or end with blank.
+Selecting the incorrect country may cause interference to other devices and violate the applicable law.
+Invalid mode value. Please input another one.
+Wireless Function is disabled. Please go to Wireless settings to enable it.
+Please input the PIN code.
+PIN code must consist of ASCII characters.
+The Confirm PIN Code must accord with the New PIN Code.
+Invalid Dial Number. Only 0-9, # and * are permitted.
+Please input the remote gateway address.
+Local IP Address $ is invalid.
+Local Subnet Mask $ is invalid.
+Remote IP Address $ is invalid.
+Remote Subnet Mask $ is invalid.
+Please input the Pre-Shared Key.
+Phase 1 Key Life Time should be a positive integer.
+Phase 2 Key Life Time should be a positive integer.
+Invalid Manual Encryption Key.
+The manual encryption key is AES. Its length must be 32, 48 or 64 bits.
+Invalid Manual Encryption Key. The key must consist of hexadecimal numbers only.
+Invalid Manual Authentication Key.
+Invalid SPI value. Please input a valid one according to the rule.
+My Identifier cannot be blank.
+Peer's Identifier cannot be blank.
+When the identifier is set to 'FQDN', the mode should be set to main.
+10 IPSec Tunnels already exist.
+The Aggressive mode should be selected.
+Internal System Error.
+File not found.
+File not accepted.
+Network error. Please check the network connection and the network configuration.
