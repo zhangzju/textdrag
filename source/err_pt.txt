@@ -1,0 +1,747 @@
+Erro interno.
+Esta palavra-chave já existe. Favor inserir outras.
+Tamanho de arquivo inválido. Favor verificar seu arquivo e tentar novamente.
+Arquivo incorreto.
+Tamanho de arquivo inválido. Favor verificar seu arquivo e tentar novamente.
+O arquivo enviado não foi aceito.
+Erro. Favor tentar novamente.
+Falha ao restaurar as configurações padrão.
+O arquivo carregado não corresponde à versão de hardware atual do dispositivo.
+Endereço IP Inválido.
+O IP de LAN do Host deve estar na mesma sub-rede que o IP de LAN. Favor inserir outro.
+O endereço IP WAN não pode estar na mesma sub-rede que o IP LAN. Favor inserir outro.
+Número de porta inválida. Favor inserir outro valor (1-65535).
+Endereço MAC Inválido. O formato válido é de '00:00:00:00:00:00'.
+Por favor, pelo menos, configure o endereço IP, a porta ou o endereço MAC para o host LAN.
+Ao menos configure o endereço IP, a porta ou o endereço MAC para o host WAN.
+Configure o horário para a nova programação.
+Por favor, pelo menos, configure LAN Host ou WAN Host para a Regra de Filtragem.
+Regra de filtragem inválida. Favor inserir outro.
+O Host LAN adicionado está em conflito com os Hosts LAN existentes.
+O WAN Host adicionado está em conflito com os hosts WAN existentes.
+A agenda adicionada está em conflito com o cronograma existente.
+A regra de filtragem adicionada está em conflito com as regras existentes.
+Digite pelo menos um URL.
+O número URL atingiu o limite máximo.
+A entrada em uso não pode ser apagada.
+Erro interno ocorrido na configuração de regra.
+Falha ao estabelecer a regra de filtragem padrão.
+Falha ao estabelecer URL. Favor tentar novamente.
+O endereço MAC do PC dos filhos deve diferir do PC dos pais. Favor inserir outro. 
+O valor de entrada não deve conter: \\/\":*?<>|&. Favor inserir outro.
+O valor de entrada não deve terminar com caracteres de espaço em branco. Favor inserir outro.
+O URL de entrada contém caracteres ilegais. Favor inserir outro.
+O endereço MAC do PC dos Pais deve diferir do PC dos filhos. Favor inserir outro.
+The number of added entries has reached the limit.
+The number of added entries has reached the limit.
+A Descrição está em conflito com as Descrições existentes.
+O Nome do Dispositivo está em conflito com os Nomes de Dispositivos existentes.
+A taxa de downstream mínima solicitada não pode ser correspondida. Favor inserir outro.
+A taxa de upstream mínima solicitada não pode ser correspondida. Favor inserir outro.
+A regra adicionada entra em conflito com as regras existentes.
+O endereço IP inicial deve estar na mesma sub-rede com o IP LAN, mas não pode ser o mesmo que o IP LAN. Favor inserir outro.
+O Endereço IP Final é o mesmo que o IP LAN ou não está na mesma sub-rede com o endereço IP LAN. Favor inserir outro.
+A largura de banda total downstream não deve ser inferior à soma da Garantia de Largura de Banda Downstream IPTV e a toda a taxa mínima de downstream das regras habilitadas.
+A largura de banda total upstream não deve ser inferior à soma da Garantia de Largura de Banda Upstream IPTV e a toda a taxa de upstream mínima das regras habilitadas.
+A largura de banda total de upload não deve ser inferior à Garantia de Banda Larga de VoIP Upstream.
+A garantia de largura de banda upstream não pode ser de 0 kbps. Favor inserir outros.
+A lista de regras de controle está cheia! Por favor elimine uma regra existente antes de adicionar uma nova.
+A classificação comercial ou de fluxo deve estar vinculada a uma fila.
+O peso da fila WRR adicionada deve ser maior que 0.
+A prioridade da fila SP adicionada não deve ser maior do que 8.
+As filas com a mesma direção QoS devem ter nomes diferentes.
+A prioridade da fila SP adicionada deve ser diferente da fila SP existente.
+A soma de todas as filas WRR com a mesma direção QoS não deve ser maior do que 100.
+O algoritmo do agendador solicitado não é suportado.
+O nome comercial da classificação comercial adicionada deve ser diferente da classificação comercial existente.
+Não há interface QoS vinculada à classificação comercial.
+A classificação de negócios pode ser usada apenas para QoS upstream.
+Não existe uma fila QoS vinculada à classificação comercial.
+Não há interface QoS vinculada à classificação de fluxo.
+Não existe uma fila QoS vinculada à classificação de fluxo.
+Interface de entrada da classificação de fluxo  inválida.
+O nome da classe da classificação de fluxo adicionado deve ser diferente da classificação de fluxo existente.
+Os critérios da classificação adicionada devem ser diferentes das classificações existentes.
+O endereço IP de origem da classificação de fluxo para QoS a montante deve ser o endereço IP do lado LAN.
+O endereço IP de destino da classificação de fluxo para QoS para upstream não deve ser o endereço IP do lado LAN.
+O endereço IP de origem da classificação de fluxo para QoS para downstream não deve ser o endereço IP do lado LAN.
+O endereço IP de destino da classificação de fluxo para QoS para dowstream deve ser o endereço IP do lado LAN.
+Direção QoS inválida.
+Este número deve estar entre 0 e 1000.
+A largura de banda total de upload não deve ser inferior à Garantia de Largura de Banda de Upload VoIP.
+A largura de banda total de download não deve ser inferior a 1 kbps.
+A nova regra entra em conflito com a existente.
+O endereço IP deve estar na mesma sub-rede que o endereço IP LAN. Favor inserir outro.
+A lista de servidores virtuais está cheia.
+A entrada já existe ou a sua porta está ocupada. 
+Número de porta inválida. Favor inserir outro valor (1-65535).
+O endereço IP não está na mesma sub-rede que o endereço IP LAN. Favor inserir outro.
+
+A lista de Porta de Disparo está cheia.
+Conflito de Portas de Disparo.
+A Porta de Disparo deve variar de 1 a 65535. Favor inserir outro.
+A Porta Externa deve variar de 1 a 65535. Favor inserir outro.
+A nova entrada entra em conflito com a existente.
+Endereço IP LAN Inválido. Favor inserir outro.
+Máscara de Sub-rede Inválida. Favor inserir outro.
+O IP da LAN não corresponde à máscara de sub-rede, ou é um endereço IP reservado.
+O endereço IP LAN não pode estar na mesma sub-rede com o IP WAN. Favor inserir outro.
+O IP da LAN de diferentes grupos não deve estar na mesma sub-rede. Favor inserir outro.
+Falha ao obter o IP LAN padrão para o novo grupo. Altere o IP LAN e a Máscara de Sub-rede de outros grupos.
+Endereço IP inicial inválido. Favor inserir outro.
+Endereço IP final inválido. Favor inserir outro.
+Máscara de Sub-rede Inválida. Favor inserir outro.
+DNS primário inválido. Favor inserir outro.
+DNS secundário inválido. Favor inserir outro.
+Endereço IP do Servidor Remoto inválido. Favor inserir outro.
+Digite o Endereço IP do Servidor Remoto.
+O Endereço IP Inicial deve estar na mesma sub-rede com o IP LAN, mas não pode ser um endereço IP reservado. Favor inserir outro.
+O endereço IP final deve estar na mesma sub-rede com o IP da LAN e não pode ser um endereço IP reservado. Favor inserir outro.
+O Gateway padrão deve estar na mesma sub-rede com o IP da LAN e não pode ser um endereço IP reservado. Favor inserir outro.
+Endereço IP Inválido. Favor inserir outro.
+Endereço MAC Inválido. Favor inserir outro.
+O endereço IP deve estar na mesma sub-rede com o IP da LAN e não pode ser um endereço IP reservado. Favor inserir outro.
+O endereço MAC inserido entra em conflito com as regras existentes. Favor inserir outro.
+O endereço IP adicionado entra em conflito com as regras existentes. Favor inserir outro.
+Favor inserir o Nome do Cliente.
+Favor inserir o ID do Fornecedor.
+Endereço IP inicial inválido. Favor inserir outro.
+Endereço IP final inválido. Favor inserir outro.
+Gateway Padrão inválido ou inexistente. Favor inserir um Gateway Padrão válido.
+DNS Primário inálido ou inexistente. Digite um DNS Primário válido.
+DNS Secundário inválido ou inválido. Favor inserir um DNS Secundário válido.
+O Endereço IP Inicial deve estar na mesma sub-rede com o IP LAN, mas não pode ser um endereço IP reservado. Favor inserir outro.
+O endereço IP final deve estar na mesma sub-rede com o IP da LAN e não pode ser um endereço IP reservado. Favor inserir outro.
+O Gateway padrão deve estar na mesma sub-rede com o IP da LAN e não pode ser um endereço IP reservado. Favor inserir outro.
+A entrada Nome do Cliente conflita com as entradas existentes. Favor inserir outro.
+O ID de fornecedor de entrada entra em conflito com as entradas existentes. Favor inserir outro.
+O pool de endereços DHCP de entrada sobrepõe um pool de endereços DHCP existente. Favor inserir outro.
+O valor da opção está fora do alcance. Deverá variar de 1 a 254.
+Digite o Valor da Opção. O valor da opção deve variar de 1 a 254.
+O ID de fornecedor de entrada entra em conflito com as entradas existentes. Favor inserir outro.
+A entrada reservada IP e MAC conflita com os items da lista de vínculo arp. Favor inserir outro. Você pode verificar a lista de vínculo arp em \"Segurança->Vínculo IP & MAC\".
+Gateway Padrão Inválido. Favor inserir outro.
+Endereço IP de destino inválido. Favor inserir outro.
+Máscara de Sub-rede Inválida. Favor inserir outro.
+Gateway Inválido. Favor inserir outro.
+A máscara de sub-rede não corresponde ao endereço IP de destino. Favor inserir outro.
+O endereço IP de Destino não pode estar na mesma sub-rede com o endereço IP LAN. Favor inserir outro.
+O endereço IP destino não pode estar na mesma sub-rede com o endereço IP WAN. Favor inserir outro.
+A entrada já existe. Favor inserir outro.
+O Gateway deve estar na mesma sub-rede que o endereço IP da interface do dispositivo. Favor inserir outro.
+Rota Estática Inválida. Favor inserir outro.
+A conexão à qual pertence a entrada não existe.
+Erro de DNS. Favor tentar novamente.
+Falha ao configurar DNS. Favor tentar novamente.
+Falha ao configurar o DNS dinâmico. Favor tentar novamente.
+Falha ao obter informações de DNS dinâmico.
+O nome de usuário não pode exceder 64 caracteres.
+A senha não pode exceder 64 caracteres.
+O serviço DNS dinâmico não está sendo executado.
+Atualização de URL inválida.
+Favor inserir o nome de usuário.
+Favor inserir a senha.
+Nome de domínio inválido.
+O comprimento da URL de atualização não pode exceder 384 caracteres.
+Erro do servidor de tempo estático. Favor tentar novamente.
+Formato de ano inválido. Favor inserir outro valor (1970-2037).
+Formato de mês inválido. Favor inserir outro valor (01-12).
+Formato de dia inválido. Favor inserir outro valor (01-31).
+Formato de hora inválida. Favor inserir outro valor (00-23).
+Formato de minuto inválido. Favor inserir outro valor (00-60).
+Formato de segundo inválido. Favor inserir outro valor (00-60).
+Data inicial inválida.
+Data final inválida.
+Configuração de data inválida. A data inicial deve ser menor que a final.
+O número de entradas de vínculos atingiu seu limite.
+A entrada de vínculo ARP carregada entra em conflito com uma existente.
+A entrada ARP carregada entra em conflito com uma existente.
+O formato de endereço IP é inválido.
+O formato de endereço MAC é inválido.
+Status inválido.
+O endereço IP de entrada deve estar na mesma sub-rede que o endereço IP LAN. Favor inserir outro.
+Falha ao adicionar a entrada ARP do sistema.
+Falha ao apagar a entrada de sistema ARP.
+Falha ao configurar a entrada de sistema ARP.
+Formato de parâmetro inválido.
+O conflito entre o vínculo IP/MAC com o IP/MAC reservado do DHCP. Favor inserir outro. Você pode verificar os itens DHCP IP e MAC reservados em \"Network->Configurações Lan\".
+Auto detectando... Por favor, não adicione ou exclua nenhuma conexão agora.
+VIC inválido. Favor inserir outro.
+VPI inválido. Favor inserir outro.
+Porta LAN inválida. Favor inserir outro.
+A conexão da ponte IPTV não está neste grupo.
+A porta LAN IPTV não está neste grupo.
+A porta LAN para a conexão IPTV é ocupada por outra mídia de conexão (por exemplo, WAN Ethernet). Verifique as conexões. 
+A WAN Ethernet não está habilitada.
+A Porta LAN IPTV não pode estar em branco.
+O endereço IP LAN IPTV conflita com o endereço IP WAN.
+Erro interno. Não é possível habilitar a VLAN.
+O valor do ID VLAN está inválido, deve ser entre 7 e 4094.
+O valor do ID VLAN está inválido, deve ser entre 0 e 7.
+A interface Ethernet WAN não está no grupo padrão.
+O nome da interface Ethernet WAN não pode ficar em branco.
+A VLAN está desabilitada. Por favor, habilite-o primeiro.
+A porta LAN para a conexão Ethernet WAN foi ocupada por outra mídia de conexão (por exemplo, IPTV). Verifique as conexões.
+A interface WAN Ethernet não existe.
+O valor SCR não pode ficar em branco.
+O valor PCR não pode ficar em branco.
+O valor SCR não pode ser maior do que o valor da PCR.
+O valor MBS não pode estar em branco.
+A interface DSL WAN não existe.
+Tipo de conexão física inválida para esta conexão de IP.
+Tipo de conexão física não suportada.
+
+Sem configuração de link DSL/Ethernet.
+Esse tipo de conexão não é suportado.
+Falha ao gerar o endereço MAC. Por favor, exclua uma entrada existente e tente novamente.
+ID VLAN inválido.
+Este ID da VLAN já existe. Favor inserir outro.
+Erro interno.
+O valor deve estar dentro da matriz de string especificada. Favor inserir outro.
+O formato de endereço IP é inválido.
+Nome da interface inválida.
+Endereço MAC inválido ou formato incorreto.
+Endereço MAC inválido ou formato incorreto.
+O IP WAN não pode estar na mesma sub-rede com o IP LAN.
+Formato de endereço de servidor DNS inválido.
+Endereço IP inválido ou formato incorreto.
+Gateway inválido ou formato incorreto.
+
+IPoA não suporta conexão multi-conexão de PVC único. Defina valores VPI/VCI disponíveis.
+Falha ao criar a interface IPoA.
+Erro interno.
+O valor deve estar dentro da matriz de string especificada. Favor inserir outro.
+Formato de endereço IP inválido para conexão IP.
+Formato de endereço IP inválido para conexão PPP.
+Nome da interface inválida para conexão IP.
+Nome da interface inválida para conexão PPP.
+Endereço MAC inválido ou formato incorreto.
+Endereço MAC inválido ou formato incorreto.
+
+
+
+Endereço IP inválido ou formato incorreto para conexão IP.
+Endereço IP inválido ou formato incorreto para conexão PPP.
+Gateway inválido ou formato incorreto para conexão IP.
+Endereço IP inválido ou formato incorreto para conexão PPP.
+O endereço IP da conexão IP não pode estar na mesma sub-rede com o IP LAN.
+O endereço IP obtido a partir do acesso PPP não pode estar na mesma sub-rede com o IP LAN.
+Erro interno.
+O valor deve estar dentro da matriz de string especificada. Favor inserir outro.
+Formato de endereço IP inválido para conexão IP.
+Formato de endereço IP inválido para conexão PPP.
+Nome da interface inválida para conexão IP.
+Nome da interface inválida para conexão PPP.
+Endereço MAC inválido ou formato incorreto.
+Endereço MAC inválido ou formato incorreto.
+
+
+
+Endereço IP inválido ou formato incorreto para conexão IP.
+Endereço IP inválido ou formato incorreto para conexão PPP.
+Gateway inválido ou formato incorreto para conexão IP.
+Endereço IP inválido ou formato incorreto para conexão PPP.
+O endereço IP da conexão IP não pode estar na mesma sub-rede com o IP LAN.
+O endereço IP obtido a partir do acesso PPP não pode estar na mesma sub-rede com o IP LAN.
+Erro interno.
+O valor deve estar dentro da matriz de string especificada. Favor inserir outro.
+O formato de endereço IP é inválido.
+Nome da interface inválida.
+A conexão PPPoA não suporta MAC Clone.
+Erro de Clonagem de MAC.
+O número de portas WAN excede o limite.
+Não existe uma interface DSL.
+PPPoA não suporta conexão PVC multi/single. Defina valores VPI/VCI disponíveis.
+O endereço IP obtido a partir do acesso PPP não pode estar na mesma sub-rede com o IP LAN.
+Endereço DNS Inválido.
+Falha ao criar a interface PPPoA.
+Falha ao atribuir PVC à interface PPPoA.
+Não existe interface ATM para esta conexão PPPoA.
+Falha ao gerar o endereço MAC. Por favor, exclua uma entrada e tente novamente.
+Tipo de conexão PPP desconhecido.
+A conexão PPPoE não possui uma interface Ethernet.
+O valor deve estar dentro da matriz de string especificada. Favor inserir outro.
+O IP da Segunda Conexão não pode estar na mesma sub-rede com a LAN IP.
+Endereço IP inválido ou formato incorreto.
+No máximo, 2 dispositivos podem ser ativados simultaneamente.
+No máximo, 8 valores podem ser ativados simultaneamente.
+Não é possível separar o Volume Lógico em uso. 
+O nome de usuário não pode conter \"ninguém\".
+Diretório inválido, favor inserir outro.
+Falha ao desbloquear a proteção PIN. Confirme o código PIN.
+Tamanho de arquivo inválido. Favor verificar seu arquivo e tentar novamente.
+Arquivo incorreto.
+No máximo, 4 entradas para comandos USB 3G carregados.
+Falha ao analisar o arquivo carregado.
+Uma entrada usando o mesmo modelo, mas comandos diferentes já existem, exclua-o primeiro.
+ A lista de entradas do modem USB 3G está cheia. Não há mais uploads.
+O nome do servidor deve levar menos de 16 bytes.
+Selecione o volume antes de clicar em 'Salvar'.
+Selecione o caminho da pasta.
+Nenhum dispositivo USB encontrado. Verifique se o seu dispositivo USB está conectado corretamente.
+ Endereço de site IPv6 inválido. Favor inserir outro.
+Gateway padrão IPv6 inválido. Favor inserir outro.
+Comprimento de prefixo inválido.
+A entrada de roteamento IPv6 estático já existe. Favor inserir outro.
+O endereço IPv6 de destino é o mesmo que o endereço IP LAN.
+O gateway IPv6 deve conter o mesmo prefixo do site como faz a WAN.
+O gateway IPv6 deve conter o mesmo prefixo do site que a LAN faz.
+Endereço IPv6 de Destino inválido. Favor inserir outro.
+Gateway Inválido. Favor inserir outro.
+A conexão à qual pertence a entrada não existe.
+Tipo de conexão IPv6 WAN inválido.
+ Prefixo 6RD inválido. Verifique o prefixo 6RD e seu comprimento.
+O comprimento máximo do código do recurso é de 3 caracteres e não pode ficar em branco. 
+O código de recurso deve começar com '*' ou '#' e consistir em mais dois outros números (de 0 a 9). 
+O código do recurso de entrada entra em conflito com as entradas existentes. Favor inserir outro.
+A entrada entra em conflito com as entradas existentes.
+A entrada entra em conflito com as entradas existentes.
+O nome do perfil de entrada já existe. Favor inserir outro.
+O número de telefone de entrada e registro já existem. Favor inserir outro.
+O nome do telefone não pode ficar em branco.
+O nome do telefone de entrada entra em conflito com um existente. Favor inserir outro.
+Conteúdo de contato inválido.
+O contato conflita com a entrada existente. Favor inserir outro.
+O dispositivo está ocupado. Favor tentar novamente.
+A estação base DECT está ocupada. Verifique se nenhum aparelho está em uso e tente novamente.
+DECT está desabilitado.
+O tpPhone está ocupado. Favor tentar novamente mais tarde.
+O roteador está ocupado. Verifique se nenhum tpPhone está em uso e tente novamente.
+O tpPhone está desabilitado.
+Nome de usuário e senha inválidos. Por favor, crie outro.
+Conflito de configurações wireless. Favor verificar as configurações, ex. 1. Segurança WEP ou criptografia WPA/TKIP não é suportada com o modo somente wireless 11n ativado; 2. Segurança WEP ou WPA/WPA2 Enterprise não são suportados quando o WPS está habilitado; 3. O SSID oculto não é compatível com WPS habilitado.
+Configurações wireless inválidas.
+O SSID de entrada já existe. Favor inserir outro.
+A entrada de Filtragem de Endereço MAC já existe.
+Falha ao obter o código PIN. Favor tentar novamente.
+O SSID já está sendo usado pela rede convidada. Favor inserir outro.
+O nome do túnel IPsec já existe. Favor inserir outro.
+O Endereço Local do Túnel IPSec deve estar dentro da mesma sub-rede que o IP LAN.
+O Endereço Remoto do Túnel IPSec deve estar dentro da mesma sub-rede que o IP LAN.
+A porta de serviço já está em uso.
+A Sub-rede/Máscara de Rede VPN e o endereço IP LAN não podem estar na mesma sub-rede.
+A Sub-rede/Máscara de Rede e o endereço IP VPN PPTP não podem estar na mesma sub-rede.
+O endereço IP cliente e endereço IP LAN não podem estar na mesma sub-rede.
+O endereço IP cliente e Sub-rede/Máscara de Rede OpenVPN não podem estar na mesma sub-rede.
+Endereço de email Inválido.
+O nome de usuário é necessário.
+A senha de email é necessária.
+Endereço de servidor SMTP inválido.
+Digite o endereço de e-mail correto do destinatário. Se mais de um endereço for inserido, separe-os com \";\".
+A função não é suportada.
+O pedido foi negado. Verifique se o valor ou operação é válido.
+Erro interno.
+Valor inválido.
+O buffer excede ou o valor atingiu seu limite.
+Nome do parâmetro inválido.
+Tipo de parâmetro inválido.
+Valor inválido.
+Arquivo de configuração inválido. Verifique o formato e o valor do arquivo.
+O objeto correspondente não foi encontrado.
+Caso correspondente não encontrado.
+
+O número de entradas atingiu seu limite.
+O comprimento desse valor está fora do alcance.
+IO não conseguiu obter dados.
+IO não conseguiu ser configurado.
+Falha ao acessar dados.
+ Falha ao carregar o arquivo de atualização. Favor selecionar o arquivo correto.
+Falha ao fazer upload do arquivo configuração. Favor selecionar o arquivo correto.
+Senha Antiga Incorreta.
+Falha ao obter o endereço MAC atual do PC. Favor tentar novamente.
+Erro desconhecido.
+Falha ao obter parâmetros.
+Falha ao estabelecer parâmetros.
+Valor inválido.
+O  valor está fora de intervalo.
+A seqüência de caracteres deve conter somente caracteres ASCII. Favor inserir outro.
+O formato de endereço IP é inválido.
+O endereço IP não pode ser um endereço de broadcast.
+O número de rede Classe A do endereço IP não pode ser 0.
+O endereço IP não pode ser o endereço de loopback (127.0.0.0).
+Máscara de Sub-rede Inválida. Favor inserir outro.
+O número de host Classe C do endereço IP LAN não pode ser 255.
+O endereço IP não pode ser um endereço multicast.
+O endereço IP não pode ser um endereço reservado de IP LAN>.
+Endereço IP Inválido. O endereço de rede não pode conter todos os números 0 e nem todos 1.
+Endereço IP Inválido. O número host não pode conter todos os valores binários todos 0 e nem todos 1.
+O endereço IP deve estar na mesma sub-rede que o Gateway Padrão.
+O formato de endereço MAC é inválido.
+O endereço MAC não pode ser 00:00:00:00:00:00.
+O endereço MAC não pode ser um endereço de transmissão.
+O endereço MAC não pode ser um endereço multicast.
+Favor estabelecer um URL disponível.
+Favor estabelecer uma porta disponível.
+Favor estabelecer um caminho disponível.
+Favor estabelecer um período disponível.
+Favor estabelecer um endereço disponível.
+O período mínimo de resposta não deve ser maior do que o período máximo de resposta do STUN.
+Por favor, selecione um arquivo de configuração.
+Favor selecionar um arquivo de atualização.
+A senha antiga não pode estar em branco.
+A Senha Antiga deve estar no formato de caractere ASCII.
+O Nome de Usuário não pode estar em branco.
+O novo nome de usuário deve estar no formato de caractere ASCII.
+A nova senha não pode estar em branco.
+A nova senha deve estar no formato de caractere ASCII.
+As senhas não se correspondem.
+Senha inválida. As senhas podem conter entre 6-15 letras e/ou números.
+Digite o endereço IP válido ou o endereço MAC.
+Digite o endereço IP válido ou o endereço MAC.
+O número de porta do Gerenciamento local HTTP deve ser 80 ou um número entre 1024 e 65535.
+O número de porta do Gerenciamento local do HTTPS deve ser 443 ou um número entre 1024 e 65535.
+ O número de porta do Gerenciamento local HTTP não pode ser o mesmo com o número da porta do Gerenciamento local HTTPS. Favor inserir outro.
+O número da porta de gerenciamento remoto HTTP deve ser 80 ou um número entre 1024 e 65535.
+ O número da porta de Gerenciamento Remoto HTTP não pode ser o mesmo com o número de porta do Gerenciamento Local HTTPS. Favor inserir outro.
+O número de porta do Gerenciamento Remoto HTTPS deve ser 443 ou um número entre 1024 e 65535.
+ O número de porta do Gerenciamento local HTTP não pode ser o mesmo com o número da porta de gerenciamento remoto HTTPS. Favor inserir outro.
+ O número da porta de Gerenciamento Remoto HTTP não pode ser o mesmo que o número da porta de gerenciamento remoto HTTPS. Favor inserir outro.
+Formato de ano inválido. Favor inserir outro valor (1970-2037).
+Formato de mês inválido. Favor inserir outro valor (01-12).
+Formato de dia inválido. Favor inserir outro valor (01-31).
+Formato de hora inválida. Favor inserir outro valor (00-23).
+Formato de minuto inválido. Favor inserir outro valor (00-60).
+Formato de segundo inválido. Favor inserir outro valor (00-60).
+Formato do servidor NTP inválido. Favor inserir o endereço IP ou nome de domínio.
+A descrição não pode estar em branco ou conter caracteres os seguintes \" \\ / : * ? < > | &
+Digite o URL correto.
+Please select at least one LAN Host entry or WAN Host entry.
+O horário final não pode ser menor que o horário inicial.
+Favor selecionar ao menos uma entrada URL.
+O número da porta inicial/final deve estar entre 1 e 65535.
+O tempo de início/término não devem ser iguais.
+Digite o endereço de IP e o número da porta.
+Por favor, insira valores numéricos, exceto 0.
+Número de porta inválida. Favor inserir outro valor (enrte 1 e 65535).
+O valor do número da porta final deve ser o número da porta de início. Favor inserir outro.
+O número da porta inicial não pode ficar em branco quando o número da porta final não estiver em branco.
+A largura de banda máxima deve ser maior que a largura de banda mínima.
+O endereço IP final deve ser maior do que o endereço IP de início. Favor inserir outro.
+O endereço IP de início não pode ficar em branco quando o endereço IP final não está em branco.
+A taxa mínima para upstream e downstream não pode ficar em branco.
+A largura de banda total upstream não pode ser maior do que a taxa atual de upstream DSL ($ kbps).
+A largura de banda total de downstream não pode ser maior do que a taxa a downstream DSL atual ($ kbps).
+O valor de entrada está fora do intervalo, o valor máximo da taxa de transferência é 100000kbps.
+O valor de entrada está fora do intervalo, o valor máximo da taxa de transferência é 100000kbps.
+Valor de largura de banda total inválido para WRR ou Traffic Control. Por favor insira um valor entre 1 e a taxa de linha máxima.
+Largura de banda total inválida para CAR. Deixe o campo de entrada em branco (sem largura de banda total sem limitação), ou insira um valor entre 1 e a taxa de linha máxima. 
+O campo de Direção está em branco. Selecione um da lista.
+Digite o nome correto da fila. O nome da fila não pode estar em branco ou conter os caracteres '\\/\":*?<>|&' 
+O comprimento do nome da fila deve ter menos de 12 caracteres.
+Peso inválido. Favor inserir um número entre 1 e 100.
+Algoritmo de cronograma inválido.
+Digite um nome de classe válido. O nome da classe não pode estar em branco ou conter caracteres '\\/\":*?<>|&'
+O comprimento do nome da classe deve ter menos de 12 caracteres.
+A interface de entrada não pode ficar em branco. Selecione um(a) da lista.
+Máscara de endereço MAC Inválido. Favor inserir outro.
+A fila não pode estar em branco. Selecione um(a) da lista.
+O nome da empresa não pode ficar em branco. Selecione um(a) da lista.
+ Formato de segmento de porta inválido. Deve ser no formato XX-XX ou XX.
+Falha ao editar a entrada.
+Para evitar possíveis conflitos com o servidor FTP USB, insira outra porta de serviço além do alcance de 59990-59999.
+Formato de porta interna inválida. Deve estar em branco ou no formato de XX.
+Digite um endereço IP válido para a porta LAN.
+Digite uma máscara de sub-rede válida para a porta LAN.
+O endereço IP da porta LAN não pode igualar a Máscara de sub-rede.
+Favor inserir o endereço IP inicial.
+Favor inserir o endereço IP final
+O tempo de concessão do endereço está além do intervalo requerido.
+Formato de gateway inválido.
+Formato de domínio padrão inválido.
+Formato de Servidor DNS Primário inválido.
+Formato de Servidor DNS Secundário inválido.
+DHCP Relay está habilitado. Digite o endereço IP do servidor DHCP remoto.
+Formato de endereço do servidor remoto inválido.
+O endereço IP secundário não pode estar com o mesmo endereço IP LAN da porta LAN.
+A configuração de pool de endereços está inválida. O endereço gateway do DHCP deve estar na mesma sub-rede com a rede e o número do host não pode ter valores binários todos 0 ou todos 1.
+Endereço gateway inválido. O endereço gateway do DHCP deve estar na mesma sub-rede com a rede o número do host não pode ter valores binários todos 0 ou todos 1.
+A última parte do endereço IP inicial não pode ser 0 ou 255.
+A última parte do endereço IP de finalo não pode ser 0 ou 255.
+Nome de dispositivo inválido. Favor inserir outro.
+Favor inserir nomes de dispositivos.
+Favor inserir o ID do Fornecedor.
+Digite o IP inicial válido.
+Digite o IP final válido.
+Favor inserir endereço Gateway.
+Digite o valor da opção especificada.
+Por favor insira o DNS1 disponível.
+Formato DNS2 inválido.
+O ID do fornecedor não deve conter aspas.
+Nome do dispositivo errado, o comprimento do nome do dispositivo deve ser inferior a 64.
+O nome de usuário não pode ficar em branco.
+A senha não pode estar em branco.
+Nome de domínio inválido.
+O nome de domínio não pode estar em branco.
+O nome de usuáro não pode estar em branco.
+A senha não pode estar em branco.
+Digite um nome de domínio válido.
+Digite um nome de servidor válido.
+O nome de usuário não pode estar em branco.
+A senha não pode estar em branco.
+Digite um nome de domínio válido.
+Digite um nome de servidor válido.
+URL de atualização inválida.
+A entrada carregada já existe.
+Selecione as entradas desejadas.
+O valor VPI deve ser um valor entre 0 e 255. Favor inserir outro.
+O valor VCI deve ser um valor entre 0 e 65535. Favor inserir outro.
+Este PVC já existe na lista de PVC.
+Porta inválida. Favor selecionar outra.
+Favor selecionar ao menos modo debug.
+Intervalo VPI/VCI inválido.
+Valor SCR inválido. Os motivos incluem um valor entre 0 e 5500.
+Valor SCR inválido. Por favor insira núemros inteiros entre 0 e 5500.
+ Valor de MBS inválido. Insira um valor entre 0 e 65535.
+Tipo de conexão não selecionado.
+Esta função está desativada sob o tipo de conexão da porta WAN atual.
+Valor de MTU inválido. Por favor, insira um valor entre 576 e 1500.
+Valor de MTU inválido. Please input a value between 576 and 1492.
+Endereço de servidor DNS inválido.
+Endereço de Servidor DNS Secundário inválido.
+Tempo de disparo online inválido. Insira um valor entre 0 e 120.
+Insira o nome de usuário.
+Insira a senha.
+Selecione uma porta WAN como o gateway padrão do sistema.
+Falha ao pesquisar PVC.
+Defina o IP do gateway disponível ao pesquisar PVC automaticamente.
+Nenhuma interface adicionada ou nenhum nome de grupo.
+Selecione uma interface primeiro.
+Este grupo já existe. Favor inserir outro.
+As senhas não se correspondem.
+Nome de Usuário Incorreto. Favor inserir outro.
+O valor SCR não pode ficar em branco.
+O valor PCR não pode ficar em branco.
+O valor SCR não pode ser maior do que o valor da PCR.
+Nome de grupo inválido. Favor inserir outro.
+O valor MBS não pode estar em branco.
+O campo Nome/Endereço IP do Servidor não pode ficar em branco.
+Pelo menos um endereço DNS deve ser inserido se o  Nome/Endereço IP do Servidor não for um endereço IP real.
+Este ID da VLAN já existe. Favor inserir outro.
+ID VLAN inválido.
+Alcance de PRIORIDADE VLAN inválido.
+O ID da conexão não pode estar em branco.
+O número T-Online não pode ficar em branco.
+O sufixo do usuário não pode estar em branco.
+Tempo de reconexão inválido. Favor inserir outro.
+O tempo de reconexão não pode ficar em branco.
+Endereço IP Inválido. Favor inserir outro.
+Máscara de Sub-rede Inválida. Favor inserir outro.
+Gateway Padrão Inválido. Favor inserir outro.
+O endereço IP entra em conflito a com Máscara de Sub-rede. Favor inserir outro.
+Conflitos de gateway padrão com a máscara de sub-rede. Favor inserir outro.
+O Gateway Padrão deve estar na mesma sub-rede que o endereço IP. Favor inserir outro.
+DNS primário inválido. Favor inserir outro.
+DNS secundário inválido. Favor inserir outro.
+IPoA não suporta conexão multi-conexão de PVC único. Defina valores VPI/VCI disponíveis.
+Nome do host ilegal. Favor inserir outro.
+Você selecionou configurar o DNS manualmente. Defina pelo menos um endereço de servidor DNS.
+Tempo ocioso máximo inválido. Favor inserir um número entre 0 e 99.
+PPPoA não suporta conexão PVC multi/single. Defina valores VPI/VCI disponíveis.
+Por favor insira valores para a Comunidade de Leitura.
+Por favor insira valores para a Comunidade de Configuração.
+Endereço IP do Gerenciador de Trap inválido. Favor inserir outro.
+O Nome de Compartilhamento não pode ficar em branco.
+O Nome de Compartilhamento deve estar no formato de caracteres ASCII.
+O nome da pasta não deve conter espaço em branco ou \\/:*?\"<>|]
+O Diretório não pode estar em branco.
+O Diretório deve estar no formato de caracteres ASCII.
+O Diretório já existe.
+O Nome do Comaprtilhamento já existe.
+O diretório não existe.
+O nome de usuário não deve conter espaço em branco ou \\/:*?\"<>|@+=;,.[]()$
+O nome do usuário de entrada entra em conflito com um existente.
+Por favor, coloque a porta de serviço.
+A porta de serviço deve ser um número entre 1 e 65535.
+A porta de serviço está fora do alcance.
+A porta de serviço já existe.
+O Nome do Servidor não pode estar em branco.
+O Nome do Servidor deve estar no formato de caracteres ASCII.
+O Nome do Servidor não deve conter espaço em branco ou \\/:*?\"<>|@+=;,.[]()
+Escolha um arquivo de configuração do modem USB 3G.
+Nenhuma conexão WAN disponível foi detectada. Certifique-se de selecionar o mecanismo de encapsulamento correto e tentar novamente. Se o problema existir, favor contatar seu provedor.
+Por favor, insira um prefixo.
+Prefixo do site IPv6 inválido. Favor inserir outro.
+Por favor, digite o comprimento do prefixo.
+O comprimento do prefixo deve ser de 64.
+Digite o ID da interface IPv6 inicial.
+Digite o ID da interface IPv6 final.
+Por favor insira o tempo de concessão.
+Identificação da interface IPv6 de inicialização inválida. Digite um número hexadecimal entre 1 e FFFF.
+Identificação da interface IPv6 final inválida. Digite um número hexadecimal entre 1 e FFFF.
+Tempo de concessão inválido. Favor inserir um número entre 0 e 999999.
+A ID da interface inicial deve ser menor do que a ID da interface final. Favor inserir outro.
+Favor selecionar ao menos um IP do empilhamento.
+Formato de endereço IPv6 é inválido.
+O comprimento do prefixo deve ser menor que 128 bits.
+Você selecionou configurar o DNS IPv6 manualmente. Digite pelo menos um endereço de servidor DNS IPv6 válido.
+Favor inserir um endereço IPv6 de destino correto.
+ Digite um comprimento de prefixo válido. O valor não pode exceder 64.
+Favor inserir um endereço de Gateway IPv6 correto.
+O endereço do gateway não pode ter o mesmo prefixo que o endereço de interface WAN IPv6 selecionado.
+Please enter a correct remote IPv6 address.
+Nenhuma conexão WAN disponível foi detectada. Certifique-se de selecionar o mecanismo de encapsulamento correto e tentar novamente. Se o problema existir, favor contatar seu provedor.
+Digite um comprimento de prefixo 6rd entre 1 e 32.
+Digite o prefixo 6rd oferecido pelo provedor.
+Digite o endereço IPv4 do Border Relay fornecido pelo seu provedor.
+Digite um tamanho de máscara IPv4 entre 0 e 32.
+Somente a conexão WAN IP dinâmica suporta Auto 6RD. Altere o tipo de configuração para o manual ou selecione outro tipo de conexão.
+Nenhuma conexão WAN disponível foi detectada. Certifique-se de selecionar o mecanismo de encapsulamento correto e tentar novamente. Se o problema existir, favor contatar seu provedor.
+Nenhuma conexão WAN disponível foi detectada. Certifique-se de selecionar o mecanismo de encapsulamento correto e tentar novamente. Se o problema existir, favor contatar seu provedor.
+Formato de endereço IPv6 é inválido.
+Comprimento de prefixo inválido.
+Há muitas contas, uma será excluída. 
+O número de contas excedeu o limite. Por favor, exclua uma conta existente antes de adicionar outra.
+O Nome do Perfil já existe.
+O Número de Telefone e Registro já existem.
+O prefixo já existe.
+O campo de destino não pode ser deixado em branco.
+Comprimento máximo inválido. O valor do comprimento máximo deve ser maior que o comprimento do prefixo.
+Tamanho de Faixa Inválido. O comprimento da faixa deve ser menor que o comprimento do prefixo.
+O campo Habilitar Interface não pode ser deixado em branco.
+O número de entradas de plano de discagem excedeu o limite. Por favor elimine um plano existente antes de adicionar outro.
+O campo de restrição de interface não pode estar em branco.
+O número de entradas excedeu o limite. Por favor elimine uma entrada existente antes de adicionar outra.
+A entrada de discagem rápida de entrada já existe.
+Aviso: O armazenamento USB em massa está desconectado.
+Aviso: Não foram encontrados arquivos válidos no dispositivo de armazenamento em massa USB.
+Aviso: Não há capacidade de caixa de correio USB suficiente.
+O item selecionado será excluído.
+O número de entradas de plano de discagem excedeu o limite. Por favor elimine um plano existente antes de adicionar outro.
+O correio de voz USB está atualmente ocupado, tente novamente mais tarde.
+Digite apenas caracteres ASCII.
+Digite um valor válido neste campo. $
+O comprimento desse valor está fora do alcance. $
+O valor está fora de intervalo. $
+O valor pode conter apenas entre 0 e 9. $
+Esta entrada contém caracteres inválidos. $
+O valor não pode conter os seguintes caracteres: \" \"'\\;:<@ \". $ 
+Endereço IP Inválido.
+
+Este número de telefone já existe.
+Aviso: O Nome do Perfil já existe. A conta com o mesmo nome de perfil será removida.
+O número de contas excedeu o limite. Por favor, exclua uma conta existente antes de adicionar outra.
+As chamadas anônimas já foram adicionadas à lista.
+Selecione um número de telefone ou um telefone.
+Digite um número.
+Digite um número de telefone com 1 a 8 dígitos.
+Selecione o número recebido.
+Selecione o número chamado.
+O tempo inicial DND deve ser menor que o tempo final.
+Selecione Discar Número (Dial via Number).
+O número de entrada não pode ser o mesmo com os existentes.
+O endereço do registrador não pode ser 0.0.0.0.
+O contato já existe.
+O número não pode estar em branco.
+O nome não pode ficar em branco.
+O número de discagem rápida não pode ficar em branco.
+Para a segurança de suas mensagens de voz, recomendamos que você crie um novo PIN.
+Nenhum USB de armazenamento encontrado.
+Nenhum correio de voz é encontrado ou os mails de voz foram copiados.
+Não há capacidade suficiente no dispositivo de armazenamento USB para backup.
+O backup falhou.
+O backup já está em andamento.
+Falha ao gravar as mensagens de voz no dispositivo de armazenamento USB.
+Falha ao ler as mensagens de voz a partir da memória flash.
+Falha no teste.
+Tempo limite do teste. Favor tentar novamente mais tarde.
+Não foi possível resolver o endereço do servidor SMTP. Verifique se o endereço do servidor SMTP está correto e o roteador está conectado à Internet.
+Não é possível conectar ao servidor SMTP. Verifique se as configurações do servidor SMTP estão corretas e o roteador está conectado à Internet.
+A negociação SSL falhou. O servidor SMTP pode não suportar a conexão SSL.
+Falha no teste O servidor SMTP pode não suportar STARTTLS.
+Falha no teste. Certifique-se de que o nome de usuário ou a senha do e-mail esteja correta ou ative o STARTTLS.
+Endereço de email incorreto.
+Falha no teste.
+Falha no teste.
+Wan não conectado, você deve exportar o client.ovpn ou mudar o seu atual client.ovpn quando a wan estiver conectada.
+DDNS não habilitado, use seu wan ip atual para gerar client.ovpn. Você tem que reexportar client.ovpn quando o wan ip for alterado.
+DDNS habilitado, mas não conectado, use seu wan ip atual para gerar client.ovpn.
+Atualmente, seus ddns não estão habilitados, recomendo que você use ddns com openvpn.
+Por favor, insira um valor válido. Os valores valais são 1024-65534.
+A porta de serviço já existe, tente outra e lembre-se de valores válidos são 1024-65534.
+As chaves OpenVpn têm um tempo válido de 10 anos. Você deve definir o tempo do seu roteador no tempo atual da internet antes de usá-lo. (Os valores válidos são do ano 2015-2037)
+IP final do cliente. O IP final deve ser maior que o inicial, e 10 em sua maiorida.
+Nome de usuário e senha inválidos. Insira até 15 caracteres usando a-z, A-Z, 0-9 e _.
+Favor inserir o SSID.
+Você pode inserir 32 caracteres no máximo no campo SSID.
+Favor inserir o SSID Bridge.
+Você pode inserir 32 caracteres no máximo no campo SSID da ponte.
+Favor inserir o SSID Bridge.
+Formato SSID Bridge inválido. Verifique a entrada.
+A senha ASCII Bridge contém caracteres inválidos.
+A chave WEP da conexão ASCII Bridge deve ter 5, 13 ou 16 caracteres de comprimento.
+A senha hexadecimal da conexão Bridge contém caracteres inválidos.
+A chave WEP da conexão ponte hexadecimal deve ter 10, 26 ou 32 caracteres de comprimento.
+A chave PSK da conexão Bridge deve conter de 8 a 63 caracteres ASCII ou 64 caracteres hexadecimais.
+Se WDS estiver habilitado, o canal deve ser configurado de acordo com o AP Raíz.
+O canal de conexão AP é $, o que deve ser o mesmo com o canal AP configurado. Confirme as configurações do canal.
+SSID inválido.
+Valor de intervalo beacon inválido. Favor inserir outro.
+Valor de RTS threshold. Favor inserir outro.
+Valor de fragmentação threshold inválido. Favor inserir outro.
+Valor do intervalo DTIM inválido. Favor inserir outro.
+O valor do intervalo Beacon deve estar entre 25 e 1000. Favor inserir outro.
+O valor RTS threshold deve estar entre 1 e 2346. Favor inserir outro.
+ O valor de fragmentação threshold deve estar entre 256 e 2346. Favor inserir outro.
+O valor do intervalo DTIM deve estar entre 1 e 255. Favor inserir outro.
+Somente 11n não é suportado com a criptografia WEP habilitada.
+Somente 11n não é suportado com a criptografia TKIP habilitada.
+A criptografia WPA não é suportada com o WPS ativado.
+A criptografia TKIP não é suportada com WPS habilitado.
+A criptografia WEP não é suportada com WPS habilitado.
+A função WPS não é suportada com criptografia WEP, WPA ou TKIP habilitada.
+Multi SSID is not supported with WEP encryption enabled.
+A Rede para Convidados não é suportada com criptografia WEP ativada.
+Favor inserir o PIN.
+O código PIN não pode exceder 8 números.
+O código PIN deve consistir em dígitos.
+PIN inválido. Favor tentar novamente.
+Certifique-se de que haja pelo menos uma chave WEP válida.
+Digite uma chave WEP válida.
+Certifique-se de que a chave atual seja composta apenas de caracteres hexadecimais.
+Certifique-se de que a chave atual seja composta apenas de caracteres ASCII.
+Digite a senha TKIP/AES.
+O comprimento da senha TKIP/AES deve ter no mínimo 8 caracteres.
+O valor TKIP/AES deve consistir apenas em caracteres hexadecimais. Favor inserir outro valor.
+O valor TKIP/AES deve ser composto somente de caracteres ASCII. Favor inserir outro.
+Ciclo de renovação da chave de grupo inválida.
+Digite a porta de servidor RADIUS válida.
+Favor inserir a senha do Servidor Radius.
+Digite uma senha válida do servidor RADIUS.
+Digite a senha wireless.
+O comprimento da senha wireless deve ter no mínimo 8 caracteres.
+A senha wireless deve consistir apenas em caracteres hexadecimais. Favor inserir outro.
+A senha wireless deve consistir apenas em caracteres ASCII. Favor inserir outro.
+A lista de filtragem MAC sem fio está em branco.
+Endereço MAC Inválido. Favor inserir outro.
+O endereço de entrada já existe. Favor inserir outro.
+Falha ao configurar a filtragem MAC. Certifique-se de que a função wireless esteja habilitada.
+Digite uma descrição válida. A descrição não deve conter '\\/\":*?<>|&' <> | &' ou finalizar em branco.
+A seleção do país incorreto pode causar interferência em outros dispositivos e violar a lei aplicável.
+Valor de modo inválido. Favor inserir outro.
+A função wireless está desabilitada. Por favor, vá para Configurações Wireless para habilitá-lo.
+Digite o código PIN.
+O código PIN deve consistir em caracteres ASCII.
+O código PIN de confirmação deve estar de acordo com o novo código PIN.
+Número de Discagem inválido. Apenas 0-9, # e * são permitidos.
+Favor inserir endereço de Gateway remoto.
+O endereço IP local $ não é válido.
+A máscara de sub-rede local $ é inválida.
+O endereço IP remoto $ é inválido.
+A máscara de sub-rede remota $ é inválida.
+Por favor, insira a chave pré-compartilhada.
+O tempo de vida da chave da fase 1 deve ser um número inteiro positivo.
+O tempo de vida da chave da fase 2 deve ser um número inteiro positivo.
+Chave de criptografia manual inválida.
+A chave de criptografia manual é AES. Seu comprimento deve ser de 32, 48 ou 64 bits.
+ Chave de criptografia manual inválida. A chave deve consistir apenas em números hexadecimais.
+Chave de autenticação manual inválida.
+Valor SPI inválido. Digite um válido de acordo com a regra.
+Meu identificador não pode estar em branco.
+O Identificador de Par não pode estar em branco.
+Quando o identificador for configurado para 'FQDN', o modo deve ser configurado para principal.
+10 Túneis IPSec já existem.
+O modo Agressivo deve ser selecionado.
+Erro de Sistema Interno.
+Arquivo não encontrado.
+Arquivo não aceito.
+Erro de rede. Verifique a conexão e a configuração de rede.

@@ -1,0 +1,2575 @@
+Status
+Mapa de Rede
+Internet
+Configuração Rápida
+Modo Operacional
+Rede
+Configurações WAN
+EWAN
+Configurações 3G/4G
+Interface de Agrupamento
+Configurações LAN
+Configurações IPv6 LAN
+Clone de Mac
+ALG
+Configurações DSL
+Auto-detecção PVC
+VPN IPSec
+IPTV
+Servidor DHCP
+Configurações DHCP
+Lista de Clientes
+Reserva de Endereço
+Pool Condicional
+Wireless
+Configurações Wireless
+Wireless 2.4GHz
+Configurações Básicas
+WPS
+Segurança Wireless
+Agendamento Wireless
+Filtragem de MAC
+Wireless Avançado
+Status Wireless
+Wireless 5GHz
+Configurações Básicas
+Configurações WPS
+Segurança Wireless
+Wireless Avançado
+Status Wireless
+Rede para Convidados
+Configurações Básicas
+Configurações Básicas 2.4GHz
+Status de Rede para Convidados
+Status do Convidado 2.4GHz
+Configurações Básicas 5GHz
+Status do Convidado 5GHz
+Telefonia
+Números de Telefone
+Agenda Telefônica
+Dispositivos de Telefonia
+Log de Chamada
+Regras de Chamada
+DND e Bloqueio de Chamada
+Encaminhamento de Chamada
+Transferência de Chamada
+DECT
+tpPhone
+Correio de Voz
+Compartilhamento USB
+Dispositivo de Armazenamento USB
+Acesso de Compartilhamento
+Armazenamento de Massa USB
+Contas de Usuário
+Configuração do Código de Recurso
+Compartilhamento de Armazenamento
+Servidor FTP
+Servidor de Mídia
+Servidor de Impressão
+Configurações de Rota
+Gateway Padrão
+Rota Estática
+Configurações RIP
+Configurações de Rota IPv6
+Gateway Padrão IPv6 
+Roteamento Estático IPv6
+Direcionamento NAT
+Servidores Virtuais
+Disparo de Porta
+Filtragem de Serviço
+DMZ
+UPnP
+Controles dos Pais
+Firewall
+Segurança
+Controle de Acesso
+Regra
+LAN Principal
+WAN Principal
+Agendamento
+Configurações
+Firewall e Proteção DoS
+Firewall IPv6
+Regra IPv6
+LAN IPv6 Principal
+WAN IPv6 Principal
+Agenda IPv6
+Túnel IPv6
+QoS
+Configurações
+Base de Dados
+Configurações Básicas
+Configurações SP/WRR
+Controle de Largura de Banda
+Controle de Largura de Banda
+Vínculo IP/MAC
+Configurações de Vínculo
+Lista ARP
+DNS Dinâmico
+Diagnósticos
+Ferramentas de Sistema
+Log de Sistema
+Ajuste de Horário
+Controle de Gerenciamento
+Configurações CWMP
+Configurações SNMP
+Fazer Backup e Restaurar
+Padrões de Fábrica
+Atualização de Firmware
+Administração
+Reiniciar
+Estatísticas
+Monitoramento de Tráfego
+Configuração de Telefone
+Base Station DECT
+Roteamento Estático
+Configurações Avançada
+Lista de Cliente DHCP
+Telefone
+Configurações de Compartilhamento
+Conta para Compartilhamento
+Compartilhamento de Pasta
+VPN
+OpenVPN
+VPN PPTP
+Conexões VPN
+Controle do LED
+TP-Link Cloud
+Push Service
+Ação
+Adicionar
+Adicionar Nova
+Apagar
+Visualizar
+Editar
+Sep
+Buscar
+Pesquisa
+Salvar
+Aplicar
+Voltar
+Próximo
+Ajuda
+Recarregar
+Atualizar
+Reset (Reiniciar)
+Bloquear
+Vincular
+Início
+Parar
+Conectando
+Desconectar
+Renovar
+Liberar
+Habilitar
+Desabilitar
+Habilitar Rede para Convidados 2.4
+Habilitar Rede para Convidados 5G
+Desabilitar Rede para Convidados
+Habilitar Tudo
+Desabilitar Tudo
+Apagar Tudo
+Habilitar Selecionado
+Desabilitar Selecionado
+Apagar Selecionado
+Permitir
+Negar
+Finalizar
+Reiniciar
+Sair
+Vínculo
+Desvinculado
+Habilitado
+Desabilitado
+Carregado
+Não carregado
+Inicializando
+Obtendo
+Conectado 
+Conectando
+Desconectado
+O serviço de telefone está indisponível. Favor verificar suas configurações de conta ou registre um novo número.
+Auto
+Desconhecido
+Nenhum
+Erro
+Aviso
+Aviso
+Aviso:
+Avisos
+Código do Erro
+Feito com sucesso
+Passar
+Pular
+Falhou
+Habilitar uma conexão wireless para IPTV
+Apagar
+Selecionar Todos
+Tirar Todas as Seleções
+Sim
+Não
+OK
+Cancelar
+Configurar
+Modelo 
+Desplugado
+Identificando...
+Identificado com Sucesso
+Cancelar
+Registrar
+dígitos hexadecimais
+Caracteres ASCII
+Outro
+Posição do Aparelho
+Sincronização de Data e Hora
+Reconfigurar
+Tente novamente
+Visualizar Aplicações Existentes
+Fazer Backup
+Restaurar
+Restauração de Fábrica
+Sair
+Feito
+Final
+Aguardando...
+--
+De:
+Para:
+Confirmar
+Atualizar
+Import
+Exportar
+Habilitar VLAN:
+Confirmar Senha:
+DNS:
+As mudanças não terão efeito até que o roteador seja reinicializado. Tem certeza de que deseja continuar?
+O modo de comutação reinicializará o roteador. Deseja continuar?
+O dispositivo irá reiniciar. Tem certeza de que deseja continuar?
+Todas as configurações atuais serão perdidas uma vez que o roteador é restaurado. Tem certeza de que deseja continuar?
+Tem certeza de que deseja excluir esta interface?
+As mudanças não terão efeito até que o roteador seja reinicializado. Tem certeza de que deseja continuar?
+Ao clicar em Sim, você será desconectado. Tem certeza de que deseja continuar?
+A modificação do endereço IP da LAN ou da máscara de sub-rede exigirá que você faça o novo login. Write down the changes if you want to continue. Tem certeza de que deseja continuar?
+A página da web será atualizada. Gostaria de continuar?
+Esta página será atualizada e pode causar desconexão. Tem certeza de que deseja continuar?
+Esta porta está em conflito com um servidor virtual existente. Clique em Sim para desativar a entrada do servidor virtual e continuar. Clique em Não para usar outra porta para evitar esse conflito.
+Essa porta está em conflito com uma porta de gatilho existente. Clique em Sim para desativar a entrada da porta de gatilho relacionada e continuar. Clique em Não para usar outra porta para evitar esse conflito.
+Esta porta está em conflito com o UPnP. Clique em Sim para excluir a entrada UPnP relacionada e continuar. Clique em Não para usar outra porta para evitar esse conflito.
+A função FTP conflita com o DMZ Principal. Clique em Sim para desativar o DMZ Principal e continuar.
+As configurações atuais entram em conflito com o acesso à Internet do servidor FTP USB. Por favor, clique em Sim para desativar o acesso à Internet do servidor FTP USB e habilite os necessários requisitos de encaminhamento de porta.
+Uma vez que a fila é excluída, todas as classificações relacionadas a esta fila serão excluídas. Tem certeza que deseja apagar esta entrada?
+Tem certeza de que gostaria de apagar todos os arquivos de configuração do modem USB?
+O plano de discagem só pode ser adicionado quando houver uma conta existente. Gostaria de adicionar de adicionar uma conta?
+A modificação do endereço IP LAN ou da máscara de sub-rede entrará em vigor após a reinicialização. Tem certeza de que deseja reiniciar agora?
+As mudanças não terão efeito até que o roteador seja reinicializado. Tem certeza de que deseja continuar?
+As mudanças não terão efeito até que o roteador seja reinicializado. Tem certeza de que deseja continuar?
+Tem certeza de excluir as conexões conflitantes?
+Tem certeza de excluir os itens selecionados?
+Tem certeza de que deseja sair?
+Tem certeza que deseja apagar todos estes túneis?
+Tem certeza que deseja apagar esta entrada?
+Tem certeza de que deseja excluir todas as entradas?
+Aviso: Não é possível desativar a VLAN quando o IPTV está habilitado.
+Aviso: A VLAN não pode ser desativada no modo Roteador Wireless.
+As configurações wireless foram alteradas com sucesso. Reconecte-se ao roteador usando as novas configurações wireless.
+Nenhum certificado atualmente, clique em OK para gerar um e salvar sua configuração.
+O DNS dinâmico não está configurado. Se você continuar exportando, talvez seja necessário atualizar o arquivo quando o WAN IP for alterado. É altamente recomendável configurar o DNS Dinâmico ou atribuir um IP estático à porta WAN primeiro.
+Desconectado do DNS Dinâmico. Se você continuar exportando, talvez seja necessário atualizar o arquivo quando o WAN IP for alterado. É altamente recomendável conectar-se primeiro ao DNS Dinâmico.
+Clique na área para compartilhar ou desabilitar o volume.
+Ao inserir seu código de área, você pode fazer uma chamada local sem discar o código de área primeiro. O código de área é adicionado como o prefixo automaticamente cada vez que você faz uma chamada local.
+Não atualize a página ou faça outras ações.
+Índice
+Status
+Descrição
+Internet
+Tipo de Conexão de Internet:
+IP/Máscara
+Ponte
+Tipo de Endereço:
+Smart DHCP
+IP Dinâmico
+IP Estático
+PPPoE
+PPPoA
+IPoA
+Endereço MAC:
+Endereço IP:
+Máscara de Sub-rede: 
+Gateway:
+Gateway Padrão:
+DNS Primário:
+DNS Secundário:
+Servidores DNS:
+Grupo:
+Interface
+Porta
+Protocolo:
+Operação
+Configuração ATM
+Modo de Encapsulamento:
+Tipo QoS ATM:
+ frames/s
+pacotes/segundo
+(Opcional)
+(Recomendado)
+Configuração de Serviço WAN
+Nome de usuário:
+Senha:
+Nome de usuário:
+Senha:
+Nome de usuário:
+Senha:
+Nome de usuário:
+Senha:
+Confirmar Senha:
+Obter IP Utilizando DHCP Unicast:
+(Não é normalmente obrigatório.)
+Nome do Serviço:
+Nome de Concentrador de Acesso:
+Tempo Máximo Ocioso:
+minutos
+segundos:
+Pacotes
+bytes.
+Tamanho MTU:
+(0 significa sempre ativo.)
+Modo de Correção:
+Sob Demanda
+Auto
+Manualmente
+Tipo de Autenticação:
+Conexão Atual
+NAT:
+NAT /full-cone:
+Firewall SPI:
+Proxy IGMP:
+bytes.(O padrão é 1480
+bytes.(O padrão é 1500
+bytes.(O padrão é 1460
+bytes.(O padrão é 1420
+NÃO altere a menos que necessário.)
+Não altere a menos que necessário.
+Utilize os Endereços DNS a Seguir:
+Nome do Host:
+Intervalo de Solicitação de Eco:
+segundos. (0-120. O valor padrão é 30.)
+Utilizar Endereço IP Especificado pelo Provedor:
+Endereço IP especificado pelo provedor:
+Opção 
+Restaurar MAC de Fábrica
+Reiniciando
+Fazendo Upload
+Atualizando
+O dispositivo está reiniciando. Favor aguardar...
+Atulizando, favor aguardar...
+Aguarde, as configurações terão efeito depois que o dispositivo for reiniciado ...
+O dispositivo está reiniciando. Favor aguardar...
+Wireless
+Configurações Wireless
+2.4GHz
+5GHz
+Rede Wireless 2.4GHz:
+Rede Wireless 5GHz:
+Wireless 2.4GHz:
+Wireless 5GHz:
+Wireless 2.4GHz
+Wireless 5GHz
+Habilitar
+Habilitar Rede para Convidados
+Nome de Rede (SSID):
+Nome de Rede (SSID):
+(Também chamado de SSID)
+Ocultar SSID
+Permanente
+Região:
+Fuso Horário:
+11b somente
+11bg misto
+11g somente
+11n somente
+11bg misto
+11a somente
+11an misto
+11a/n/ac misto
+Canal:
+Modo:
+Largura do Canal:
+Criptografia:
+Segurança
+Segurança:
+Sem Segurança
+WPA/WPA2 Pessoal (Recomendado)
+WPA/WPA2 Pessoal
+WPA/WPA2  Empresarial
+Criptografado
+Versão:
+Auto
+WPA-PSK
+WPA2-PSK
+WPA
+WPA2
+Sistema Aberto
+64-Bit
+128-Bit
+Chave Compartilhada
+Chave
+Chave 1
+Chave 2
+Chave 3
+Chave 4
+Tipo de Chave:
+Valor da Chave:
+Formato de Chave WEP: 
+Chave Selecionada:
+Hexadecimal
+ASCII
+Senha:
+(Insira de 8 a 63 caracteres ASCII ou de 8 a 64 caracteres Hexadecimais.)
+O dispositivo foi adicionado com sucesso!
+Falha ao adicionar o dispositivo!
+Associado
+Acesso Completo
+Somente Leitura
+Sem Acesso
+Standby
+Online
+Offline
+Ativo
+Inativo
+Indisponível
+Adicionar Nova Pasta
+Buscar
+Ocultar
+Disco
+Ativar
+Desativar
+Nome
+Volume
+Sistema de Arquivo
+Capacidade
+Espaço Livre
+Utilizado
+Disponível
+Ambos
+Ativo
+Passivo
+TODOS
+Qualquer Host
+Qualquer Horário
+Horário
+Dom
+Seg
+Ter
+Qua
+Qui
+Sex
+Sáb
+Último
+A lista atual está vazia
+Máximo
+Minutos
+Reiniciar Tudo
+Obtendo GMT...
+Obter GMT
+Obter do PC
+Falha ao obter horário GMT
+A Período Efetivo é baseado no horário do Roteador. O período pode ser ajustado em \"Avançado > Ferramentas de Sistema > Configurações de Período\".
+ Ajuste de Horário
+Domínio Inválido
+Falha na Autenticação
+Usuário Padrão
+Usuário Avançado
+Diágnósticos Completados
+Diagnósticos Pausados
+Teste de Sincronização xDSL
+Teste de Conexão Física da Porta WAN
+Conexão WAN Teste
+Teste de Conexão de Servidor PPP
+Teste de Autenticação com Provedor
+Teste Endereço IP Atribuído
+Teste de Conexão de Servidor DHCP
+Ping de Gateway Padrão 
+Ping de Servidor de Nome de Domínio Primário
+Teste de DNS Raíz
+Inspeção de Status de Conexão de Rede (NCSI)
+Teste de Navegação da Internet
+Internet não encontrada (joins in*)
+Favor configurar a interface WAN.
+Emergência
+Alerta
+Crítico
+Aviso
+Informação
+Depurar
+Habilitar
+Habilitar IPv4
+Habilitar IPv6
+Endereço IPv6:
+Tamanho do Prefixo:
+DNS Secundário:
+"Gateway IPv6	Padrão:"
+Utilizar o Endereço DNS IPv6 a seguir:
+Utilizar Endereço IP Especificado pelo Provedor:
+Endereço IPv6 especificado pelo provedor:
+Gateway IPv6 especificado pelo provedor:
+Obter Endereço IPv6 Utilizando DHCP Unicast:
+Tipo de Endereçamento:
+Proxy MLD:
+IPv6 Estático
+IPv6 Dinâmico
+Conexão WAN
+Utilizar Conta de Login Web
+Utilizar a rede 3G/4G como solução redundante para acesso à Internet
+Localização
+Provedor Móvel
+Modo Operacional
+Configurar o Número de Discagem, APN, Nome de Usuário e Senha manualmente
+Número de Discagem
+Desconectando
+Endereço IP de servidor/Nome>
+Modo de Endereço DNS
+Habilitar Broadcast SSID
+Host:
+(controle de agendamento)
+(controle de usuário)
+Algorítmo de Criptografia:
+Algorítmo de Integridade
+Seleção de Local:
+Provedor de Telefonia:
+Prefixo
+Número
+Número de telefone Netvoip
+Código PIN com \"#\"
+Número de Telefone:
+Número VoIP:
+Número SIP:
+Número de telefone VoIP:
+Senha VoIP:
+Número de telefone Internet:
+Nome de Usuário:
+Nome de Usuário SIP:
+Senha de Contrato
+Número:
+Senha:
+Senha SIP:
+Nome SIP:
+Número DUS.net:
+ID de Autenticação:
+Endereço de Registro:
+Servidor Proxy:
+Código de Área
+Nº de Telefone:
+ID SIP:
+Número de Telefone:
+Senha VoIP:
+Endereço de E-mail:
+Nome do Perfil
+Número de Telefone/ID de Usuário:
+Endereço de Registro:
+Porta de Registro:
+ID de Autenticação:
+Senha:
+Proxy SIP:
+Porta Proxy SIP:
+Proxy de Saída:
+Porta Proxy de Saída:
+Registrar via Proxy de Saída 
+Lista de Conta SIP
+Voz - Conta SIP
+Código de Área
+Ao habilitar esta função e inserir seu código de área, você pode fazer uma chamada local sem discar o código de área primeiro. O código de área é adicionado como o prefixo automaticamente cada vez que você faz uma chamada local.
+Lista de Bloqueados-Configuração
+Insira um número de 3 a 16 dígitos no tamanho.
+Registrar Novo Dispositivo DECT
+Plano de Discagem
+Destino
+(Máx. de 16 caracteres)
+Nenhum
+Operar
+Telefone 1
+Telefone 2
+PSTN
+número
+Lista de Permitidos-Configuração
+Lista de Bloqueados
+Lista de Permitidos
+Máximo de 30 entradas podem ser configuradas.
+ID
+Log de Chamada
+Fonte
+Destino
+Tipo:
+Processo
+Configuração de Log de Chamada
+O armazenamento USB está desconectado.
+Não foram encontrados arquivos com o formato correto no dispositivo de armazenamento USB.
+incondicionalmente
+Favor notar que a configuração anterior
+da página de configuração do telefone foi desabilitada desde que você habilitou Disparo de Mensagem de Voz
+da página de configuração do telefone foi desabilitada desde que você habilitou Disparo de Mensagem de Voz
+sem resposta/incondicionalmente
+Firewall de Chamada
+Configurações de Chamadas de Emergência (PSTN).
+Chama Não Permitida
+Finalizar com '#'
+Encaminhar Incondicionalmente:
+sem resposta
+a página de Correio de Voz USB foi desabilitada desde que você habilitou encaminhamento
+Discagem Rápida
+Correio de Voz
+LAN
+Qualquer_WAN
+IP_Roteado
+IP_Ponteado
+Código de Recurso
+Tipo de Modulação DSL:
+VPI/VCI
+VPI/VCI ou VID
+VID
+Nenhuma interface disponível
+Configuração de Telefone
+Registro de Dispositivo
+Editar Telefone
+(GMT-12:00) Enewetak, Kwajalein
+(GMT-11:00) Ilhas Midway, Samoa
+(GMT-10:00) Havaí
+(GMT-09:00) Alasca
+(GMT-08:00) Horário do Pacífico (EUA e Canadá); Tihuana
+(GMT-07:00) Horário das Montanhas (EUA e Canadá)
+(GMT-06:00) Horário Central (EUA e Canadá); América Central, Cidade do México
+(GMT-05:00) Horário do Leste (EUA e Canadá); Bogotá, Lima
+(GMT-04:30) Caracas
+(GMT-04:00) Horário do Atlântico (Canadá); Santiago, Assunção
+(GMT-03:30) Terra Nova
+(GMT-03:00) Brasília, Buenos Aires, Georgetown, Groelândia
+(GMT-02:00) Meio Atlântico
+(GMT-01:00) Açores, Cabo Verde
+(GMT) Horário de Greenwich: Dublin, Edinburgo, Londres, Lisboa
+(GMT＋01:00) Amsterdã, Berlim, Roma, Estocolmo, Paris, Praga, Bratislava
+(GMT＋02:00) Cairo, Atenas, Istambul, Minsk, Jerusalém, Kiev, Chisinau
+(GMT＋03:00) Bagdá, Kuwait, Riyadh
+(GMT＋03:30) Teerã
+(GMT＋04:00) Abu Dhabi, Muscat, Baku, Tbilisi, Yerevan, Moscou, São Petersburgo
+(GMT+04:30) Kabul
+(GMT＋05:00) Islamabad, Karachi, Tashkent
+(GMT＋05:30) Madras, Kolkata, Mumbai, Nova Delhi
+(GMT+05:45) Katmandu
+(GMT＋06:00) Almaty, Astana, Dhaka, Ekaterinburg, Bishkek
+(GMT+06:30) Rangoon
+(GMT＋07:00) Bangkok, Jakarta, Hanoi, Novosibirsk
+(GMT＋08:00) Beijing, Chongqing, Urumchi, Hong Kong, Taipei, Kuala Lumpur, Perth
+(GMT＋09:00) Tóquio, Osaka, Sapporo, Seul
+(GMT＋09:30) Darwin, Adelaide
+(GMT＋10:00) Brisbane, Guam, Canberra, Melbourne, Sydney, Yakutsk
+(GMT+11:00) Magadã, Ilhas Salomão, Nova Caledônia
+(GMT＋12:00) Fuji, Península Kamchatka , Ilhas Marshall, Wellington
+(GMT+13:00) Nuku'alofa
+Favor verificar se seu cabo de telefone está bem conectado.
+Favor verificar se a porta WAN está conectada corretamente e tente novamente.
+Verifique as configurações do DSL, como VPI/VCI e modo de encapsulamento. Entre em contato com o provedor de serviços da Internet para confirmar se sua linha está em boas condições.
+Verifique as configurações DSL com ID VLAN. Entre em contato com o provedor de serviços da Internet para confirmar se sua linha está em boas condições.
+Verifique a qualidade da linha com seu provedor de serviços de internet.
+Verifique o nome de usuário e a senha da Internet. Confirme com o seu fornecedor de serviços de Internet, se necessário.
+Falha na conexão PPP. Entre em contato com o provedor de serviços de Internet para confirmar se sua linha está em boas condições. Se o problema ainda existir, entre em contato com o suporte técnico da TP-Link para obter mais ajuda.
+Configure seu DNS manualmente.
+Favor reconfigurar seus parâmetros. Se o problema existir, favor contatar seu provedor.
+Confirme se o seu cartão SIM foi inserido no modem corretamente.
+Verifique APN, número de discagem, o nome de usuário e a senha com seu provedor de serviços de Internet. Insira-os manualmente e tente novamente.
+Verifique se o seu modem USB está na nossa lista de compatibilidade 3G/4G da sua região. Se assim for, fique à vontade para entrar em contato com o suporte técnico da TP-Link. Se não estiver, lamentamos que o seu modem não seja compatível com o nosso roteador.
+Identificação da Conexão:
+Número T-Online:
+Sufixo do Usuário:
+Auto desconectar e reconectar em (HH: MM)
+Configuração Rápida
+Básico
+Avançado
+Login
+Login
+Sair
+Sair
+Reiniciar
+Atualizar
+Suporte 
+FAQ
+Versão de Firmware:
+Versão de Hardware:
+Baixa
+Média
+Alta
+VPI:
+VCI:
+ID VLAN:
+ID VLAN (7-4094):
+Habilitar ID VLAN
+Nome de Interface:
+Tipo de Serviço:
+Porta Externa:
+IP Interno:
+Porta Interna:
+Fechar
+Escolher
+Nenhuma Interface
+Habilitar Esta Entrada
+Aplicação: 
+Aceso
+Desabilitado
+Multimodo
+Clique para ocultar.
+Kbps
+Mbps
+intervalo
+tamanho
+Número de Telefone
+PCR:
+SCR:
+MBS:
+Obter Dinamicamente do provedor
+WEP
+Compartilhamento de Arquivo
+2.4GHz
+5GHz
+Salvo.
+Carregando...
+Outro
+Favor Selecionar
+Procurar
+dias
+horas
+h
+minutos
+Conta
+Auto
+T_note2
+aggNote
+Endereço MAC:
+Endereço IP:
+Máscara de Sub-rede: 
+Gateway Padrão:
+DNS Primário:
+DNS Secundário:
+Tipo de Conexão:
+Nome de Rede (SSID):
+Rádio Wireless:
+Largura do Canal:
+Canal:
+Modo:
+DHCP:
+Tamanho do Prefixo:
+Tipo Atribuído:
+Ocultar SSID:
+Permite Convidados Acessarem Uns Aos Outros:
+Rede para Convidados
+Wireless
+LAN
+Nome de Interface WAN:
+Informação do Dispositivo
+Versão de Firmware:
+Versão de Hardware:
+Tempo Total do Sistema.
+DSL
+Status de Linha:
+Tempo de Funcionamento DSL:
+Tipo de Modulação DSL:
+Tipo de Anexo:
+Upstream
+Downstream
+Taxa Atual (kbps)
+Taxa Máx. (Kbps)
+Margem SNR (dB)
+Atenuação de Linha (dB)
+Erros (pkts)
+Nome
+Taxa Tx Máxima:
+Status WDS:
+Agendamento:
+Taxa Tx Máxima
+Nome
+Endereço IPv6/Tamanho do Prefixo
+Tipo de Autoconfiguração 
+Voz
+Roteador
+Clientes Wireless
+Clientes Cabeados
+Telefone
+DECT
+Impressora
+Disk USB
+Endereço MAC:
+Endereço IP:
+Tipo de Conexão:
+Gateway:
+Status de Internet
+Status de Telefone:
+Conexão Secundária:
+Endereço IP:
+SSID:
+Canal:
+MAC:
+Rede para Convidados 2.4GHz
+Rede para Convidados 5GHz
+Status:
+Nome:
+Marca:
+Total:
+Disponível:
+Servidor DNS:
+Nenhuma Impressora
+Nenhum Dispositivo
+Dispositivos Online
+Clientes Wireless (Rede Principal)
+Clientes Wireless (Convidados)
+Dispositivos USB
+LAN
+Modo Operacional
+Favor selecionar um modo de operação:
+Modo Modem Roteador DSL
+Modo Roteador 3G/4G
+Modo Roteador Wireless
+Modo Operacional
+Favor selecionar um modo de operação:
+Modo Modem Roteador DSL
+Modo Roteador 3G/4G
+Modo Roteador Wireless
+Roteador
+Access Point
+Neste modo, o roteador se conecta diretamente à Internet via IP dinâmico, IP estático, PPPoE, L2TP ou PPTP e compartilha o acesso à internet a vários dispositivos com ou sem fio. NAT, firewall e servidor DHCP são habilitados por padrão.
+Neste modo, seu roteador se conecta a um roteador com ou sem fio através de um cabo Ethernet e amplia a cobertura wireless da sua rede existente. Funções como NAT, Controle dos Pais e QoS não são suportadas neste modo.
+(Modo atual)
+Autodetectar
+Aviso: 
+Caso não tenha certeza sobre o tipo de conexão de Internet que você possui, utilize a função de Auto Detectar ou contato seu provedor para assistência.
+NÃO Clonar Endereço MAC
+Clonar Endereço MAC do Computador Atual
+Configuração de Conexão de Internet
+Internet
+Aviso: O roteador agora está operando no modo VDSL. Para usar a conexão ADSL como sua conexão de Internet padrão, vá em Avançado > Rede > Configurações DSL > Tipo de Modulação DSL para transformá-lo em modo ADSL.
+Aviso: O roteador agora está trabalhando no modo ADSL. Para usar a conexão ADSL como sua conexão de Internet padrão, vá em Avançado > Rede > Configurações DSL > Tipo de Modulação DSL para transformá-lo em modo VDSL.
+Lista ISP
+Status de Internet
+Detectando
+Aviso: O ID VLAN não pode ser desativado quando a Conexão Ethernet está habilitada.
+Conexões de Internet
+Configuração de Conexão de Internet
+Clone de Mac
+Esta página mostra as informações de toda a interface WAN DSL.
+Nome
+Tipo
+Habilitar Autodetecção PVC
+Aviso: Os parâmetros acima têm várias conexões e proibirá quaisquer modificações dos seguintes parâmetros.
+Aviso: Não altere os parâmetros abaixo, a menos que seja necessário!
+Discagem Especial:
+NÃO Clonar Endereço MAC
+Clonar Endereço MAC do Computador Atual
+Utilizar Endereço MAC Personalizado
+Configurações de Internet
+Habilitar conexão EWAN
+Tipo de Endereçamento:
+Conexão Secundária:
+(Para Acesso Duplo)
+PPPoE
+Endereço DNS
+Auto
+PAP
+CHAP
+MS-CHAP
+Tamanho MTU:
+(O padrão é 1500, não altere a menos que necessário.)
+NAT
+NAT Full-cone
+SPI Firewall
+Proxy IGMP
+Clone de Mac
+NÃO Clonar Endereço MAC
+Clonar Endereço MAC do Computador Atual
+Utilizar Endereço MAC Personalizado
+(0-120, o padrão é 30.)
+NÃO Clonar Endereço MAC
+Utilizar Endereço MAC Personalizado
+Interface WAN
+Configurações 3G/4G
+Aviso: O acesso 3G ou 4G não está disponível no modo de operação atual. Por favor, ative o backup 3G/4G ou altere o modo de operação para o modo 3G/4G Router.
+O SIM/UIM card está bloqueado. Favor desbloquear o SIM/UIM card primeiramente com seu código PUK no PC/Laptop.
+Modem USB 3G/4G:
+Desplugado
+Detectando...
+Apagado com sucesso.
+Status PIN
+Não é possível desbloquear o cartão SIM.
+Pronto
+SIM Bloqueado
+PIN Bloqueado
+Erro Desconhecido
+Status da Conexão:
+Configurações 3G/4G
+Aviso: O acesso 3G ou 4G não está disponível no modo de operação atual. Por favor, ative o backup 3G/4G ou altere o modo de operação para o modo 3G/4G Router.
+O SIM/UIM card está bloqueado. Favor desbloquear o SIM/UIM card primeiramente com seu código PUK no PC/Laptop.
+Atraso de Backup
+Atraso de Regressão
+Modem USB 3G/4G:
+Status PIN
+Desplugado
+Detectando...
+Apagado com sucesso.
+Não é possível desbloquear o cartão SIM.
+Pronto
+SIM Bloqueado
+PIN Bloqueado
+Erro Desconhecido
+PIN
+Autobloqueio PIN
+Desbloquear
+APN:
+(0 significa sempre ativo.)
+Auto
+PAP
+CHAP
+Status da Conexão:
+Habilitar Modificação PIN
+PIN Antigo
+PIN Novo
+Confirmar Novo PIN
+Tamanho MTU (em bytes)
+(O padrão é 1480, não altere a menos que necessário.)
+Utilizar IP Especificado pelo Provedor
+Endereço IP Especificado pelo Provedor
+Utilize os Endereços DNS a seguir
+DNS Primário
+DNS Secundário
+Configurações de Modem USB 3G/4G
+Configurações de Modem USB 3G/4G
+Arquivo:
+Aviso: Restaurar o roteador para as configurações padrão causará a perda do arquivo .bin. Você pode fazer backup e enviá-lo novamente, ou baixar o arquivo .bin mais recente do site oficial do TP-Link  (<a target=\"_blank\"href=\"http://www.tp-link.com\">http://www.tp-link.com</a>) e instale-o no seu roteador para recuperar todas as suas funções.
+Upload
+Voltar
+Interface de Agrupamento
+Interface WAN
+"Interface WAN
+Aviso: Você não pode desativar a funcionalidade da VLAN com uma conexão IPTV ou WAN Ethernet habilitada.
+Habilitar VLAN:
+Adicionar um Novo Grupo
+Nome de Grupo:
+Habilitar Isolamento de Grupo
+ALG
+Rede Privada Virtual (VPN)
+Passagem PPTP:
+Passagem L2TP:
+Passagem IPSec:
+Gateway de Camada de Aplicação (ALG)
+ALG FTP:
+ALG TFTP:
+ALG H323:
+ALG SIP:
+Configurações DSL
+Tipo de Modulação DSL:
+Tipo de Anexo:
+Bit Swap:
+SRA:
+IP LAN:
+Snooping IGMP:
+Habilitar
+Agregação de Link
+Agregação de Link:
+LACP passivo
+LACP ativo
+Portas de Agregação de Link:
+A agregação de link e IPTV não podem estar habilitados ao mesmo tempo.
+personalizado
+O endereço IP do roteador pode mudar, então você precisa fazer login novamente. Tem certeza de que deseja continuar?
+LAN
+Servidor DHCP
+Lista de Clientes
+Clientes Totais:
+Clientes Totais
+Endereço IP Atribuído
+Tempo de Concessão de Endereço
+Reserva de Endereço
+Condition Pool
+Habilitar Esta Entrada
+IP Version:
+IPv4
+IPv6
+IP LAN:
+Snooping IGMP:
+Habilitar
+IP Secundário:
+Habilitar
+DHCP:
+Servidor DHCP
+Relay DHCP
+Pool de Endereço IP:
+Período de Concessão de Endereço:
+minutos. (1-2880. O valor padrão é de 1440.)
+Domínio Padrão:
+Endereço de Servidor Remoto:
+Aviso: Para tornar as configurações DHCP Relay efetivas, desative o NAT da conexão WAN.
+Personalizado
+Habilitar
+Endereço IP:
+Nome do Dispositivo:
+ID do Fornecedor:
+Endereço IP Inicial:
+Endereço IP Final:
+Tipo de Dispositivo:
+PC
+Câmera
+HGW
+STB
+Telefone
+Desconhecido
+Adicionar Opção:
+Valor de Opção:
+Adicionar Opção:
+Valor de Opção:
+Opção 240
+Opção 241
+Opção 242
+Opção 243
+Opção 244
+Opção 245
+DNS1:
+DNS2:
+Tipo de Endereço:
+RADVD
+Habilitar RDNSS
+Habilitar Prefixo ULA
+Prefixo ULA:
+Tamanho do Prefixo ULA:
+Servidor DHCPv6
+Endereço IPv6 Inicial:
+Endereço IPv6 Final:
+Período de Concessão de Endereço:
+segundos:
+Delegado
+Estático
+Conexão WAN:
+Tipo de Prefixo de Site:
+Prefixo do Site:
+Tamanho do Prefixo do Site:
+(1-2880., o padrão é 1440.)
+Nenhuma Reserva de Endereço
+Adicionar Reserva de Endereço
+Habilitar Reserva
+LAN
+Servidor DHCP
+Lista de Clientes
+Clientes Totais:
+Clientes Totais
+Endereço IP Atribuído
+Tempo de Concessão de Endereço
+Reserva de Endereço
+Condition Pool
+Habilitar Esta Entrada
+IP Version:
+IPv4
+IPv6
+IP LAN:
+Snooping IGMP:
+Habilitar
+IP Secundário:
+Habilitar
+DHCP:
+Servidor DHCP
+Relay DHCP
+Pool de Endereço IP:
+Período de Concessão de Endereço:
+minutos. (1-2880. O valor padrão é de 1440.)
+Domínio Padrão:
+Endereço de Servidor Remoto:
+Aviso: Para tornar as configurações DHCP Relay efetivas, desative o NAT da conexão WAN.
+Personalizado
+Habilitar
+Endereço IP:
+Nome do Dispositivo:
+ID do Fornecedor:
+Endereço IP Inicial:
+Endereço IP Final:
+Tipo de Dispositivo:
+PC
+Câmera
+HGW
+STB
+Telefone
+Desconhecido
+Adicionar Opção:
+Valor de Opção:
+Adicionar Opção:
+Valor de Opção:
+Opção 240
+Opção 241
+Opção 242
+Opção 243
+Opção 244
+Opção 245
+DNS1:
+DNS2:
+Tipo de Endereço:
+RADVD
+Habilitar RDNSS
+Habilitar Prefixo ULA
+Prefixo ULA:
+Tamanho do Prefixo ULA:
+Servidor DHCPv6
+Endereço IPv6 Inicial:
+Endereço IPv6 Final:
+Período de Concessão de Endereço:
+segundos:
+Delegado
+Estático
+Conexão WAN:
+Tipo de Prefixo de Site:
+Prefixo do Site:
+Tamanho do Prefixo do Site:
+(1-2880., o padrão é 1440.)
+Nenhuma Reserva de Endereço
+Adicionar Reserva de Endereço
+Habilitar Reserva
+Configurações
+Habilita Multi SSID
+Certifique-se de selecionar a região correta de acordo com as leis locais.
+Garanta que as configurações estejam certas.
+Habilitar Rádio Wireless do Roteador
+Habilitar Broadcast SSID
+Habilitar WDS
+SSID (a ser estendido):
+BSSID (a ser estendido):
+ex. 00:1D:0F:11:22:33
+Índice WEP:
+A senha não é editável aqui, vá para Avançado > Wireless para alterá-la.
+A senha não é editável aqui, vá para Avançado > Wireless para alterá-la.
+A senha não é editável aqui, vá para Avançado > Wireless para alterá-la.
+Lista AP
+Os APs digitalizados dentro da área: 
+APs:
+Força de Sinal
+Lista AP
+Os APs digitalizados dentro da área: 
+APs:
+Força de Sinal
+Método WPS
+Método 1--Apertando o Botão (Recomendável)
+O WPS pode ser desativado ou habilitado em \"Avançado > Wireless > Configurações Avançadas\".
+Método 2--PIN
+PIN do Roteador
+PIN do Cliente
+Restaurar
+Gerar
+Aviso: A função WPS não é suportada com segurança WEP, WPA/WPA2 - Autenticação empresarial ou criptografia TKIP ativada.
+O Rádio Wireless está desabilitado, clique em 
+ aqui
+ para habilitá-lo.
+Outros dispositivos podem se conectar a este roteador através do WPS com o código PIN do roteador.
+A Transmissão SSID Wireless, clique em
+ aqui
+ para habilitá-lo.
+Habilitar PIN do Roteador:
+PIN do Roteador:
+Restaurar
+Gerar
+Restaurar
+Gerar
+Adicionar um novo dispositivo:
+Adicionar Dispositivo
+Desabilitar PIN do Modem Roteador
+Configurações WPS
+Habilitar WPS: 
+Selecione um método de configuração:
+Pressionar Botão (Recomendado)
+Pressione o botão físico \"WPS\" no roteador ou clique no botão \"Conectar\" nesta página.
+Número PIN
+Insira o PIN do cliente:
+PIN do Cliente:
+Método de Configuração
+WPS
+Pressione o botão WPS no roteador ou toque o botão Iniciar WPS acima.
+Um dispositivo cliente pode ser conectado ao roteador usando seu PIN WPS.
+Para usar WPS Wizard, você deve ir para <a href='#'>Avançado > Wireless> Configurações Avançadas</a> para habilitar primeiro o WPS.
+Configurações de Segurança Wireless.
+Habilitar Rádio Wireless
+Aviso: A segurança WEP e a criptografia TKIP não são suportadas no modo 11n apenas.
+Aviso: A segurança da rede não pode ser configurada para WEP, WPA/WPA2 Enterprise ou TKIP quando a função WPS está habilitada.
+Aviso: A segurança WEP não é suportada com o SSID múltiplo habilitado.
+Para proteger sua rede wireless, é altamente recomendável habilitar a segurança wireless, selecione WPA/WPA2 Personal como o tipo de segurança e selecione AES como o tipo de criptografia.
+Chave Selecionada:
+Chave WEP
+Modo:
+Poder de Transmissão:
+Baixa
+Média
+Alta
+Período de Atualização de Chave de Grupo:
+o mínimo é 30, 0 significa sem atualização
+IP do Servidor RADIUS:
+Porta do Servidor RADIUS:
+Senha do servidor RADIUS:
+(1-65535, 0 significa porta padrão 1812)
+Senha do servidor RADIUS:
+Período de Atualização de Chave de Grupo:
+(segundos, o mínimo é 30, 0 significa nenhuma atualização)
+TKIP
+AES
+Configurações Avançada
+Poder de Transmissão:
+Intervalo Beacon:
+Intervalo Beacon:
+RTS Threshold:
+RTS Threshold:
+Fragmentação Threshold:
+Fragmentação Threshold:
+Intervalo DTIM:
+Intervalo DTIM:
+Período de Atualização de Chave de Grupo:
+Período de Atualização de Chave de Grupo:
+Short GI:
+Habilitar
+Short GI:
+Habilitar
+Isolamento AP:
+Habilitar
+Isolamento AP:
+Habilitar
+WMM:
+Habilitar
+WMM:
+Habilitar
+Aviso: A fragmentação não é permitida com o modo HT.
+Ponteamento WDS 
+Ponteamento WDS 
+Habilitar WDS Bridging
+Habilitar WDS Bridging
+SSID (a ser estendido):
+MAC (a ser estendido):
+O canal da rede wireless atual deve ser o mesmo do AP a ser estendido. Clique em Sim para alterar o canal atual; Caso contrário, a função WDS não terá efeito.
+Supressão de Interferência:
+Habilitar Supressão de Interferência
+Habilitar SSID 1
+Habilitar SSID 2
+Habilitar SSID 3
+Clientes Wireless Online
+Esta página exibe as informações básicas de todas as estações conectadas à rede wireless.
+Estações Wireless Conectadas Atualmente:
+Status 
+Status 
+Pacotes Recebidos
+Pacotes Recebidos
+Pacotes Enviados
+Pacotes Enviados
+Rede para Convidados
+Você pode configurar uma rede wireless para convidados.
+Rede para Convidados:
+SSID:
+Segurança:
+Ver um ao outro:
+Permite Convidados Acessarem Uns Aos Outros
+Acessar minha rede local:
+Permite Convidados Acessarem Minha Rede Local
+Compartilhamento de Armazenamento USB:
+Permitir que os visitantes acessem meu compartilhamento de armazenamento USB
+Isolamento de Rede para Convidados:
+Controle de Banda de Rede para Convidados:
+A função de controle de largura de banda do dispositivo está desativada, Clique em
+Taxa Mín
+&nbsp;&nbsp;&nbsp;&nbsp;Taxa Máx
+Upstream:
+Downstream:
+Renovar Senha
+Desabilitar Rede para Convidados
+Configurações
+A Função Wireless está desabilitada, Clique em 
+ aqui
+ para habilitá-lo.
+Você pode configurar uma rede wireless para convidados.
+Rede para Convidados:
+SSID:
+Segurança:
+Ver um ao outro:
+Permite Convidados Acessarem Uns Aos Outros
+Acessar minha rede local:
+Permite Convidados Acessarem Minha Rede Local
+Compartilhamento de Armazenamento USB:
+Permitir que os visitantes acessem meu compartilhamento de armazenamento USB
+Isolamento de Rede para Convidados:
+Controle de Largura de Banda:
+A função de controle de largura de banda do dispositivo está desativada, Clique em
+Taxa Mín
+&nbsp;&nbsp;&nbsp;&nbsp;Taxa Máx
+Upstream:
+Downstream:
+Configurar uma senha
+Desabilitar Rede para Convidados
+Habilitar Controle de Banda de Rede para Convidados
+Upstream (kbps):
+Downstream (kbps):
+A função Controle de Largura de Banda do roteador está desativada, siga Avançado > Controle de largura de banda para habilitá-lo.
+A função QoS do roteador está desativada, vá para Avançado> QoS > Configurações para habilitá-lo.
+Configurações QoS:
+Habilitar QoS de Rede para Convidados
+Prioridade QoS
+Agendamento Wireless
+Período Wireless Offline
+Arraste o mouse sobre a tabela de agendamento para selecionar o período durante o qual você precisa de sua rede wireless desligada automaticamente.
+O Período Wireless Offline é baseado no horário do roteador. O período pode ser ajustado em \"Ferramentas de Sistema > Configurações de Horário".
+Wi-Fi Off
+Repetir:
+Diariamente 
+Selecione o Dia
+Agendamento Wireless:
+Nenhum Agendamento
+Para adicionar um novo agendamento
+Dia da Semana
+Fim de Semana
+Selecione o Dia:
+-Favor Selecionar-
+Favor especificar 
+Configurações dos Dispositivos
+Configurações de Compartilhamento
+Nome de Servidor de Rede/Mídia:
+Compartilhamento de Pasta
+Compartilha Todos:
+My Roteador
+Nome de Volume:
+Caminho da Pasta:
+Nome da Pasta:
+Permitir Acesso à Rede para Convidados
+Habilitar Autenticação
+Habilitar Acesso de Gravação
+Habilitar Compartilhamento de Mídia
+Habilitar Autenticação:
+Buscar
+Servidor de Impressão
+Nenhum
+Servidor de Impressão:
+Nome de Impressora:
+Passos para Instalação de Servidor de Impressão:
+Passo 1:
+Instale o driver da impressora no seu computador.
+Passo 2:
+Conecte a impressora USB à porta USB do roteador através de um cabo USB.
+Passo 3:
+Instale o Utilitário de Controlador de Impressora USB TP-Link. Favor baixar do nosso website oficial: <a target=\"_blank\" href=\"http://www.tp-link.com/en/Support/\">http://www.tp-link.com/en/Support/</a>.
+Configurações dos Dispositivos
+Conta para Compartilhamento
+O compartilhamento de conteúdo requer uma conta de compartilhamento. Você pode usar a conta de login ou criar uma nova.
+Conta:
+Utilizar Conta Padrão
+Utilizar Nova Conta
+(Mesma que a Senha de Login)
+Configurações de Compartilhamento
+Nome de Servidor de Rede/Mídia:
+Compartilhamento de Pasta
+Compartilha Todos:
+My Roteador
+Nome de Volume:
+Caminho da Pasta:
+Nome da Pasta:
+Permitir Acesso à Rede para Convidados
+Habilitar Autenticação
+Habilitar Acesso de Gravação
+Habilitar Compartilhamento de Mídia
+Habilitar Autenticação:
+Buscar
+Adicionar Pasta
+Modificar Pasta
+Acesse usando o nome de usuário e a senha da conta compartilhada.
+Nenhuma Pasta Compartilhada
+Configurações de Gateway Padrão
+Roteamento Estático
+Roteamento Estático IPv6
+Selecione uma interface WAN como o gateway padrão do sistema.
+Esta interface WAN é usada em outro grupo. Favor selecionar outra.
+Selecione a interface WAN:
+Adicionar Interface
+Status:
+Interface:
+Selecione uma interface WAN como o gateway padrão IPv6.
+Destino de Rede
+Endereço IPv6 de Destino
+Tamanho do Prefixo
+Habilitar Esta Entrada
+Servidores Virtuais
+Serviços Existentes
+(XX-XX ou XX)
+(XX ou em branco,1-65535)
+Aviso: O servidor virtual só pode ser configurado quando existe uma interface disponível. Se a porta externa já for usada para Gerenciamento Remoto ou CWMP, o Servidor Virtual não entrará em vigor.
+Disparo de Porta
+Aplicações Existentes
+Porta de Disparo:
+Protocolo de Disparo:
+Protocolo Externo: 
+Nenhuma interface disponível.
+(XX, 1-65535)
+(XX ou XX-XX,1-65535, na maioria 5 pares)
+Habilitar
+Endereço IP do Host DMZ:
+Lista de Serviço UPnP
+UPnP:
+Clientanzahl:
+Controles dos Pais
+Os controles parentais podem ser usados ​​para administrar toda a atividade da Internet, incluindo a limitação do uso e/ou acesso a sites específicos para todos os clientes da rede por um período de tempo especificado.
+Controles dos Pais:
+Endereço MAC do PC dos Pais:
+Endereço MAC do PC Atual:
+Copiar Para Acima
+Endereço MAC na LAN atual:
+Copiar para
+--Favor Selecionar--
+Endereço MAC-1
+Endereço MAC-2
+Endereço MAC-3
+Endereço MAC-4
+Aplicar Para:
+Horário Inicial
+Horário Final
+Cada Dia
+Cada Semana
+Apagar Agendamento
+Adicionar URL:
+Detalhes
+(Não terá efeito até que você salve estas alterações)
+Nome do Dispositivo: 
+Endereço MAC: 
+Tempo Efetivo: 
+Descrição: 
+Habilitar Esta Entrada
+Política de Restrição:
+Lista de Bloqueados
+Lista de Permitidos
+Adicionar uma Nova Palavra-chave
+Adicionar um Novo Nome de Domínio
+Restrição de Conteúdo:
+Controles dos Pais
+Dispositivos Sob Controle dos Pais
+Restrição de Conteúdo
+Visualizar Dispositivos Existentes
+Lista de Dispositivos de Acesso
+Tempo Efetivo
+Reset (Reiniciar)
+A lista de bloqueados está vazia.
+A lista de permitidos está vazia.
+Tipo de Restrição
+Nenhum Dispositivo
+Dispositivos Online
+Adicionar Dispositivo
+Modificar Palavra-chave
+Este campo é obrigatório.
+Tempo de Sistema:
+QoS
+QoS:
+Tipo de Linha:
+Taxa Máx. de Upstream:
+Taxa Máx. de Downstream:
+Largura de Banda de Upload:
+Largura de Banda para Download:
+QoS IPTV:
+Prioridade IPTV:
+QoS VoIP:
+Lista de Regras QoS
+Alta Prioridade:
+Prioridade Média:
+Baixa Prioridade:
+Regras de QoS
+Pelo Dispositivo
+Através da Aplicação
+Através da Porta Física
+Nome do Dispositivo:
+Visualizar Dispositivos Existentes
+Porta:
+WIFI-HOST
+LAN1
+LAN2
+LAN3
+LAN4
+WIFI-GUEST
+Aplicação
+Jogos
+Aplicação Personalizada
+TCP
+UDP
+TODOS
+Nome:
+MAC
+IP
+nenhum
+(XX ou XX-XX ,1-65535)
+Atualização da Base de Dados
+Novo Arquivo de Base de Dados:
+Versão da Base de Dados:
+Atualizar
+Controle de Acesso
+Modo de Acesso
+Dispositivos Online
+Modo de Acesso:
+Dispositivos na Lista de Bloqueados
+Dispositivos na Lista de Permitidos
+Nome do Dispositivo: 
+Endereço MAC: 
+Controle de Acesso: 
+Lista de Bloqueados
+Lista de Permitidos
+Filtragem de Serviço
+Filtragem de Serviço:
+Lista de Filtragem
+Tipo de Serviço: 
+Personalizado
+Porta Inicial: 
+Porta Final: 
+Serviço de Filtro Para: 
+Endereço IP Único
+Intervalo de Endereço IP
+Todos os Endereços IP
+Firewall
+Firewall SPI IPv4:
+Firewall SPI IPv6
+Os Parâmetros DDoS podem ser configurados nesta página.
+Proteção DoS:
+Aviso: A Proteção do DoS não terá efeito quando as Estatísticas de Tráfego estiverem ativadas.
+Habilitar Filtragem de Ataque ICMP-Flood
+Pacotes Threshold ICMP-Flood
+Habilitar Filtragem de Ataque  UDP-FLOOD
+Pacotes Threshold UDP-Flood
+Habilitar Filtragem de Ataque TCP-SYN-Flood
+Pacotes Threshold TCP-SYN-Flood
+Proibir Pacotes de Ping da porta LAN
+Lista de Host DoS Bloqueados
+Número do Host: 
+Proteção DoS
+Filtragem de Ataque ICMP-Flood:
+Filtragem de Ataque UDP-Flood:
+Filtragem de Ataque TCP-Flood:
+-Favor Selecionar-
+Baixa
+Média
+Alta
+Configurações de Nível de Proteção DOS
+Nível de Proteção ICMP-Flood:
+Nível de Proteção UDP-Flood:
+Nível de Proteção TCP-SYN-Flood:
+Baixa:
+Média:
+Alta:
+(5-3600) pacotes/seg
+Endereço IP do Host:
+Endereço MAC do Host:
+Limpar Tudo
+Túnel IPv6
+Túnerl IPv6:
+Aviso: Verifique as configurações do túnel IPv6 sempre que reconfigurar a conexão WAN, uma vez que a configuração da conexão WAN pode ter efeito nas configurações do túnel.
+Mecanismo de Tunelamento:
+Conexão WAN:
+Tipo de Configuração
+Manual
+Endereço IPv6 Remoto:
+Tamanho de Máscara IPv4:
+Prefixo 6rd:
+Tamanho do Prefixo 6rd:
+Endereço IPv4 Border Relay:
+DS-Lite
+6rd
+6para4
+Habilitar Esta Entrada
+para
+Controle de Largura de Banda
+Controle de Largura de Banda:
+Tipo de Linha:
+Outro
+Total Largura de Banda para Upstream:
+Total de Largura de Banda para Downstream:
+Garantia de Largura de Banda de Telefonia:
+Garantia de Largura de Banda para IPTV:
+Garantia de Largura de Banda para Upstream:
+Garantia de Largura de Banda para Downstream:
+Regras de Controle
+Regras de Controle de Largura de Banda de Rede para Convidados
+Taxa de Upstream Atual:
+Taxa de Downstream Atual: 
+Intervalo de IP:
+Intervalo de Porta:
+Prioridade:
+(1 significa a prioridade mais alta.)
+Taxa Mín
+Taxa Máx
+Upstream:
+Downstream:
+DSL
+Sem Regras
+Adicionar uma Nova Regra
+Configurações de Vínculo
+Esta página exibe a Lista de Vínculo IP & MAC. Clique em Adicionar para criar uma nova entrada de vínculo ou clique em Editar para modificar uma entrada existente.
+Vínculo ARP
+Status de Vínculo
+Vínculo IP/MAC
+Lista ARP
+Lista de Vínculo
+Vínculo IP/MAC:
+Endereço MAC:
+Endereço IP:
+Habilitar Esta Entrada
+Configurações de DNS Dinâmico
+Provedor do Serviço:
+Dyndns
+NO-IP
+Vá para o registro...
+Nome de usuário:
+Senha:
+Nome de Domínio:
+Status:
+Personalizado
+Vá para o registro...
+Atualizar URL:
+Nome de Domínio
+Nome de Domínio
+Token:
+Código Secreto:
+Nome de usuário da Conta-Dyn:
+Senha da Conta-Dyn
+Aviso:
+Token
+Código Secreto
+Conta-Dyn
+(sem o sufixo \".duckdns.org\")
+(Insira o Token como Senha.)
+(Insira o Código-secreto como Senha.)
+(Insira o nome de usuário para sua Conta-Dyn.)
+(Insira a senha para sua conta Conta-Dyn)
+Aviso: Insira o nome do seu subdomínio sem o sufixo \".duckdns.org\"
+Aviso: Depois de efetuar o login, vá para o submenu DNS dinâmico via https://freedns.afraid.org/dynamic/ ou http://freedns.afraid.org/dynamic/ e clique em \"Direct URL\" para obter um URL atualizado na barra de endereços.
+Aviso: Você pode gerar o código secreto quando você edita o nome de domínio na página do provedor de serviços DDNS.
+Aviso: Você deve usar sua Conta-Dyn para fazer login, NÃO as credenciais da conta que você usa para fazer login no selfhost.com. Obtenha sua Conta-Dyn na página do provedor de serviços DDNS.
+Aviso: O URL que você recebeu do provedor de serviço DDNS contém curingas em vez de informações de conta registradas. O seguinte é uma lista de curingas comuns.
+Sempre que você clicar em Logar ou Salvar, o roteador envia uma solicitação de atualização IP para seu provedor DDNS e o curinga será substituído pelas informações registradas.
+Exemplo: DtDNS
+O URL de atualização deve ser algo assim (o nome de usuário não é necessário): 
+Exemplo: yDNS
+O URL de atualização deve ser algo como isto: 
+Info de Conta
+Curingas
+Endereço IP
+TP-Link
+Nome de Domínio Atual:
+Vincular
+Desvincular
+Data Registrada
+A Internet está indisponível.
+Lista de Nome de Domínio
+DDNS Não disponível.
+Para utilizar nosso superior serviço TP-LIink DDNS, favor <a id=\"tp-link-login-btn\" class=\"link\" href=\"javascript:void(0);\">Faça Log in</a> com sua conta Cloud TP-Link, ou escolha outro provedor de serviço.
+Gratuito
+Falhou.
+Se você deseja vincular um %domain% para o seu dispositivo, favor desvincular o nome de domínio atual primeiro.
+Entrada inválida.
+O nome de domínio já está registrado.
+Pedido expirado.
+O número de nomes de domínio de vínculo já atingiu o limite.
+O nome de domínio já está vinculado a outro dispositivo.
+Erro de sistema. Favor tentar novamente mais tarde.
+O nome de domínio contém palavras não autorizadas. Favor tentar outro.
+O nome de domínio não existe.
+O número de nomes de domínio já atingiu o limite.
+Ferramentas de Diagnóstico
+Clique no botão Iniciar para testar a conexão de Internet do roteador.
+Aviso: 
+Push Service
+Notificação de Evento via E-mail:
+Configurações da Conta do Remetente
+Endereço de E-mail:
+Nome de usuário:
+Senha de E-mail:
+Endereço de Servidor SMTP:
+Porta de Servidor SMTP:
+SSL
+Configurações de Conta do Destinatário
+Endereço(s) de E-mail:
+Emitir notificação via e-mail para os seguintes eventos
+Chamadas Perdidas
+Correios de Voz
+Teste
+Feito com sucesso! As configurações da conta do remetente estão configuradas corretamente.
+Log de Sistema
+Filtro de Log:
+Tipo:
+Nível:
+Horário
+Tipo
+Nível
+Conteúdo
+Limpar Log
+Salvar Log
+Configurações de Log
+Configurações de Log
+Salvar Localmente
+Salvar Remotamente
+Nível Mínimo
+Nível Mínimo
+IP do Servidor
+Porta do Servidor
+Nome do Estabelecimento Local
+Tempo de Sistema
+Favor Selecionar
+Horário:
+(Opcional)
+Aviso: Clique no botão \"OBTER GMT\" para atualizar o horário da Internet com os servidores predefinidos ou os servidores personalizados (digite o endereço IP ou o nome do domínio) nos campos acima.
+Fuso Horário:
+Data:
+Horário de Verão
+Horário de Verão:
+Habilitar Horário de Verão
+Servidor NTP I:
+Servidor NTP II:
+Obter da Internet
+Início:
+Final:
+(MM/DD/AA)
+(DD/MM/AA)
+Jan
+Fev
+Mar
+Abr
+Mai
+Jun
+Jul
+Ago
+Set
+Out
+Nov
+Dez
+1º
+2º
+3º
+4º
+Último
+Seg
+Ter
+Qua
+Qui
+Sex
+Sáb
+Dom
+S
+Q
+T
+Horário Atual:
+Ajustar Horário
+Sincronização via Internet
+Manualmente
+Gerenciamento de Conta
+Nome de Usuário Antigo:
+Senha Antiga:
+Novo Nome de Usuário:
+Nova Senha:
+Confirmar a nova senha:
+Gerenciamento Local
+Gerenciamento Remoto
+Porta:
+Porta para HTTP:
+Porta para HTTPS:
+Endereço IP/MAC:
+Gerenciamento Remoto:
+As senhas podem conter entre 6 e 15 (letras sensíveis a maiúsculas e minúsculas) letras e números.
+Ping ICMP:
+Ping ICMP
+Remoto
+Local
+O Gerenciamento local via HTTPS e Gerenciamento Remoto via HTTPS está desabilitado.
+Instale o certificado no seu navegador para gerenciamento local/remoto via HTTPS.
+Gerenciamento Local via HTTPS:
+Gerenciamento Remoto via HTTPS:
+Gerencie este roteador através do endereço:
+ou
+Cliente dispositivo permitido para gerenciamento remoto:
+Dispositivo cliente permitido para gerenciamento remoto:
+Todos
+Certificado
+Download do Certificado
+Seu roteador não está conectado à Internet.
+Configurações CWMP
+Informação:
+CWMP:
+Intervalo de informação:
+(segundos)
+URL ACS:
+Nome de usuário ACS:
+Senha ACS
+Interface utilizada pelo cliente TR-069:
+Qualquer WAN
+LAN
+Exibir mensagens SOAP no console serial:
+Autenticação de Solicitação de Conexão
+Nome de usuário:
+Senha:
+Caminho:
+Porta:
+URL:
+Traversal simples de UDP sobre NATs:
+Período de Resposta Máximo STUN: 
+(segundos)
+Período de Resposta Mínimo STUN:
+(segundos)
+Endereço de Servidor STUN
+Porta de Servidor STUN:
+Obter Métodos RPC
+Configurações SNMP
+Agente SNMP:
+Agente SNMP para WAN:
+Comunidade Somente-leitura:
+Comunidade de Gravação:
+Nome de Sistema:
+Descrição do Sistema:
+Localização de Sistema:
+Contato de Sistema:
+IP do Servidor Trap:
+Backup e Reinicialização
+Salve uma cópia de suas configurações atuais.
+Arquivo:
+Restaurar configurações de um arquivo salvo.
+Restaurar Padrões de Fábrica
+Restaure todas as configurações aos seus valores de fábrica.
+Restaurar todas as configurações para os valores padrão, exceto as informações de login e conta cloud.
+Padrões de Fábrica
+Clique para restaurar todas as configurações para padrões de fábrica. É altamente recomendável que você faça backup de suas configurações atuais antes da restauração.
+Restaurar
+Informação do Dispositivo
+Upgrade Online
+Upgrade Local
+Atualização de Firmware
+Os novos recursos estarão disponíveis quando a atualização do firmware é bem sucedida.
+Novo Arquivo Firmware:
+Favor selecionar o firmware correspondente à versão de hardware do dispositivo.
+Não desligue o roteador durante o processo de atualização para evitar danos ao roteador.
+O roteador irá reiniciar automaticamente após a atualização automática.
+Atualizar
+Versão Mais Recente:
+O firmware está atualizado
+Baixando...
+A fim de evitar qualquer dano, mantenha o dispositivo ligado durante o processoo.
+A Internet está indisponível.
+Falha no Download.
+Firmware inválido. Faça o download do novo firmware novamente.
+Verifique para Atualizar
+Tem certeza que deseja atualizar o firmware?
+Seu dispositivo não suporta o serviço de nuvem TP-Link. Entre em contato com o suporte técnico da TP-Link se quiser continuar.
+O firmware atual não suporta o serviço TP-LINK cloud. É altamente recomendável que você faça o download do firmware mais recente em www.tp-link.com e atualize-o.
+O firmware atual não suporta o serviço TP-LINK cloud. Nós altamente recomendamos que você atualize o firmware, clicando no ícone de atualização no canto superior direito.
+Reboot Manual
+Auto Reboot
+Auto Reboot:
+Horário:
+Intervalo de Reboot Automático:
+Três Dias
+Uma Semana
+Trinta Dias
+Aviso: O recurso de reinicialização automática tem efeito com base na hora do sistema do roteador. Favor garantir que tenha configurado o horário do roteador.
+Monitoramento de Tráfego
+Monitoramento de Tráfego:
+O Uso de Tráfego do(a) 
+Todos os Dispositivos
+Diariamente
+A toda hora
+A todo minuto
+Upstream
+Downstream
+Lista de Monitoramento de Tráfego
+Aviso: O monitoramento de tráfego está atualmente desligado, você pode habilitá-lo para monitorar o uso de tráfego no roteador.
+Estatísticas de Tráfego
+Ativar Estatísticas de Tráfego: 
+Intervalo de Estatísticas
+Lista de Estatísticas de Tráfego
+IPTV
+Configuração Rápida - IPTV
+Os parâmetros IPTV podem ser definidos nesta página.
+Se você quiser configurar a porta WLAN para uma conexão IPTV, ative o rádio wireless na página Avançado > Wireless> Configurações Wireless.
+IPTV:
+Habilitar
+Aviso: Se a tabela de interface WAN estiver cheia, siga para Avançado > Rede> Internet para excluir uma entrada.
+Selecione uma porta LAN para a conexão IPTV e conecte o set-top box a esta porta.
+Aviso: Se a tabela de interface WAN estiver cheia, siga Avançado> Rede> Internet para excluir uma entrada.
+Provedor:
+VPI:
+VCI:
+Tag VLAN
+Tag de Valor:
+Habilitar ID VLAN
+Porta LAN:
+VPN IPSec
+Detecção Dead Peer (DPD):
+Nome de Conexão IPSec:
+Gateway IPSec Remoto (URL):
+Túnel de acesso dos endereços IP locais:
+Endereço de Sub-rede
+Endereço Único
+Endereço IP para VPN:
+Máscara de Sub-rede: 
+Túnel de acesso dos endereços IP remotos:
+Método de Mudança de Chave:
+Auto (IKE)
+Manual
+Método de Autenticação:
+Chave Pré-compartilhada
+Chave Pré-compartilhada:
+Privilégio de Encaminhamento:
+Chave de Criptografia:
+Algoritmo de Autenticação:
+Autenticação de Chave:
+==Fase 1==
+Principal
+Agressivo
+Tipo de Identificador Local:
+IP WAN Local
+Identificador Local:
+Tipo de Identificador Remoto:
+IP WAN Remoto
+Identificador Remoto:
+Grupo Diffie-Hellman para Troca de Chave:
+Tempo de Vida da Chave (segundos):
+==Fase 2==
+Números de Telefone
+Configurações Avançada
+Configurações de Código de Área
+Nome do Telefone
+Configurações Avançadas da Conta SIP
+Ptime de Recebimento Prioritário:
+Prioridade:
+1--alta
+8--baixa
+Interface Vinculada:
+DSCP para SIP:
+DSCP para RTP:
+Configurações de Relay DTMF:
+INFO SIP
+In-Band
+Tempo de Expiração do Registro:
+Registro de Intervalo de Nova Tentativa:
+Período Sem Resposta:
+(300-3600 segundos)
+(30-300 segundos)
+(5-60 segundos)
+Protocolo de Transporte SIP:
+Finalizar com #:
+Suporte T.38:
+MWI:
+Nenhum Número de Telefone
+Adicionar Novo Número
+Status
+Registrar um Dispositivo
+Para registrar um dispositivo wireless no roteador:
+Passo 1:
+No seu telefone wireless, abra o menu Operação para iniciar o registro.
+Passo 2:
+Selecione um roteador (geralmente roteador 1), se necessário.
+Passo 3:
+Digite o PIN (0000 por padrão), se necessário.
+DND (Não Perturbe)
+DND:
+Diariamente
+Sábado e Domingo
+Segunda a Sexta
+De:
+Para:
+Para:
+Bloqueio de Chamadas
+Chamadas Recebidas
+Selecione o número de entrada a ser bloqueado:
+Número:
+Chamadas com prefixo de número específico
+Tipo de Chamada:
+Móvel
+Fixo
+Longa Distância
+Internacional
+Chamadas com prefixo de número específico
+Prefixo do Número:
+Número Específico
+Número Anônimo
+Encaminhamento de Chamada
+Selecionar chamadas recebidas a serem encaminhadas.
+Todas as Chamdas Recebidas
+Chamadas ao Número de Telefone
+Chamadas ao Telefone
+Chamadas de uma Pessoa na Agenda Telefônica
+Chamadas do Número de Telefone
+Todas as chamadas anônimas para o número
+Definir Regras de Encaminhamento:
+Número de Telefone de Destino:
+Encaminhe as chamadas via:
+Condição de Desvio de Chamada:
+Incondicional
+Sem Resposta
+Habilite esta regra de reenvio de chamada
+Número de Telefone
+Agenda Telefônica
+Sobrenome:
+Nome:
+Número de /telefone Privado:
+Número de Telefone Comercial:
+Número de Telefone Celular:
+Tipo de Número de Discagem Rápida:
+-Favor Selecionar-
+Número de Telefone Privado
+Número de Telefone Comercial
+Número de Telefone Celular
+Número de Discagem Rápida:
+Configurações de Número de Emergência
+Número de Emergência:
+Sem Período de Operação:
+Número de Emergência
+Número de Emergência1:
+Número de Emergência2:
+Número de Emergência3:
+Número de Emergência4:
+Número de Emergência5:
+Adicionar um Novo Contato
+Nenhum Contato
+Números de Telefone
+Configurações de Código de Área
+Status
+Dispositivos de Telefonia
+Nome do dispositivo:
+Número para chamadas efetuadas:
+Número para chamadas recebidas:
+Suporte VAD:
+Habilitar VAD
+Ganho do Falante:
+Ganho de Microfone:
+Log de Chamada
+Log de Chamada:
+Push Notification via E-mail para Chamadas Perdidas:
+Primeiro, vá para a página <a>Push Service</a>, habilite Push Notification via E-mail e defina as configurações.
+Transferência de Chamada
+Ligar através de:
+Número de Entrada:
+Número para chamadas efetuadas:
+PIN:
+ Somente Aceitar Chamadas a partir do Número Abaixo
+Adicionar Mais Números
+Se Somente Aceitar Chamadas a partir do Número Abaixo é selecionado, você deve adicionar pelo menos um número de telefone.
+Configurações DECT
+DECT:
+Registro
+Seu tpPhone deve estar cadastrado no produto para fazer chamadas. Para registro, é necessário um PIN. Defina o PIN aqui (crie um novo ou mantenha o padrão 0000) e insira-o no tpPhone durante o registro.
+PIN:
+Força de Campo de Rádio
+Reduzir Força do Campo DECT
+Eco DECT
+Segurança
+Criptografia
+Habillitar (Recomendável)
+Configurações de tpPhone
+tpPhone
+Registro
+Seu tpPhone deve estar cadastrado no produto para fazer chamadas. Um PIN é necessário para o registro. Defina o PIN aqui e insira-o no tpPhone durante o registro. O PIN \ "0000 \" está pré-configurado. Você pode manter esse PIN ou inserir outro.
+PIN:
+Regras de Chamada
+Tipo de Chamada ou Prefixo:
+Móvel
+Fixo
+Longa Distância
+Internacional
+Chamadas com prefixo de número específico
+Prefixo do Número:
+Número para chamadas efetuadas:
+Configurações de Correio de Voz
+Aviso: Aguarde alguns segundos depois de clicar no ícone Jogar.
+Dispositivo de armazenamento USB desconectado.
+Período Sem Resposta:
+(5-60s)
+Nenhum arquivo apropriado encontrado no dispositivo de armazenamento USB.
+Não há espaço suficiente disponível na caixa de correio de voz.
+Correio de Voz:
+Acesso remoto ao correio de voz:
+Saudação para o correio de voz:
+padrão
+personalizado
+PIN de Acesso Remoto:
+Duração do correio de voz:
+Capacidade da caixa de correio de voz:
+(0-0M):
+Lista de Correio de Voz
+Expandir capacidade de armazenamento com dispositivo de armazenamento USB:
+Emitir notificação via e-mail para correio de voz:
+Cannot enable this feature because no USB storage device is found.
+O dispositivo de armazenamento USB está conectado, mas não é utilizável. Reconecte-o ao roteador ou tente outro dispositivo de armazenamento USB.
+Fazer backup dos correios de voz a partir do Flash
+USB
+Flash
+Backup concluído. % de mensagens de voz são copiadas no dispositivo de armazenamento USB.
+Backup concluído. % de correio de voz é feito de backup no dispositivo de armazenamento USB.
+Fazendo backup... %1 / %2
+Os correios de voz são suportados em%
+Configurações de Correio de Voz
+Aviso: Aguarde alguns segundos depois de clicar no ícone Jogar.
+Dispositivo de armazenamento USB desconectado.
+Nenhum arquivo apropriado encontrado no dispositivo de armazenamento USB.
+Não há espaço suficiente disponível na caixa de correio de voz.
+Correio de Voz:
+Saudação para o correio de voz:
+Padrão
+Personalizado
+PIN de Acesso Remoto:
+Duração do correio de voz:
+Capacidade da Caixa de Correio de Voz
+(0-0M):
+Lista de Correio de Voz
+<span class='red' style='vertical-align: baseline'>Aviso: </span>Pegue o telefone (telefone analógico ou telefone DECT) e marque *30 para gravar uma saudação personalizada para o seu correio de voz.
+<span class='red' style='vertical-align: baseline'>Aviso: </ span> Para acessar sua mensagem de voz remotamente, marque o número de chamadas recebidas. Quando sua saudação pessoal começar, pressione *. Digite seu PIN de acesso remoto quando solicitado.
+Registrar um Dispositivo
+Registrando seu aparelho
+Registro com sucesso.
+Não é possível se registrar no roteador.
+Se o dispositivo wireless (DECT) tocar, ele foi registrado com sucesso.
+O telefone está tocando?
+Aguarde 15 segundos até que o aparelho termine a sincronização.
+Informações do Telefone
+Nome de Telefone
+Tipo de Telefone
+Número Interno
+Número para Chamadas Efetuadas
+Operação
+Selecione sua Região e Fuso Horário.
+A função Configuração Rápida só está disponível quando este dispositivo está funcionando no modo Modem Roteador DSL. Você pode mudar para o modo Modem Roteador DSL em Avançado > Modo de Operação ou configurar o roteador na página Avançada.
+Crie um novo nome de usuário e senha.
+Novo nome de usuário:
+Nova Senha:
+Confirmar a nova senha:
+Favor Selecionar
+Favor selecionar um fuso horário.
+O novo nome de usuário é necessário
+A senha é necessária.
+As senhas não se correspondem.
+Lista ISP:
+Tipo de Interface L2:
+VLAN:
+Habilitar ID VLAN
+ID VLAN(7-4094):
+Aviso: Isso mudará o modo de autenticação para WPA/WPA2.
+Falha no Diagnóstico de Internet:
+Diagnóstico de Internet feito com sucesso.
+Parabéns! Internet conectada. Aproveite a Internet!
+Status da Conexão:
+Selecione o Provedor (ISP)
+Configurações de Internet
+Configurações Wireless
+Teste de Conexão
+Resumo
+Desculpe.
+As configurações wireless foram alteradas com sucesso. Use os seguintes nomes e senhas de rede sem fio para sua conexão wireless.
+Escolha sua conexão atual para continuar:
+Eu reconectei com sucesso ao roteador usando as novas configurações wireless.
+Estou usando uma conexão cabeada.
+Nome de usuário ou senha incorretos. Clique em Reconfigurar para confirmar seu Nome de Usuário e Senha. Caso o problemas persistir, favor contatar seu provedor de Internet.
+Testando a conexão de Internet. Isto de 1 até 2 minutos. Favor aguardar...
+Insira a informação de conexão de Internet necessária ou contate seu provedor para assistência.
+Você pode alterar o nome de rede wireless e senha.
+VoIP
+Selecione seu provedor na lista ISP ou selecione Outro se você não conseguir encontrar o seu.
+PPPoE
+PPPoA
+IP Dinâmico
+IP Estático
+IPoA
+Nome de Usuário:
+Senha:
+Confirmar Senha:
+Endereço IP:
+Máscara de Sub-rede: 
+Gateway:
+Servidor DNS:
+Servidor DNS Secundário:
+Rede Wireless 2.4GHz:
+Rede Wireless 5GHz:
+Habilitar Rádio Wireless
+Nome de Rede (SSID):
+Senha:
+Servidores DNS:
+Internet desconectada..
+Falha na Conexão Internet.
+Região e Fuso Horário
+Teste de Conexão
+Caso não tenha certeza sobre o tipo de conexão de Internet que você possui, utilize a função de Autodetectar ou contate seu provedor de Internet para assistência.
+Auto Detectar
+Caso seu provedor permita acesso à Internet somente a um endereço MAC, você necessita clonar o endereço MAC do computador primário. Caso não tenha certeza, selecione NÃO clonar Endereço MAC.
+Caso selecione Endereço de MAC Clone, você precisará clonar o endereço MAC do computador original que está registrado pelo seu provedor.
+Favor inserir sua informação IP.
+Favor inserir seu nome de usuário PPoP e senha.
+Ao salvar suas configurações wireless, você será desconectado da sua rede sem fio. Reconecte-se usando o novo SSID.
+ O seu dispositivo wireless não está conectado à nova rede wireless. Favor verificar novamente e tocar em OK.
+Parabéns!
+Você completou o processo de Configuração Rápida. Toque em Teste de Conexão de Internet abaixo, e então em Finalizar.
+Nenhuma Conexão de Internet
+VDSL
+ADSL
+Feito com sucesso! Toque para Finalizar o processo de Configuração Rápido.
+Adicione contas telefônicas ao roteador e comece a usar a função Telefonia imediatamente.
+Serviço Cloud da TP-Link 
+Falhou.
+Feito com sucesso!
+Opa... A conexão de Internet não foi configurada com sucesso. <br />1. Garanta que todos os cabos estão conectados corretamente.  Clique em Reconfigurar e verifique se a informação de conexão de Internet está correta.<br />3. Favor contatar nosso Suporte Técnico caso o problema ainda persistir.
+Parabéns!
+Você completou o processo de Configuração Rápida.
+Clique em Teste de Conexão de Internet abaixo, e então em Finalizar.
+Você não está conectado à sua conta TP-Link Cloud. Você pode fazer login mais tarde em Básico > TP-Link Cloud.
+Não possui conta TP-LINK Cloud?
+Registre-se Agora
+Fazer Login Mais Tarde
+Registrar uma nova conta
+Sua conta TP-LINK Cloud é:
+Parabéns! Configuração de rede feita com sucesso. Aproveite a Internet.
+Para mais funções TP-LINK Cloud, favor fazer login com sua <a class=\"link\" href=\"#\">TP-Link Cloud Account</a>.
+Com a conta TP-Link Cloud, você pode:
+Acesse seu dispositivo e servidores locais (FTP, HTTP, etc.) de qualquer lugar via Internet
+Mantenha a firmware sempre atualizada com a função de Atualização Online
+Gerencie múltiplos dispositivos com apenas uma conta
+OpenVPN
+Aviso:
+Nenhum certificado atual, favor <b>Gerar</b> um antes de habilitar o Servidor VPN.
+Gerar
+Habilitar Servidor VPN
+Tipo de Serviço:
+UDP
+TCP
+Porta de Serviço:
+Sub-rede VPN/Máscara de Rede:
+Acesso de Cliente
+Somente Rede Residencial
+Internet e Rede Residencial
+Certificado
+Gerar certificado.
+Arquivo de Configuração
+Exporta a configuração
+Exportar
+Gerando certificado...<br>Isto levará alguns minutos, favor aguardar.
+Feito com sucesso
+VPN PPTP
+Habilitar Servidor VPN
+Endereço IP Cliente:
+(até 10 clientes)
+Nome de usuário:
+Senha:
+Conexões VPN
+Conexão OpenVPN
+Conexão VPN PPTP
+Conexão VPN IPSec
+Controle do LED
+Modo Noturno:
+Habilitar
+Período de Modo Noturno:
+para
+(HH:MM)
+Aviso: O período modo noturno tem efeito com base na hora do sistema do roteador. Favor garantir que tenha configurado o horário do roteador.
+ID
+Índice
+Horário
+Tipo
+Nível
+Nome
+Nome de Interface WAN
+Habilitar
+Modificar
+Vínculo
+Descrição
+Endereço IP
+Endereço MAC
+Teste de Conexão
+Segurança
+Pacotes Recebidos
+Pacotes Enviados
+2.4GHz
+5GHz
+Guest 2.4GHz
+Guest 5GHz
+BSSID
+SSID
+Força de Sinal
+Canal
+Criptografia
+Conectando
+Conteúdo do Log
+Nome do Dispositivo
+Tempo Efetivo
+Operação
+Status
+Status de Vínculo
+Apagar
+Grupo
+Destino de Rede
+Destino de Endereço IPv6/Tamanho do Prefixo
+Máscara Sub-rede
+Gateway
+Pool DHCP
+Nome de Cliente
+IP Atribuído
+Tempo Concedido
+Endereço IP Reservado
+ID do Fornecedor
+Endereço IP Inicial/Endereço IP Final
+Estabelecimento
+"Interface WAN
+Interface WAN
+LAN Disponível
+WAN Disponível
+Intervalo de Porta/Intervalo IP
+Prioridade
+Up (mín/máx)
+Down (mín/máx)
+Nome de Volume
+Ativo
+Capacidade
+Espaço Livre
+Nome da Pasta
+Caminho da Pasta
+Compartilhamento de Mídia
+Rede Adjacente
+Servidor de Mídia
+FTP
+ftp://
+FTP (via Internet)
+Servidor de Mídia
+Método de Acesso
+Endereço de Acesso
+Porta
+Fornecedor
+Modelo
+Remover com Segurança
+Total
+Selecionar uma Pasta
+Nome do Perfil
+Nome do Dispositivo
+Número
+Provedor
+Número de Chamadas Recebidas
+Número Interno
+Número para Chamadas Efetuadas
+Número
+Tipo de Chamada ou Prefixo
+Chamadas
+Encaminhar via
+Número de Destino
+Tipo de Encaminhamento
+Data/Hora
+Tipo
+Duração (hh:mm:ss)
+Duração
+Número/Contatos
+Número de Dispositivo
+Dispositivo de Telefonia
+Número para Chamadas Efetuadas
+Número de Telefone
+Número de Discagem Rápida
+Número Recebido
+Configuração
+--
+Telefone 1
+Telefone 2
+Correio de Voz
+Auto
+Tipo de Serviço
+Porta Externa
+IP Interno
+Porta Interna
+Protocolo
+Aplicação
+Porta de Disparo
+Protocolo de Disparo
+Protocolo Externo
+Nome da Aplicação
+Descrição do Serviço
+Endereço IP Interno
+Endereço IP/Endereço MAC
+Pacotes Totais
+Bytes Totais
+Pacotes Atuais
+Bytes Atuais
+ICMP Tx Atual
+UDP Tx Atual
+SYN Tx Atual
+Nome de Conexão
+Gateway Remoto
+Endereço Local
+Endereço Remoto
+Cabeado
+Wireless
+Criptografado
+Sem Segurança
+Aceso
+Desabilitado
+Período Wireless Offline
+Repetiindo
+AP Remoto
+Endereço IP Cliente
+Porta LAN
+Velocidade de Negociação
+Nome do Dispositivo
+Taxa de Tempo Real
+Uso de Tráfego
+2.4G
+5G
+Lista de Monitoramento de Tráfego
+Armazenado em
+Este campo é obrigatório.
+Você excedeu 5 tentativas de login. Favor tentar novamente em $s.
+A senha está incorreta, favor inserir novamente.
+Nome de Usuário
+Senha
+Login
+Telefone
+PC
+Favor inserir somente letras e números.
+http://www.tp-link.com
+Sua senha é inválida. As senhas podem conter entre 1-15 letras e números.
+As senhas não combinam, favor tentar novamente.
+Aviso
+Para garantir a segurança da sua rede, é altamente recomendável configurar uma nova senha forte. As senhas devem conter entre 1-15 letras (suscetível a maiúsculas e minúsculas) e números.
+Nova Senha
+Confirmar Senha
+Salvar
+Baixa
+Média
+Alta
+O nome de usuário ou senha está incorreto, favor inserir novamente.
+Apenas um dispositivo pode fazer login de uma vez. Deseja continuar e forçar o outro dispositivo para
+Email
+Esqueceu a Senha?
+Formato de email inválido.
+Vamos Começar
+Pressione e segure o botão Reset por 10 segundos para restaurar o roteador ao seu padrão de fábrica.
+Opa... Não podemos acessar o servidor cloud.
+1. Assegure-se de que haja acesso à Internet.
+2. O servidor cloud está inacessível temporariamente. Favor atualizar a página mais tarde.
+3. Se o problema persistir, contate o <a target=\"_blank\" id=\"support\">suporte técnico TP-Link</a>.
+Erro
+Conta Cloud
+Dispositivo Offline
+Opa...
+O dispositivo está offline. Por favor verifique a WAN e configuração de rede para garantir se as configurações apropriadas foram digitadas corretamente.
+Email
+Senha
+Esqueceu a Senha?
+Para mais funções TP-LINK Cloud, favor fazer login com sua <a class=\"link\" href=\"#\">TP-Link Cloud Account</a>.
+Não possui conta TP-LINK Cloud?
+Registre-se Agora
+Falha no login.
+A Internet está indisponível.
+Não é possível vincular o dispositivo. Favor tentar novamente mais tarde.
+Não é possível desvincular o dispositivo. Favor tentar novamente mais tarde.
+Nome de usuário ou senha incorretos.
+Este email não está registrado.
+Nome de usuário ou senha incorretos.
+Esta conta não está ativada ainda.
+ID TP-Link Incorreto (email). Ou o seu dispositivo está offline e apenas o administrador (xxx@xxx.com) tem acesso ofline.
+A senha está incorreta, favor inserir novamente.
+Formato de email inválido.
+Este ID TP-Link não está vinculado a este dispositivo.
+Senha inválida. Favor inserir de 6 a 32 caracteres ASCII, excluindo espaços.
+Este ID TP-Link está bloqueado por 2 horas devido às diversas tentativas de login. 
+Configuração Ethernet
+Clone de Mac
+Utilizar Endereço MAC Padrão
+Utilizar Endereço MAC do Computador Atual
+Utilizar Endereço MAC Personalizado
+Tipo de Endereçamento:
+Endereço IP:
+QoS de Upstream
+Upstream:
+Algoritmo do Planejador:
+Largura de Banda Total
+Marca DSCP:
+Marca 802.1P:
+QoS de DownStream
+Downstream:
+Aviso: Um critério em branco indica nenhuma operação.
+Nome da Empresa:
+Direção:
+Fila:
+Marca do Ponto de Código de Serviço Diferenciado (DSCP):
+Marca da Prioridade 802.1P:
+Habilitar esta entrada
+Aviso: Um critério em branco indica nenhuma operação.
+Nome de Classe
+Pedido:
+Interface de Entrada:
+Tipo de Ether:
+Endereço MAC de Origem:
+Máscara de MAC de Origem:
+Endereço MAC de Destino
+Máscara MAC de Destino:
+Verificar Prioridade 802.1P:
+Endereço IP de Origem[/Mask]:
+Endereço IP de Destino[/Mask]:
+Verificação DSCP (Ponto de Código de Serviço Diferenciado):
+Protocolo:
+Intervalo de Porta de Origem:
+Intervalo de Porta Destino:
+Resultados de Classificação:
+Direção:
+Fila:
+Marca do Ponto de Código de Serviço Diferenciado (DSCP):
+Marca da Prioridade 802.1P:
+Habilitar esta entrada
+Lista de Filas
+Classificação de Fluxo
+Classificação da Empresa
+Direção:
+Algoritmo do Planejador:
+Nome da Fila:
+Peso (%): 
+Forçado
+Prioridade:
+Feito com sucesso!
+Toque para Finalizar o processo de Configuração Rápida.
+Falhou
+Se todos os parâmetros de Configuração Rápida estiverem corretos, reinicie o modem, aguarde 2 minutos e clique em Teste de Conexão de Internet mais uma vez. Se você não estiver usando um modem, talvez seja necessário entrar em contato com o provedor de serviços de Internet (ISP) para obter assistência.
+Favor inserir seu nome de usuário PPoP e senha.
+Caso seu provedor permita acesso à Internet somente a um endereço MAC, você necessita clonar o endereço MAC para fornecer serviço a outros dispositivos. Caso não tenha certeza, selecione<strong>NÃO clonar endereço MAC</strong>.
+NÃO Clonar Endereço MAC
+Clonar Endereço MAC do Computador Atual
+Se você selecionar o endereço MAC Clone, verifique se o endereço MAC deste computador está registrado no seu ISP antes de clicar em Avançar.
+Favor inserir sua informação IP.
+Favor inserir o nome de usuário PPTP e senha.
+Favor inserir o nome de usuário L2TP e senha.
+Falhou
+Desculpe, detectamos que você não reconectou o dispositivo wireless à nova rede Wi-Fi.
+Você precisa reconectar seus dispositivos wireless para a nova rede wireless antes de clicar no botão Next (Próximo).
+Use o seguinte SSID e senha para conexão wireless:
+Certifique-se de que está conectado à nova rede wireless.
+Caso não tenha certeza sobre o tipo de conexão de Internet que você possui, utilize a função de Auto Detectar ou contato seu provedor para assistência.
+Aviso:
+App
+Acesse o código QR para baixar o App Tether da TP-LINK.
+Gerencie convenientemente sua rede de qualquer dispositivo móvel. Controle completo na palma da sua mão.
+Formato inválido.
+Este campo é obrigatório.
+Formato de email inválido.
+Formato inválido.
+Este número de ser maior que %min.
+Este número de ser menor que %max.
+Este número deve estar entre o %min e %max.
+Este campo deve possuir um número hexadecimal.
+Formato inválido.
+O endereço não pode ser 0.0.0.0.
+O endereço não pode ser um endereço de loopback.
+O endereço IP não pode ser um endereço Classe D.
+O endereço IP não pode ser um endereço Classe E.
+O endereço não pode ser 255.255.255.255.
+O endereço não pode iniciar com 255.
+O endereço não pode iniciar com o.
+A máscara de sub-rede não pode ser 255.255.255.255.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+O prefixo de endereço não pode iniciar com 2002.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Favor inserir uma data entre 01/01/1970 e 12/31/2030.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Formato inválido.
+Favor inserir de 1 a 15 caracteres alfanuméricos, - e _.

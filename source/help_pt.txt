@@ -1,0 +1,1921 @@
+Qualidade de Serviço
+Este módulo permite alocar a largura de banda upstream ou downstream com o algoritmo de SP/WRR. Também permite que você altere os campos dos pacotes do DSCP ou 802.1p.
+Upstream
+Marque a caixa de seleção para habilitar o recurso QoS upstream
+Downstream
+Marque a caixa de seleção para habilitar o recurso QoS downstream
+Algoritmo do Planejador
+Selecione a caixa de rádio para suportar o algoritmo do planejador.
+SP
+Algorítmo de Prioridade Estrita
+WRR
+Algorítimo Weighted Round Robin
+Controle de Tráfico
+use o Módulo de Controle de Largura de Banda no lugar
+Largura de Banda Total
+Insira a velocidade de download/upload total através da porta WAN."
+Marca DSCP
+Marque a caixa de seleção para habilitar o recurso de Marcação DSCP (Ponto de Código de Serviço Diferenciado)".
+Marca 802.1P
+Selecione a caixa de seleção para ativar o recurso de marcação 802.1p.
+Configurações SP/WRR
+Esta página permite que você gerencie sua rede com filas e fluxos. Com o algoritmo SP, você pode definir pacotes que são mais importantes e obter mais rapidamente; com o algoritmo WRR, você pode alocar a quota de largura de banda para determinados tipos de pacotes.
+Lista de Filas
+Nome da Fila
+Cada fila possui um nome único e sua identificação.
+Direction
+Direção de Upstream ou Downstream.
+Algoritmo do Planejador
+SP ou algoritmo WRR, designado pela direção da fila."
+Prioridade
+O pacote da fila passa pela rede mais rapidamente e com maior prioridade. Ele varia de 1 a 8. O valor 1 é o mais alto. Só é válido quando o algoritmo é SP.
+Peso (%)
+É a largura de banda da porcentagem da fila, caculada como porcentagem da largura de banda total. Só é válido quando o algoritmo é WRR.
+Force Weight
+Se desativado, a largura de banda da fila pode ser emprestada de filas inativas. Só é válido quando o algoritmo é WRR.
+Status
+Indica o status atual de uma fila. Clique no ícone Lâmpada para habilitar (ou desabilitar) a entrada de fila.
+Modificar
+Exibe opções para Modificar ou Apagar a fila correspondente.
+passo
+Para adicionar uma nova fila
+Clique em Adicionar (Add). 
+Selecione direção upstream ou downstream.
+Inserir um nome de fila.
+Selecione a prioridade da fila se o algoritmo da fila para SP. 
+Digite o peso da fila se o algoritmo da fila for WRR. 
+Habilitar ou não Force Weight, caso o algoritmo de fila for WRR. 
+Selecione Habilitar esta entrada.
+Clique em Salvar.
+<strong>Para excluir várias regras</strong><br>Na lista de filas, marque a caixa de seleção correspondente da fila a ser excluída e clique em Excluir acima da tabela.
+Classificação de Fluxo
+Nome de Classe
+Cada classificação tem um nome único como identificação.
+Pedido
+Cada pacote pode combinar apenas uma classificação de fluxo. A correspondência é iniciada do pedido mais baixo para o mais alto. 
+Interface de entrada
+A classificação só ocorre em pacotes que ingressam dessa interface.
+Critério
+Pacotes que qualificam esse critério coincidirão com a classificação.
+Direction
+Direção Upstream ou Downstream, designada pela interface de entrada.
+Fila
+Os pacotes que correspondem à classificação entrarão nesta fila.
+Marca DSCP
+Os pacotes que correspondem à classificação definem o campo DSCP com esse valor.
+Marca 802.1P
+Os pacotes que correspondem à classificação definem o campo 802.1P com esse valor.
+Status
+Indica o status atual de uma classificação. Clique no ícone da Lâmpada para ativar (ou desativar) a entrada de classificação.
+Modificar
+Exibe opções para Modificar ou Apagar a classificação correspondente.
+passo
+Para adicionar uma nova classificação
+Clique em Adicionar (Add). 
+Insira um nome de classificação.
+Selecione uma interface de entrada.
+Selecione o tipo de ethernet. (opcional)
+Insira o endereço MAC de origem. (opcional)
+Insira a máscara de endereço MAC de origem. (opcional)
+Digite o endereço MAC de destino. (opcional)
+Insira a máscara de endereço MAC de destino. (opcional)
+Configurar ajustes extras sobre o tipo de ethernet. (opcional)
+Selecione uma fila em que os pacotes se inserem.
+Selecione o valor da marca DSCP. (opcional)
+Selecione o valor da marca 802.1P. (opcional)
+Selecione Habilitar esta entrada.
+Clique em Salvar.
+<strong>Para excluir várias regras</strong><br>Na lista de classificação, marque a caixa de seleção correspondente das regras a serem excluídas e clique em Excluir acima da tabela.
+Classificação da Empresa
+Nome da Empresa
+Classificação dos dados do upstream local do dispositivo. Suporta somente VOIP, TR069 e outros igualmente volumosos.
+Direction
+Upstream.
+Fila
+Os pacotes que correspondem à classificação entrarão nesta fila.
+Marca DSCP
+Os pacotes que combinam com a classificação irão definir esta marca DSCP.
+Marca 802.1P
+Os pacotes que correspondem à classificação definem esta Marca 802.1P.
+Status
+Indica o status atual de uma classificação. Clique no ícone da Lâmpada para ativar (ou desativar) a entrada de classificação.
+Modificar
+Exibe opções para Modificar ou Apagar a classificação correspondente.
+passo
+Para adicionar uma nova classificação
+Clique em Adicionar (Add). 
+Selecione o nome da empresa
+Selecione uma fila em que os pacotes se inserem.
+Selecione o valor da marca DSCP. (opcional)
+Selecione o valor da marca 802.1P. (opcional)
+Selecione Habilitar esta entrada.
+Clique em Salvar.
+<strong>Para excluir várias regras</strong><br>Na lista de classificação, marque a caixa de seleção correspondente das regras a serem excluídas e clique em Excluir acima da tabela.
+Controle de Largura de Banda
+O Controle de Largura de Banda permite que você configure o Controle de Banda Upstream e Downstream da rede, e a taxa de transferência combinada não deve exceder 1000000Kbps. Para um ótimo controle da largura de banda, selecione o tipo de linha correto e consulte seu provedor para a largura de banda total permitida para upstream e downstream." : "O controle de largura de banda permite que você configure a largura Upstream e Downstream da rede, e a taxa de transferência combinada não deve exceder 100000 Kbps. Para um controle ótimo da largura de banda, selecione o tipo de linha correto e consulte seu provedor para a largura de banda total permitida para upstream e downstream.
+passo
+Para configurar o Controle de Largura de Banda
+Habilitar Controle de Largura de Banda.
+Selecione o tipo de linha correto de sua conexão de banda larga.
+Digite a velocidade total de upload e download através da porta WAN no campo de largura de banda total Upstream e Downstream 
+(Opcional) Ative a Garantia de Largura de Banda IPTV.
+Garantia de Largura de Banda para Upstream
+Digite um valor em Kbps para garantir uma largura de banda de upload suficiente para o serviço IPTV.
+Garantia de Largura de Banda para Upstream
+Digite um valor em Kbps para garantir uma largura de banda de download suficiente para o serviço IPTV.
+(Opcional) Ative a Garantia de largura de banda de telefonia para garantir uma largura de banda suficiente para o serviço de telefonia.
+Clique em Salvar.
+Regras de Controle
+Esta tabela exibe detalhes de todas as regras de controle.
+passo
+Para adicionar uma nova rRegra
+Clique em Adicionar (Add). 
+Digite um intervalo de endereços IP a serem controlados.
+Digite um intervalo de números de portas a serem controlados.
+Selecione o tipo de protocolo para esta regra.
+Selecione um nível de prioridade para esta regra. 1 é o nível de prioridade mais alta e 8 é o nível de prioridade mais baixo. A carga total e a largura de banda de download serão alocadas para garantir a taxa mínima de todas as regras de controle de largura de banda.
+Digite a largura de banda mínima e máxima de upload (em Kbps) através da porta WAN.
+Insira a largura de banda de download mínima e máxima (em Kbps) através da porta WAN.
+Selecione Habilitar esta Entrada.
+Clique em Salvar.
+Aviso: Caso queria desabilitar esta entrada, clique no ícone da lâmpada.
+Controle de Acesso
+O Controle de Acesso é utilizado para permitir ou bloquear dispositivos de clientes de acessarem a sua rede. Quando um dispositivo é bloqueado, ele fica incapaz de se comunicar com outros dispositivos ou conectar-se à Internet.
+passo
+Controlar acesso
+Alterne para On (Ligado) para habilitar o Controle de Acesso.
+Selecione um modo de acesso de acordo com as necessidade e clique em Salvar.
+A. Caso deseja bloquear acesso dos dispositivos na lista abaixo, selecione Lista de Bloqueados.
+B. Se pretende permitir o acesso apenas a partir dos dispositivos na lista abaixo, selecione de Lista de Autorizados.
+Em dispositivos na seção Permitidos/Bloqueados, clique em Adicionar. Insira o Nome de Dispositivo e Endereço MAC do dispositivo. Clique em Salvar.
+Aviso: Caso queria desabilitar esta entrada, clique no ícone da lâmpada.
+Dispositivos Online
+Esta tabela exibe as informações de todos os dispositivos conectados.
+Vínculo IP/MAC
+O vínculo IP/MAC (também conhecido como Vínculo ARP - Address Resolution Protocol) é útil para controle de acesso de um específico computador na LAN ao vincular o endereço IP e o endereço MAC dos dois dispositivos. O vínculo IP/MAC também previne outros dispositivos de utilizar um endereço IP específico.
+passo
+Para configurar um dispositivo com vínculo IP/MAC
+Clique em Adicionar (Add).
+Insira o endereço MAC do dispositivo.
+Insira um endereço IP que você queira vincular ao endereço MAC acim
+Selecione Habilitar esta Entrada.
+Clique em Salvar.
+Aviso:<br>1. Você não pode vincular o mesmo endereço IP a mais de um endereço MAC.<br>2. Caso queria desabilitar esta entrada, clique no ícone da lâmpada.
+Lista ARP
+Mostra os endereços MAC e IP dos dispositivos conectados atualmente.
+ALG
+ALG (Gateway de Camada de Aplicação) permite filtros tranversais NAT a serem plugados no gateway a fim de serem compatíveis com tradução de endereço e porta para certos protocolos de camadas de aplicação \"control/data\": FTP, TFTP, H323 e etc. É recomendável habilitar ALG.
+Passagem PPTP
+Se ativado, ele permite que as sessões ponto-a-ponto sejam tuneladas através de uma rede IP e passadas pelo roteador.
+Passagem L2TP
+Se selecionada, permite sessões ponto-a- ponto L2 a serem tuneladas através de uma rede IP e passando pelo roteador.
+Passagem IPSec
+Se selecionada, permite IPSec (Internet Protocol Security) a ser tunelado através de uma rede IP passando pelo roteador. IPSec usa serviços de segurança criptográficos para garantir comunicações privadas e seguras através de redes IP.
+ALG FTP
+Se selecionada, permite clientes FTP (File Transfer Protocol) e servidores transferirem dados via NAT.
+ALG TFTP
+Se selecionada, permite clientes TFTP ( Trivial File Transfer Protocol ) e servidores transferirem dados através de NAT.
+ALG H323
+Se selecionado, ele permite que os clientes Microsoft NetMeeting possam se comunicar via NAT.
+ALG SIP
+Caso selecionada, permite que clientes se comuniquem com servidores SIP (Session Initiation Protocol) via NAT.
+Servidores Virtuais
+Servidores Virtuais são usados para configurar serviços públicos em sua rede local. Um servidor virtual é definido como uma porta externa, e todas as solicitações da Internet para esta porta externa serão redirecionados para um computador definido, que deve ser configurado com um endereço IP estático ou reservado. Quando você estabelece um servidor na rede local e deseja compartilhá-lo na Internet, o Servidor Virtual pode realizar o serviço e fornecê-lo aos usuários da Internet .
+A tabela apresenta os parâmetros relevantes do servidor virtual.
+Tipo de Serviço
+ Exibe o nome do seu servidor virtual.
+Porta Externa
+Exibe o número da porta ou um intervalo de portas usadas pelo servidor virtual. 
+IP Interno
+Exibe o número da porta do computador executando o aplicativo de serviço.
+Porta Interna
+Exibe o número da porta do computador executando o aplicativo de serviço.
+Protocolo
+Exibe o protocolo usado para o aplicativo de serviço: TCP, UDP ou Todos (Todos os protocolos suportados pelo roteador.)
+passo
+Para configurar uma regra de Serviço Virtual
+Clique em Adicionar (Add).
+Selecione um nome de interface na lista flutuante.
+Clique em Visualizar para selecionar um serviço da lista para preencher automaticamente os números de porta adequados nos campos da Porta Externa e Porta Interna. Se o serviço não estiver listado, digite o número da Porta Externa (por exemplo 21) ou um intervalo de portas (por exemplo, 21-25). Deixe o espaço em branco da porta interna se é a mesma que a porta externa ou insira um número de porta específico (por exemplo 21) se a porta externa é uma única porta .
+Insira o endereço IP do computador utilizando o aplicativo de serviço no campo Endereço IP.
+Selecione um protocolo para o aplicativo de serviço: TCP, UDP, ou Todos da lista drop-down de Protocolos.
+Selecione Habilitar esta Entrada.
+Clique em Salvar.
+<strong>Aviso:</strong><br>1.Se você deseja desativar esta entrada, clique no ícone da Lâmpada.<br> 2. Recomenda-se manter as configurações padrão da Porta Interna e do Protocolo se você não estiver claro sobre a porta ou protocolo a ser usado.<br>3.Se o dispositivo host local hospeda mais do que um tipo de serviços disponíveis, você precisa criar uma regra para cada serviço. Observe que a porta externa não deve ser sobreposta.
+Disparo de Porta
+O Disparo de Porta é utilizado para encaminhar o tráfego em uma determinada porta para o servidor específico na rede.
+A tabela apresenta os parâmetros relevantes da porta de disparo.
+Aplicação
+Exibe o nome do aplicativo.
+Porta de Disparo
+Exibe a porta de tráfego de saída usada para ativar uma regra de filtragem de uma conexão de saída.
+Protocolo de Disparo
+Exibe o protocolo utilizado para o Disparo de Porta. TCP, UDP ou Todos (Todos os protocolos suportados pelo roteador.)
+Porta Externa
+Exibe o intervalo de porta a porta utilizada pelo sistema remoto. Uma resposta usando uma dessas portas será encaminhada para o PC que disparou esta regra. Você pode inserir no máximo 5 grupos de portas ( ou seções de portas) Cada grupo de portas devem ser separadas com \",\" (vírgulas), por exemplo, 2000-2038, 2046, 2050-2051, 2085, 3010-3030.
+Protocolo Externo
+Exibe o protocolo utilizado para Porta de Entrada: TCP, UDP ou Todos (todos os protocolos suportados pelo roteador).
+<strong>Aviso:</strong><br>Cada regra pode ser utilizada por um host de uma vez.
+passo
+Para configurar uma regra de Disparo de Porta
+Clique em Adicionar (Add).
+Selecione um nome de interface na lista flutuante.
+Clique em Buscar para selecionar um aplicativo da lista para preencher automaticamente os valores padrão nos campos apropriados . Se você quiser adicionar um aplicativo não listado, digite manualmente a Aplicação, Porta de Disparo, Protocolo de Disparo, Porta Externa e Protocolo Externo 
+Selecione Habilitar esta Entrada.
+Clique em Salvar.
+<strong>Aviso:</strong><br>Caso queria desabilitar esta regra, clique no ícone da lâmpada.
+DMZ
+A função host DMZ (Zona Desmilitarizada) permite um host local a ser exposto à Internet para propósitos específicos como jogos online ou vídeo-conferência. Basicamente, o DMZ permite que um único computador na LAN abra todos as suas portas. Este computador tem de ser configurado com um endereço IP estático e está com a sua função de cliente DHCP desativada. Quando DMZ está habilitado, o host DMZ está totalmente exposto à Internet, o que pode trazer algum risco de segurança potencial para o computador . Caso o DMZ não esteja em uso, favor desabilitá-lo em tempo.
+passo
+Para atribuir um computador ou servidor para serem um servidor DMZ
+Selecione Habilitar DMZ.
+No campo Endereço IP Host DMZ, digite o endereço IP de um computador local para configurar como o host DMZ.
+Clique em Salvar.
+UPnP
+Por padrão, o recurso Universal Plug-and-Play (UPnP) é habilitado para permitir que dispositivos, como computadores e aparelhos de Internet, para descobrir e se comunicar uns com os outros na rede local automaticamente.
+Você pode precisar habilitar o UPnP se quiser usar aplicativos para jogos multiplayer, conexões peer-to-peer, comunicação em tempo real (como conferência VoIP ou teleVoIP) ou assistência remota, etc.
+Lista de Serviço UPnP
+A Lista de Serviço UPnP exibe as informações UPnP do(s) host(s) local.
+Rede para Convidados
+A Rede para Convidados permite configurar uma rede wireless em rede separada com um nome diferente (SSID) e a senha que seus convidados podem usar para acessar a Internet.
+Configurações
+Esta função permite-lhe fornecer acesso Wi-Fi gratuito para os hóspedes sem revelar a rede principal.
+Permite Convidados Acessarem Uns Aos Outros
+Selecione esta opção para permitir que os dispositivos wireless da rede para convidados para se comunicar uns com os outros através de métodos tais como vizinhos de rede, Samba, Ping e FTP.
+Permite Convidados Acessarem Minha Rede Local
+Selecione esta opção para permitir que os dispositivos wireless da rede para convidados comuniquem-se com os dispositivos conectados às portas LAN do roteador ou rede principal através de métodos tais como vizinhos de rede, Samba, Ping e FTP.
+Permitir que os visitantes acessem meu compartilhamento de armazenamento USB
+Selecione caso queira permitir que os dispositivos wireless na Rede para Convidados possam acessar  conteúdo
+INCLUDE_APP_IQOS == 1
+Configurações QoS
+Marque esta caixa de seleção para configurar a prioridade QoS (Quality of Service) para a Rede para Convidados.
+INCLUDE_APP_IQOS != 1
+Controle de Largura de Banda
+Marque esta caixa de seleção para configurar a largura de banda de upstream e downstream para a Rede para Convidados.
+Configurações Wireless
+Habilitar Rede para Convidados
+Selecione esta caixa de seleção para habilitar a função de Rede para Convidados.
+Nome de Rede (SSID)
+Ou use o padrão SSID de Convidado ou crie um novo nome (até 32 caracteres).
+Ocultar SSID
+Selecione esta opção se você deseja ocultar o SSID de convidados a partir da lista de redes Wi-Fi.
+Segurança
+Selecione uma das seguintes opções de segurança:
+Sem Segurança
+Selecione esta opção para desabilitar a segurança wireless. Esta não é recomendada.
+WPA/WPA2-Pessoal
+Selecione esta opção para habilitar a segurança wireless. É altamente recomendável que você ative a segurança wireless para proteger sua Rede para Convidados de acessos não-autorizados. Caso selecionado, configure o seguinte.
+Versão
+Selecione uma versão de segurança. WPA2-PSK é mais segura. Caso não tenha certeza, selecione Auto.
+Criptografia
+Selecione um tipo de criptografia de segurança. AES é mais seguro. Não é recomendado usar a criptografia TKIP se o roteador opera em modo 802.11n. Além disso, usando TKIP irá desativar a função WPS. Caso não tenha certeza, selecione Auto.
+Senha
+Crie uma senha entre 8 e 63 caracteres ASCII ou entre 8 e 64 caracteres hexadecimais (0-9, a-f, A- F).
+Clientes Wireless Online
+Esta tabela exibe detalhes de todos os clientes wireless conectados.
+Configurações Avançada
+Configurações Avançadas 2.4GHz/5GHz" : "Configurações Avançadas
+Esta seção permite configurar os parâmetros de regras de transmissão de tráfego em redes wireless. É recomendável manter as configurações padrões caso não tenha certeza sobre as corretas.
+Intervalo Beacon
+Insira um valor entre 25 e 1000 em milissegundos para determinar a duração entre pacotes beacon que são transmitidos pelo roteador para sincronizar a rede wireless. O padrão é 100 milisegundos.
+RTS Threshold
+Insira um valor entre 1 e 2347 para determinar o tamanho do pacote de transmissão de dados através do roteador. Por padrão, o tamanho Threshold RTS (Request to Send) é de 2.347. Se o tamanho do pacote é maior do que o limite predeterminado, o roteador envia um pedido de envio de quadros a uma estação receptora e negocia o envio de uma frame de dados, ou então o pacote será enviado imediatamente.
+Intervalo DTIM
+Este valor determina o interno de DTIM (Mensagem de Indicação de Tráfego de Entrega). Insira um valor entre 1 e 255 internos. O intervalo padrão é 1, indicando o intervalo DTIM é o mesmo que o Intervalo Beacon.
+Período de Atualização de Chave de Grupo
+Digite o número de segundos para controlar o intervalo de tempo para a renovação automática da chave de criptografia. O padrão é 0, indicando que não há renovação de chave.
+WMM
+A função WMM garante os pacotes de mensagens com alta prioridade a serem transmitidos preferencialmente. O WMM está habilitado compulsivamente no modo 802.11n ou 802.11ac. É altamente recomendável habilitar WMM.
+Short GI
+Esta função está habilitada por padrão e recomendada para aumentar a capacidade de pacotes pelo período GI (Intervalo de Guarda).
+Isolamento AP
+Se você quiser confinar e restringir todos os dispositivos wireless conectados à rede de interagir uns com os outros, mas que ainda sejam capazes de acessar a Internet, selecione a opção Ativar Isolamento AP.
+WDS
+WDS 2.4GHz/5GHz" : "WDS
+O recurso Bridging WDS (Wireless Distribution System) permite expandir a cobertura da rede wirreless através de ponteamento com um AP (ponto de acesso) em uma LAN wireless (rede de área local).
+passo
+Para habilitar WDS
+Selecione Ativar WDS Bridging.
+Para estender uma rede com o recurso Buscar: clique em Buscar para exibir todas as redes disponíveis e selecione a rede com a qual deseja estabelecer a ponte. O SSID (nome da rede), o endereço MAC e a segurança serão preenchidos automaticamente.<br/>Ou para estender uma rede manualmente: insira o SSID (nome da rede) e o endereço MAC da rede a serem copiados. Selecione um tipo de Segurança e digite os parâmetros relacionados, que devem ser iguais à rede a ser ponteada.
+Clique <b>Salvar</b>.
+WPS
+A função WPS (Configuração Wi-Fi Protegida) oferece uma forma mais fácil de configurar uma conexão Wi-Fi protegida.
+Multi-SSID
+Rede Multi-SSID 2.4GHz/5GHz
+Clique no botão correspondente para habilitar a Rede Multi-SSID 2.4GHz/5GHz
+Multi-SSID
+Clique no botão correspondente para habilitar a Rede Multi-SSID
+Nome de Rede (SSID)
+Use o padrão SSID ou crie um novo nome de 1 a 32 caracteres. Este campo é também suscetível à letras maiúsculas e minúsculas.
+Ocultar SSID
+Selecione esta caixa de seleção se desejar esconder o Multi-SSID.
+Segurança
+Selecione uma das seguintes opções de segurança:
+Sem Segurança
+Selecione esta opção para desabilitar a segurança wireless. Esta não é recomendada.
+WPA/WPA2-Pessoal
+Selecione esta opção para habilitar a segurança wireless. Esta é altamente recomendada para proteger a Rede Multi-SSID de acessos não autorizados. Caso selecionado, configure o seguinte.
+Versão
+Selecione uma versão de segurança. WPA2-PSK é mais segura. Caso não tenha certeza, selecione Auto.
+Criptografia
+Selecione um tipo de criptografia de segurança. AES é mais seguro. Não é recomendado usar a criptografia TKIP se o roteador opera em modo 802.11n. Além disso, usando TKIP irá desativar a função WPS. Caso não tenha certeza, selecione Auto.
+Senha
+Crie uma senha entre 8 e 63 caracteres ASCII ou entre 8 e 64 caracteres hexadecimais (0-9, a-f, A- F).
+Agendamento Wireless
+Com o Agendamento Wireless, você pode desativar o sinal wireless durante um período específico. Por exemplo, você pode desligar o sinal wireless entre meia-noite e 07h00.
+Período Wireless Offline
+Exibe o período em que o sinal wireless ficará desligado.
+passo
+Para configurar o período offline
+Clique em Adicionar (Add).
+Configure o período em que necessita que o sinal fique desabilitado.
+Selecione os dias repetidos. Você pode escolher \"Diariamente\" ou especificar dias específicos.
+Clique em Salvar.
+Configurações Wireless
+2.4GHz/5GHz
+Selecione 2.4GHz or 5GHz para alterar as configurações correspondentes.
+Nome de Rede (SSID)
+É recomendável alterar o nome de rede (SSID). Este campo é também suscetível à letras maiúsculas e minúsculas.
+Ocultar SSID
+Escolha se você deseja ocultar o nome da rede (SSID) da lista de redes wireless. Quando selecionado, o SSID não será transmitido e você precisa acessar a rede manualmente.
+Segurança
+Selecione uma das seguintes opções de segurança:
+Sem Segurança
+Selecione esta opção para desabilitar a segurança wireless. Esta não é recomendada.
+WPA/WPA2 Pessoal
+Selecione esta opção para habilitar a segurança wireless. É altamente recomendável que você ative a segurança wireless para proteger sua rede wireless de acessos não-autorizados. Caso selecionado, configure o seguinte.
+Versão
+Selecione uma versão de segurança. WPA2-PSK é mais segura. Caso não tenha certeza, selecione Auto.
+Criptografia
+Selecione um tipo de criptografia de segurança. AES é mais seguro. Não é recomendado usar a criptografia TKIP se o roteador opera em modo 802.11n. Além disso, usando TKIP irá desativar a função WPS. Caso não tenha certeza, selecione Auto.
+Senha
+Insira uma senha wireless entre 8 e 63 caracteres ASCII, ou entre  8 e 64 hexadecimal caracteres neste campo.
+WPA/WPA2  Empresarial
+Selecione esta opção para ativar o método de autenticação mais avançado usando um servidor RADIUS (Remote Authentication Dial In User Service). Caso selecionado, a função WPS será desabilitada.
+Versão
+Selecione uma versão de segurança. WPA2 é mais seguro. Caso não tenha certeza, selecione Auto.
+Criptografia
+Selecione um tipo de criptografia de segurança. AES é mais seguro. Não é recomendado usar a criptografia TKIP se o roteador opera em modo 802.11n. Além disso, usando TKIP irá desativar a função WPS. Caso não tenha certeza, selecione Auto.
+IP de Servidor RADIUS
+Insira o endereço IP do Servidor RADIUS
+Porta de Servidor RADIUS
+Digite o número da porta do servidor RADIUS.
+Senha do Servidor RADIUS
+ Insira a senha compartilhada do servidor RADIUS.
+WEP
+Selecione esta opção para ativar método de autenticação básica se qualquer um dos dispositivos de cliente só pode acessar o usando WEP wireless (Wired Equivalent Privacy).
+Tipo
+Selecione um tipo de autenticação para a rede wireless. Caso não tenha certeza, selecione Auto.
+Chave Selecionada
+Selecione qual das quatro teclas serão usadas e crie uma chave WEP no campo Valor de Chave. Os clientes wireless precisam inserir a chave WEP correspondente para se conectar à sua rede.
+Formato de Chave WEP
+Utilize o formato ASCII ou Hexadecimal. O formato ASCII é uma combinação de O formato hexadecimal é uma combinação de números (0-9) e letras (A-F, a-f).
+Tipo de Chave
+Selecione um tamanho de chave WEP.
+64-bit
+Permite-lhe introduzir 10 dígitos hexadecimais (0-9, A-F, a-f) ou 5 caracteres ASCII no campo valor WEP.
+128-bit
+Permite-lhe introduzir 26 dígitos hexadecimais (0-9, A-F, a-f) ou 13 caracteres ASCII no campo Valor WEP.
+Valor da Chave
+Criar um chave WEP.
+Modo
+Selecione um modo de trnasmissão
+Canal
+Selecione um canal de funcionamento da rede sem fio . Recomenda-se deixar o canal em Auto, se você não está enfrentando o problema de conexão wireless intermitente.
+Largura do Canal
+Selecione uma largura de canal (largura de banda) para a rede wireless. Caso não tenha certeza, selecione Auto.
+Potência de Transmissão
+Selecione Alto, Médio ou Baixo para especificar o potência de transmissão de dados. A configuração padrão e recomendada é Alta .
+WPS
+A função WPS (Configuração Wi-Fi Protegida) oferece uma forma mais fácil de configurar uma conexão Wi-Fi protegida.
+Pressione o Botão (Recomendado)
+Este método permite que você conecte facilmente qualquer dispositivo WPS à rede wireless. Clique no botão Iniciar WPS na tela. Dentro de 2 minutos, pressione o botão WPS no dispositivo cliente.
+PIN do Roteador
+O PIN padrão pode ser encontrado no rótulo do roteador. Clique em Gerar para obter um novo PIN ou clique em Padrão para restaurar o PIN para seu padrão de fábrica.
+PIN do Cliente
+Este método permite que você adicione um dispositivo wireless manualmente.   Insira o PIN do dispositivo no campo e clique em Conectar.
+Controles dos Pais
+Com a função de Controle dos Pais, você pode bloquear websites maliciosos, explícitos ou inapropriados; restringir acesso em determinados períodos do dia (por exemplo, Facebook ou YouTube durante o período de trabalho);
+Dispositivos Sob Controle dos Pais
+Esta tabela exibe informações e configurações dos dispositivos que estão atualmente restritos pelo Controle dos Pais.
+passo
+Para restringir um novo dispositivo de cliente
+Alterne para habilitar o Controle dos Pais
+Clique em Adicionar (Add).
+Clique em Visualizar para escolher um dispositivo conectado atualmente na Lista de Dispositivos de Acesso; ou digite o Nome do Dispositivo e o endereço MAC manualmente para adicionar um dispositivo que não está conectado.
+Clique no ícone de Tempo de Efetivo para especificar um período enquanto a restrição for aplicável.
+Insira uma breve descrição no campo Descrição.
+Selecione Habilitar esta Entrada.
+Clique em Salvar.
+Aviso: Caso queria desabilitar esta entrada, clique no ícone da lâmpada.
+Restrição de Conteúdo
+A Restrição de Conteúdo permite que você restrinja o acesso a websites específicos utilizando palavras chave e nomes de domínio. Os dispositivos de cliente que estão sendo controlados pelos Controles dos Pais podem ou não acessar esses sites, dependendo da política de restrição selecionada.
+passo
+Para especificar o conteúdo para acessar
+Alterne para habilitar a Restrição de Conteúdo
+Selecione a Política de Restrição de acordo com as necessidades: <br>A. Se você deseja que os dispositivos controlados tenham acesso a todos os sites, exceto alguns, selecione Blacklist.<br>B.Se você deseja que os dispositivos controlados só tenham acesso a determinados sites, selecione Lista Branca.
+Clique em Adicionar uma Nova Palavra-Chave para adicionar uma palavra-chave de endereço da Web (por exemplo, wikipedia) ou nome de domínio à Lista de Bloqueados e Permitidos.
+Clique em Salvar.
+Rede para Convidados
+Esta função permite-lhe fornecer acesso Wi-Fi gratuito para os hóspedes sem revelar a rede principal.
+Permite Convidados Acessarem Uns Aos Outros
+Selecione esta opção para permitir que os dispositivos wireless da rede para convidados para se comunicar uns com os outros através de métodos tais como vizinhos de rede, Samba, Ping e FTP.
+Permite Convidados Acessarem Minha Rede Local
+Selecione esta opção para permitir que os dispositivos wireless da rede para convidados comuniquem-se com os dispositivos conectados às portas LAN do roteador ou rede principal através de métodos tais como vizinhos de rede, Samba, Ping e FTP.
+Permitir que os visitantes acessem meu compartilhamento de armazenamento USB
+Selecione caso queira permitir que os dispositivos wireless na Rede para Convidados possam acessar o conteúdo do seu dispositivo de armazenamento USB.
+Habilitar Rede para Convidados
+Selecione esta caixa de seleção para habilitar a função de Rede para Convidados.
+Nome de Rede (SSID)
+Ou use o padrão SSID de Convidado ou crie um novo nome (até 32 caracteres).
+Ocultar SSID
+Selecione esta opção se você deseja ocultar o SSID de convidados a partir da lista de redes Wi-Fi.
+Segurança
+Selecione uma opção de segurança para a Rede para Convidados:
+Sem Segurança
+Por padrão, a segurança da rede para convidados é definida como Sem segurança; qualquer pessoa pode acessar.
+Renovar Senha
+Crie uma senha entre 8 e 63 caracteres ASCII ou entre 8 e 64 caracteres hexadecimais (0-9, a-f, A- F).
+Mapa de Rede
+No mapa de rede, você pode ver o status da conexão de rede atual e informações de wireless do roteador e as informações de dispositivos conectados.
+Internet
+Exibe informações da Internet.
+Roteador
+Exibe informação de rede atual da rede wireles e das portas LAN.
+Clientes Cabeados/Wireless
+Exibe o nome de rede (editável), endereço MAC e IP atribuídos dos clientes conectados do roteador.
+Telefone
+Exibe o nome do dispositivo e os números de telefone que estão sendo usados.
+Número de Chamadas Recebidas
+Exibe os números usados ​​por seus dispositivos de telefonia para receber chamadas recebidas através do seu roteador. 
+Número Interno
+Exibe números de telefone que são usados ​​para fazer chamadas entre dispositivos de telefonia conectados ao mesmo roteador. Está predefinido e não pode ser alterado.
+Número para Chamadas Efetuadas
+Exibe números de telefone que são usados ​​para chamadas em dispositivos de telefonia conectados ao mesmo roteador. O padrão é Auto, o que significa que o roteador selecionará um número disponível para ser o número de saída que pode ser alterado na página VoIP.
+Impressora
+Mostra o nome da sua Impressora conectada ao roteador via porta USB.
+Disk USB
+Exibe informações relevantes do disco USB conectado ao roteador via porta USB.
+Configurações Wireless
+Você pode ajustar as configurações wireless (SSID, senha e etc.) nesta página.
+Rede Wireless 2.4GHz/5GHz" : "Wireless Network
+Selecione esta marcação para habilitar a frequência de rádio wireless 2.4GHz/5GHz." : "Selecione esta marcação para habilitar a frequência de rádio wireless.
+Nome de Rede (SSID)
+É recomendável alterar o nome de rede (SSID). Este campo é também suscetível à letras maiúsculas e minúsculas.
+Ocultar SSID
+Escolha se você deseja ocultar o nome da rede 2.4GHz/5GHz (SSID) da lista de redes wireless. Uma vez selecionado, o SSID não será transmitido e você precisará acessar a rede manualmente." : "Escolha se você deseja ocultar o nome da rede (SSID) da lista de redes wireless. Uma vez selecionado, o SSID não será transmitido e você precisará acessar a rede manualmente.
+Senha
+Insira uma senha wireless entre 8 e 63 caracteres ASCII, ou entre  8 e 64 caracteres hexadecimais neste campo. Este campo é também suscetível à letras maiúsculas e minúsculas.
+Internet
+Exibe informações relevantes sobre a conexão de Internet.
+título2
+IPv4 | IPv6
+Selecione IPv4 e IPv6 para exibir os parâmetros correspondentes.
+Wireless 2.4GHz/5GHz" : "Wireless
+Exibe informações relevantes sobre a rede wireless.
+LAN
+Exibe informações sobre as portas Ethernet (LAN).
+INCLUDE_LAN_WLAN_GUESTNETWORK == 1 && INCLUDE_HIDE_GUESTNETWORK == 0
+Rede para Convidados 2.4GHz/5GHz
+Exibe informações sobre as redes wireless para os convidados.
+$.sysMode == 'DSL'
+DSL
+$.sysMode == 'DSL'
+Exibe informações sobre a conexão DSL.
+Ajuste de Horário
+As Configurações de Horário permitem que você configura o horário do sistema e o período de horário de verão do roteador. Uma vez modificado, o horário do sistema será aplicado a funções e configurações baseadas no tempo, como Controle dos Pais.
+Tempo de Sistema
+Selecionado por padrão, Obter da Internet permite que você obtenha o horário do sistema da Internet.
+passo
+Obter Horário da Internet
+Selecione seu Fuso Horário na lista flutuante.
+No campo Servidor NTP I, insira o endereço IP ou nome de domínio do seu servidor NTP desejado. (Opcional)
+No campo Servidor NTP II, insira o endereço ou nome de domínio do seu segundo servidor NTP desejado. (Opcional)
+Clique em Obter da Internet
+Clique em Salvar.
+Obter do PC permite que você obtenha o horário do sistema a partir do PC. Favor confirmar o horário do PC antes da configuração.
+passo
+Obter horário do PV
+Selecione Obter do PC e clique em salvar.
+Caso o dispositivo não pode obter horário da Internet ou do PC, você pode configurar o horário do sistema manualmente.
+passo
+Para configurar horário manualmente
+Digite sua data local em MM/DD/AA no campo Data.
+Escolha a hora local na lista suspensa (no formato de relógio de 24 horas, por exemplo, 16:00:00 é 04:00 PM). 
+Clique em Salvar.
+Horário de Verão
+Esta função pode automaticamente sincronizar o horário do sistema com o horário de verão.
+passo
+Para configurar o Horário de Verão
+Selecione Habilitar Horário de Verão.
+Especifique um período de horário de verão no campo de fuso horário.
+Clique em Salvar.
+Push Service
+Com este recurso, você pode enviar um e-mail para você informando sobre os eventos mais recentes que você está interessado, como chamadas perdidas ou mensagens de voz.
+passo
+Para configurar o Push Service (Serviço de Notificação)
+Habilite <b>Push Notification via E-mail.</b>
+Selecione o(s) evento(s) que deseja se informar, Chamadas Perdidas e/ou Correios de Voz e clique em Salvar. 
+Configure as Configurações da Conta do Remetente:
+Endereço de E-mail - Especifique o endereço de e-mail a partir do qual a notificação push é enviada.
+Nome de Usuário - Digite o nome de usuário da conta de e-mail, geralmente o mesmo que o endereço de e-mail.
+Senha de E-mail - Digite a senha de e-mail para autenticação.
+Endereço do servidor SMTP - Digite o endereço do servidor SMTP da sua conta de e-mail. Consulte seu provedor de serviços de e-mail se você não tiver certeza sobre as configurações de SMTP.
+Porta do servidor SMTP - Digite o número da porta do servidor SMTP. Por padrão, o SMTP usa a porta 25 que também suporta STARTTLS, um comando para criptografar conexões. Se você quiser proteger a comunicação entre o remetente e o destinatário, use conexões SMTP protegidas por SSL/TLS, padrão para porta 465; ou use conexões SMTP protegidas por STARTTLS, padrão para a porta 587.
+SSL - Ative esse recurso se o servidor SMTP precisar de uma conexão segura.
+STARTTLS - Este recurso atualiza uma conexão insegura existente para uma conexão segura usando SSL/TLS. Certifique-se de que o servidor SMTP suporte STARTTLS antes de ativar esse recurso ou o Push Service não funcionará.
+Teste - Clique para testar a conexão com o servidor SMTP. Se o teste falhar, você deve verificar duas vezes as configurações da conta do remetente.
+Digite o endereço de e-mail do destinatário. Pode ser o mesmo que o endereço de e-mail do remetente. Se for inserido mais de um endereço de e-mail, separe-os com ponto-e-vírgula, por exemplo, amy@tp-link.com; tom@tp-link.com.
+Clique em Salvar.
+Diagnóstico
+O recurso Diagnóstico ajuda você a executar o teste de diagnóstico e solucionar problemas de conectividade de rede.
+Início
+Clique para iniciar o diagnóstico.
+Atualização de Firmware
+INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1
+A Atualização de Firmware atualiza o firmware do roteador com novas funções ou correção de erros. É recomendado para atualizar o roteador com o firmware mais recente para ter o melhor desempenho.
+INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1
+<b>Observando a seguir irá ajudá-lo a evitar a falha de atualização:</b>
+INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1
+passo
+Antes de atualizar:
+Certifique-se de que você tem uma conexão estável entre o roteador e o computador. NÃO é recomendável atualizar o firmware via wireless.
+Certifique-se de que você tenha removido todos os dispositivos USB conectados ao roteador
+Lembre-se de fazer backup de arquivo de configuração do roteador.
+INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1
+passo
+Durante a atualização:
+INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1
+Mantenha o roteador LIGADO até que a atualização se complete.
+INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1
+Para atualizar a firmware online
+INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1
+Clique em Atualizar e clique em Sim quando solicitado e, em seguida, o roteador irá baixar automaticamente o arquivo de firmware mais recente e atualizar.
+INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1
+Para atualizar manualmente o firmware
+INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1
+passo
+
+Clique em Suporte na parte inferior da página e baixar o firmware mais recente para o computador . Por favor, certifique-se de que a versão do firmware que você está baixando seja compatível com a versão do hardware do roteador como mostrado na página.
+Clique em Procurar (Browse) para localizar e selecionar o arquivo de firmware baixado.
+Clique em Atualizar.
+INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1
+A atualização de firmware leva alguns minutos para se completar. O roteador irá reiniciar automaticamente quando a atualização do firmware estiver concluída.
+!('INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1)
+Antes de atualizar o firmware do roteador, você precisará baixar a atualização mais recente do firmware a partir da <a href='http://www.tp-link.com/en/download-center.html'>Página TP-Link Download Center</a>para seu computador.
+!('INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1)
+passo
+<B>IMPORTANTE:</B>Para prevenir falha ao atualizar, favor atentar-se aos seguintes detalhes:
+Verifique se o arquivo de firmware mais recente está compatível com a versão do hardware (como mostrado na página de <b>Atualização de Firmware</b>). 
+Certifique-se de que você tem uma conexão estável entre o roteador e o computador. <b>NÃO</b> é recomendável atualizar o firmware via wireless.
+Certifique-se de remover todos os dispositivos de armazenamento USB conectados ao roteador antes da atualização do firmware para evitar a perda de dados.
+Faça backup da configuração do seu roteador.
+Não desligue o Roteador durante a atualização de firmware.
+Verifique se o arquivo de firmware mais recente está compatível com a versão do hardware (como mostrado na página de <b>Atualização de Firmware</b>). 
+Certifique-se de que você tem uma conexão estável entre o roteador e o computador. <b>NÃO</b> é recomendável atualizar o firmware via wireless.
+Faça backup da configuração do seu roteador.
+Não desligue o Roteador durante a atualização de firmware.
+!('INCLUDE_CLOUD' in window && INCLUDE_CLOUD == 1)
+passo
+Para fazer upgrade da firmware do roteador.
+Clique em <b>Localizar</b>.
+Localize e selecion o arquivo de firmware baixado.
+Clique em <b>Atualizar</b>.
+Fazer Backup e Restaurar
+O recurso Backup e Restaurar permite que você faça backup da configuração atual do roteador para a recuperação, ou simplesmente restaurar o roteador para as configurações padrão.
+<strong>Aviso:</strong><br>Favor NÃO desligar o roteador durante o o processo de backup ou restauração.
+Fazer Backup
+É altamente recomendável fazer backup de suas configurações atuais no caso de uma recuperação a fim de restaurar o sistema para um estado anterior ou a partir dos padrões de fábrica.
+passo
+Para fazer backup da configuração atual
+Clique em Backup.
+Aguarde até que o roteador faça backup da configuração atual.
+Restaurar
+Você pode restaurar o roteador para um estado anterior a partir de um arquivo de backup.
+passo
+Para restaurar a partir de backup
+Clique em Procurar.
+Localize e selecione o arquivo backup.
+Clique em Restaurar.
+Restaurar Padrões de Fábrica
+A Restauração Padrão de Fábrica irá apagar todas as configurações que você estabeleceu para o roteador e restaurá-lo para as configurações padrão de fábrica. Para voltar a entrar na página de gerenciamento do roteador, use o administrador padrão para nome de usuário e senha.
+Administração
+Administration permite que você gerencie a senha de conta além de permissão de acesso dos clientes conectados ao roteador.
+Gerenciamento de Conta
+Esta função permite que você altere a senha.
+passo
+Alterar a senha
+Insira a Senha Antiga.
+Insira a Nova Senha.
+Confirmar a Nova Senha.
+Clique em Salvar.
+Gerenciamento Local
+Esse recurso permite que dispositivos locais acessem e gerenciem o roteador. Por padrão, todos os dispositivos locais podem acessar e gerenciar o roteador via HTTP.
+passo
+Para alterar as configurações de gerenciamento local
+Ative o Gerenciamento Local via HTTPS se desejar acessar o roteador via HTTPS e HTTP, ou mantê-lo desabilitado se você quiser acessar o roteador via HTTP.
+Mantenha a Porta para HTTP e Porta para HTTPS como as configurações padrão.
+Se você quiser apenas permitir que um dispositivo específico gerencie o roteador, digite o endereço IP ou o endereço MAC do dispositivo no campo Endereço IP/MAC.
+Clique em Salvar.
+Agora você pode gerenciar o roteador via HTTP (http://tplinkmodem.net) e/ou HTTPS (https://tplinkmodem.net).
+Aviso: Se aparecer um aviso quando você visitar https://tplinkmodem.net, clique em Confiar (ou em uma opção semelhante) para continuar.
+Gerenciamento Remoto
+O Gerenciamento Remoto permite dispositivos remotos que acessem e gerenciem o roteador. Por padrão, todos os dispositivos remotos não podem acessar e gerenciar o roteador.
+passo
+Para configurar o Gerenciamento Remoto
+Ative o Gerenciamento Remoto se desejar permitir o Gerenciamento Remoto via HTTPS ou habilite o Gerenciamento Remoto e, em seguida, desative o Gerenciamento Remoto via HTTPS se desejar permitir o Gerenciamento Remoto via HTTP.
+Mantenha a Porta como a configuração padrão.
+Selecione para decidir qual dispositivo remoto pode acessar o roteador remotamente:
+Dispositivo cliente permitido para gerenciamento remoto:
+Insira o Endereço IP ou MAC do dispositivo remoto para acessar o roteador.
+Todos
+Todos os dispositivos remotos podem acessar o roteador.
+Clique em Salvar.
+Agora, você pode gerenciar remotamente o roteador através do endereço exibido em Gerenciar Este Roteador através do Endereço.
+Aviso: Se um aviso aparecer quando você visita o endereço acima de forma remota, clique em Confiar (ou em uma opção semelhante) para continuar.
+Certificado
+Um arquivo que fornece informações de autenticação. Baixe e instale o certificado para Gerenciamento Local/Remoto via HTTPS se você precisar. Uma vez que o certificado está instalado, os avisos não aparecerão quando você acessar o roteador via HTTPS.
+Aviso: Para o guia completo, consulte o Guia do Usuário na página de suporte do produto.
+Ping ICMP
+ ICMP (Internet Control Message Protocol) é usado para diagnosticar a rede enviando pacotes de solicitação de eco ICMP para o host remoto ou host local e aguardando uma resposta ICMP.
+Remoto
+Selecione se deseja que os computadores de uma rede pública executem o ping para o endereço IP WAN do roteador.
+Local
+Selecione se você deseja que os computadores de uma rede privada façam ping do endereço IP da LAN do roteador.
+Log de Sistema
+O Log de Sistema exibe a maioria das atividades recentes do roteador. A tabela consiste no tipo, nível e conteúdo de log dos logs do sistema que podem ser filtrados para serem visualizados. Você também pode salvar os logs do sistema no computador local ou enviá-los para o servidor remoto.
+passo
+Salvar logs de sistema no computador local
+Selecione o Tipo e o nível mínimo para filtrar os logs de sistema desejado. A lista Nível está em ordem descendente, com o nível mais baixo listado por último.
+Clique em Salvar Log para salvar os arquivos log no computador.
+Configurações de Log
+Esse recurso permite armazenar em cache os logs do sistema na memória local do roteador ou enviar os logs do sistema para um servidor remoto.
+passo
+Para armazenar em cache os logs do sistema na memória local do roteador
+Selecione Salvar localmente.
+Selecione o nível mínimo de logs do sistema para ser salvo na lista flutuante. A lista está em ordem descendente, com o nível mais baixo listado por último.
+Clique em Salvar.
+passo
+Para enviar o log do sistema para um servidor remoto
+Selecione Salvar remotamente. Se o servidor remoto tiver cliente visualizador de log ou uma ferramenta sniffer implementada, você pode visualizar e analisar o log do sistema remotamente em tempo real.
+Selecione o nível mínimo de logs do sistema para ser salvo na lista flutuante. A lista está em ordem descendente, com o nível mais baixo listado por último.
+Especifique o endereço IP do servidor de log do sistema remoto no campo IP do Servidor.
+Especifique o número da porta do servidor de log do sistema remoto no campo Porta do Servidor.
+Selecione o nome da instalação local do servidor remoto na lista flutuante.
+Clique em Salvar.
+Configurações CWMP
+O Protocolo de Gerenciamento WAN (também chamado TR-069) permite que o Servidor de Configuração Automática (ACS) execute auto-configuração, provisionamento, conexão e diagnósticos para este dispositivo. Você pode configurar esta função sob as instruções do seu provedor.
+CWMP
+Alternar para ativar o recurso CWMP (CPE WAN Management Protocol).
+Inform
+Ative esse recurso para enviar uma mensagem Inform para o ACS (Auto Configuration Server) periodicamente.
+Intervalo de inform
+Digite a hora em segundos quando a mensagem Inform for for enviada para o ACS.
+URL ACS
+Digite o endereço web do ACS que é fornecido pelo seu provedor.
+Nome de Usuário/Senha ACS
+Digite o nome de usuário e a senha para fazer login no servidor ACS.
+Interface utilizada pelo cliente TR-069
+Selecione a interface a ser usada pelo cliente TR-069.
+Exibir mensagens SOAP no console serial
+Alternar para ativar ou desativar esse recurso.
+Autenticação de Solicitação de Conexão
+Selecione esta caixa de seleção para habilitar a autenticação para a solicitação de conexão.
+Nome de Usuário/Senha
+Digite o nome de usuário e a senha do servidor ACS para fazer login no roteador.
+Caminho/Porta/URL
+Digite o caminho, porta e URL que se conecta ao servidor ACS.
+Traversal simples de UDP sobre NATs
+Selecione esta caixa de seleção para habilitar STUN para a solicitação de conexão.
+Período Máximo de Resposta STUN:
+Insira o período máximo de tempo de resposta.
+Período de Resposta Mínimo STUN
+Insira o período mínimo de tempo de resposta.
+Endereço de Servidor STUN
+Insira o endereço de servidor STUN
+Porta do Servidor STUN
+Insira a porta do servidor STUN.
+Obter Métodos RPC
+Clique para obter os métodos para suportar o CWMP.
+Configurações SNMP
+O SNMP (Simple Network Management Protocol) permite que os aplicativos de gerenciamento recuperem atualizações de status e estatísticas do agente SNMP dentro desse dispositivo.
+Agente SNMP/SNMP para WAN
+Habilitar para ativar o agente SNMP interno que permite que o roteador funcione como a função operacional no recebimento e processamento de mensagens SNMP, enviando respostas para o gerenciador SNMP e disparando traps SNMP quando ocorre um evento.
+Comunidade Somente Leitura
+Exibe a cadeia de comunidade pública padrão que protege o roteador do acesso não autorizado.
+Comunidade de Gravação
+Exibe a seqüência da comunidade de leitura e gravação padrão que protege o roteador de alterações não autorizadas.
+Nome do Sistema
+Exibe o nome atribuído administrativamente para este dispositivo gerenciado.
+Descrição do Sistema
+Exibe a descrição textual do dispositivo gerenciado.  Esse valor deve incluir o nome completo e a identificação da versão do tipo de hardware do sistema, do sistema operacional do software e do software de rede.
+Localização do Sistema
+Exibe a localização física deste dispositivo (por exemplo, armário de telefone, 3º andar).  
+Contato de Sistema
+Exibe a identificação textual da pessoa de contato para este dispositivo gerenciado, juntamente com informações sobre como entrar em contato com essa pessoa.
+IP Trap Manager
+Exibe o endereço IP do host para receber as armadilhas.
+Estatísticas de Tráfego
+Estatísticas de Tráfego
+Alterne para ativar o recurso Estatísticas de Tráfego."
+Lista de Estatísticas de Tráfego
+Endereço IP/MAC
+Os endereços IP e MAC dos clientes conectados.
+Pacotes Totais
+O número total de pacotes recebidos e transmitidos pelo roteador.
+Bytes Totais
+O número total de bytes recebidos e transmitidos pelo roteador.
+Pacotes Atuais
+O número total de pacotes recebidos e transmitidos em um intervalo de tempo específico em segundos.
+Bytes Atuais
+O número total de bytes recebidos e transmitidos em um intervalo de tempo específico em segundos.
+ICMP Tx Atual
+Exibe a taxa de transmissão atual e a taxa dos pacotes ICMP transmitidos através da porta WAN em máxima transmissão por segundo.
+UDP Tx Atual
+Exibe a taxa de transmissão atual e a taxa de pacotes UDP transmitidos através da porta WAN máxima de transmissão por segundo.
+SYN Tx Atual
+Exibe a taxa de transmissão atual e a taxa máxima de transmissão de pacotes TCP SYN transmitidos através da porta WAN por segundo.
+Modificar
+Clique no ícone <b>Lixeira</ b> para excluir as estatísticas correspondentes.
+Atualizar
+Clique para atualizar a informação estatística sobre a página.
+Reiniciar Tudo
+Clique para restaurar todos os valores estatísticos na lista para zero.
+Apagar Tudo
+Clique para apagar todas as informações estatísticas na lista.
+Modo Operacional
+Selecione o modo de operação do roteador apropriado de acordo com seu ambiente de rede.
+Modo Modem Roteador DSL
+Permite aos múltiplos usuários compartilharem a Internet via xDSL usando sua porta xDSL e compartilhar via wireless na faixa cristalina de 5GHz e na banda de 2.4 GHz." : "Permite que vários usuários compartilhem a Internet via xDSL usando sua porta xDSL e compartilhem via wireless.
+Modo Roteador 3G/4G
+Habilita múltiplos usuários a compartilharem uma conexão de Internet 3G ou 4G utilizando um cartão SIM compatível.
+Modo Roteador Wireless
+Permite aos usuários múltiplos compartilharem a Internet via Ethernet WAN (EWAN) usando sua porta LAN 4/WAN intercambiável e compartilhá-la de forma wireless na faixa de 5GHz e 2.4GHz ". : "Permite aos usuários múltiplos compartilharem a Internet via Ethernet WAN (EWAN) usando sua porta LAN4/WAN intercambiável e compartilhá-la via wireless.
+Modo Operacional
+Roteador
+Neste modo, o roteador se conecta diretamente à Internet via IP dinâmico, IP estático, PPPoE, L2TP ou PPTP e compartilha o acesso à internet a vários dispositivos com ou sem fio. NAT, firewall e servidor DHCP são habilitados por padrão. Selecione este modo se você for um usuário pela primeira vez ou não estiver usando outros roteadores atualmente.
+Access Point
+Neste modo, seu roteador se conecta a um roteador com ou sem fio através de um cabo Ethernet e amplia a cobertura wireless da sua rede existente. Funções como NAT, Controle dos Pais e QoS não são suportadas neste modo. O endereço IP deste roteador é atribuído pelo servidor DHCP do roteador raíz. Se você não conhece o endereço IP deste roteador, pode usar http://tplinkwifi.net para fazer login na página de gerenciamento da web.
+Configurações de Internet
+Você pode configurar uma conexão com a Internet e modificar configurações na conexão existente nesta página.
+<br><br>Selecione o Tipo de Conexão Internet e insira os parâmetros correspondentes.
+Tipo de Conexão de Internet: IP Dinâmico
+Selecione essa opção caso tenha sido fornecido com uma conexão de servidor DHCP pelo provedor.
+IPv4
+Selecione a caixa de seleção para habilitar IPv4.
+Endereço IP/Máscara de Sub-rede/Gateway Padrão
+Estes parâmetros são automaticamente atribuídos pelo servidor DHCP do seu provedor.
+Renovar
+Clique neste botão para obter novos parâmetros IP do servidor DHCP do provedor.
+Liberar
+Clique para liberar todos os endereços IP atribuídos pelo servidor DHCP.
+IPv6
+IPv6 (Internet Protocol versão 6) é a versão mais recente do IP (Internet Protocol) e lida com o problema de exaustão de endereços do padrão IPv4 (Internet Protocol versão 4). Se o seu provedor lhe fornecer o serviço IPv6, selecione a marcação para ativar esse recurso.
+Endereço IPv6/Tamanho de Prefixo/Gateway IPv6 Padrão 
+Estes parâmetros são automaticamente atribuídos pelo servidor DHCPv6 do seu provedor.
+Tipo de Endereçamento
+Selecione um tipo de endereçamento para decidir como obter um endereço IPv6. Selecione DHCPv6 para obter um endereço IPv6 não temporário ou SLAAC para obter um endereço IPv6 gerado de um pacote de anúncio do roteador, de acordo com o provedor.
+Clique em <b>Avançado</b> para visualizar mais configurações avançadas.
+Avançado
+Tamanho MTU
+O padrão e tamanho MTU típico (Maximum Transmission Unit) para a maioria das redes Ethernet é de <b>1500 Bytes</b>. Não é recomendado alterar o tamanho padrão MTU a menos que seja exigido pelo provedor.
+NAT
+Esta função é habilitada por padrão. É recomendável manter a configuração de fábrica. Caso desabilite, você pode não ter acesso à Internet.
+NAT Full-cone
+Este é um tipo de NAT. Se o NAT full-cone não estiver ativado, a função NAT padrão será usada.
+Proxy IGMP
+IGMP (Internet Group Management Protocol) é usado para gerenciar multicast em redes TCP/IP. Alguns provedores usam o IGMP para executar a configuração remota em um roteador. É habilitado por padrão.
+Obter IP Utilizando DHCP Unicast
+Selecione esta opção se o servidor DHCP do provedor não suporta aplicações de broadcast e você não consegue obter o endereço IP dinamicamente.
+Utilize os Endereços DNS a seguir
+Se o provedor fornece os endereços IP de DNS (fixo) específicos, selecione Utilizar os seguintes endereços de DNS e digite o(s) endereço(s) para o DNS primário e campos DNS secundários respectivamente. Caso contrário, desabilite esse recurso para obter automaticamente o(s) endereço(s) IP de DNS atribuídos pelo servidor.
+Utilize o Endereço DNS IPv6 a seguir
+Se o provedor fornece os endereços IP de DNS (fixo) específicos, selecione Utilizar os seguintes endereços de DNS e digite o(s) endereço(s) para o DNS primário e campos DNS secundários respectivamente. Caso contrário, desabilite esse recurso para obter automaticamente o(s) endereço(s) IP de DNS atribuídos pelo servidor.
+Nome Host
+Insira um valor para este campo para especificar o nome do host do roteador.
+Tipo de Conexão de Internet: IP Estático
+Selecione este tipo caso tenha sido fornecido de um endereço IP específico (fixo), Máscara de Sub-rede, Gateway padrão e parâmetros DNS através do seu provedor.
+IPv4
+Selecione a caixa de seleção para habilitar IPv4.
+Endereço IP/Máscara de Sub-rede/Gateway Padrão/DNS Primário/DNS Secundário
+Digite as informações fornecidas pelo provedor.
+IPv6
+IPv6 (Internet Protocol versão 6) é a versão mais recente do IP (Internet Protocol) e lida com o problema de exaustão de endereços do padrão IPv4 (Internet Protocol versão 4). Se o seu provedor lhe fornecer o serviço IPv6, selecione a marcação para ativar esse recurso.
+Endereço IPv6/Comprimento de Prefixo/Gateway IPv6 Padrão/DNS Primário/DNS Secundário
+Digite as informações fornecidas pelo provedor.
+Clique em <b>Avançado</b> para visualizar mais configurações avançadas.
+Avançado
+Tamanho MTU
+O padrão e tamanho MTU típico (Maximum Transmission Unit) para a maioria das redes Ethernet é de <b>1500 Bytes</b>. Não é recomendado alterar o tamanho padrão MTU a menos que seja exigido pelo provedor.
+NAT
+Esta função é habilitada por padrão. É recomendável manter a configuração de fábrica. Caso desabilite, você pode não ter acesso à Internet.
+NAT Full-cone
+Este é um tipo de NAT. Se o NAT full-cone não estiver ativado, a função NAT padrão será usada.
+Proxy IGMP
+IGMP (Internet Group Management Protocol) é usado para gerenciar multicast em redes TCP/IP. Alguns provedores usam o IGMP para executar a configuração remota em um roteador. É habilitado por padrão.
+Tipo de Conexão de Internet: PPPoE
+Selecione este tipo se você utilizar o serviço DSL (Digital Subscriber Line) e que são fornecidos com um nome de usuário e senha através do provedor..
+Nome de Usuário/Senha/Confirmar Senha
+Insira o nome de usuário e senha oferecidos pelos seu provedor. Estes campos são sensíveis a letras mínusculas e maiúsculas.
+Modo de Conexão
+Selecione um modo de conexão apropriado que determina como conectar à Internet.
+Auto
+Neste modo, a conexão de Internet reconecta automaticamente a qualquer momento que é desconectada.
+Sob Demanda
+Neste modo, a conexão de Internet será encerrada automaticamente após um período de inatividade (Max Idle Time) especificado seja alcançado. A conexão é reestabelecida quando você tenta acessar a Internet novamente.
+Manualmente
+Neste modo, a conexão de Internet é controlada manualmente clicando no botão Conectar ou Desconectar na tabela. Este modo também suporta a função Max Idle Time (Período Ocioso Máximo). Insira um tempo máximo (em minutos) para quanto a conexão de Internet pode ficar inativa antes de ser finalizada no campo Max Idle Time. O valor padrão é de 15min. Caso deseja que a conexão de Internet permaneça sempre ativa, insira 0 (zero).
+Tipo de Autenticação
+Selecione um tipo de autenticação. O padrão é Automático. Alguns provedores requerem uma autenticação específica, favor confirmar junto ao seu provedor ou mantenha as configurações atuais.
+Auto
+Caso seja Automático (padrão), o roteador automaticamente determina o tipo de autenticação utilizado pelo seu provedor.
+PAP
+Em caso de PAP (Password Authentication Protocol), o roteador autentica com o peer usando dois handshakes. Selecione esta opção se o provedor exige este tipo de autenticação.
+CHAP
+Caso seja CHAP (Challenge Handshake Authentication Protocol), o roteador autentica com o peer usando três handshakes e valida a autenticação do peer periodicamente. Selecione esta opção se o provedor exige este tipo de autenticação.
+MS-CHAP
+Caso habilite MS-CHAP (Microsoft-Challenge Handshake Authentication Protocol), o roteador autentica o par através de uma chave compartilhada no pacote de resposta e um autenticador de resposta no pacote de confirmação. Selecione esta opção se o provedor exige este tipo de autenticação.
+IPv4
+Selecione a caixa de seleção para habilitar IPv4.
+IPv6
+IPv6 (Internet Protocol versão 6) é a versão mais recente do IP (Internet Protocol) e lida com o problema de exaustão de endereços do padrão IPv4 (Internet Protocol versão 4). Se o seu provedor lhe fornecer o serviço IPv6, selecione a marcação para ativar esse recurso.
+Tipo de Endereçamento
+Selecione um tipo de endereçamento para decidir como obter um endereço IPv6. Selecione DHCPv6 para obter um endereço IPv6 não temporário ou SLAAC para obter um endereço IPv6 gerado de um pacote de anúncio do roteador, de acordo com o provedor.
+Clique em <b>Avançado</b> para visualizar mais configurações avançadas.
+Avançado
+Nome de Serviço/Nome de Concentrador de Acesso
+Por padrão, o nome do serviço e o nome do concentrador de acesso (AC) são deixados em branco. Esses campos não devem ser configurados a menos que exigido pelo provedor.
+Tamanho MTU
+O tamanho típico MTUpara redes Ethernet é de 1480 Bytes.
+<b>Aviso</b>: Em um caso raro, o provedor pode exigir que você ajuste o tamanho MTU para um melhor desempenho da rede. Você não deve alterar o valor, a menos que seja absolutamente necessário.
+NAT
+Esta função é habilitada por padrão. É recomendável manter a configuração de fábrica. Caso desabilite, você pode não ter acesso à Internet.
+NAT Full-cone
+Este é um tipo de NAT. Se o NAT full-cone não estiver ativado, a função NAT padrão será usada.
+Proxy IGMP
+IGMP (Internet Group Management Protocol) é usado para gerenciar multicast em redes TCP/IP. Alguns provedores usam o IGMP para executar a configuração remota em um roteador. É habilitado por padrão.
+Utilizar IP Especificado pelo Provedor
+Se o provedor fornecer os endereços IP específicos (fixos), habilite Utilizar IP Especificado pelo Provedor e digite o endereço no campo Endereço IP especificado pelo provedor.
+Intervalo de Solicitação de Resposta
+Insira um valor de intervalo entre 0 e 120 (em segundos) para o roteador solicitar Concentrador de Acesso para responder em cada intervalo. O valor padrão é de 30. 0 significa nenhuma detecção.
+Utilize os Endereços DNS a seguir
+Se o provedor fornece os endereços IP de DNS (fixo) específicos, selecione Utilizar os seguintes endereços de DNS e digite o(s) endereço(s) para o DNS primário e campos DNS secundários respectivamente. Caso contrário, desabilite esse recurso para obter automaticamente o(s) endereço(s) IP de DNS atribuídos pelo servidor.
+Utilizar Endereço IPv6 Especificado pelo Provedor
+Se o provedor fornecer os endereços IPv6 específicos (fixos), habilite o uso dos endereços IPv6 especificados pelo provedor e insira os endereços nos campos provedor Endereço IPv6 Especificdo pelo Provedor e Gateway IPv6 Especificdo pelo Provedor.
+Utilizar o Endereço DNS IPv6 a seguir:
+Se o provedor fornece os endereços IP de DNS (fixo) específicos, selecione Utilizar os seguintes endereços de DNS e digite o(s) endereço(s) para o DNS primário e campos DNS secundários respectivamente. Caso contrário, desabilite esse recurso para obter automaticamente o(s) endereço(s) IP de DNS atribuídos pelo servidor.
+Tipo de Conexão de Internet: L2TP/PPTP
+L2TP/PPTP
+Selecione este tipo caso conecte um Servidor VPN L2TP/PPTP e seja provido de nome de usuário, senha e Nome de Domínio/Endereço IP do servidor pelo provedor.
+Nome de Usuário/Senha
+Insira o Nome de Usuário/Senha oferecidos pelos seu provedor. Estes campos são sensíveis a letras mínusculas e maiúsculas.
+Endereço IP/DNS Primário
+Estes parâmetros serão automaticamente atribuídos pelo servidor DHCP do seu provedor.
+Conexão Secundária (IP Dinâmico ou IP Estático)
+IP Dinâmico
+Selecione caso o endereço IP e a Máscara de Sub-rede são atribuídos automaticamente pelo provedor.
+IP Estático
+Selecione se o endereço IP, Máscara de Sub-rede, Gateway e endereços DNS são fornecidos pelo provedor, e insira as informações nos campos correspondentes. 
+IP de Servidor VPN/Nome de Domínio
+Insira um endereço IP de servidor VPN ou nome de domínio oferecido pelo seu provedor.
+Tamanho MTU
+O tamanho MTU (Unidade de Transmissão Máxima) padrão e típico para maioria das redes Ethernet é de 1460 Bytes (1420 para PPTP).  Não altere a menos que seja solicitado pelo seu provedor.
+Modo de Conexão
+Selecione um modo de conexão apropriado que determina como conectar à Internet.
+Sempre Online
+Neste modo, a conexão de Internet reconecta automaticamente a qualquer momento que é desconectada.
+Conexão sob Demanda
+Neste modo, a conexão de Internet será encerrada automaticamente após um período de inatividade (Max Idle Time) especificado seja alcançado. A conexão é reestabelecida quando você tenta acessar a Internet novamente.
+Conectar Manualmente
+Neste modo, a conexão com a Internet é controlada manualmente clicando no botão Conectar ou Desconectar. Esse modo também suporta a função Max Idle Time (Tempo Ocioso Máximo). Insira um Tempo Ocioso Máximo (em minutos) para especificar quanto a conexão de Internet pode ficar inativa antes de ser finalizada. O valor padrão é de 15min. Caso deseja que a conexão permaneça sempre ativa, insira 0 (zero).
+Clone de Mac
+Selecione o método MAC Clone apropriado conforme sua necessidade.
+NÃO Clonar Endereço MAC
+NÃO altere o endereço MAC padrão do roteador, caso o provedor não vincula o endereço IP atribuído ao endereço MAC.
+Clonar Endereço MAC do Computador Atual
+Selecione para copiar o endereço MAC atual do computador que está conectado ao roteador, caso o provedor vincule o endereço IP atribuído para o endereço do computador MAC.
+Utilizar Endereço MAC Personalizado
+Digite o endereço MAC manualmente, caso o provedor vincule o endereço IP atribuído ao endereço MAC específico.
+Conexões de Internet
+Esta tabela exibe detalhes de todas as conexões de Internet que você configurou. Você pode modificar configurações em uma conexão existente ou adicionar uma nova conexão nesta página.
+Para adicionar uma conexão com a Internet
+Clique em Adicionar e configure os parâmetros correspondentes.
+Tipo de Modulação DSL
+Selecione o tipo de modulação da sua conexão DSL.
+VPI
+Digite o VPI atribuído pelo seu provedor para especificar o caminho virtual entre os pontos finais em uma rede ATM.
+VCI
+Digite o VCI atribuído pelo seu provedor para especificar os pontos finais do canal virtual em uma rede ATM.
+ID VLAN
+Selecione a caixa de seleção para habilitar o recurso ID VLAN e digite o ID VLAN fornecido pelo seu provedor.
+<br><br>Selecione o Tipo de Conexão Internet e insira os parâmetros correspondentes.
+Tipo de Conexão de Internet: IP Estático 
+Selecione este tipo caso tenha sido fornecido um endereço específico IP (fixo), Máscara de Sub-rede, Gateway e parâmetros DNS através do seu provedor.
+IPv4
+Selecione a caixa de seleção para habilitar IPv4.
+Endereço IP/Máscara de Sub-rede/Gateway Padrão/DNS Primário/DNS Secundário/Gateway Padrão
+Digite as informações fornecidas pelo seu provedor e selecione uma interface WAN na lista flutuante Gateway Padrão como o gateway padrão IPv4.
+IPv6
+O IPv6 (Internet Protocol, versão 6) é a versão mais recente do IP (Internet Protocol) e lida com o problema da exaustão do endereço IPv4 (Internet Protocol, versão 4). Se o seu provedor lhe fornecer o serviço IPv6, selecione a caixa de seleção para habilitar esta característica.
+Endereço IPv6/Comprimento de Prefixo/Gateway IPv6/DNS IPv6 Primário/DNS IPv6 Secundário/Gateway Padrão IPv6
+Insira as informações fornecidas pelo seu provedor e selecione uma interface WAN na lista flutuante Gateway Padrão como o Gateway Padrão IPv6.
+Clique em <b>Avançado</b> para visualizar mais configurações avançadas.
+Avançado
+Tamanho MTU
+O padrão e tamanho MTU típico (Maximum Transmission Unit) para a maioria das redes Ethernet é de <b>1500 Bytes</b>. Não é recomendado alterar o tamanho padrão MTU a menos que seja exigido pelo provedor.
+NAT
+Esta função é habilitada por padrão. É recomendável manter a configuração de fábrica. Caso desabilite, você pode não ter acesso à Internet.
+NAT Full-cone
+Este é um tipo de NAT. Se o NAT full-cone não estiver ativado, a função NAT padrão será usada.
+Proxy IGMP
+IGMP (Internet Group Management Protocol) é usado para gerenciar multicast em redes TCP/IP. Alguns provedores usam o IGMP para executar a configuração remota em um roteador. É habilitado por padrão.
+Tipo de Conexão de Internet: IP Dinâmico 
+Selecione essa opção caso tenha sido fornecido com uma conexão de servidor DHCP pelo provedor.
+IPv4
+Selecione a caixa de seleção para habilitar IPv4.
+Endereço IP/Máscara de Sub-rede/Gateway/Gateway Padrão
+Estes parâmetros são automaticamente atribuídos pelo servidor DHCP do seu provedor.
+IPv6
+O IPv6 (Internet Protocol, versão 6) é a versão mais recente do IP (Internet Protocol) e lida com o problema da exaustão do endereço IPv4 (Internet Protocol, versão 4). Se o seu provedor lhe fornecer o serviço IPv6, selecione a caixa de seleção para habilitar esta característica.
+Endereço IPv6/Comprimento de Prefixo/ Gateway IPv6
+Estes parâmetros são automaticamente atribuídos pelo servidor DHCPv6 do seu provedor.
+Tipo de Endereçamento
+Selecione um tipo de endereçamento para decidir como obter um endereço IPv6. Selecione DHCPv6 para obter um endereço IPv6 não temporário ou SLAAC para obter um endereço IPv6 gerado de um pacote de anúncio do roteador, de acordo com o provedor.
+Gateway Padrão IPv6 
+Selecione uma interface WAN na lista flutuante como o gateway padrão IPv6.
+Clique em <b>Avançado</b> para visualizar mais configurações avançadas.
+Avançado
+Tamanho MTU
+O padrão e tamanho MTU típico (Maximum Transmission Unit) para a maioria das redes Ethernet é de <b>1500 Bytes</b>. Não é recomendado alterar o tamanho padrão MTU a menos que seja exigido pelo provedor.
+NAT
+Esta função é habilitada por padrão. É recomendável manter a configuração de fábrica. Caso desabilite, você pode não ter acesso à Internet.
+NAT Full-cone
+Este é um tipo de NAT. Se o NAT full-cone não estiver ativado, a função NAT padrão será usada.
+Proxy IGMP
+IGMP (Internet Group Management Protocol) é usado para gerenciar multicast em redes TCP/IP. Alguns provedores usam o IGMP para executar a configuração remota em um roteador. É habilitado por padrão.
+Obter IP Utilizando DHCP Unicast
+Selecione esta opção se o servidor DHCP do provedor não suporta aplicações de broadcast e você não consegue obter o endereço IP dinamicamente.
+Utilize os Endereços DNS a seguir
+Se o provedor fornece os endereços IP de DNS (fixo) específicos, habilite Utilizar os seguintes endereços de DNS e digite o(s) endereço(s) para o DNS primário e campos DNS secundários respectivamente. Caso contrário, desabilite esse recurso para obter automaticamente o(s) endereço(s) IP de DNS atribuídos pelo servidor.
+Utilize o Endereço DNS IPv6 a seguir
+Se o provedor fornece os endereços IP de DNS (fixo) específicos, selecione Utilizar os seguintes endereços de DNS e digite o endereço para o DNS primário e campos DNS secundários respectivamente. Caso contrário, desabilite esse recurso para obter automaticamente o(s) endereço(s) IP de DNS atribuídos pelo servidor.
+Nome Host
+Insira um valor para este campo para especificar o nome do host do roteador.
+Tipo de Conexão de Internet: PPPoE
+Selecione este tipo se você utilizar o serviço DSL (Digital Subscriber Line) e que são fornecidos com um nome de usuário e senha através do provedor..
+Nome de Usuário/Senha/Confirmar Senha
+Insira o nome de usuário e senha oferecidos pelos seu provedor. Estes campos são sensíveis a letras mínusculas e maiúsculas.
+Modo de Conexão
+Selecione um modo de conexão apropriado que determina como conectar à Internet.
+Auto
+Neste modo, a conexão de Internet reconecta automaticamente a qualquer momento que é desconectada.
+Sob Demanda
+Neste modo, a conexão de Internet será encerrada automaticamente após um período de inatividade (Max Idle Time) especificado seja alcançado. A conexão é reestabelecida quando você tenta acessar a Internet novamente.
+Manualmente
+Neste modo, a conexão de Internet é controlada manualmente clicando no botão Conectar ou Desconectar na tabela. Este modo também suporta a função Max Idle Time (Período Ocioso Máximo). Insira um tempo máximo (em minutos) para quanto a conexão de Internet pode ficar inativa antes de ser finalizada no campo Max Idle Time. O valor padrão é de 15min. Caso deseja que a conexão de Internet permaneça sempre ativa, insira 0 (zero).
+Tipo de Autenticação
+Selecione um tipo de autenticação. O padrão é Automático. Alguns provedores requerem uma autenticação específica, favor confirmar junto ao seu provedor ou mantenha as configurações atuais.
+Auto
+Caso seja Automático (padrão), o roteador automaticamente determina o tipo de autenticação utilizado pelo seu provedor.
+PAP
+Em caso de PAP (Password Authentication Protocol), o roteador autentica com o peer usando dois handshakes. Selecione esta opção se o provedor exige este tipo de autenticação.
+CHAP
+Caso seja CHAP (Challenge Handshake Authentication Protocol), o roteador autentica com o peer usando três handshakes e valida a autenticação do peer periodicamente. Selecione esta opção se o provedor exige este tipo de autenticação.
+MS-CHAP
+Caso habilite MS-CHAP (Microsoft-Challenge Handshake Authentication Protocol), o roteador autentica o par através de uma chave compartilhada no pacote de resposta e um autenticador de resposta no pacote de confirmação. Selecione esta opção se o provedor exige este tipo de autenticação.
+IPv4
+Selecione a caixa de seleção para habilitar IPv4.
+Gateway Padrão
+Selecione uma interface WAN na lista suspensa como o gateway padrão IPv4.
+IPv6
+O IPv6 (Internet Protocol, versão 6) é a versão mais recente do IP (Internet Protocol) e lida com o problema da exaustão do endereço IPv4 (Internet Protocol, versão 4). Se o seu provedor lhe fornecer o serviço IPv6, selecione a caixa de seleção para habilitar esta característica.
+Tipo de Endereçamento
+Selecione um tipo de endereçamento para decidir como obter um endereço IPv6. Selecione DHCPv6 para obter um endereço IPv6 não temporário ou SLAAC para obter um endereço IPv6 gerado de um pacote de anúncio do roteador, de acordo com o provedor.
+Gateway Padrão IPv6 
+Selecione uma interface WAN na lista flutuante como o gateway padrão IPv6.
+Clique em <b>Avançado</b> para visualizar mais configurações avançadas.
+Avançado
+Nome de Serviço/Nome de Concentrador de Acesso
+Por padrão, o nome do serviço e o nome do concentrador de acesso (AC) são deixados em branco. Esses campos não devem ser configurados a menos que exigido pelo provedor.
+Tamanho MTU
+O tamanho típico MTUpara redes Ethernet é de 1480 Bytes.
+<b>Aviso</b>: Em um caso raro, o provedor pode exigir que você ajuste o tamanho MTU para um melhor desempenho da rede. Você não deve alterar o valor, a menos que seja absolutamente necessário.
+NAT Full-cone
+Este é um tipo de NAT. Se o NAT full-cone não estiver ativado, a função NAT padrão será usada.
+Proxy IGMP
+IGMP (Internet Group Management Protocol) é usado para gerenciar multicast em redes TCP/IP. Alguns provedores usam o IGMP para executar a configuração remota em um roteador. É habilitado por padrão.
+Utilizar IP Especificado pelo Provedor
+Se o provedor fornecer os endereços IP específicos (fixos), habilite Utilizar IP Especificado pelo Provedor e digite o endereço no campo Endereço IP especificado pelo provedor.
+Intervalo de Solicitação de Resposta
+Insira um valor de intervalo entre 0 e 120 (em segundos) para o roteador solicitar Concentrador de Acesso para responder em cada intervalo. O valor padrão é de 30. 0 significa nenhuma detecção.
+Utilize os Endereços DNS a seguir
+Se o provedor fornece os endereços IP de DNS (fixo) específicos, habilite Utilizar os seguintes endereços de DNS e digite o(s) endereço(s) para o DNS primário e campos DNS secundários respectivamente. Caso contrário, desabilite esse recurso para obter automaticamente o(s) endereço(s) IP de DNS atribuídos pelo servidor.
+Utilizar IPv6 Especificado pelo Provedor
+Marque esta caixa de seleção e insira o endereço IP e o gateway fornecidos pelo seu ISP.
+Utilize o Endereço DNS IPv6 a seguir
+Se o provedor fornece os endereços IP de DNS (fixo) específicos, selecione Utilizar os seguintes endereços de DNS e digite o endereço para o DNS primário e campos DNS secundários respectivamente. Caso contrário, desabilite esse recurso para obter automaticamente o(s) endereço(s) IP de DNS atribuídos pelo servidor.
+Tipo de Conexão de Internet: PPPoA
+Selecione este tipo se você utilizar o serviço DSL (Digital Subscriber Line) e que são fornecidos com um nome de usuário e senha através do provedor.
+Nome de Usuário/Senha/Confirmar Senha
+Insira o nome de usuário e senha oferecidos pelos seu provedor. Estes campos são sensíveis a letras mínusculas e maiúsculas.
+Modo de Conexão
+Selecione um modo de conexão apropriado que determina como conectar à Internet.
+Auto
+Neste modo, a conexão de Internet reconecta automaticamente a qualquer momento que é desconectada.
+Sob Demanda
+Neste modo, a conexão de Internet será encerrada automaticamente após um período de inatividade (Max Idle Time) especificado seja alcançado. A conexão é reestabelecida quando você tenta acessar a Internet novamente.
+Manualmente
+Neste modo, a conexão de Internet é controlada manualmente clicando no botão Conectar ou Desconectar na tabela. Este modo também suporta a função Max Idle Time (Período Ocioso Máximo). Insira um tempo máximo (em minutos) para quanto a conexão de Internet pode ficar inativa antes de ser finalizada no campo Max Idle Time. O valor padrão é de 15min. Caso deseja que a conexão permaneça sempre ativa, insira 0 (zero).
+Tipo de Autenticação
+Selecione um tipo de autenticação. O padrão é Automático. Alguns provedores requerem uma autenticação específica, favor confirmar junto ao seu provedor ou mantenha as configurações atuais.
+Auto
+Caso seja Automático (padrão), o roteador automaticamente determina o tipo de autenticação utilizado pelo seu provedor.
+PAP
+Em caso de PAP (Password Authentication Protocol), o roteador autentica com o peer usando dois handshakes. Selecione esta opção se o provedor exige este tipo de autenticação.
+CHAP
+Caso seja CHAP (Challenge Handshake Authentication Protocol), o roteador autentica com o peer usando três handshakes e valida a autenticação do peer periodicamente. Selecione esta opção se o provedor exige este tipo de autenticação.
+MS-CHAP
+Caso habilite MS-CHAP (Microsoft-Challenge Handshake Authentication Protocol), o roteador autentica o par através de uma chave compartilhada no pacote de resposta e um autenticador de resposta no pacote de confirmação. Selecione esta opção se o provedor exige este tipo de autenticação.
+Gateway Padrão
+Selecione uma interface WAN na lista suspensa como o gateway padrão IPv4.
+Clique em <b>Avançado</b> para visualizar mais configurações avançadas.
+Avançado
+Tamanho MTU
+O tamanho típico MTUpara redes Ethernet é de 1480 Bytes.
+<b>Aviso</b>: Em um caso raro, o provedor pode exigir que você ajuste o tamanho MTU para um melhor desempenho da rede. Você não deve alterar o valor, a menos que seja absolutamente necessário.
+Proxy IGMP
+IGMP (Internet Group Management Protocol) é usado para gerenciar multicast em redes TCP/IP. Alguns provedores usam o IGMP para executar a configuração remota em um roteador. É habilitado por padrão.
+Utilizar IP Especificado pelo Provedor
+Se o provedor fornecer os endereços IP específicos (fixos), habilite Utilizar IP Especificado pelo Provedor e digite o endereço no campo Endereço IP especificado pelo provedor.
+Intervalo de Solicitação de Resposta
+Insira um valor de intervalo entre 0 e 120 (em segundos) para o roteador solicitar Concentrador de Acesso para responder em cada intervalo. O valor padrão é de 30. 0 significa nenhuma detecção.
+Utilize os Endereços DNS a seguir
+Se o provedor fornece os endereços IP de DNS (fixo) específicos, habilite Utilizar os seguintes endereços de DNS e digite o(s) endereço(s) para o DNS primário e campos DNS secundários respectivamente. Caso contrário, desabilite esse recurso para obter automaticamente o(s) endereço(s) IP de DNS atribuídos pelo servidor.
+Tipo de Conexão de Internet: IPoA
+Selecione este tipo se o provedor fornece conexão IPoA.
+Endereço IP/Máscara de Sub-rede
+Digite o endereço IP e a máscara de sub-rede fornecidos pelo provedor.
+Gateway/DNS Primário/Servidor DNS Secundário
+Digite seu servidor de gateway e DNS de preferência.
+Gateway Padrão
+Selecione uma interface WAN na lista suspensa como o gateway padrão IPv4.
+Clique em <b>Avançado</b> para visualizar mais configurações avançadas.
+Avançado
+Tamanho MTU
+O tamanho típico MTUpara redes Ethernet é de 1480 Bytes.
+NAT
+Esta função é habilitada por padrão. É recomendável manter a configuração de fábrica. Caso desabilite, você pode não ter acesso à Internet.
+Proxy IGMP
+IGMP (Internet Group Management Protocol) é usado para gerenciar multicast em redes TCP/IP. Alguns provedores usam o IGMP para executar a configuração remota em um roteador. É habilitado por padrão.
+Tipo de Conexão de Internet: Bridge
+Selecione este tipo caso o provedor utiliza implementação de rede Bridge. Nenhuma configuração é necessária para este tipo de conexão.
+Clone de Mac
+Selecione o método MAC Clone apropriado conforme sua necessidade.
+NÃO Clonar Endereço MAC
+NÃO altere o endereço MAC padrão do roteador, caso o provedor não vincula o endereço IP atribuído ao endereço MAC.
+Clonar Endereço MAC do Computador Atual
+Selecione para copiar o endereço MAC atual do computador que está conectado ao roteador, caso o provedor vincule o endereço IP atribuído para o endereço do computador MAC.
+Utilizar Endereço MAC Personalizado
+Digite o endereço MAC manualmente, caso o provedor vincule o endereço IP atribuído ao endereço MAC específico.
+Roteamento Estático
+O roteamento estático é usado para predeterminar uma rota fixa para os pacotes de informações da rede para alcançar um host ou rede específica.
+passo
+Para configurar um Roteamento Estático
+Clique em <b>Adicionar</b>.
+Insira um endereço IP no campo de Rede de Destino para atribuir uma rota estáica a esta entrada.
+Digite uma máscara de sub-rede para determinar a parte da rede e parte do host do endereço IP.
+Insira um endereço IP gateway no campo Gateway Padrão para conectar o roteador à rede ou aohost.
+Selecione <b>LAN</ b> ou uma interface <b>WAN</ b> no campo Interface para especificar o tipo de destino de rede.
+Selecione <b>Habilitar esta Entrada</b>.
+Clique <b>Salvar</b>.
+Aviso: Caso queria desabilitar esta entrada, clique no ícone da lâmpada.
+Interface de Agrupamento
+LAN virtual (VLAN) é um grupo de dispositivos em uma ou mais LANs que estão configuradas para que possam se comunicar como se estivessem conectadas à mesma LAN. Como as VLANs são baseadas em conexões lógicas em vez de físicas, é muito flexível para gerenciamento de usuários/host, alocação de largura de banda e otimização de recursos.
+Habilitar VLAN
+Selecione esta marcação para ativar o recurso a função LAN Virtual.
+A tabela exibe detalhes de todas as VLAN configuradas.
+passo
+Para adicionar um novo grupo de interface:
+Clique em <b>Adicionar</b>.
+Crie um nome de grupo.
+Selecione a interface LAN disponível para o novo grupo.
+Selecione a interface WAN disponível para o novo grupo.
+Selecione <b>Habilitar Isolamento de Grupo</b> se você deseja isolar este grupo da sua rede. Os dispositivos dentro deste grupo poderão se comunicar uns com os outros, mas não com os dispositivos de outros grupos. Esta opção está desativada por padrão.
+Clique <b>Salvar</b>.
+Configurações DSL
+Tipo de Modulação DSL/Tipo de Anexo
+ Selecione um tipo de modulação DSL/tipo de anexo na lista flutuante. Não alterar as configurações padrão a menos que necessário.
+Bit Swap
+Selecione esta caixa de seleção para habilitar a função de Rede para Convidados. Com o bit-swapping, o roteador pode trocar bits em torno de diferentes canais, permitindo adaptar-se de forma robusta às mudanças nas condições da linha telefônica.
+SRA
+Marque esta caixa de seleção para habilitar o recurso SRA (Adaptação à Taxa Contínua) que impede a interferência de taxa de dados ADSL causada pela conversação entre linhas telefônicas.
+Configurações de DNS Dinâmico
+O DDNS Dinâmico (Dynamic Domain Name System) permite atribuir um host fixo e nome de domínio para um endereço IP de Internet dinâmico . É útil quando você estiver hospedando seu próprio website, servidor FTP, ou outro servidor através do Roteador. Para começar, você precisa se inscrever com um serviço DNS Dinâmico como <a href='http://www.dyndns.com'>www.dyndns.com</a>.
+$.helpControl.ddnsStep === undefined || $.helpControl.ddnsStep === 1
+passo
+Para configurar um DNS Dinâmico
+Selecione o provedor de serviços de DNS dinâmico.
+Digite o Nome de Usuário e Senha da sua conta DNS dinâmica.
+Insira o Nome de Domínio que o provedor de serviço de DNS dinâmico ofereceu.
+Clique em Iniciar sessão e clique em Salvar.
+$.helpControl.ddnsStep === undefined || $.helpControl.ddnsStep === 1
+Aviso:
+Se você deseja usar uma nova conta DDNS, faça o login em primeiro lugar e, em seguida, inicie uma sessão com a nova conta.
+$.helpControl.ddnsStep === 0 && $.helpControl.cloudLogin === 1
+Lista de Nome de Domínio
+$.helpControl.ddnsStep === 0 && $.helpControl.cloudLogin === 1
+Esta tabela apresenta os nomes de domínio DNS dinâmicos que são registrados na sua conta TP -LinkCloud.
+$.helpControl.ddnsStep === 0 && $.helpControl.cloudLogin === 1
+passo
+Para registrar um novo nome de domínio
+Clique em Registrar
+Insira o nome de domínio.
+Clique em Salvar.
+Servidor DHCP
+O Servidor DHCP (Dynamic Host Configuration Protocol) é habilitado por padrão, ele atribui dinamicamente os parâmetros de TCP/IP para dispositivos clientes do pool de endereços IP. Não desative o servidor DHCP a menos que você tenha um outro servidor DHCP ou deseja atribuir manualmente os parâmetros de TCP/IP para cada dispositivo cliente em sua rede.
+Versão de IP
+Selecione a versão IP para modificar as configurações correspondentes.
+título2
+IPv4
+Endereço MAC
+O endereço físico exclusivo atribuído à porta Ethernet (LAN) do roteador.
+Endereço IP
+Exibe o endereço IP padrão do roteador que é usado para efetuar login na página de gestão web do roteador. Você pode alterá-lo.
+Máscara Sub-rede
+Escolha um identificador atribuído usado pela porta LAN para rotear tráfego interno e externo ou insira uma nova máscara de sub-rede.
+Aviso:
+Se o endereço novo de IP LAN não estiver na mesma sub-rede que o anterior, o pool de endereços IP no servidor DHCP será configurado automaticamente, mas o Servidor Virtual e DMZ Host não terão efeito até que sejam reconfigurados
+IGMP Snooping
+O IGMP (Internet Group Management Protocol) é um recurso que permite que o roteador apenas redirecione o tráfego multicast para as portas que os tenham solicitado.
+IP Secundário
+Selecione esta marcação para ativar o IP Secundário e em seguida, digite o endereço IP secundário e a máscara de sub-rede a serem usados ​​para acessar a página de gerenciamento.
+Servidor DHCP
+Select this option if you want the router to provide the TCP/IP configuration for all the PC(s) that are connected to it on the LAN.
+Pool de Endereço IP 
+Insira o intervalo de endereços IP que podem ser concedidos aos clientes.
+Tempo de Concessão de Endereço
+Insira a duração (entre 1 e 2880 minutos) em que um endereço IP é alugado a um cliente. O valor padrão é de 1440.
+Relay DHCP
+Selecione esta opção se desejar que este grupo funcione como um agente de retransmissão DHCP que encaminha as solicitações DHCP de PCs locais para o servidor DHCP remoto que é executado no lado WAN.
+Endereço de Servidor Remoto
+O endereço IP do servidor DHCP remoto que é executado no lado WAN.
+título2
+IPv6
+Grupo
+Exibe o nome do grupo do servidor DHCP atual.
+Tipo de Endereço
+Selecione um tipo para atribuir endereços IPv6 aos computadores em sua LAN.
+RADVD
+Selecione esta opção para atribuir endereços IPv6 aos computadores em sua LAN via RADVD.
+Habilitar RDNSS
+Selecione esta opção para ativar o recurso RDNSS.
+Habilitar Prefixo ULA
+Selecione esta marcação para ativar o recurso Prefixo ULA
+Prefixo ULA
+Insira o Prefixo ULA.
+Tamanho do Prefixo ULA
+Insira o Tmanho do Prefixo ULA> O padrão é 64.
+Servidor DHCPv6
+Selecione esta opção para atribuir endereços IPv6 aos computadores em sua LAN via servidor DHCPv6.
+Endereço IPv6 Inicial/Final
+Digite o endereço IPv6 inicial/final fornecido pelo provedor. 
+Tempo de Concessão de Endereço
+Insira o tempo de duração que um endereço IPv6 será concedido ao cliente. O valor padrão é de 86400.
+Tipo de Prefixo de Site
+Selecione Delegado para obter uma delegação de prefixo de uma conexão WAN, ou estática para designar um prefixo de endereço manualmente. Clientes na LAN gerarão um endereço IPv6 com este prefixo.
+Delegado
+Selecione uma conexão WAN na lista suspensa para delegar o prefixo pelo servidor DHCPv6 do provedor.
+Estático
+Digite um prefixo IPv6 estático e o comprimento do prefixo do site IPv6. O tamanho padrão é 64.
+Lista de Clientes
+Exibe as informações de dispositivos conectados no momento.
+Reserva de Endereço
+Exibe os parâmetros correspondentes de dispositivos IP reservados.
+passo
+Para reservar um endereço IP para um cliente DHCP
+Clique em <b>Adicionar</b>.
+Clique em <b>Buscar</b> para escolher um dispositivo atualmente ligado a partir da Lista de Clientes DHCP; ou digite o endereço MAC do cliente desejado no campo Endereço MAC e o endereço IP que você deseja reservar para o cliente no campo Endereço IP.
+Selecione o grupo ao qual o cliente pertence.
+Selecione <b>Habilitar esta Entrada</b>.
+Clique <b>Salvar</b>.
+Caso queria desabilitar esta entrada, clique no ícone da lâmpada.
+Condition Pool
+Condition Pool é usado para configurar pools de endereços IP para determinados dispositivos ou é usado sob a orientação do provedor do seu dispositivo. A tabela exibe os parâmetros correspondentes de todos os pools de condições.
+passo
+Para adicionar um pool de condição
+Clique em <b>Adicionar</b>.
+Dê uma descrição ao pool de condições no campo Nome do dispositivo.
+Digite um valor para identificar o fornecedor e a funcionalidade do cliente DHCP.
+Digite o endereço IP inicial/final para decidir o intervalo do endereço IP que o servidor DHCP pode atribuir aos clientes.
+Digite o gateway padrão do servidor DHCP.
+Selecione um tipo de dispositivo na lista flutuante para decidir qual tipo de dispositivo obterá o endereço IP deste grupo.
+Selecione uma opção na lista flutuante e digite o valor da opção.
+Selecione um grupo na lista flutuante.
+Selecione <b>Habilitar esta Entrada</b>.
+Clique <b>Salvar</b>.
+Caso queria desabilitar esta entrada, clique no ícone da lâmpada.
+Configurações IPTV
+ O recurso IPTV (Internet Protocol Television) permite que você use o serviço IPTV uma vez adquirido. Você pode especificar uma porta LAN para IPTV para separar IPTV da navegação na Internet, garantindo-lhe uma alta qualidade de transmissão de vídeo e uma alta velocidade de navegação na Internet.
+passo
+Para configurar IPTV
+Habilitar IPTV.
+Selecione o Tipo de Modulação DSL de acordo com seu ambiente de rede.
+Especifique uma porta LAN para conexão IPTV e conecte o set-top box a esta porta.
+ Se você selecionar o tipo de modulação VDSL, habilite a VLAN e configure o ID da VLAN. Se você selecionar ADSL, preencha os parâmetros de PVC (VPI e VCI). Ambos os parâmetros ID VLAN e PVC são fornecidos pelo seu provedor de serviços IPTV.
+Clique em Salvar.
+Aviso: As configurações necessárias no roteador são feitas agora! Você pode precisar de outras configurações em seu set-top box antes de usar sua TV.
+Dispositivo de Armazenamento USB
+Esta função permite compartilhar dispositivos de armazenamento USB entre diferentes clientes na rede de área local ou através da Internet.
+Configurações dos Dispositivos
+A seção Configurações de Dispositivo exibe as informações básicas do dispositivo de armazenamento USB conectado através da porta USB. Um pendrive USB geralmente tem apenas um volume.
+Aviso: A área cinza representa um volume desabilitado. você pode clicar na área para compartilhar o volume específico.
+Buscar
+Normalmente, o roteador detecta automaticamente qualquer dispositivo recém-anexado. Caso contrário, clique neste botão para acessar e atualizar a tela com a informação atualizada.
+Apagar
+Clique nesse botão para ejetar de forma segura o dispositivo de armazenamento USB antes de desplugar fisicamente do roteador.<br><br>Aviso: O botão Remover aparece somente quando o dispositivo USB está conectado ao roteador. Quando o volume atual está ocupado, você não pode remover o dispositivo de armazenamento USB.
+passo
+Para configurar um servidor de arquivo
+ Conecte o dispositivo USB de armazenamento diretamente à porta do roteador utilizando um cabo USB. Se o dispositivo necessitar de alimentação externa fornecida, certifique-se de que a alimentação externa esteja conectada
+O dispositivo USB recém-anexado deve ser detectado automaticamente pelo roteador e exibida a informação sob a seção <b>Configurações do Dispositivo</b>. Caso não, clique em <b>Buscar</b>.
+Configurações de Compartilhamento
+Nome de Servidor de Rede/Mídia
+Esta função permite que você acesse o dispositivo de armazenamento USB conectado com o nome do servidor de rede/mídia, ou seja, visitando \\\\Nome de Servidor de Rede/Mídia (para Windows) ou smb: //Nome de Servidor de Rede/Mídia (para Mac).
+Compartilhamento de Pasta
+Esta função permite que você personalize como compartilhar conteúdo no dispositivo de armazenamento USB.
+Compartilhar Tudo
+Alterne para compartilhar todos os arquivos e pastas ou mantenha-o desativado para compartilhar apenas as pastas especificadas.
+Habilitar Autenticação
+Habilitar a autenticação para solicitar aos usuários a inserirem um nome de usuário e senha válidos para acessar as pastas de compartilhamento.
+passo
+Para compartilhar uma nova pasta
+Desative Compartilhar Tudo e clique em Adicionar.
+Selecione a pasta para compartilhar no Nome de Volume na lista suspensa.
+Clique em Procurar e selecione o caminho para a pasta a ser compartilhada.
+Especifique um nome para a pasta como quiser no campo Nome da Pasta.
+Decida a maneira como você compartilha a pasta:
+Habilitar Autenticação Selecione esta marcação para habilitar a autenticação para este compartilhamento de pasta, e você será obrigado a usar um nome de usuário e senha para acessar a pasta.
+Habilitar Acesso de Gravação: Se você selecionar esta caixa de seleção, os clientes de rede podem modificar esta pasta.
+Habilitar Compartilhamento de Mídia: Selecione esta para permitir o compartilhamento de mídia para esta pasta, e você poderá visualizar fotos, reproduzir música e assistir filmes armazenados nesta pasta diretamente de dispositivos compatíveis com DLNA.
+Clique em Salvar.
+Aviso: <br>1. O roteador pode compartilhar oito volumes no máximo. You can click the bulb icon on the page to detach the corresponding volume you do not need to share. <br>2. Para o guia completo, consulte o Guia do Usuário na página de suporte do produto.
+Servidor de Impressão
+Servidor de Impressão
+Ative para habilitar a função de Servidor de Impressão.
+Nome da Impressora
+Mostra o nome da sua Impressora conectada ao roteador.
+Configurações 3G/4G
+Utilizar a rede 3G/4G como solução redundante para acesso à Internet
+Marque a seleção para habilitar 3G/4G como solução redundante para acesso à Internet.
+Modem USB 3G/4G
+Exibe se um modem USB 3G/4G está conectado ao roteador ou não.
+Status PIN
+Exibe o status do PIN do cartão SIM, incluindo Falha no Script de Conexão, Pronto, SIM bloqueado, PIN bloqueado e Erro desconhecido (Failed to Connect Script, Ready, PIN Locked, PUK Locked, or Unknown Error).
+Provedor Móvel
+Exibe o provedor da rede 3G/4G. Você pode selecionar seu provedor móvel depois de habilitar o 3G/4G como uma solução de backup para acesso à Internet.
+Status da Conexão
+Exibe se o roteador está ou não conectado à rede 3G ou 4G.
+Dispositivo de Armazenamento USB
+Esta função permite compartilhar dispositivos de armazenamento USB entre diferentes clientes na rede de área local ou através da Internet.
+Configurações dos Dispositivos
+A seção Configurações de Dispositivo exibe as informações básicas do dispositivo de armazenamento USB conectado através da porta USB. Um pendrive USB geralmente tem apenas um volume.
+Aviso: A área cinza representa um volume desabilitado. você pode clicar na área para compartilhar o volume específico.
+Buscar
+Normalmente, o roteador detecta automaticamente qualquer dispositivo recém-anexado. Caso contrário, clique neste botão para acessar e atualizar a tela com a informação atualizada.
+Apagar
+Clique nesse botão para ejetar de forma segura o dispositivo de armazenamento USB antes de desplugar fisicamente do roteador.<br><br>Aviso: O botão Remover aparece somente quando o dispositivo USB está conectado ao roteador. Quando o volume atual está ocupado, você não pode remover o dispositivo de armazenamento USB.
+passo
+Para configurar um servidor de arquivo
+ Conecte o dispositivo USB de armazenamento diretamente à porta do roteador utilizando um cabo USB. Se o dispositivo necessitar de alimentação externa fornecida, certifique-se de que a alimentação externa esteja conectada
+O dispositivo USB recém-anexado deve ser detectado automaticamente pelo roteador e exibida a informação sob a seção <b>Configurações do Dispositivo</b>. Caso não, clique em <b>Buscar</b>.
+Conta para Compartilhamento
+Conta
+Você pode selecionar o <b>Uso de Conta Padrão</b>para acessar os arquivos e pastas compartilhados ou <b>Usar Nova Conta</b> e digitar o seguinte para criar uma nova conta de usuário.
+Nome de Usuário/Senha
+Insira até 15 caracteres contendo letras, números e/ou sublinhados. Estes campos são sensíveis a letras mínusculas e maiúsculas. 
+Clique em <b>Salvar</b> para confirmar as alterações.
+Configurações de Compartilhamento
+Nome de Servidor de Rede/Mídia
+Exibe o nome usado para acessar o dispositivo de armazenamento USB conectado.
+Habilitar
+Selecione a(s) caixa(s) para ativar o(s) método(s) de acesso correspondente(s).
+Método de Acesso
+Há quatro métodos para acessar o dispositivo de armazenamento USB compartilhado.
+Servidor de Mídia
+Selecione esta opção para permitir que os usuários da sua rede vejam fotos, reproduzam músicas e assistiam filmes em seu dispositivo de armazenamento USB compartilhado de dispositivos compatíveis com DLNA, como computadores, dispositivos móveis e consoles de jogos (PS2/3).
+Rede Adjacente
+Selecione esta opção para permitir usuários na rede possam acessar conteúdo compartilhado via endereço exibido através da coluna Endereço de Acesso.
+FTP
+Selecione esta opção para ativar o recurso de servidor FTP que permite que clientes FTP e usuários na rede acessem o dispositivo de armazenamento USB por meio do endereço FTP exibido na coluna Endereço de Acesso. Para alterar o número de porta do servidor FTP, insira o novo número de porta e clique em <b>Salvar</b> para aplicar as alterações.
+FTP (Via Internet)
+Selecione esta opção para permitir que clientes FTP e usuários acessem remotamente, façam download e façam upload de arquivos para o dispositivo de armazenamento USB compartilhado através de FTP na Internet.
+Endereço de Acesso
+Exibe o endereço usado para acessar o dispositivo de armazenamento USB compartilhado.
+Porta
+Exibe o número de porta do servidor FTP.
+Compartilhamento de Pasta
+Esta função permite que você personalize como compartilhar conteúdo no dispositivo de armazenamento USB.
+Compartilhar Tudo
+Habilite para compartilhar todos os arquivos e pastas ou Desative para apenas compartilhar as pastas selecionadas.
+Habilitar Autenticação
+Habilitar a autenticação para solicitar aos usuários a inserirem um nome de usuário e senha válidos para acessar as pastas de compartilhamento.
+passo
+Para compartilhar uma nova pasta
+Desative Compartilhar Tudo e clique em Adicionar.
+Selecione a pasta para compartilhar no Nome de Volume na lista suspensa.
+Clique em Procurar e selecione o caminho para a pasta a ser compartilhada.
+Especifique um nome para a pasta como quiser no campo Nome da Pasta.
+Decida a maneira como você compartilha a pasta:
+Habilitar Autenticação Selecione esta marcação para habilitar a autenticação para este compartilhamento de pasta, e você será obrigado a usar um nome de usuário e senha para acessar a pasta.
+Habilitar Acesso de Gravação: Se você selecionar esta caixa de seleção, os clientes de rede podem modificar esta pasta.
+Habilitar Compartilhamento de Mídia: Selecione esta para permitir o compartilhamento de mídia para esta pasta, e você poderá visualizar fotos, reproduzir música e assistir filmes armazenados nesta pasta diretamente de dispositivos compatíveis com DLNA.
+Clique em Salvar.
+Aviso: <br>1. O roteador pode compartilhar oito volumes no máximo. You can click the bulb icon on the page to detach the corresponding volume you do not need to share. <br>2. Para o guia completo, consulte o Guia do Usuário na página de suporte do produto.
+Configurações 3G/4G
+Utilizar a rede 3G/4G como solução redundante para acesso à Internet
+Marque a caixa de seleção para habilitar 3G/ 4G como a solução de backup para acesso à Internet.
+Modem USB 3G/4G
+Exibe se um modem USB 3G/4G está ligado ou não ao roteador.
+Status PIN
+ Exibe o status do PIN do cartão SIM, incluindo Não é possível desbloquear o cartão SIM, Pronto, SIM bloqueado, PIN bloqueado e Erro desconhecido.
+Provedor Móvel
+Exibe o provedor da rede 3G/4G. Você pode selecionar seu provedor móvel depois de habilitar o 3G/4G como solução de backup para acesso à Internet.
+Configurar o Número de Discagem, APN, Nome de Usuário e Senha manualmente
+Marque para configurar o Número de Discagem, APN, Nome de Usuário e Senha manualmente.
+Número de Discagem/APN/Nome de Usuário/Senha
+Digite o número de discagem, APN, nome de usuário e senha fornecidos pelo seu provedor.
+Tipo de Autenticação
+Selecione um tipo de autenticação da lista flutuante. O método padrão é Auto. Alguns provedores requerem uma autenticação específica, favor confirmar junto ao seu provedor ou mantenha as configurações atuais.
+Status da Conexão
+Exibe se o roteador está ou não conectado à rede 3G ou 4G.
+As configurações a seguir só serão exibidas se você habilitar 3G/4G como a solução de backup para acesso à Internet.
+< Avançado >
+Tamanho MTU (em bytes)
+O tamanho típico MTU (Maximum Transmission Unit) para redes 3G/4G é de 1480 Bytes.
+Intervalo de Solicitação de Resposta
+Insira um valor de intervalo entre 0 e 120 (em segundos) para o roteador solicitar Concentrador de Acesso para responder em cada intervalo. O valor padrão é de 30. 0 significa nenhuma detecção.
+Utilizar IP Especificado pelo Provedor
+Se o provedor fornecer os endereços IP específicos (fixos), habilite Utilizar IP Especificado pelo Provedor e digite o endereço no campo Endereço IP especificado pelo provedor.
+Utilize os Endereços DNS a seguir
+Se o provedor fornece os endereços IP de DNS (fixo) específicos, selecione Utilizar os seguintes endereços de DNS e digite o(s) endereço(s) para o DNS primário e campos DNS secundários respectivamente. Caso contrário, desative este recurso para obter o(s) endereço(s) IP do DNS automaticamente.
+Configurações de Modem USB 3G/4G
+Clique para configurações avançadas do modem USB 3G/4G carregando o(s) arquivo(s) .bin baixado(s).
+Configurações de Modem USB 3G/4G
+Esta tabela exibe detalhes de modems USB 3G/4G configurados.
+passo
+Para carregar arquivos de configuração do modem USB 3G/4G
+Clique em Adicionar (Add).
+Clique em Procurar. Localize e selecione o arquivo .bin baixado.
+Clique em Atualizar.
+Números de Telefone
+Os números de telefone permitem que você adicione contas telefônicas e modifique suas configurações.
+passo
+Para adicionar uma nova conta de telefone:
+Clique em Adicionar (Add).
+Selecione seu provedor de telefonia na lista flutuante e, em seguida, insira os parâmetros fornecidos pelo provedor de serviços. Se o seu fornecedor não estiver listado, selecione Outro. Os parâmetros diferem de acordo com sua seleção.
+Clique em Salvar.
+Dispositivos de Telefonia
+Os dispositivos de telefonia permitem que você configure as configurações do telefone para todos os dispositivos registrados.
+Número de Chamadas Recebidas
+Exibe o número atribuído do seu dispositivo de telefonia para receber chamadas recebidas através do seu roteador.
+Número Interno
+Exibe o número usado para fazer chamadas entre os dispositivos de telefonia que estão conectados ao roteador. Este número é fixo e não pode ser alterado.
+Número para Chamadas Efetuadas
+Exibe o número usado pelos seus dispositivos de telefonia para fazer chamadas de saída através do seu roteador. O padrão é Auto, o que significa que o roteador selecionará um número disponível para ser o número de saída.
+passo
+Para modificar um dispositivo de telefonia:
+Clique no ícone Editar que corresponde ao dispositivo que deseja modificar.
+Edite o Nome do Dispositivo.
+Selecione o Número para Chamadas Efetuadas na lista suspensa.
+Selecione o Número para Chamadas Recebidas.
+Selecione a marcação Suporte VAD para habilitar esta função. VAD (Voice Activity Detection) economiza o consumo de largura de banda evitando a transmissão de pacotes de silêncio. Também garante que a largura de banda seja reservada somente quando a atividade de voz é ativada. É habilitado por padrão.
+Ajuste o controle Ganho de Alto-falante para controlar o som do alto-falante.
+Ajuste o controle de Ganho do Microfone para controlar o som do microfone.
+Clique em Salvar.
+> Registrar Novo Dispositivo DECT
+Clique para registrar um novo telefone DECT seguindo as instruções na tela. Para obter mais detalhes, consulte o Guia do Aplicativo no site oficial da TP-Link <a target=\"_blank\" href=\"http://www.tp-link.com\"> http://www.tp-link.com</a>.
+Correio de Voz
+INCLUDE_FLASH_VOICEMAIL' in window && INCLUDE_FLASH_VOICEMAIL === 1
+O correio de voz permite que quem estiver ligando deixe mensagens de voz quando as chamadas não são atendidas. Você pode ouvir seu correio de voz sempre que quiser.
+!('INCLUDE_FLASH_VOICEMAIL' in window) || !INCLUDE_FLASH_VOICEMAIL
+O correio de voz permite que quem faz a chamada deixe mensagens de voz em um HD USB externo ou Pendrive com os arquivos de configuração apropriados quando as chamadas não são atendidas. Para usar esta função, conecte o disco rígido USB ou um disco flash USB na porta USB do roteador.
+Configurações de Correio de Voz
+Correio de Voz
+Ativar para habilitar o correio de voz. Por padrão, esta função é desabilitada.
+Lista de Correio de Voz
+Esta tabela exibe detalhes de todas as mensagens de voz recebidas.
+Números de Telefone
+Os números de telefone permitem que você adicione contas telefônicas e modifique suas configurações.
+passo
+Para adicionar um novo número de telefone:
+Clique em Adicionar (Add).
+Selecione seu provedor de telefonia na lista flutuante e, em seguida, insira os parâmetros fornecidos pelo provedor de serviços. Se o seu fornecedor não estiver listado, selecione Outro. Os parâmetros diferem de acordo com sua seleção.
+Clique em Salvar.
+Configurações Avançada
+Interface Vinculada
+Selecione a interface do servidor SIP para enviar e receber o tráfego VoIP. Selecione Any_WAN para conexão com a Internet, ou selecione LAN para conexão de rede local.
+Seleção de Local
+Selecione sua localização. O roteador está integrado com os parâmetros padrão baseados em localização, como os toques. O padrão é Alemanha.
+DSCP para SIP e para RTP
+DSCP (Differentiated Services Code Point) são os primeiros 6 bits no byte ToS (Type of Service). A marcação DSCP permite garantir um tratamento preferencial para o tráfego de maior prioridade na rede com base no valor DSCP. Selecione DSCP para SIP (Session Initiation Protocol) e RTP (Real-time Transport Protocol), respectivamente. Se você não tiver certeza, mantenha o valor padrão.
+Configurações de Relay DTMF
+ Selecione um dos seguintes protocolos para a configuração do relé DTMF. Se você não tem certeza sobre qual deles selecionar, mantenha o valor padrão.
+ INFO SIP
+Selecione esta opção para enviar tons DTMF na mensagem SIP INFO para o fim remoto.
+RFC2833
+Selecione esta opção para capturar o número inserido no teclado do telefone e, em seguida, convertê-lo em uma forma digital e enviá-lo para o outro extremo; o receptor irá gerar o tom de acordo com a forma digital que recebe. Esta opção é recomendada, pois ainda pode ser a precisão do tom DTMF quando ocorre o congestionamento do tráfego da rede.
+In-Band
+Selecione esta opção para enviar o tom DTMF como um áudio quando tocar no teclado no telefone.
+Tempo de Expiração do Registro
+Enter the expiration time of the SIP registration.
+Registro de Intervalo de Nova Tentativa
+Digite a duração do tempo para o qual o roteador envia uma solicitação para tentar novamente se registrar automaticamente antes do Tempo de Expiração do Registro. Se você não tiver certeza, mantenha o valor padrão.
+Período Sem Resposta
+Digite a duração das chamadas recebidas para o correio de voz ou o número do telefone de destino quando não há resposta.
+Suporte T.38
+Selecione a caixa de seleção para habilitar o suporte T.38 que permite que os documentos de fax sejam transferidos em tempo real entre dois terminais de facsimile padrão do Grupo 3 pela Internet ou outras redes usando protocolos IP. Esta função só é efetiva entre dois terminais habilitados em T.38.
+Finalizar com #
+Selecione esta marcação para usar o sinal de libra (#) como um fim de discagem.
+Agenda Telefônica
+Existem duas funções nesta página, agenda de telefone e número de emergência. A Lista telefônica permite economizar detalhes de contato e atribuir um número de discagem rápida ao contato.  O número de emergência ajuda a fazer uma chamada para ajuda quando ocorre emergência.
+Agenda Telefônica
+Esta tabela exibe detalhes de todos os contatos.
+passo
+Para adicionar um novo contato:
+Clique em Adicionar (Add).
+Digite o sobrenome e o primeiro nome do seu contato.
+Digite o número de telefone privado, número de telefone do trabalho e número de telefone celular.
+Selecione o tipo de número de discagem rápida e digite o número de discagem rápida (entre 01 e 99) se desejar atribuir um a este contato. Esta função permite que você faça uma chamada rapidamente com menos números para discar. Basta pressionar o número de discagem rápida que você digitou seguido de # para fazer uma chamada.
+Clique em Salvar.
+Configurações de Número de Emergência
+Número de Emergência
+Alterne para ativar o Número de Emergência que permite que seu dispositivo de telefonia chame um contato específico quando o telefone for manuseado, mas nenhuma operação é feita dentro de um período de tempo específico.
+Nenhum Período de Operação
+Selecione um horário na lista suspensa para especificar o período de tempo antes do telefone fazer a chamada automaticamente.
+Número de Emergência 1/2/3/4/5
+Insira até 5 números de telefone para chamadas de emergência. O telefone ligará para esses números para que a chamada anterior não seja atendida.
+Log de Chamada
+Registro de chamadas registra os detalhes das chamadas recebidas e das chamadas de saída através do seu roteador. Habilite para habilitar Log de Chamada.
+Regras de Chamada
+As Regras de Chamada permitem que você ligue para diferentes tipos de número utilizando diferentes números de saída caso possua mais de uma conta de telefone.
+passo
+Adicionar uma nova regra: 
+Clique em Adicionar (Add).
+Selecione um Tipo de Chamada na lista flutuante, incluindo Móvel, Fixo, Longa Distância ou Internacional. Se as Chamadas com Prefixo de Número Específico forem selecionadas, adicione o Prefixo de Número.
+Selecione um número para chamadas efetuadas na lista suspensa. Se o número de discagem corresponder ao tipo de chamada definido ou ao prefixo de número, o número de discagem será roteado para a rede especificada de acordo com a regra.
+Clique em Salvar.
+DND e Bloqueio de Chamada
+DND (Do not Disturb) permite que você bloqueie temporariamente todas as chamadas recebidas com base em sua programação específica. As chamadas bloqueadas serão gravadas na tabela Log de Chamadas. O bloqueio de chamadas permite bloquear chamadas indesejadas e evitar que o roteador faça certos tipos de chamadas. As chamadas bloqueadas não serão gravadas na tabela Log de Chamadas.
+DND (Não Perturbe)
+passo
+Para configurar o DND:
+Alterne para habilitar o DND.
+Especifique os dias em que deseja bloquear as chamadas recebidas.
+Defina a hora de início e a hora de término do período DND em que deseja bloquear as chamadas recebidas.
+Bloqueio de Chamadas
+Chamadas Recebidas
+Os números especificados listados nesta lista estão bloqueados em todos os momentos.
+passo
+Para adicionar uma nova entrada:
+Clique em Adicionar (Add).
+Selecione o Número específico e digite o número de telefone que deseja bloquear no campo Número ou Número Anônimo para bloquear todas as chamadas desconhecidas.
+Clique em Salvar.
+Chamadas com prefixo de número específico
+Os tipos e números de chamadas especificados listados nesta lista não podem ser chamados.
+passo
+Para adicionar uma nova entrada:
+Clique em Adicionar (Add).
+ Selecione um tipo de chamada na lista flutuante que deseja bloquear. Se a Chamada com Prefixo de Número Específico for selecionada, adicione um prefixo de número de telefone no campo prefixo de número.
+Clique em Salvar.
+Encaminhamento de Chamada
+O encaminhamento de chamadas permite redirecionar as chamadas recebidas para um número de telefone designado.
+passo
+Para adicionar uma nova entrada: 
+Clique em Adicionar (Add).
+Selecione um tipo de chamada a ser encaminhada.<br><b>Todas as Chamadas Recebidas: </b>Se esta opção for selecionada, todas as chamadas recebidas serão encaminhadas.<br><b>Chamadas para o Número de Telefone: </b>Se esta opção for selecionada, selecione um número de telefone da lista. Todas as chamadas recebidas para este número serão encaminhadas.<br><b> Chamadas para o Telefone: </b>Se esta opção for selecionada, selecione um dispositivo de telefonia na lista. Quaisquer chamadas recebidas para este dispositivo serão encaminhadas.<br><b>Chamadas de uma pessoa na lista telefônica: </b>Se esta opção for selecionada, selecione um contato da lista. Todas as chamadas recebidas deste contato serão encaminhadas.<br><b>Chamadas do Número de Telefone: </b>Se esta opção for selecionada, insira um número de telefone específico. Todas as chamadas recebidas deste número serão encaminhadas.
+Digite um número de telefone de destino para o qual as chamadas recebidas serão redirecionadas.
+Selecione Encaminhar as chamadas via na lista flutuante.
+ Selecione a Condição de Desvio de Chamada: <br><b>Incondicional: </b>Todas as chamadas recebidas serão redirecionadas para o número de telefone designado se o receptor está ocupado ou não.<br><b>Sem resposta: </b>As chamadas recebidas que não são atendidas pelo período de tempo especificado serão redirecionadas para o número de telefone designado.
+Clique em Salvar.
+Aviso: Caso queria desabilitar esta entrada, clique no ícone da lâmpada.
+Transferência de Chamada
+Call Through permite que você faça chamadas usando o roteador, mesmo quando você não está em casa, o que pode ajudá-lo a diminuir seus custos de chamadas de longa distância ou internacionais.
+passo
+Para configurar Call Through:
+Alternar para Ativar Call Through.
+Selecione o número a ser usado para receber a chamada em Número para a lista de entrada.
+Selecione o número a ser usado para encaminhar a chamada para o número de destino no Número para lista de saída. Você também pode selecionar Auto para permitir que o roteador tome a decisão.
+Defina um novo PIN. É um código de quatro dígitos a ser inserido toda vez que deseja encaminhar a chamada para o número de destino. O padrão é 0000.
+ É recomendável que você habilite Aceitar Apenas as Chamadas dos números abaixo, e clique em Adicionar Mais Números para adicionar os números aos quais é permitido fazer chamadas. Caso contrário, todas as chamadas serão aceitas.
+Clique em Salvar.
+passo
+Agora você pode seguir o processo abaixo para chamar:
+Quando você não está em casa, ligue para o número para entrada selecionado na etapa 2.
+Digite o PIN quando ouvir o tom. Lembre-se de encerrar o PIN com um #.
+Marque o número que você realmente deseja chamar.
+Configurações DECT
+Alterne para ativar o DECT e configurar seus dispositivos DECT.
+Registro
+ Use o PIN padrão ou insira um novo PIN para registrar seu dispositivo DECT. O padrão é 0000.
+Força de Campo de Rádio
+Mude a força do campo de rádio configurando essas 2 funções.
+Reduzir Força do Campo DECT
+Selecione a caixa de seleção para habilitar esta função que irá diminuir a potência de transmissão da base e encurtar a cobertura do sinal do telefone DECT.
+Eco DECT
+ Selecione esta opção se todos os aparelhos registrados suportarem o modo de resposta. Neste modo, todas as bases DECT e os dispositivos DECT não emitem nenhum sinal quando estão em modo de espera por mais de um minuto.
+Segurança
+ Esta opção está habilitada por padrão para tornar a segurança DECT/CAT-iq efetiva. Se desativado, o dispositivo CAT-iq não poderá receber ou fazer uma chamada telefônica.
+Correio de Voz
+INCLUDE_FLASH_VOICEMAIL' in window && INCLUDE_FLASH_VOICEMAIL === 1
+O correio de voz permite que quem faz a chamada deixe mensagens de voz na memória flash do roteador ou em um dispositivo de armazenamento USB com os arquivos de configuração apropriados quando as chamadas não são atendidas.
+!('INCLUDE_FLASH_VOICEMAIL' in window) || !INCLUDE_FLASH_VOICEMAIL
+O correio de voz permite que quem faz a chamada deixe mensagens de voz em um dispositivo de armazenamento USB externo com os arquivos de configuração apropriados quando as chamadas não são atendidas. Para usar esta função, conecte o dispositivo de armazenamento USB na porta USB do roteador.
+Configurações de Correio de Voz
+passo
+Para configurar o correio de voz:
+Alterne para ativar o correio de voz.
+Digite a duração no campo Sem Período de Resposta para as chamadas recebidas para ir ao correio de voz ou ao número de telefone de destino quando não há resposta.
+Selecione a saudação para correio de voz para usar o padrão ou a saudação personalizada para o correio de voz. Você pode clicar no ícone Reproduzir para reproduzir a saudação.<br><strong>Aviso</strong>: Pegue o telefone (telefone analógico ou DECT) e marque *30 para gravar uma saudação personalizada para o seu correio de voz.
+Digite um valor em segundos no campo Duração do Correio de Voz para limitar o comprimento de cada correio de voz.
+(Opcional) Se quiser ouvir suas mensagens de voz remotamente, alterne para Ativado para habilitar o Acesso Remoto ao Correio de Voz e crie um PIN no campo PIN de Acesso Remoto.<strong>Aviso</​​strong>: Para acessar sua mensagem de voz remotamente, marque o número de chamadas recebidas. Quando sua saudação pessoal começar, pressione *. Digite seu PIN de acesso remoto quando solicitado.
+(Opcional) Se você deseja receber uma notificação por e-mail quando uma nova mensagem de voz for recebida, habilite a função Push Notification via E-mail para Correio de Voz.
+Clique em Salvar.
+Lista de Correio de Voz
+Esta tabela exibe detalhes de todas as mensagens de voz gravadas.
+tpPhone
+O tpPhone permite que dispositivos móveis registrados (telefones ou tablets) façam chamadas VoIP através da rede do roteador. 
+Para registrar seu dispositivo móvel, você precisa configurar o roteador e o aplicativo tpPhone.
+passo
+Para configurar o roteador:
+Alterne para ativar o tpPhone.
+Use o PIN padrão (0000) ou insira um novo PIN no campo PIN. Deve ser inserido no aplicativo tpPhone durante o registro.
+Clique em Salvar.
+Registro
+Seu tpPhone deve estar cadastrado no produto para fazer chamadas. Para registro, é necessário um PIN. Defina o PIN aqui (crie um novo ou mantenha o padrão 0000) e insira-o no tpPhone durante o registro.
+VPN IPSec
+Com VPN IPSec, você pode usar a Internet para acessar com segurança sua rede quando você estiver fora de casa. Para utilizar o serviço VPN, configure o Serviço DNS Dinâmico (recomendado) ou atribua um endereço IP estático para a porta WAN. E seu Horário do Sistema deve ser sincronizado com a Internet.
+Dead Peer Detection (DPD)
+Dead Peer Detection (DPD) é um método de detecção de um ponto de troca de chave de Internet (IKE). DPD é usado para recuperar os recursos perdidos no caso de um par ser encontrado morto e também é usado para executar failover de pares IKE. Alterne para ativar o recurso Dead Peer Detection.
+A tabela exibe informações de todas as VPNs IPSec configuradas no roteador.
+passo
+Para estabelecer uma VPN IPSec
+Clique em Adicionar (Add).
+Configure os parâmetros de acordo com a seguinte explicação.
+Nome da Conexão IPSec
+Digite um nome para a conexão IPSec VPN.
+Endereço de Gateway IPSec Remoto (URL)
+Digite o endereço IP do gateway de destino, que é o IP WAN público ou o Nome de Domínio do ponto final do servidor VPN remoto.
+Acesso em túnel a partir de endereços IP locais
+Selecione o Endereço de Sub-rede se desejar que a LAN inteira se junte à rede VPN ou selecione Endereço Único se desejar que um único IP se junte à rede VPN.
+Endereço IP para VPN
+Insira o endereço IP da sua LAN.
+Máscara Sub-rede
+Insira a máscara de sub-rede da sua LAN.
+Acesso em túnel a partir de endereços IP remotos
+Selecione o endereço da sub-rede se desejar que toda a LAN remota se junte à rede VPN ou selecione Endereço único se desejar que um único endereço IP se junte à rede VPN.
+Endereço IP para VPN
+Insira o endereço IP da LAN remota.
+Máscara de Sub-rede IP
+Digite a máscara de sub-rede da LAN remota.
+Método de Troca de Chaves
+Selecione Auto (IKE) ou Manual para ser usado para autenticar pares IPSec.
+Método de Autenticação
+Selecione a chave pré-compartilhada (recomendada).
+Chave Pré-compartilhada
+Crie uma chave pré-compartilhada para ser usada para autenticação.
+Perfect Forward Secrecy
+Selecione Ativar (ou Desativar) o Privilégio de Encaminhamento (PFS) como um protocolo de segurança adicional para a chave pré-compartilhada.
+Configure os parâmetros de acordo com a seguinte explicação. Recomendamos que você mantenha as configurações padrão. Se você deseja alterar essas configurações, certifique-se de que ambos os pontos de extremidade do servidor VPN usem o mesmo Algoritmo de criptografia, Algoritmo de integridade, Grupo Diffie-Hellman e Vida útil da chave em fase1 e fase2.
+título2
+==Fase 1==
+Modo
+Selecione <b>Principal</b> para configurar os parâmetros de negociação padrão para IKE fase1. Selecione <b>Agressivo</b> para configurar IKE Fase 1 do Túnel VPN para realizar a negociação em um curto período de tempo. (Não recomendável a menos que seja seguro.) 
+Tipo de Identificador Local
+Selecione o tipo de identificador local para a negociação IKE. O IP WAN local usa um endereço IP como o identificador na negociação IKE. FQDN (Fully Qualified Domain Name) utiliza um nome de usuário como identificador.
+Identificador Local
+O identificador local será preenchido automaticamente se <b>IP WAN Local</b> estiver selecionado. Se <b>FQDN</b> estiver selecionado, insira um nome de usuário do dispositivo local para ser usado como o indentificador para negociação IKE.
+Tipo de Identificador Remoto
+Selecione o tipo de Identificador remoto para a negociação IKE. O IP WAN Remoto usa um endereço IP como identificador na negociação IKE. FQDN uses a username as the identifier.
+Identificador Remoto
+O endereço IP gateway remoto será auto-preenchido se <b>IP WAN Remoto </b> estiver selecionado. Se <b>FQDN</b> estiver selecionado, digite um nome de usuário do ponto remoto para ser usado como o identificador para a negociação IKE.
+Algoritmo de Criptografia
+Selecione um dos seguintes algoritmos de criptografia para negociação IKE.
+DES
+DES (Data Encryption Standard) criptografa um bloco de 64 bits de texto simples com uma chave de 56 bits.
+3DES
+Triple DES, criptografa um texto simples com uma chave de 168 bits.
+AES128
+Utiliza o algoritmo AES e a chave de 128 bits para criptografia.
+AES192
+Utiliza o algoritmo AES e a chave de 192 bits para criptografia.
+AES256
+Utiliza o algoritmo AES e a chave de 256 bits para criptografia.
+Algoritmo de Integridade
+Selecione um dos seguintes algoritmos de integridade para negociação IKE.
+MD5
+MD5 (Message Digest Algorithm) leva uma mensagem de comprimento arbitrário e gera um resumo de mensagens de 128 bits.
+SHA1
+SHA1 (Secure Hash Algorithm) leva uma mensagem menor que 2^64 (2 para a potência de 64) em bits e gera um resumo de mensagem de 160 bits.
+Grupo Diffie-Hellman para Troca de Chaves
+Selecione o grupo Diffie-Hellman para ser usado na fase de negociação da chave 1. O grupo Diffie-Hellman define a força do algoritmo em bits.
+Período de Vida de Chave
+Digite o período de tempo (em segundos) para passar antes de estabelecer uma nova associação de segurança IPSec (SA) com o ponto final remoto. O valor padrão é de 3600.
+título2
+==Fase 2==
+Algoritmo de Criptografia
+Selecione um dos seguintes algoritmos de criptografia para negociação IKE.
+DES
+DES (Data Encryption Standard) criptografa um bloco de 64 bits de texto simples com uma chave de 56 bits.
+3DES
+Triple DES, criptografa um texto simples com uma chave de 168 bits.
+AES128
+Utiliza o algoritmo AES e a chave de 128 bits para criptografia.
+AES192
+Utiliza o algoritmo AES e a chave de 192 bits para criptografia.
+AES256
+Utiliza o algoritmo AES e a chave de 256 bits para criptografia.
+Algoritmo de Integridade
+Selecione um dos seguintes algoritmos de integridade para negociação IKE.
+MD5
+MD5 (Message Digest Algorithm) leva uma mensagem de comprimento arbitrário e gera um resumo de mensagens de 128 bits.
+SHA1
+SHA1 (Secure Hash Algorithm) leva uma mensagem menor que 2^64 (2 para a potência de 64) em bits e gera um resumo de mensagem de 160 bits.
+Grupo Diffie-Hellman para Troca de Chaves
+Selecione o grupo Diffie-Hellman para ser usado na fase de negociação de chave 2. O grupo Diffie-Hellman define a força do algoritmo em bits.
+Período de Vida de Chave
+Digite o período de tempo (em segundos) para passar antes de estabelecer uma nova associação de segurança IPSec (SA) com o ponto final remoto. O valor padrão é de 3600.
+Clique em Salvar.
+Aviso: Para o guia completo, consulte o Guia do Usuário na página de suporte do produto.
+Configuração de Conexão de Internet
+Tipo de Conexão de Internet: PPPoE
+
+Nome de Usuário/Senha PPPoE
+Insira o Nome de Usuário/Senha oferecidos pelos seu provedor. Estes campos são sensíveis a letras mínusculas e maiúsculas.
+Tipo de Conexão de Internet: IP Dinâmico
+Selecione caso o endereço IP e a máscara de sub-rede são atribuídos automaticamente pelo provedor.
+Tipo de Conexão de Internet: IP Estático
+Selecione se o endereço IP, máscara de sub-rede, gateway e endereços DNS são fornecidos pelo provedor, e insira as informações nos campos correspondentes. 
+Tipo de Conexão de Internet: L2TP/PPTP
+Nome de Usuário/Senha
+Insira o Nome de Usuário/Senha oferecidos pelos seu provedor. Estes campos são sensíveis a letras mínusculas e maiúsculas.
+Conexão Secundária (IP Dinâmico ou IP Estático)
+IP Dinâmico
+Selecione caso o endereço IP e a Máscara de Sub-rede são atribuídos automaticamente pelo provedor.
+IP Estático
+ Selecione se o endereço IP, Máscara de Sub-rede, Gateway e endereços DNS são fornecidos pelo provedor, e insira as informações nos campos correspondentes. 
+IP de Servidor VPN/Nome de Domínio
+Insira um Endereço IP de Servidor VPN ou Nome de Domínio oferecido pelo seu provedor.
+Configuração de Conexão de Internet
+Lista ISP
+Selecione seu provedor na lista suspensa.
+Tipo de Modulação DSL
+Selecione o tipo de modulação usado para sua conexão DSL.
+VPI
+Digite o VPI atribuído pelo seu provedor para especificar o caminho virtual entre os pontos finais em uma rede ATM.
+VCI
+Digite o VCI atribuído pelo seu provedor para especificar os pontos finais do canal virtual em uma rede ATM.
+ID VLAN
+Selecione a caixa de seleção para ativar o recurso ID VLAN.
+ID VLAN (1-4094):
+Insira o ID VLAN oferecido pelo seu provedor.
+Tipo de Conexão de Internet
+Selecione seu tipo de conexão e insira os parâmetros correspondentes fornecidos pelo seu provedor.
+Túnel IPv6
+O túnel IPv6 é um mecanismo de transição que permite que os hosts somente IPv6 atinjam os serviços IPv4 ou vice-versa e permite que hosts e redes IPv6 isolados se alcancem em uma infraestrutura somente IPv4 antes de o IPv6 suplantar completamente o IPv4. É uma solução temporária para redes que não suportam pilhas duplas nativas, onde IPv6 e IPv4 são executados de forma independente.
+Túnel IPv6
+Selecione a marcação para habilitar o Túnel IPv6.
+Mecanismo de Tunelamento
+Selecione um dos mecanismos abaixo para Tunelamento IPv6:
+DS-Lite
+Selecione este mecanismo de tunelamento se seu provedor utilizar a implantação do DS-Lite para atribuir o endereço. 
+Conexão WAN
+Selecione uma conexão WAN na lista flutuante. Somente a conexão IPv6 conectada e sem pontes é mostrada aqui. 
+Tipoo de Configuração
+Selecione um tipo de configuração para o mecanismo DS-Lite. Selecione <b>Auto</b> para obter o endereço IPv6 remoto automaticamente ou <b>Manual</ b> para inserir as informações IPv6 fornecidas pelo seu provedor.
+Endereço IPv6 Remoto
+Digite o endereço IPv6 do nó remoto.
+6rd
+Selecione este mecanismo de tunelamento se o seu provedor usar a implantação 6rd para atribuir o endereço.
+Conexão WAN
+Selecione uma conexão WAN na lista flutuante. Somente a conexão IPv4 conectada e sem pontes é mostrada aqui. 
+Tipoo de Configuração
+Selecione um tipo de configuração para o mecanismo 6rd. Selecione <b>Auto</b> para obter os seguintes parâmetros automaticamente ou <b>Manual</b> para inserir a informação 6rd fornecida pelo seu provedor. Se você selecionar <b>Auto</b>, verifique se uma conexão de IP dinâmica está selecionada sob <b>Conexão WAN</b>.
+Tamanho de Máscara IPv6
+O comprimento da máscara IPv4 da conexão WAN selecionada.
+Prefixo 6rd
+O prefixo do túnel 6rd.
+Tamanho do Prefixo 6rd
+O comprimento do prefixo 6rd
+Endereço IPv4 de Border Relay
+O endereço IPv4 do Border Relay 6rd para um determinado domínio 6rd, que é usado para enviar pacotes para um Border Relay para alcançar os destinos IPv6 fora do domínio 6rd.
+6para4
+Selecione este mecanismo de tunelamento se o seu provedor usar a implantação 6para4 para atribuir o endereço.
+Conexão WAN
+Selecione uma conexão WAN na lista flutuante.
+OpenVPN
+Com OpenVPN, você pode usar a Internet para acessar com segurança sua rede quando você estiver fora de casa. Para utilizar o serviço VPN, configure o Serviço DNS Dinâmico (recomendado) ou atribua um endereço IP estático para a porta WAN. E seu Horário do Sistema deve ser sincronizado com a Internet.
+Tipo de Serviço
+Selecione o protocolo de comunicação para o servidor OpenVPN: UDP ou TCP.
+Porta de Serviço
+Insira um número de porta de comunicação entre 1024 e 65535. A porta de serviço padrão e comum é 1194.
+Máscara de Rede/Sub-rede VPN
+Digite o intervalo de endereços IP que podem ser concedidos aos clientes pelo servidor OpenVPN.
+Acesso de Cliente
+Selecione o tipo de acesso para seu cliente OpenVPN.
+Somente Rede Residencial
+ A rota padrão do cliente não será alterada.
+Internet e Rede Residencial
+O cliente pode acessar a rede doméstica e os sites ou serviços da Internet com uma limitação geográfica quando você estiver fora do país. O roteador padrão do cliente será alterado.
+Certificado
+Utilize o certificado para obter informações e identidade de conexão VPN para clientes remotos.<br />Clique em Gerar para gerar um novo certificado.
+Arquivo de Configuração
+Os clientes remotos usarão o arquivo de configuração para acessar o roteador.<br /> Clique em Exportar para salvar o arquivo de configuração OpenVPN.
+Guia de Instalação do Cliente VPN
+Antes de configurar o servidor OpenVPN, configure o Serviço DNS dinâmico (recomendado) ou atribuir um endereço IP estático para a porta WAN. Favor garantir que a porta externa das configurações NAT não seja a porta de serviço e seu Horário do Sistema esteja sincronizado com a Internet.
+passo
+Para conectar seus dispositivos cliente ao servidor OpenVPN
+Selecione Habilitar Servidor VPN.
+Configurar os parâmetros do servidor OpenVPN (Tipo de Serviço, Porta de Serviço, Acesso para Cliente e Sub-rede VPN/Máscara de Rede) e clique em Salvar.
+Clique em Exportar para salvar o arquivo de configuração.
+Nos dispositivos clientes, baixe e instale o utilitário de cliente OpenVPN do site openvpn.net. As plataformas suportadas oficiais incluem Windows, Mac OSX e Linux.
+Inicie o utilitário OpenVPN e adicione uma nova conexão VPN utilizando a configuração salva para conectar ao dispositivo cliente ao servidor VPN.
+Aviso: Para saber mais sobre os clientes OpenVPN, visite o site openvpn.net.
+VPN PPTP
+Com VPN PPTP, você pode usar a Internet para acessar fácil e rapidamente a rede quando você estiver fora de casa. Isso pode ser prevenido por alguns provedores. Para utilizar o serviço VPN, configure o Serviço DNS Dinâmico (recomendado) ou atribua um endereço IP estático para a porta WAN. E seu Horário do Sistema deve ser sincronizado com a Internet.
+Endereço IP Cliente
+Insira o intervalo de endereços IP (até 10 clientes) que podem ser concedidos aos clientes pelo servidor VPN PPTP.
+Nome de Usuário e Senha
+Digite o nome de usuário e a senha para autenticar clientes no servidor VPN PPTP.
+Guia de Instalação do Cliente VPN
+Antes de configurar o servidor VPN PPTP, configure o Serviço DNS Dinâmico (recomendado) ou atribua um endereço IP estático para a porta WAN. Favor garantir que a porta externa das configurações NAT não seja 1723 e seu Horário do Sistema esteja sincronizado com a Internet.
+passo
+Para conectar seus dispositivos clientes ao servidor VPN PPTP
+Selecione Habilitar Servidor VPN.
+Configure os parâmetros do servidor PPTP VPN e clique em Salvar.
+Nos seus dispositivos de clientes, crie uma conexão VPN PPTP. As plataformas oficiais suportadas incluem Windows, Mac OSX, Linux, iOS e Android.
+Inicie o programa VPN PPTP, adicione uma nova conexão e insira o nome de domínio do serviço DDNS registrado ou o endereço IP estático atribuído à porta WAN, para conectar seu dispositivo cliente ao servidor VPN PPTP.
+Conexões VPN
+Esta página exibe os clientes que estão atualmente conectados aos servidores OpenVPN, servidores PPTP VPN e IPSec VPN hospedados no roteador.
+QoS
+O QoS (Qualidade de Serviço) ajuda a priorizar o tráfego da Internet baseando-se nas necessidades. Você pode especificar o nível de prioridade para um dispositivo ou uma aplicação na Lista de Regras QoS.
+Tipo de Linha
+Selecione o tipo de linha correto de sua conexão de banda larga.
+Taxa Máxima de Upstream/Downstream
+Exibe a taxa máxima de upstream/downstream dos pacotes transmitidos através da porta WAN em teoria.
+Largura de Banda de Upload
+Insira a largura de banda máxima para upload fornecidos pelo seu provedor.
+Largura de Banda para Download
+Insira a largura de banda máxima para download fornecidos pelo seu provedor.
+QoS IPTV
+INCLUDE_IPTV==1
+A função QoS IPTV ajuda a priorizar o tráfego IPTV com base na Prioridade IPTV e a porcentagem da prioridade correspondente configurada na seção Avançada. Por padrão, a prioridade IPTV é alta.
+Prioridade IPTV
+INCLUDE_IPTV==1
+Especifique o nível de prioridade para o tráfego IPTV.
+QoS VoIP
+INCLUDE_VOIP==1
+A função QoS VoIP ajuda a distribuir largura de banda específica para o tráfego VoIP. A largura de banda distribuída varia de acordo com o modelo e a versão do software do roteador.
+Avançado
+Alta/Média/Baixa Prioridade
+Especifique uma porcentagem para o tráfego de alta/média/baixa prioridade.
+Aviso: <br>1. The maximum amount (percentage) of all priorities is 100%.<br>2. A porcentagem de prioridade alta/média/baixa deve atender ao seguinte requisito: alta > média > baixa.
+Lista de Regras QoS
+Aqui você pode adicionar regras de QoS detalhadas para priorizar o tráfego de Internet.
+passo
+Para configurar uma regra de QoS
+Clique em Adicionar (Add).
+Selecione um tipo de prioridade para adicionar a regra de QoS.<br>Por Dispositivo - Clique em Digitalizar para selecionar o dispositivo desejado ou insira manualmente um nome de dispositivo e seu endereço MAC.<br>Por Aplicação - Selecione o aplicativo desejado ou personalize uma aplicação configurando o nome, protocolo e porta de destino (1-65535).  Você pode inserir uma única porta ou um intervalo de portas (por exemplo, 21 ou 36-105).
+Clique em Salvar.
+Aviso: Você pode arrastar uma regra entre listas de prioridades diferentes para alterar sua prioridade.
+Atualização da Base de Dados
+Vamos lançar a versão mais recente do banco de dados em www.tp-link.com. Você pode baixar e atualizar o banco de dados do roteador para estender suas aplicações suportadas.
+Novo Arquivo de Base de Dados
+Clique em Procurar para localizar o arquivo de banco de dados mais recente. Selecione-o e clique em Atualizar para atualizar sua base de dados para uma versão mais nova.
+Filtragem de Serviço
+Com a Filtragem de Serviço, você pode impedir que certos usuários acessem o serviço especificado, até mesmo bloquear o acesso à Internet completamente.
+Lista de Filtragem
+Esta tabela exibe os detalhes de todas as regras de filtragem.
+passo
+Para adicionar uma regra de filtragem:
+Habilitar Filtragem de Serviço
+Clique em Adicionar (Add).
+Selecione um tipo de serviço na lista suspensa e os quatro campos a seguir serão preenchidos automaticamente. Selecione Personalizado quando o tipo de serviço desejado não estiver listado e insira as informações manualmente.
+Especifique o(s) endereço(s) IP para o qual esta regra de filtragem se aplicará.
+Clique em Salvar.
+Aviso: Caso queria desabilitar esta entrada, clique no ícone da lâmpada.
+Firewall
+SPI (Stateful Packet Inspection ) Firewall impede ataques cibernéticos e valida o tráfego que está passando através do roteador baseado no protocolo. Esta função é habilitada por padrão.
+Proteção DoS
+A Proteção DoS (Denial of Service) protege a LAN contra ataques DoS de flooding com solicitações ao servidor. Você pode filtrar os seguintes três tipos de ataque, de acordo com suas necessidades. Há 4 níveis para cada filtragem:
+
+Desabilitado
+Sem proteção.
+Baixa
+Baixo nível de proteção e baixo impacto no desempenho do roteador.
+Média
+Nível de proteção moderado e impacto semi-notável no desempenho do roteador.
+Alta
+Alto nível de proteção, porém impacto notável no desempenho do roteador.
+Filtragem de Ataque Flood-ICMP 
+"Habilite para prevenir ataque Flood-ICMP (Internet Control Message Protocol).		 "
+Filtragem de Ataque Flood-UDP
+Habilite para evitar o ataque flood UDP (Protocolo de Datagrama do Ususário).
+Filtragem de Ataque Flood-TCP
+Habilite para impedir ataque flood TCP- SYN (Transmission Control Protocol-Synchronize).
+Lista de Host DoS Bloqueados
+Esta tabela mostra o endereço IP e o endereço MAC do(s) host(S) DoS bloqueado(S).
+Configurações de Nível de Proteção DOS
+A Proteção DOS protege o roteador de Flood-ICMP, Flood-UDP e ataques Flood-SYN-TCP. Aqui você pode especificar os limiares para desencadear a proteção correspondente.
+Nível de Proteção Flood-ICMP
+Insira um valor entre 5 e 3600 para acionar a proteção Flood-ICMP imediatamente quando o número de pacotes ICMP exceder o valor limiar predefinido.
+Nível de Proteção Flood-UDP
+Insira um valor entre 5 e 3600 pacotes para acionar a proteção Flood-UDP imediatamente quando o número de pacotes UDP exceder o valor limiar predefinido.
+Nível de Proteção Flood-SYN-TCP
+Insira um valor entre 5 e 3600 pacotes TCP- SYN para desencadear a proteção TCP- SYN- FLOOD imediatamente quando o número de pacotes exceder o valor limiar.
+Controle do LED
+Uma vez que o modo noturno estiver ativado, os LEDs serão desligados durante o período especificado todos os dias, sem afetar o desempenho do roteador.
+passo
+Habilitar Modo Noturno
+Selecione Habilitar.
+Especifique um período cujo os LEDs permanecerão desligados.
+Clique em Salvar.
+Reiniciar
+O recurso de reinicialização limpa o cache para melhorar o desempenho de funcionamento do roteador. Você pode reiniciar o roteador manualmente ou defini-lo para reiniciar regularmente.
+Para reiniciar manualmente
+Clique em Reiniciar e aguarde alguns minutes pelo reinício do roteador.
+Para reiniciar automaticamente
+passo
+Habilitar Auto Reiniciar
+Especifique o momento de reinício do roteador e o Intervalo de Auto Reiniciar para decidir quantas vezes ele reinicia.
+Clique em Salvar.
+TP-Link Cloud
+O serviço TP-LINK Cloud permite monitorar remotamente sua rede em tempo real, acessar e gerenciar seus dispositivos TP-LINK a partir da Internet a qualquer hora e em qualquer lugar.
+$.helpControl.cloudLogin
+Informações sobre Conta
+$.helpControl.cloudLogin
+Exibe informação sobre sua conta TP-Link Cloud. Você pode editar a informação de conta ao clicar no ícone Editar
+$.helpControl.cloudLogin
+Informação do Dispositivo
+$.helpControl.cloudLogin
+Mostra informações de seu dispositivos, incluindo a conta cloud que está gerenciando o dispositivo.
+$.helpControl.cloudLogin&&$.helpControl.cloudRole==0
+Contas Vinculadas
+$.helpControl.cloudLogin&&$.helpControl.cloudRole==0
+Esta tabela mostra todas as contas cloud que estão vinculadas ao dispositivo atualmente.
+passo
+$.helpControl.cloudLogin&&$.helpControl.cloudRole==0
+Para vincular uma conta de usuário
+Clique em Vincular.
+Insira o email registrado que deseja  vincular.
+Clique em Salvar.
+Servidor DHCP
+O servidor DHCP (Dynamic Host Configuration Protocol) atribui dinamicamente os parâmetros de TCP/IP para dispositivos clientes do pool de endereços IP. NÃO desative o servidor DHCP a menos que você tenha um outro servidor DHCP ou deseja atribuir manualmente os parâmetros de TCP/IP para cada dispositivo cliente em sua rede.
+Pool de Endereço IP 
+Insira o intervalo de endereços IP que podem ser concedidos aos clientes.
+Tempo de Concessão de Endereço
+Introduza a duração do tempo que um endereço IP é alugado para o cliente entre 1 e 2880 minutos.
+Gateway Padrão
+Insira o endereço IP LAN. (Opcional)
+Server DNS/Servidor DNS Secundário
+Insira o endereço de servidor fornecido pelo seu provedor. (Opcional)
+Lista de Clientes
+Clientes Totais
+Exibe o número total de clientes DHCP associados.
+Nome de Cliente
+Exibe o nome do cliente DHCP.
+Endereço MAC
+Exibe o endereço MAC.
+Endereço IP Atribuído
+Exibe o endereço IP alocado ao cliente pelo servidor DHCP.
+Tempo Concedido
+Exibe a duração do endereço IP que foi concedido ao cliente.
+Atualizar
+Clique para atualizar a Lista Cliente DHCP.
+LAN
+Endereço MAC
+O único endereço físico do roteador.
+$.routerMode == 'AP'
+Tipo de Endereço
+A forma de configurar o endereço IP do AP. Você pode configurá-lo manualmente (IP Estático) ou automaticamente (DHCP Smart). 
+$.routerMode == 'AP'
+IP LAN
+Mantém o endereço IP padrão do AP (192.168.0.254) ou insira um novo. Este endereço IP pode ser usado para fazer login na página de gerenciamento da Web do AP.
+Máscara Sub-rede
+Escolha um identificador atribuído usado pela porta LAN para rotear tráfego interno e externo na lista flutuante ou insira um novo formato de máscara de sub-rede. O valor padrão é de 255.255.255.0.
+$.routerMode == 'Router'
+Exibe informações relevantes sobre a conexão de Internet.
+$.routerMode == 'Router'
+IPv4 | IPv6
+$.routerMode == 'Router'
+Selecione IPv4 e IPv6 para exibir os parâmetros correspondentes.
+Wireless 2.4GHz/5GHz" : "Wireless
+Exibe informações relevantes sobre a rede wireless.
+LAN
+Exibe informações sobre as portas Ethernet (LAN).
+INCLUDE_LAN_WLAN_GUESTNETWORK == 1 && INCLUDE_HIDE_GUESTNETWORK == 0
+Rede para Convidados 2.4GHz/5GHz
+INCLUDE_LAN_WLAN_GUESTNETWORK == 1 && INCLUDE_HIDE_GUESTNETWORK == 0
+Exibe informações sobre as redes wireless para os convidados.
+$.sysMode == 'DSL'
+DSL
+$.sysMode == 'DSL'
+Exibe informações sobre a conexão DSL.
