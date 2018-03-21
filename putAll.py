@@ -11,11 +11,12 @@ def wrap_texp_with_quote(str):
     nStr = str.replace("/","\/")
     return "\"" + nStr[:len(str)-1] + "\""
 
-enList = open('err.txt', 'r')
-ptList = open('source/err_pt.txt', 'r')
-enStr = read_file_as_str('source/err.js')
+enList = open('help.txt', 'r')
+ptList = open('source/help_pt.txt', 'r')
+enStr = read_file_as_str('source/help.js')
+left = open('helpLeft.txt','w')
 
-rows = 747
+rows = 4143
 
 for index in range(rows):
     enLine = enList.readline().replace("&","\&")
@@ -23,9 +24,14 @@ for index in range(rows):
     if enLine == ptLine:
         pass
     else:
-        cmd = "sed -i 's/"+wrap_texp_with_quote(enLine)+"/"+wrap_texp_with_quote(ptLine)+"/'"+" err.js"
-        print(cmd)
-        os.system(cmd)
-        # print(ptLine)
+        cmd = "sed -i 's/"+wrap_texp_with_quote(enLine)+"/"+wrap_texp_with_quote(ptLine)+"/'"+" help.js"
+        # print(os.system(cmd))
+        if os.system(cmd) == 0:
+            pass
+        else:
+            # print(enLine)
+            print(ptLine)
+            print(enLine+' -- '+ptLine, file = left)
+        
 
 
